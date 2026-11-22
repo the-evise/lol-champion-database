@@ -2,6 +2,7 @@ import json,pathlib,sqlite3,sys,tempfile,unittest
 ROOT=pathlib.Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'scripts'))
 from build import build_sqlite
 from validate_skins import validate
+from skin_vibes import load_rules,assign_vibes
 class SkinCatalogTests(unittest.TestCase):
  @classmethod
  def setUpClass(cls):
@@ -29,11 +30,28 @@ class SkinCatalogTests(unittest.TestCase):
   self.assertTrue(self.byid['skin:25026']['lore']['summary_reviewed'])
   self.assertTrue(all(not s['lore']['raw_prose_redistributed'] and not s['analysis']['inherit_base_personality_automatically'] for s in self.skins))
   self.assertTrue(all(s['lore']['source_id'] and (s['lore']['json_pointer'] or s['lore']['wiki_locator']) for s in self.skins if s['lore']['available']))
+ def test_exactly_two_conservative_vibes_for_every_entry(self):
+  rules=load_rules()
+  for skin in self.skins:
+   self.assertEqual(len(skin['vibe']['tags']),2);self.assertEqual(len(set(skin['vibe']['tags'])),2)
+   self.assertTrue(set(skin['vibe']['tags'])<=set(rules['vocabulary']));self.assertFalse(skin['vibe']['lore_based']);self.assertFalse(skin['vibe']['personality_claim'])
+ def test_examples_and_same_champion_different_appearance(self):
+  self.assertEqual(self.byid['skin:25026']['vibe']['tags'],['mysterious','elegant'])
+  self.assertEqual(self.byid['skin:30004']['vibe']['tags'],['bold','rebellious'])
+  self.assertNotEqual(self.byid['skin:103042']['vibe']['tags'],self.byid['skin:103007']['vibe']['tags'])
+ def test_vibes_do_not_depend_on_lore_rarity_or_price(self):
+  original=self.byid['skin:25026'];changed={**original,'rarity':'Standard','cost_wiki':1,'lore':{'available':False,'summary':None}}
+  self.assertEqual(assign_vibes(original,load_rules()),assign_vibes(changed,load_rules()))
+ def test_unknown_new_line_uses_restrained_fallback(self):
+  unknown={'id':'skin:999999','name':'Unlisted appearance','is_base':False,'skinline_ids':[999999],'wiki_sets':[]}
+  self.assertEqual(assign_vibes(unknown,load_rules())['tags'],['stylized','distinctive'])
  def test_sqlite_skin_joins(self):
   champions=json.loads((ROOT/'data/champions.json').read_text());sources=json.loads((ROOT/'data/sources.json').read_text())['sources']
   with tempfile.TemporaryDirectory() as temp:
    p=pathlib.Path(temp)/'db.sqlite';build_sqlite(p,champions,sources);con=sqlite3.connect(p)
    self.assertEqual(con.execute('SELECT COUNT(*) FROM skins').fetchone()[0],len(self.skins));self.assertEqual(con.execute('PRAGMA foreign_key_check').fetchall(),[])
    self.assertEqual(con.execute("SELECT result_label FROM result_identity_catalog WHERE result_key='skin:25026'").fetchone()[0],'Coven Morgana')
+   self.assertEqual(con.execute('SELECT COUNT(*) FROM skin_vibe_tags').fetchone()[0],2*len(self.skins))
+   self.assertEqual(con.execute("SELECT tag FROM skin_vibe_tags WHERE skin_id='skin:25026' ORDER BY position").fetchall(),[('mysterious',),('elegant',)])
    self.assertEqual(con.execute('SELECT COUNT(*) FROM skin_chromas').fetchone()[0],sum(len(s['chromas']) for s in self.skins));con.close()
 if __name__=='__main__':unittest.main()

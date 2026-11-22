@@ -3,6 +3,7 @@
 import argparse,collections,csv,datetime,hashlib,html,json,pathlib,re,sys,unicodedata
 from urllib.parse import quote
 from lua_table import parse
+from skin_vibes import load_rules,assign_vibes
 ROOT=pathlib.Path(__file__).resolve().parents[1];DATA=ROOT/'data';CACHE=ROOT/'.cache/skins'
 AS_OF='2026-11-22'
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
@@ -126,6 +127,12 @@ def main():
    unresolved_variants.append({'skin_id':record['id'],'wiki_parent_reference':record['variant_of']})
    record['variant_reference_wiki']={'skin_id':record['variant_of'],'resolution':'not_in_snapshot'}
    record['variant_of']=None;record['matching']['narrative_family_id']=record['id']
+ vibe_rules=load_rules()
+ for record in skins:
+  record['vibe']=assign_vibes(record,vibe_rules)
+  record['analysis']['candidate_themes']=[]
+  record['analysis']['status']='aesthetic_vibes_only'
+  record['matching']['vibe_scope']='aesthetic_preference_only'
  skins.sort(key=lambda s:(s['champion_name'].casefold(),not s['is_base'],s['name'].casefold()))
  by_champ=collections.defaultdict(list)
  for s in skins:
@@ -138,7 +145,7 @@ def main():
  for cid,entries in by_champ.items():write(DATA/'skins'/(cid+'.json'),{'champion_id':cid,'skins':entries})
  write(DATA/'skinlines.json',sorted(lines.values(),key=lambda l:l['name'].casefold()));write(DATA/'skin_universes.json',sorted(worlds.values(),key=lambda u:u['name'].casefold()));write(DATA/'skin_editorial_hashes.json',pins)
  write(DATA/'skin_sources.json',{'snapshot_patch':patch,'sources':sources})
- report={'as_of':AS_OF,'snapshot_patch':patch,'champions_expected':len(champions),'champions_with_skins':len(by_champ),'total_entries':len(skins),'base_appearances':sum(s['is_base'] for s in skins),'non_base_entries':sum(not s['is_base'] for s in skins),'released_skin_result_labels':sum(s['matching']['label_eligible'] and not s['is_base'] for s in skins),'quest_tiers':sum(s['kind']=='quest_tier' for s in skins),'historical_archives':sum(s['kind']=='historical' for s in skins),'wiki_only_without_riot_id':sum(s['riot_skin_id'] is None for s in skins),'chromas':len(chroma_seen),'skins_with_lore':sum(s['lore']['available'] and not s['is_base'] for s in skins),'skin_biographies_summarized':sum(s['lore']['summary_reviewed'] for s in skins),'skinlines_with_members':sum(bool(l['skin_ids']) for l in lines.values()),'universes_with_members':sum(bool(u['skin_ids']) for u in worlds.values()),'unresolved_global_skins':unresolved_global,'unresolved_variant_references':unresolved_variants,'unknown_skinline_ids':sorted(unknown_lines),'chroma_parent_conflicts':conflicts,'personality_model_validated':False,'scope':'PC League of Legends. Chromas are separate cosmetic options. Wild Rift-exclusive catalogs are not included.'}
+ report={'as_of':AS_OF,'snapshot_patch':patch,'champions_expected':len(champions),'champions_with_skins':len(by_champ),'total_entries':len(skins),'base_appearances':sum(s['is_base'] for s in skins),'non_base_entries':sum(not s['is_base'] for s in skins),'released_skin_result_labels':sum(s['matching']['label_eligible'] and not s['is_base'] for s in skins),'quest_tiers':sum(s['kind']=='quest_tier' for s in skins),'historical_archives':sum(s['kind']=='historical' for s in skins),'wiki_only_without_riot_id':sum(s['riot_skin_id'] is None for s in skins),'chromas':len(chroma_seen),'skins_with_lore':sum(s['lore']['available'] and not s['is_base'] for s in skins),'skin_biographies_summarized':sum(s['lore']['summary_reviewed'] for s in skins),'skinlines_with_members':sum(bool(l['skin_ids']) for l in lines.values()),'universes_with_members':sum(bool(u['skin_ids']) for u in worlds.values()),'unresolved_global_skins':unresolved_global,'unresolved_variant_references':unresolved_variants,'unknown_skinline_ids':sorted(unknown_lines),'chroma_parent_conflicts':conflicts,'vibe_tagged_entries':len(skins),'vibe_tagged_non_base':sum(not s['is_base'] for s in skins),'vibe_tags_per_skin':2,'vibe_method':'aesthetic_impressions_only','vibe_basis_counts':dict(collections.Counter(s['vibe']['basis'] for s in skins)),'personality_model_validated':False,'scope':'PC League of Legends. Chromas are separate cosmetic options. Wild Rift-exclusive catalogs are not included.'}
  dd_files=[ROOT/'.cache/ddragon'/(c['id']+'.json') for c in champions]
  if all(p.exists() for p in dd_files):
   dd_ids={int(entry['id']) for p in dd_files for entry in next(iter(read(p)['data'].values()))['skins']}
@@ -147,7 +154,7 @@ def main():
  else:report['data_dragon_reconciliation']=None
  write(DATA/'skin_coverage.json',report)
  with (DATA/'skins.csv').open('w',encoding='utf-8',newline='') as f:
-  out=csv.writer(f);out.writerow(['id','riot_skin_id','champion_id','name','is_base','kind','rarity','availability','release_date','skinlines','wiki_sets','universes','variant_of','chroma_count','lore_available','result_label_eligible'])
-  for s in skins:out.writerow([s['id'],s['riot_skin_id'],s['champion_id'],s['name'],s['is_base'],s['kind'],s['rarity'],s['availability'],s['release_date'],'|'.join(lines[i]['name'] for i in s['skinline_ids'] if i in lines),'|'.join(s['wiki_sets']),'|'.join(worlds[i]['name'] for i in s['universe_ids']),s['variant_of'],len(s['chromas']),s['lore']['available'],s['matching']['label_eligible']])
+  out=csv.writer(f);out.writerow(['id','riot_skin_id','champion_id','name','is_base','kind','rarity','availability','release_date','skinlines','wiki_sets','universes','variant_of','chroma_count','lore_available','result_label_eligible','vibe_tag_1','vibe_tag_2'])
+  for s in skins:out.writerow([s['id'],s['riot_skin_id'],s['champion_id'],s['name'],s['is_base'],s['kind'],s['rarity'],s['availability'],s['release_date'],'|'.join(lines[i]['name'] for i in s['skinline_ids'] if i in lines),'|'.join(s['wiki_sets']),'|'.join(worlds[i]['name'] for i in s['universe_ids']),s['variant_of'],len(s['chromas']),s['lore']['available'],s['matching']['label_eligible'],*s['vibe']['tags']])
  print(json.dumps(report,indent=2))
 if __name__=='__main__':main()

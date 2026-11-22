@@ -16,7 +16,8 @@
     "lore",
     "analysis",
     "matching",
-    "provenance"
+    "provenance",
+    "vibe"
   ],
   "properties": {
     "schema_version": {
@@ -142,6 +143,71 @@
     },
     "provenance": {
       "type": "object"
+    },
+    "vibe": {
+      "type": "object",
+      "required": [
+        "tags",
+        "scope",
+        "basis",
+        "rule_id",
+        "lore_based",
+        "personality_claim"
+      ],
+      "properties": {
+        "tags": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "bold",
+              "calm",
+              "cheerful",
+              "classic",
+              "cozy",
+              "dark",
+              "distinctive",
+              "elegant",
+              "festive",
+              "futuristic",
+              "gentle",
+              "glamorous",
+              "graceful",
+              "gritty",
+              "heroic",
+              "mysterious",
+              "mystical",
+              "natural",
+              "nostalgic",
+              "playful",
+              "polished",
+              "rebellious",
+              "regal",
+              "relaxed",
+              "rugged",
+              "simple",
+              "sleek",
+              "sporty",
+              "stylized",
+              "tactical",
+              "vibrant",
+              "whimsical",
+              "wintry"
+            ]
+          }
+        },
+        "scope": {
+          "const": "aesthetic_impression"
+        },
+        "lore_based": {
+          "const": false
+        },
+        "personality_claim": {
+          "const": false
+        }
+      }
     }
   }
 }

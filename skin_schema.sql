@@ -30,3 +30,11 @@ CREATE VIEW IF NOT EXISTS result_identity_catalog AS
  s.is_base,s.kind,s.rarity,s.variant_of,s.lore_available
  FROM skins s JOIN champions c ON s.champion_id=c.id
  WHERE s.result_label_eligible=1;
+
+CREATE TABLE IF NOT EXISTS skin_vibe_tags (
+ skin_id TEXT NOT NULL REFERENCES skins(id),
+ position INTEGER NOT NULL CHECK(position IN (1,2)),
+ tag TEXT NOT NULL,
+ PRIMARY KEY(skin_id,position), UNIQUE(skin_id,tag)
+);
+CREATE INDEX IF NOT EXISTS skin_vibe_lookup ON skin_vibe_tags(tag);

@@ -13,7 +13,8 @@ The PC snapshot is dated **22 November 2026**, using client patch **16.23** and 
 | Skin lines with members | 226 | Source-provided thematic collections |
 | Worlds/settings with members | 131 | Client and Wiki thematic groupings; not every group is a single story continuity |
 | Non-base biographies available | 1,873 | Original prose available through recorded source locators |
-| Biographies summarized and initially annotated | 15 | Coven and Pentakill examples; thematic interpretations remain unvalidated |
+| Non-base skins with vibe tags | 2,026 | Exactly two aesthetic characteristics per skin |
+| Source biographies summarized | 15 | Separate reference material; not used to assign vibes |
 
 The full catalog has **2,199 entries including the 173 base appearances**. Availability labels and prices are source snapshots, not live store quotes. Legacy or limited availability does not prevent a character from being a valid quiz identity.
 
@@ -31,6 +32,25 @@ The full catalog has **2,199 entries including the 173 base appearances**. Avail
 - `schema/skin.schema.json`: record contract.
 
 Each skin has its own stable `matching.result_key`, exact display label, parent champion, line/world memberships, image URLs, rarity, release metadata, variant relationships, chromas, and evidence scope. Base champion records remain separate.
+
+## Two-characteristic vibe tags
+
+Every one of the 2,026 non-base skins, including catalogued archives and announced appearances, has **exactly two distinct vibe tags**. The 173 base appearances also retain a simple presentation pair.
+
+Examples:
+
+| Appearance | Vibe tag 1 | Vibe tag 2 |
+|---|---|---|
+| Coven Morgana | mysterious | elegant |
+| Pentakill Karthus | bold | rebellious |
+| Rusty Blitzcrank | rugged | nostalgic |
+| Elementalist Lux | bold | mystical |
+
+`vibe.scope` is `aesthetic_impression`; `lore_based` and `personality_claim` are both false. Tags come from a small controlled vocabulary and authored skin-line profiles, with restrained individual overrides for mixed collections. The rule registry is `data/skin_vibe_rules.json`; each record identifies the rule used. This is a theme-level editorial pass, not a claim that every splash image was individually inspected.
+
+Related skins may share the same pair. Rarity, price, and biographies do not determine these tags. Unknown future themes receive the neutral fallback **stylized + distinctive** until reviewed. No invented backstory or personality score is added.
+
+The browser shows both tags on cards, champion previews, and skin details. Searching the skin catalog also searches the tags. CSV exports include `vibe_tag_1` and `vibe_tag_2`; SQLite provides `skin_vibe_tags` with positions 1 and 2.
 
 ## Identities and variants
 
@@ -62,7 +82,7 @@ python scripts/skin_lore.py --all --output .cache/skin-lore.json
 
 The helper reuses local source caches and retrieves missing sources when necessary. Changed biography hashes are reported. Its full-prose output is a local research cache and should not be committed or bundled into the public browser. The browser links to the original source instead.
 
-Only 15 skin biographies have editorial summaries in this initial pass. The remaining records explicitly say they are not annotated. Original-world personality is not automatically assigned to an alternate-world character.
+Every appearance has exactly two `vibe.tags`. These are subjective visual/theme impressions, separate from source-biography summaries. Original-world personality is not automatically assigned to an alternate appearance.
 
 ## SQL
 
@@ -80,7 +100,7 @@ JOIN skin_lines l ON l.id = m.line_id
 WHERE l.name = 'Coven';
 ```
 
-`result_identity_catalog` gives valid labels, not a finished personality ranking. Skin-aware results can use champion similarity plus separately evidenced skin-character or world preferences. Aesthetic preference is distinct from moral character. The larger result library increases variety; identical answers may still legitimately lead to the same result.
+`result_identity_catalog` gives valid labels, not a finished personality ranking. Skin-aware results can use champion similarity plus separately chosen aesthetic or world preferences. Vibe tags are suitable for aesthetic preference matching, not personality assessment. Aesthetic preference is distinct from moral character. The larger result library increases variety; identical answers may still legitimately lead to the same result.
 
 ## Refresh and review
 

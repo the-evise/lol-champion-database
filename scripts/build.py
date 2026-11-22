@@ -21,7 +21,7 @@ def build_sqlite(path,records,sources):
     con.executescript((ROOT/'schema.sql').read_text())
     con.executescript((ROOT/'skin_schema.sql').read_text())
     with con:
-        for table in ['skin_chromas','skin_line_memberships','skin_universe_memberships','skins','skin_lines','skin_universes','champion_roles','champion_themes','related_champions','champion_resources','abilities','sources','champions']:con.execute('DELETE FROM '+table)
+        for table in ['skin_vibe_tags','skin_chromas','skin_line_memberships','skin_universe_memberships','skins','skin_lines','skin_universes','champion_roles','champion_themes','related_champions','champion_resources','abilities','sources','champions']:con.execute('DELETE FROM '+table)
         for c in records:
             g=c['gameplay'];l=c['lore'];a=c['analysis'];r=g['ratings']
             con.execute('INSERT INTO champions VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(c['id'],c['riot_id'],c['name'],c['title'],l['region'],l['summary'],a['central_motivation'],g['range_type'],r.get('difficulty'),r.get('damage'),r.get('toughness'),r.get('control'),r.get('mobility'),r.get('utility'),json.dumps(c,ensure_ascii=False)))
@@ -37,6 +37,7 @@ def build_sqlite(path,records,sources):
             for universe in load(DATA/'skin_universes.json'):con.execute('INSERT INTO skin_universes VALUES (?,?,?)',(universe['id'],universe['name'],json.dumps(universe,ensure_ascii=False)))
             for s in load(DATA/'skins.json'):
                 con.execute('INSERT INTO skins VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)',(s['id'],s['riot_skin_id'],s['champion_id'],s['name'],s['is_base'],s['kind'],s['rarity'],s['availability'],s['release_date'],s['variant_of'],s['lore']['available'],s['matching']['label_eligible'],json.dumps(s,ensure_ascii=False)))
+                for position,tag in enumerate(s['vibe']['tags'],1):con.execute('INSERT INTO skin_vibe_tags VALUES (?,?,?)',(s['id'],position,tag))
                 for lid in s['skinline_ids']:con.execute('INSERT INTO skin_line_memberships VALUES (?,?)',(s['id'],lid))
                 for uid in s['universe_ids']:con.execute('INSERT INTO skin_universe_memberships VALUES (?,?)',(s['id'],uid))
                 for ch in s['chromas']:con.execute('INSERT INTO skin_chromas VALUES (?,?,?,?)',(ch['id'],s['id'],ch['name'],json.dumps(ch,ensure_ascii=False)))
