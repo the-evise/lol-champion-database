@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09181b">
+  <meta name="description" content="Explore every League of Legends champion in one connected atlas. Discover their lore, regions, abilities, and stories.">
+  <title>Runeterra Atlas — Champion Compendium</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Runeterra Atlas home"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M20 3 36 12v17L20 38 4 29V12Z M20 9v22M10 15l10-6 10 6v11l-10 6-10-6Z M10 15l10 6 10-6M20 21v11"/></svg><span>RUNETERRA <em>ATLAS</em></span></a>
+    <nav aria-label="Main navigation"><a href="#" class="nav-link active" id="champion-nav">Champions</a><button id="regions-nav" class="nav-link">Regions</button></nav>
+    <a class="repository-link" href="https://github.com/the-evise/lol-champion-database" target="_blank" rel="noopener noreferrer">The open compendium <span aria-hidden="true">◇</span></a>
+  </header>
+  <main id="main" tabindex="-1">
+    <div id="browse-view">
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-art" aria-hidden="true"></div><div class="intro-contours" aria-hidden="true"></div>
+        <div class="intro-copy"><p class="eyebrow"><span></span> THE CHAMPION COMPENDIUM</p><h1 id="page-title">Every champion.<br><em>One connected world.</em></h1><p class="intro-description">Discover the lives, lands, and abilities behind the legends.<br class="desktop-break"> Find your next story. Or your next champion.</p></div>
+        <div class="intro-stats"><div><strong id="total-champions">173</strong><span>champions</span></div><div><strong id="total-regions">14</strong><span>lands & regions</span></div><div><strong id="total-stories">200</strong><span>linked stories</span></div></div>
+        <span class="art-caption">KINDRED · THE ETERNAL HUNTERS</span>
+      </section>
+      <div class="explorer">
+        <aside class="region-panel" aria-label="Region filter"><div class="aside-heading"><span class="eyebrow">EXPLORE THE WORLD</span><span class="tiny-diamond">◇</span></div><h2>Lands of Runeterra</h2><p class="muted aside-description">Every place leaves a mark.</p><div id="region-list"></div><div class="region-note"><span>◇</span><p>“Across Runeterra” collects champions without a listed regional affiliation.</p></div></aside>
+        <section class="champion-panel" aria-label="Champion browser">
+          <div class="browser-heading"><div><p class="eyebrow" id="collection-eyebrow">THE COMPLETE COLLECTION</p><h2 id="collection-title">Choose your legend</h2></div><label class="search-field"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="sr-only">Search champions</span><input id="search" type="search" placeholder="Search champions…" autocomplete="off"><kbd>/</kbd></label></div>
+          <div class="filter-toolbar"><div class="position-filters" id="position-filters" role="group" aria-label="Filter by position"></div><div class="select-filters"><label><span class="sr-only">Class</span><select id="class-filter" aria-label="Class"><option value="">All classes</option></select></label><label><span class="sr-only">Difficulty</span><select id="difficulty-filter" aria-label="Difficulty"><option value="">Any difficulty</option><option value="1">Easy</option><option value="2">Moderate</option><option value="3">Hard</option></select></label></div></div>
+          <div class="mobile-region"><label for="region-filter-mobile">Region</label><select id="region-filter-mobile"><option value="">All Runeterra</option></select></div>
+          <div class="results-bar"><div><span id="result-count" role="status" aria-live="polite">Loading champions…</span><span id="active-filters"></span></div><label class="sort-label"><span class="sr-only">Sort champions</span><select id="sort-filter" aria-label="Sort champions"><option value="name">Name A–Z</option><option value="stories">Most stories</option><option value="difficulty">Difficulty</option></select></label></div>
+          <div id="champion-grid" class="champion-grid" aria-busy="true"><div class="loading-message">Opening the atlas…</div></div>
+        </section>
+      </div>
+    </div>
+    <div id="detail-view" hidden></div>
+  </main>
+  <footer><a class="footer-brand" href="#">RUNETERRA ATLAS</a><p>An independent, source-linked compendium. Lore by Riot Games. Gameplay data from Data Dragon and the League of Legends Wiki.</p><a href="https://github.com/the-evise/lol-champion-database/blob/main/ATTRIBUTION.md" target="_blank" rel="noopener noreferrer">Sources & attribution</a></footer>
+  <div id="toast" role="status" class="sr-only"></div>
+</body>
+</html>

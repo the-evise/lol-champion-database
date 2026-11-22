@@ -4,6 +4,19 @@ A source-linked database for two future products: **character/personality matchi
 
 The initial snapshot contains **all 173 playable champions in Riot Data Dragon 16.23.1**, retrieved on **22 November 2026**. Universe and Wiki information is joined by stable Riot champion ID, with explicit handling for display names and non-playable characters.
 
+## Visual browser
+
+[Open Runeterra Atlas](https://runeterra-atlas.h-zarepour01.chatgpt.site) to browse champion artwork, combine region/position/class/difficulty filters, and open unified champion profiles. Profiles include a biography overview, gameplay ratings, ability data, connected characters, and a publication-ordered story reading path. Publication order is explicitly separate from in-world chronology.
+
+The browser uses plain HTML/CSS/JavaScript, a 62 KB catalog, lazy-loaded WebP art, and individual champion records loaded on demand. Its source is in `web/`. To build locally:
+
+```bash
+python scripts/build_web.py
+python -m http.server 8000 --directory dist
+```
+
+For locally optimized artwork, install Pillow and run `python scripts/build_web.py --download-art`. Without that optional step, the browser uses official Riot CDN artwork. No JavaScript dependencies are required.
+
 ## Start here
 
 - [Browse every champion](docs/INDEX.md)

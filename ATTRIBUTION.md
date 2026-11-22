@@ -10,6 +10,8 @@ Sources:
 - Universe public content payloads: per-champion URLs in `data/sources.json`.
 - Data Dragon: https://developer.riotgames.com/docs/lol#data-dragon
 
+The visual browser displays official Riot champion splash artwork. The optional art build fetches it from Data Dragon, crops/resizes it, and converts it to WebP for display; these changes do not confer ownership or relicense the artwork. Artwork remains Riot Games content.
+
 Lore entries here are concise original paraphrases and interpretations, with links to original full prose. This project does not redistribute the complete stories or artwork and does not claim ownership of Riot's intellectual property. No code or data license here grants rights to Riot's underlying IP.
 
 ## League of Legends Wiki contributors
