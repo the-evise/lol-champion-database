@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Ryze",
+  "riot_id": 13,
+  "name": "Ryze",
+  "title": "the Rune Mage",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "ryze",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/ryze/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/ryze/",
+    "summary": "Ryze searches for World Runes because he understands the disasters their misuse can cause. His vast power serves an exhausting custodial task: recovering dangerous magic before anyone else turns it into another catastrophe.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "unaffiliated",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Brand",
+        "name": "Brand",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/brand",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "MissFortune",
+        "name": "Miss Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/missfortune",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Trundle",
+        "name": "Trundle",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/trundle",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Sona",
+        "name": "Sona",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/sona",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Nasus",
+        "name": "Nasus",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/nasus",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Galio",
+        "name": "Galio",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/galio",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Malzahar",
+        "name": "Malzahar",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/malzahar",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "A Twist of Fate",
+        "url": "https://www.youtube.com/watch?v=tEnsqpThaFg",
+        "story_slug": null,
+        "published_at": "2013-05-25T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "From The Ashes",
+        "url": "https://universe.leagueoflegends.com/en_us/story/from-the-ashes",
+        "story_slug": "from-the-ashes",
+        "published_at": "2018-07-25T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "An Old Friend",
+        "url": "https://universe.leagueoflegends.com/en_us/story/ryze-color-story",
+        "story_slug": "ryze-color-story",
+        "published_at": "2016-07-08T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "A Twist of Fate: BTS",
+        "url": "https://www.youtube.com/watch?v=o-c4TdGrs6Q",
+        "story_slug": null,
+        "published_at": "2013-05-25T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Ryze"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Battlemage"
+    ],
+    "client_tags_wiki": [
+      "Battlecaster",
+      "Sustained Damage",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 2,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 620,
+      "hpperlevel": 124,
+      "mp": 300,
+      "mpperlevel": 70,
+      "movespeed": 340,
+      "armor": 22,
+      "armorperlevel": 4.7,
+      "spellblock": 32,
+      "spellblockperlevel": 1.3,
+      "attackrange": 550,
+      "hpregen": 8,
+      "hpregenperlevel": 0.8,
+      "mpregen": 8,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 55,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.11,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Arcane Mastery",
+        "source_id": "ddragon:Ryze"
+      },
+      {
+        "slot": "Q",
+        "name": "Overload",
+        "cooldown_by_rank": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "cost_by_rank": [
+          40,
+          38,
+          36,
+          34,
+          32
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Ryze",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Rune Prison",
+        "cooldown_by_rank": [
+          11,
+          10.5,
+          10,
+          9.5,
+          9
+        ],
+        "cost_by_rank": [
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "range_by_rank": [
+          615,
+          615,
+          615,
+          615,
+          615
+        ],
+        "source_id": "ddragon:Ryze",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Spell Flux",
+        "cooldown_by_rank": [
+          3.5,
+          3.25,
+          3,
+          2.75,
+          2.5
+        ],
+        "cost_by_rank": [
+          40,
+          50,
+          60,
+          70,
+          80
+        ],
+        "range_by_rank": [
+          615,
+          615,
+          615,
+          615,
+          615
+        ],
+        "source_id": "ddragon:Ryze",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Realm Warp",
+        "cooldown_by_rank": [
+          180,
+          160,
+          140
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          3000,
+          3000,
+          3000
+        ],
+        "source_id": "ddragon:Ryze",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Ryze"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Keep World Runes out of dangerous hands",
+    "candidate_themes": [
+      {
+        "theme": "responsibility",
+        "evidence": "Ryze searches for World Runes because he understands the disasters their misuse can cause. His vast power serves an exhausting custodial task: recovering dangerous magic before anyone else turns it into another catastrophe.",
+        "evidence_source_id": "universe:Ryze",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "restraint",
+        "evidence": "Ryze searches for World Runes because he understands the disasters their misuse can cause. His vast power serves an exhausting custodial task: recovering dangerous magic before anyone else turns it into another catastrophe.",
+        "evidence_source_id": "universe:Ryze",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "persistence",
+        "evidence": "Ryze searches for World Runes because he understands the disasters their misuse can cause. His vast power serves an exhausting custodial task: recovering dangerous magic before anyone else turns it into another catastrophe.",
+        "evidence_source_id": "universe:Ryze",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Ryze",
+    "gameplay_api": "ddragon:Ryze",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Viego",
+  "riot_id": 234,
+  "name": "Viego",
+  "title": "The Ruined King",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "viego",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/viego/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/viego/",
+    "summary": "Viego's attempt to resurrect his wife caused the Ruination. In undeath he remains fixated on bringing her back, directing the Black Mist through the world and accepting devastation as a consequence of his pursuit.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shadow-isles",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Hecarim",
+        "name": "Hecarim",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/hecarim",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Kalista",
+        "name": "Kalista",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kalista",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Senna",
+        "name": "Senna",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/senna",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Thresh",
+        "name": "Thresh",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/thresh",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Vladimir",
+        "name": "Vladimir",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vladimir",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Yorick",
+        "name": "Yorick",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/yorick",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "She",
+        "url": "https://universe.leagueoflegends.com/en_us/story/viego-color-story",
+        "story_slug": "viego-color-story",
+        "published_at": "2021-01-10T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "In Sight of Land",
+        "url": "https://universe.leagueoflegends.com/en_us/story/in-sight-of-land",
+        "story_slug": "in-sight-of-land",
+        "published_at": "2021-06-16T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Viego"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Shapeshift",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "None",
+    "release_date_wiki": "2021-01-21",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 20
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 109,
+      "mp": 10000,
+      "mpperlevel": 0,
+      "movespeed": 345,
+      "armor": 34,
+      "armorperlevel": 4.6,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 200,
+      "hpregen": 7,
+      "hpregenperlevel": 0.7,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 57,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.75,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Sovereign's Domination",
+        "source_id": "ddragon:Viego"
+      },
+      {
+        "slot": "Q",
+        "name": "Blade of the Ruined King",
+        "cooldown_by_rank": [
+          5,
+          4.5,
+          4,
+          3.5,
+          3
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Viego",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Spectral Maw",
+        "cooldown_by_rank": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Viego",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Harrowed Path",
+        "cooldown_by_rank": [
+          14,
+          12,
+          10,
+          8,
+          6
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          750,
+          750,
+          750,
+          750,
+          750
+        ],
+        "source_id": "ddragon:Viego",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Heartbreaker",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          500,
+          500,
+          500
+        ],
+        "source_id": "ddragon:Viego",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Viego"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Recover his lost wife regardless of cost",
+    "candidate_themes": [
+      {
+        "theme": "attachment",
+        "evidence": "Viego's attempt to resurrect his wife caused the Ruination. In undeath he remains fixated on bringing her back, directing the Black Mist through the world and accepting devastation as a consequence of his pursuit.",
+        "evidence_source_id": "universe:Viego",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "obsession",
+        "evidence": "Viego's attempt to resurrect his wife caused the Ruination. In undeath he remains fixated on bringing her back, directing the Black Mist through the world and accepting devastation as a consequence of his pursuit.",
+        "evidence_source_id": "universe:Viego",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "denial",
+        "evidence": "Viego's attempt to resurrect his wife caused the Ruination. In undeath he remains fixated on bringing her back, directing the Black Mist through the world and accepting devastation as a consequence of his pursuit.",
+        "evidence_source_id": "universe:Viego",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.2
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Viego",
+    "gameplay_api": "ddragon:Viego",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

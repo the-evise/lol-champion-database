@@ -1,0 +1,335 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Gangplank",
+  "riot_id": 41,
+  "name": "Gangplank",
+  "title": "the Saltwater Scourge",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "gangplank",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/gangplank/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/gangplank/",
+    "summary": "After losing control of Bilgewater, Gangplank continues to pursue his former power. He treats the city as something to reclaim through intimidation and violence rather than something he can accept losing.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "bilgewater",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "MissFortune",
+        "name": "Miss Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/missfortune",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Swain",
+        "name": "Swain",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/swain",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Zed",
+        "name": "Zed",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/zed",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Illaoi",
+        "name": "Illaoi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/illaoi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "TwistedFate",
+        "name": "Twisted Fate",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/twistedfate",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Graves",
+        "name": "Graves",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/graves",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Blood in the Water",
+        "url": "https://universe.leagueoflegends.com/en_us/story/gangplank-color-story",
+        "story_slug": "gangplank-color-story",
+        "published_at": "2017-07-29T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Burning Tides",
+        "url": "https://universe.leagueoflegends.com/en_us/story/bilgewater-story",
+        "story_slug": "bilgewater-story",
+        "published_at": "2015-07-23T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Shadow and Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/story/shadow-and-fortune-story",
+        "story_slug": "shadow-and-fortune-story",
+        "published_at": "2015-10-27T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Gangplank: Login Theme",
+        "url": "https://www.youtube.com/watch?v=shIMVeI5IPE",
+        "story_slug": null,
+        "published_at": "2011-04-25T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Gangplank"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Specialist"
+    ],
+    "client_tags_wiki": [
+      "AoE",
+      "Burst",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-08-19",
+    "last_changed_patch_wiki": "V26.01",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 1,
+      "utility": 2,
+      "style": 75
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 114,
+      "mp": 280,
+      "mpperlevel": 60,
+      "movespeed": 345,
+      "armor": 31,
+      "armorperlevel": 4.7,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 6,
+      "hpregenperlevel": 0.6,
+      "mpregen": 8,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 64,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.2,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Trial by Fire",
+        "source_id": "ddragon:Gangplank"
+      },
+      {
+        "slot": "Q",
+        "name": "Parrrley",
+        "cooldown_by_rank": [
+          4.5,
+          4.5,
+          4.5,
+          4.5,
+          4.5
+        ],
+        "cost_by_rank": [
+          50,
+          45,
+          40,
+          35,
+          30
+        ],
+        "range_by_rank": [
+          625,
+          625,
+          625,
+          625,
+          625
+        ],
+        "source_id": "ddragon:Gangplank",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Remove Scurvy",
+        "cooldown_by_rank": [
+          22,
+          20,
+          18,
+          16,
+          14
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Gangplank",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Powder Keg",
+        "cooldown_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Gangplank",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Cannon Barrage",
+        "cooldown_by_rank": [
+          160,
+          140,
+          120
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          30000,
+          30000,
+          30000
+        ],
+        "source_id": "ddragon:Gangplank",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Gangplank"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Reclaim control of Bilgewater",
+    "candidate_themes": [
+      {
+        "theme": "power",
+        "evidence": "After losing control of Bilgewater, Gangplank continues to pursue his former power. He treats the city as something to reclaim through intimidation and violence rather than something he can accept losing.",
+        "evidence_source_id": "universe:Gangplank",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "vengeance",
+        "evidence": "After losing control of Bilgewater, Gangplank continues to pursue his former power. He treats the city as something to reclaim through intimidation and violence rather than something he can accept losing.",
+        "evidence_source_id": "universe:Gangplank",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "tenacity",
+        "evidence": "After losing control of Bilgewater, Gangplank continues to pursue his former power. He treats the city as something to reclaim through intimidation and violence rather than something he can accept losing.",
+        "evidence_source_id": "universe:Gangplank",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.75
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Gangplank",
+    "gameplay_api": "ddragon:Gangplank",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

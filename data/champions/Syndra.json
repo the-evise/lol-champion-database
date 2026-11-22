@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Syndra",
+  "riot_id": 134,
+  "name": "Syndra",
+  "title": "the Dark Sovereign",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "syndra",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/syndra/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/syndra/",
+    "summary": "Syndra discovered that a mentor supposedly teaching control was instead suppressing her power. That betrayal made autonomy central to her response, and she now resists anyone who would again limit or direct her abilities.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "ionia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Irelia",
+        "name": "Irelia",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/irelia",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Karma",
+        "name": "Karma",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/karma",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Dreaming Pool",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-dreaming-pool",
+        "story_slug": "the-dreaming-pool",
+        "published_at": "2018-06-30T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Syndra Art Spotlight",
+        "url": "https://www.youtube.com/watch?v=axzmUN90i7M",
+        "story_slug": null,
+        "published_at": "2012-09-10T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Syndra: Login Theme",
+        "url": "https://www.youtube.com/watch?v=k73RLHTjn8A",
+        "story_slug": null,
+        "published_at": "2012-09-13T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Syndra"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Burst"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Long Range",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2012-09-13",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 1,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 583,
+      "hpperlevel": 100,
+      "mp": 480,
+      "mpperlevel": 40,
+      "movespeed": 330,
+      "armor": 25,
+      "armorperlevel": 4,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 550,
+      "hpregen": 6.5,
+      "hpregenperlevel": 0.6,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 54,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Transcendent",
+        "source_id": "ddragon:Syndra"
+      },
+      {
+        "slot": "Q",
+        "name": "Dark Sphere",
+        "cooldown_by_rank": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "cost_by_rank": [
+          40,
+          45,
+          50,
+          55,
+          60
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Syndra",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Force of Will",
+        "cooldown_by_rank": [
+          13,
+          12,
+          11,
+          10,
+          9
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          925,
+          925,
+          925,
+          925,
+          925
+        ],
+        "source_id": "ddragon:Syndra",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Scatter the Weak",
+        "cooldown_by_rank": [
+          17,
+          16.5,
+          16,
+          15.5,
+          15
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          650,
+          650,
+          650,
+          650,
+          650
+        ],
+        "source_id": "ddragon:Syndra",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Unleashed Power",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          675,
+          675,
+          675
+        ],
+        "source_id": "ddragon:Syndra",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Syndra"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Keep others from controlling her power",
+    "candidate_themes": [
+      {
+        "theme": "independence",
+        "evidence": "Syndra discovered that a mentor supposedly teaching control was instead suppressing her power. That betrayal made autonomy central to her response, and she now resists anyone who would again limit or direct her abilities.",
+        "evidence_source_id": "universe:Syndra",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "resentment",
+        "evidence": "Syndra discovered that a mentor supposedly teaching control was instead suppressing her power. That betrayal made autonomy central to her response, and she now resists anyone who would again limit or direct her abilities.",
+        "evidence_source_id": "universe:Syndra",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "power",
+        "evidence": "Syndra discovered that a mentor supposedly teaching control was instead suppressing her power. That betrayal made autonomy central to her response, and she now resists anyone who would again limit or direct her abilities.",
+        "evidence_source_id": "universe:Syndra",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Syndra",
+    "gameplay_api": "ddragon:Syndra",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

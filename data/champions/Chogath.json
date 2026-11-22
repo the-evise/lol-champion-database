@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Chogath",
+  "riot_id": 31,
+  "name": "Cho'Gath",
+  "title": "the Terror of the Void",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "chogath",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/chogath/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/chogath/",
+    "summary": "Cho'Gath is a Void creature whose consumption directly fuels bodily growth. Its biology turns what it eats into mass, armor, or projectiles, making hunger and expansion central to its presence in Runeterra.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "void",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "KogMaw",
+        "name": "Kog'Maw",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kogmaw",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Khazix",
+        "name": "Kha'Zix",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/khazix",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Velkoz",
+        "name": "Vel'Koz",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/velkoz",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Chogath"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Tank",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Specialist"
+    ],
+    "client_tags_wiki": [
+      "Durable",
+      "Crowd Control",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-06-26",
+    "last_changed_patch_wiki": "V26.17",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 2,
+      "toughness": 3,
+      "control": 2,
+      "mobility": 1,
+      "utility": 1,
+      "style": 65
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 644,
+      "hpperlevel": 94,
+      "mp": 270,
+      "mpperlevel": 60,
+      "movespeed": 345,
+      "armor": 38,
+      "armorperlevel": 4.5,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 9,
+      "hpregenperlevel": 0.85,
+      "mpregen": 7.2,
+      "mpregenperlevel": 0.45,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 69,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.44,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Carnivore",
+        "source_id": "ddragon:Chogath"
+      },
+      {
+        "slot": "Q",
+        "name": "Rupture",
+        "cooldown_by_rank": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          950,
+          950,
+          950,
+          950,
+          950
+        ],
+        "source_id": "ddragon:Chogath",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Feral Scream",
+        "cooldown_by_rank": [
+          11,
+          10.5,
+          10,
+          9.5,
+          9
+        ],
+        "cost_by_rank": [
+          70,
+          75,
+          80,
+          85,
+          90
+        ],
+        "range_by_rank": [
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "source_id": "ddragon:Chogath",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Vorpal Spikes",
+        "cooldown_by_rank": [
+          8,
+          7,
+          6,
+          5,
+          4
+        ],
+        "cost_by_rank": [
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "range_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "source_id": "ddragon:Chogath",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Feast",
+        "cooldown_by_rank": [
+          80,
+          70,
+          60
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          175,
+          175,
+          175
+        ],
+        "source_id": "ddragon:Chogath",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Chogath"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Consume and grow",
+    "candidate_themes": [
+      {
+        "theme": "hunger",
+        "evidence": "Cho'Gath is a Void creature whose consumption directly fuels bodily growth. Its biology turns what it eats into mass, armor, or projectiles, making hunger and expansion central to its presence in Runeterra.",
+        "evidence_source_id": "universe:Chogath",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "adaptation",
+        "evidence": "Cho'Gath is a Void creature whose consumption directly fuels bodily growth. Its biology turns what it eats into mass, armor, or projectiles, making hunger and expansion central to its presence in Runeterra.",
+        "evidence_source_id": "universe:Chogath",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "expansion",
+        "evidence": "Cho'Gath is a Void creature whose consumption directly fuels bodily growth. Its biology turns what it eats into mass, armor, or projectiles, making hunger and expansion central to its presence in Runeterra.",
+        "evidence_source_id": "universe:Chogath",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 0.6666666666666666,
+      "toughness": 1.0,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.65
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Chogath",
+    "gameplay_api": "ddragon:Chogath",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

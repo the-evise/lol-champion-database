@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Kayle",
+  "riot_id": 10,
+  "name": "Kayle",
+  "title": "the Righteous",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "kayle",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/kayle/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/kayle/",
+    "summary": "Kayle inherited celestial power and once protected Demacia alongside Morgana. Disillusionment with human failings led her away from the mortal world, while her reputation remains one of severe divine judgment.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "demacia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Galio",
+        "name": "Galio",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/galio",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Morgana",
+        "name": "Morgana",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/morgana",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Taric",
+        "name": "Taric",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/taric",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "In the Fires of Justice",
+        "url": "https://universe.leagueoflegends.com/en_us/story/kayle-color-story",
+        "story_slug": "kayle-color-story",
+        "published_at": "2019-03-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Canticle of the Winged Sisters",
+        "url": "https://universe.leagueoflegends.com/en_us/story/canticleofthewingedsisters",
+        "story_slug": "canticleofthewingedsisters",
+        "published_at": "2019-03-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Kayle"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Specialist"
+    ],
+    "client_tags_wiki": [
+      "Hypercarry",
+      "Auto-attack",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 1,
+      "utility": 3,
+      "style": 20
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 670,
+      "hpperlevel": 92,
+      "mp": 330,
+      "mpperlevel": 50,
+      "movespeed": 335,
+      "armor": 26,
+      "armorperlevel": 4.2,
+      "spellblock": 22,
+      "spellblockperlevel": 1.3,
+      "attackrange": 175,
+      "hpregen": 5,
+      "hpregenperlevel": 0.5,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 50,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.5,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Divine Ascent",
+        "source_id": "ddragon:Kayle"
+      },
+      {
+        "slot": "Q",
+        "name": "Radiant Blast",
+        "cooldown_by_rank": [
+          10,
+          9.5,
+          9,
+          8.5,
+          8
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Kayle",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Celestial Blessing",
+        "cooldown_by_rank": [
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "cost_by_rank": [
+          70,
+          75,
+          80,
+          85,
+          90
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Kayle",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Starfire Spellblade",
+        "cooldown_by_rank": [
+          8,
+          7.5,
+          7,
+          6.5,
+          6
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Kayle",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Divine Judgment",
+        "cooldown_by_rank": [
+          140,
+          110,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          50,
+          0
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Kayle",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Kayle"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Enforce her vision of justice",
+    "candidate_themes": [
+      {
+        "theme": "justice",
+        "evidence": "Kayle inherited celestial power and once protected Demacia alongside Morgana. Disillusionment with human failings led her away from the mortal world, while her reputation remains one of severe divine judgment.",
+        "evidence_source_id": "universe:Kayle",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "perfectionism",
+        "evidence": "Kayle inherited celestial power and once protected Demacia alongside Morgana. Disillusionment with human failings led her away from the mortal world, while her reputation remains one of severe divine judgment.",
+        "evidence_source_id": "universe:Kayle",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "severity",
+        "evidence": "Kayle inherited celestial power and once protected Demacia alongside Morgana. Disillusionment with human failings led her away from the mortal world, while her reputation remains one of severe divine judgment.",
+        "evidence_source_id": "universe:Kayle",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.3333333333333333,
+      "utility": 1.0,
+      "ability_vs_attack_style": 0.2
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Kayle",
+    "gameplay_api": "ddragon:Kayle",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Khazix",
+  "riot_id": 121,
+  "name": "Kha'Zix",
+  "title": "the Voidreaver",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "khazix",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/khazix/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/khazix/",
+    "summary": "Kha'Zix grows by hunting dangerous prey and changing in response to difficulty. Its increasing intelligence makes adaptation deliberate, allowing it to plan hunts and exploit fear rather than rely solely on instinct.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "void",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Chogath",
+        "name": "Cho'Gath",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/chogath",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "KogMaw",
+        "name": "Kog'Maw",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kogmaw",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Rengar",
+        "name": "Rengar",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/rengar",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Velkoz",
+        "name": "Vel'Koz",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/velkoz",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Adaptation",
+        "url": "https://universe.leagueoflegends.com/en_us/story/khazix-color-story",
+        "story_slug": "khazix-color-story",
+        "published_at": "2019-08-27T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Kha'Zix Art Spotlight",
+        "url": "https://www.youtube.com/watch?v=HUEhfKe5e08",
+        "story_slug": null,
+        "published_at": "2012-09-21T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Kha'Zix: Login Theme",
+        "url": "https://www.youtube.com/watch?v=27CRdopEhNM",
+        "story_slug": null,
+        "published_at": "2012-09-27T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Khazix"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Stealth",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2012-09-27",
+    "last_changed_patch_wiki": "V26.19",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 2,
+      "utility": 1,
+      "style": 55
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 643,
+      "hpperlevel": 99,
+      "mp": 327,
+      "mpperlevel": 40,
+      "movespeed": 345,
+      "armor": 32,
+      "armorperlevel": 4.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 7.5,
+      "hpregenperlevel": 0.75,
+      "mpregen": 7.59,
+      "mpregenperlevel": 0.5,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.7,
+      "attackspeed": 0.668
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Unseen Threat",
+        "source_id": "ddragon:Khazix"
+      },
+      {
+        "slot": "Q",
+        "name": "Taste Their Fear",
+        "cooldown_by_rank": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ],
+        "cost_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "range_by_rank": [
+          325,
+          325,
+          325,
+          325,
+          325
+        ],
+        "source_id": "ddragon:Khazix",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Void Spike",
+        "cooldown_by_rank": [
+          9,
+          9,
+          9,
+          9,
+          9
+        ],
+        "cost_by_rank": [
+          55,
+          60,
+          65,
+          70,
+          75
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Khazix",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Leap",
+        "cooldown_by_rank": [
+          20,
+          18,
+          16,
+          14,
+          12
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "source_id": "ddragon:Khazix",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Void Assault",
+        "cooldown_by_rank": [
+          100,
+          85,
+          70
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Khazix",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Khazix"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Evolve by overcoming stronger prey",
+    "candidate_themes": [
+      {
+        "theme": "adaptation",
+        "evidence": "Kha'Zix grows by hunting dangerous prey and changing in response to difficulty. Its increasing intelligence makes adaptation deliberate, allowing it to plan hunts and exploit fear rather than rely solely on instinct.",
+        "evidence_source_id": "universe:Khazix",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "competition",
+        "evidence": "Kha'Zix grows by hunting dangerous prey and changing in response to difficulty. Its increasing intelligence makes adaptation deliberate, allowing it to plan hunts and exploit fear rather than rely solely on instinct.",
+        "evidence_source_id": "universe:Khazix",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "predation",
+        "evidence": "Kha'Zix grows by hunting dangerous prey and changing in response to difficulty. Its increasing intelligence makes adaptation deliberate, allowing it to plan hunts and exploit fear rather than rely solely on instinct.",
+        "evidence_source_id": "universe:Khazix",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.55
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Khazix",
+    "gameplay_api": "ddragon:Khazix",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Yorick",
+  "riot_id": 83,
+  "name": "Yorick",
+  "title": "Shepherd of Souls",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "yorick",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/yorick/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/yorick/",
+    "summary": "Yorick survives on the Shadow Isles with the ability to command dead companions. His unsettling methods serve a restorative goal: ending the Ruination's curse and freeing the homeland in which he remains trapped.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shadow-isles",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Hecarim",
+        "name": "Hecarim",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/hecarim",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Kalista",
+        "name": "Kalista",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kalista",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Thresh",
+        "name": "Thresh",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/thresh",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Karthus",
+        "name": "Karthus",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/karthus",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Maokai",
+        "name": "Maokai",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/maokai",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Kindred",
+        "name": "Kindred",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kindred",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Last Rites",
+        "url": "https://universe.leagueoflegends.com/en_us/story/yorick-color-story",
+        "story_slug": "yorick-color-story",
+        "published_at": "2016-09-10T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Yorick"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Tank"
+    ],
+    "subclasses_wiki": [
+      "Juggernaut"
+    ],
+    "client_tags_wiki": [
+      "Summon",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2011-06-22",
+    "last_changed_patch_wiki": "V26.03",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 2,
+      "toughness": 2,
+      "control": 2,
+      "mobility": 1,
+      "utility": 2,
+      "style": 55
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 650,
+      "hpperlevel": 114,
+      "mp": 300,
+      "mpperlevel": 60,
+      "movespeed": 340,
+      "armor": 36,
+      "armorperlevel": 4.5,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 175,
+      "hpregen": 8,
+      "hpregenperlevel": 0.8,
+      "mpregen": 7.5,
+      "mpregenperlevel": 0.75,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 62,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Shepherd of Souls",
+        "source_id": "ddragon:Yorick"
+      },
+      {
+        "slot": "Q",
+        "name": "Last Rites",
+        "cooldown_by_rank": [
+          6,
+          5.5,
+          5,
+          4.5,
+          4
+        ],
+        "cost_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "range_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_id": "ddragon:Yorick",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Dark Procession",
+        "cooldown_by_rank": [
+          20,
+          18,
+          16,
+          14,
+          12
+        ],
+        "cost_by_rank": [
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Yorick",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Mourning Mist",
+        "cooldown_by_rank": [
+          12,
+          11,
+          10,
+          9,
+          8
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "source_id": "ddragon:Yorick",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Eulogy of the Isles",
+        "cooldown_by_rank": [
+          160,
+          130,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Yorick",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Yorick"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Free his home from the Ruination",
+    "candidate_themes": [
+      {
+        "theme": "restoration",
+        "evidence": "Yorick survives on the Shadow Isles with the ability to command dead companions. His unsettling methods serve a restorative goal: ending the Ruination's curse and freeing the homeland in which he remains trapped.",
+        "evidence_source_id": "universe:Yorick",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "loneliness",
+        "evidence": "Yorick survives on the Shadow Isles with the ability to command dead companions. His unsettling methods serve a restorative goal: ending the Ruination's curse and freeing the homeland in which he remains trapped.",
+        "evidence_source_id": "universe:Yorick",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "resolve",
+        "evidence": "Yorick survives on the Shadow Isles with the ability to command dead companions. His unsettling methods serve a restorative goal: ending the Ruination's curse and freeing the homeland in which he remains trapped.",
+        "evidence_source_id": "universe:Yorick",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 0.6666666666666666,
+      "toughness": 0.6666666666666666,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.55
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Yorick",
+    "gameplay_api": "ddragon:Yorick",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,3149 @@
+{
+  "snapshot_version": "16.23.1",
+  "sources": [
+    {
+      "id": "roster",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion.json",
+      "retrieved_at": "2026-11-22T12:23:10.297426+00:00",
+      "payload_sha256": "29a21afefbd26a9ae4d5878815f35550b45a9d9aaa8a9d243845e600fdaad802",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe_index",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champion-browse/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.297560+00:00",
+      "payload_sha256": "feb9e0c64711ec2ef21e5fcb2187166cb40b60302b23c827196d26bc6387d5ee"
+    },
+    {
+      "id": "wiki_champion_data",
+      "kind": "league_wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Module:ChampionData/data",
+      "retrieved_at": "2026-11-22T12:23:10.297589+00:00",
+      "payload_sha256": "2ea1c6c4071e98c8a0136a4928acfe70de84e3ec7bab00eb758079646388a164",
+      "revision_id": 4095247,
+      "revision_timestamp": "2026-11-17T22:50:10Z",
+      "permalink": "https://wiki.leagueoflegends.com/en-us/index.php?title=Module:ChampionData/data&oldid=4095247",
+      "history_url": "https://wiki.leagueoflegends.com/en-us/Module:ChampionData/data?action=history",
+      "license": {
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/",
+        "text": "CC BY-SA 3.0"
+      }
+    },
+    {
+      "id": "universe:Aatrox",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/aatrox/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270088+00:00",
+      "payload_sha256": "d957cfa4ba719475c5a5b4839fd44d5900ab9dc2e799d83a87d23c89165c9799",
+      "short_biography_sha256": "61ca46edce11d0a2f570d3e8065b52b89ec3bbe639dd0a2b3e1e3d83364d2ea6",
+      "full_biography_sha256": "5aed6cfe416d7b26917ecc0587428064a0809bb6c5c78a2857ee5023db8357a2",
+      "full_biography_word_count": 685
+    },
+    {
+      "id": "ddragon:Aatrox",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Aatrox.json",
+      "retrieved_at": "2026-11-22T12:23:10.291385+00:00",
+      "payload_sha256": "78b65cabaea0a4e508257d941e05aa45b3e8f57ac13145e69ccfd5c383a77013",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ahri",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ahri/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.269200+00:00",
+      "payload_sha256": "2798713bcff9a88507f851cdf322e9301753528ecda255ca1d2f220862e02279",
+      "short_biography_sha256": "cc2a593895f702f10b8a5ef88f4b746067923e9a7a201c89fb35729f5ed6eeed",
+      "full_biography_sha256": "609f30dd790cce31137c33a069427d70427b2ccb10ec739455492e64f103d7b5",
+      "full_biography_word_count": 759
+    },
+    {
+      "id": "ddragon:Ahri",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ahri.json",
+      "retrieved_at": "2026-11-22T12:23:10.291427+00:00",
+      "payload_sha256": "fc4657c7ee21e01a71880c3a9522789eb5b28b0b92eb955de67ddf7151e8d83f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Akali",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/akali/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270056+00:00",
+      "payload_sha256": "f59ccfd904f35f6a639e9e0f6ae43fe3daaf4dc52790c5947d9cb3fb22078f74",
+      "short_biography_sha256": "65b3e67ce302317d0b3665d6030136256ebb47abcba0a196ee908b7835f8602d",
+      "full_biography_sha256": "f06aa0511fe3362ba366339d8f01a198a00d7d7e03f036deadec3e3f74c68f88",
+      "full_biography_word_count": 609
+    },
+    {
+      "id": "ddragon:Akali",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Akali.json",
+      "retrieved_at": "2026-11-22T12:23:10.291329+00:00",
+      "payload_sha256": "03b1299b22c773522d4e1d3e18836520c251b4cf255a637c4fd3310dcd9b0e34",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Akshan",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/akshan/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.269938+00:00",
+      "payload_sha256": "6cf8955551d4ea2931f5739f411ef7b973c653d4688e9b609035f887fdef3452",
+      "short_biography_sha256": "e18edd868ca5aa3044606da7e41f425aabf07afcf81986b816735e1246ddcb83",
+      "full_biography_sha256": "9579ce23771dbe47f37214a22c40ab3dbcad0e307bcd35b9dd3a42be77a4094e",
+      "full_biography_word_count": 807
+    },
+    {
+      "id": "ddragon:Akshan",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Akshan.json",
+      "retrieved_at": "2026-11-22T12:23:10.291376+00:00",
+      "payload_sha256": "6b4fc23061e6ab0c4883c5b7b79d5b85c992eb70a5a72278b835c221df073896",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Alistar",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/alistar/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270309+00:00",
+      "payload_sha256": "5a0c231973bdb8ccb1f93af56a2cdb8f4ae592169d9beb7bc936ca68b4445b66",
+      "short_biography_sha256": "d1c90a6a01354e77b18b3a24735ef11de4eb17d9548112b074b20c757669d506",
+      "full_biography_sha256": "fba884fc17a4b1bfebc7f48a6919b93eb8d78dfc4ec3c91b546bd770cdeb5bd8",
+      "full_biography_word_count": 750
+    },
+    {
+      "id": "ddragon:Alistar",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Alistar.json",
+      "retrieved_at": "2026-11-22T12:23:10.291470+00:00",
+      "payload_sha256": "bfdb28edbb02a706d42d03f4bb78fd17e4afa16cbeaca40339e318afcbfed598",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ambessa",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ambessa/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270257+00:00",
+      "payload_sha256": "f9beff2c72cb82bbc34a2ad2f843665f8649fd92915c89cf3fb237e4abd3b0bb",
+      "short_biography_sha256": "4fcb2ba25b97148d586f84749e177c55413b1f76588334003c7d759914061639",
+      "full_biography_sha256": "f02517bed19844d9c48bfcdd24d6dd19cb9bfa080a30b94877daf63194a62ffa",
+      "full_biography_word_count": 606
+    },
+    {
+      "id": "ddragon:Ambessa",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ambessa.json",
+      "retrieved_at": "2026-11-22T12:23:10.291502+00:00",
+      "payload_sha256": "a39650e219a0d1a5398031d8a46483c97acec57bf1238be1b20327107db4d8c1",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Amumu",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/amumu/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270199+00:00",
+      "payload_sha256": "5c347ba74e58d3ea293d4fe858456155994eb5bac0bc97acc7119dca1766c74f",
+      "short_biography_sha256": "7485241636907e8c9e76e04ca80b755fa525d9c99979d3385185ed32fdd54f7c",
+      "full_biography_sha256": "001b881b987b1225d3d1a3c5256be49e8a7928bdeae2aa03d45eb32d6f53d838",
+      "full_biography_word_count": 772
+    },
+    {
+      "id": "ddragon:Amumu",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Amumu.json",
+      "retrieved_at": "2026-11-22T12:23:10.291549+00:00",
+      "payload_sha256": "c6249c00d03a6cdfa42a514a6e2d01087993921781d66282120b2c1546239d58",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Anivia",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/anivia/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270135+00:00",
+      "payload_sha256": "2a18858e9d265893ff0c2af61456a352a812dd1e7b7b35b492e1ef099ed4d7b2",
+      "short_biography_sha256": "332784830fb2a3905cc50763533f717b2a36fba096df386375cb4752d17ff582",
+      "full_biography_sha256": "38f9df16871d6833709eca37485e494ff2a182c34341c013523163fd8a445de3",
+      "full_biography_word_count": 730
+    },
+    {
+      "id": "ddragon:Anivia",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Anivia.json",
+      "retrieved_at": "2026-11-22T12:23:10.291521+00:00",
+      "payload_sha256": "58c88df3936a602d3ae4287519c9aaa5155a824f564c8c41213913945dadc0ad",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Annie",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/annie/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270475+00:00",
+      "payload_sha256": "c22cd74b41b18fd57c133fb086b73a29d868893f1897bc2acbbd59282a0c5cac",
+      "short_biography_sha256": "0290aec9e92733c7108c521166d4965f4179e4cf23c4f730498d3cbb0cca8748",
+      "full_biography_sha256": "c84d9394d5e4e3c2e0b7f5a3c42299ec1376fc471b860c3055112df00025073f",
+      "full_biography_word_count": 595
+    },
+    {
+      "id": "ddragon:Annie",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Annie.json",
+      "retrieved_at": "2026-11-22T12:23:10.291584+00:00",
+      "payload_sha256": "648265a9aa1eb6b89247835305c38f30f36cabb99cff1251575f39bc1b7ddb49",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Aphelios",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/aphelios/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270678+00:00",
+      "payload_sha256": "e0ae1000a15005cf9d832d0f66dcdcb18b074acd5c1eec40f99e66f6cd03ef35",
+      "short_biography_sha256": "d7414a540eb79793688e32ada42f6e0258d6fff3960fe3226692dc9ca1786c27",
+      "full_biography_sha256": "358e2949ca362ae3cbe782eb67068023144aa1aeb52fd3cd656e59ce0f09962e",
+      "full_biography_word_count": 757
+    },
+    {
+      "id": "ddragon:Aphelios",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Aphelios.json",
+      "retrieved_at": "2026-11-22T12:23:10.291595+00:00",
+      "payload_sha256": "b7f559a1bcecec53396f1042ae711b7ec940f637b9702a256ccf6b5deae558c8",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ashe",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ashe/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270701+00:00",
+      "payload_sha256": "b4c371b8800e63717fac2302f211b5dc67133084711b05080478d84155fc3548",
+      "short_biography_sha256": "681269f511ff8bfa63d86e0e97b472c3ca331957a2e1e1550c232a652b4d7baf",
+      "full_biography_sha256": "9982096af0ef5d03736c9c40e39ef017238de6ae11aa248302a5892a3ec24af2",
+      "full_biography_word_count": 687
+    },
+    {
+      "id": "ddragon:Ashe",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ashe.json",
+      "retrieved_at": "2026-11-22T12:23:10.291894+00:00",
+      "payload_sha256": "7bedb8d5ec58a782c85f7346cfc0314dc0691975177f08e669a53ab1212ef914",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:AurelionSol",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/aurelionsol/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270322+00:00",
+      "payload_sha256": "821e2fedb0ab8822d6d09d72fbba0618186cd78069dfb258d668e101f1882013",
+      "short_biography_sha256": "c68d9201736577a3c38a706db3d2c82b52c0db7ed5c6f5ae64e59ee7e635fc2c",
+      "full_biography_sha256": "865ac55d9f023623c4d17d2f18416978909855afb391b2b2c0b46abc6abe35da",
+      "full_biography_word_count": 659
+    },
+    {
+      "id": "ddragon:AurelionSol",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/AurelionSol.json",
+      "retrieved_at": "2026-11-22T12:23:10.291936+00:00",
+      "payload_sha256": "d7871f1aa0221f31c67ee288b0e8daff9eb773273609daf9d77d0939e61915f4",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Aurora",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/aurora/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270855+00:00",
+      "payload_sha256": "e2cf89ab495993010888ce98fb3a0a361201e68a9326bea2114dfa7c015f8fee",
+      "short_biography_sha256": "3108f828eee1372ab85a60853dc758750fbd33010b66e2e50c3eb3a91b19782f",
+      "full_biography_sha256": "a21748addf418582149c2c0650b2ace49b5a244fc87db45583562935e4683527",
+      "full_biography_word_count": 780
+    },
+    {
+      "id": "ddragon:Aurora",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Aurora.json",
+      "retrieved_at": "2026-11-22T12:23:10.291998+00:00",
+      "payload_sha256": "ebcec81252e7376ee9267fc410d8cf3207d0394b63f58bb03548fb7fcaad215f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Azir",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/azir/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.270881+00:00",
+      "payload_sha256": "8fa908b2dacccc43b9497620c835921b9e41b5b5799b31231496b4c45ede9883",
+      "short_biography_sha256": "563d52c4ecc140ad80d95f2d81468d228275b5b985e3fccbbfbbcc90e332c593",
+      "full_biography_sha256": "3810cc34a2f3af111b37f8944984f7de68aa299bda44c49cd772d3d262e7c0bd",
+      "full_biography_word_count": 2029
+    },
+    {
+      "id": "ddragon:Azir",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Azir.json",
+      "retrieved_at": "2026-11-22T12:23:10.291955+00:00",
+      "payload_sha256": "16aea17d8482a993db51bd80de785f3152e6171786ef0e5afc136a4bcb777206",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Bard",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/bard/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.271232+00:00",
+      "payload_sha256": "42a56a34c3f0cc09a27521d455393e7bdcfac4c017d715a47e317ca644bd1b65",
+      "short_biography_sha256": "1130bbd4efeeddec24a8caa8471052b84508c93be0e4c5beb8c0041c2de62bc3",
+      "full_biography_sha256": "94765ac77d7190d48471c78fc7db452b17ede238f4d7451ae8b9231f8a0e1451",
+      "full_biography_word_count": 573
+    },
+    {
+      "id": "ddragon:Bard",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Bard.json",
+      "retrieved_at": "2026-11-22T12:23:10.291989+00:00",
+      "payload_sha256": "d562df27c16a632100607e2dc42910d265be897659ed47fcdc1e9bb254891394",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Belveth",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/belveth/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.271381+00:00",
+      "payload_sha256": "ff84ddabdfd33bba7a2dd03f68bf9ac6d2de24faef85cdcafc4ba76c218dd150",
+      "short_biography_sha256": "222c5c1a3aea0fe0f8f93d6b43600dd1c2c71f5a4cc6227bf553e3ed6e112d45",
+      "full_biography_sha256": "77c7f268126ef548d2f34cb7a36811db93753eb45e3ab9116d0de9a70d9018a9",
+      "full_biography_word_count": 555
+    },
+    {
+      "id": "ddragon:Belveth",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Belveth.json",
+      "retrieved_at": "2026-11-22T12:23:10.291963+00:00",
+      "payload_sha256": "fb97d956e123f60b1ffd706bfff66263d05f997b9f01cc862738b05cfa5890bb",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Blitzcrank",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/blitzcrank/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.271863+00:00",
+      "payload_sha256": "438bf06210d1c4dc1d70d0978c4f2ccb1bdf71e3f7611fa043da62936bb6c7c8",
+      "short_biography_sha256": "0a559d82a628123083eb117679da97540367cbd533702e14f9ce5f2b1491bb8a",
+      "full_biography_sha256": "c9a3af75e4f3a72fcdb61b7950695bd3e7be3941105475f397c5905364833c76",
+      "full_biography_word_count": 624
+    },
+    {
+      "id": "ddragon:Blitzcrank",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Blitzcrank.json",
+      "retrieved_at": "2026-11-22T12:23:10.292047+00:00",
+      "payload_sha256": "68f86a8d6e86e865f46377d28c3d790f598d53ad272c4bc649ed804631304fe7",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Brand",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/brand/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.271475+00:00",
+      "payload_sha256": "6e2a9576cc1d2547aff4ee635b1473fd5cebaf16d7d2b875b034c09abe2567e0",
+      "short_biography_sha256": "2b6d1360d560105d70a99b52b77d04ed80e8c14014877c2f84cd7c213f876ee0",
+      "full_biography_sha256": "94499c514f9f7d4cf53cab482d4bee1bdbd67ca7e7c7b6add4c5463a8bdc0e82",
+      "full_biography_word_count": 522
+    },
+    {
+      "id": "ddragon:Brand",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Brand.json",
+      "retrieved_at": "2026-11-22T12:23:10.292028+00:00",
+      "payload_sha256": "fc761c50b1a91ac50a34115becfc1a3f4d96ccc859cdb46d10b71257501e69bc",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Braum",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/braum/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.271756+00:00",
+      "payload_sha256": "7b4103a854062960ae71bfd918ad9b20e4459857a514d751cbc3a38cb733c694",
+      "short_biography_sha256": "8be66fe6233b1d1e61281a47ddc0b55b4a83b3066acc68c87d470f983fd4a10a",
+      "full_biography_sha256": "8e17cf61e53ab86f7302c2035ba6f09d804c845a8da425a50b5d8d319dee1761",
+      "full_biography_word_count": 726
+    },
+    {
+      "id": "ddragon:Braum",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Braum.json",
+      "retrieved_at": "2026-11-22T12:23:10.292009+00:00",
+      "payload_sha256": "e273b35b383e6759c46cdc2b8f9798fab393064e2382f70ba7595e2c85ec2e78",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Briar",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/briar/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.271596+00:00",
+      "payload_sha256": "6518160c8da64a80f754927a1cce01ebdd3633b512fbc2b4d94810ad6290977d",
+      "short_biography_sha256": "3a5b769f4081747b0257e6a970774599e392abc444a230e14039c514448df00e",
+      "full_biography_sha256": "16192a212b386db12a27b11426c8821ddd92dff2f5a02fb31222db0e808fd3ef",
+      "full_biography_word_count": 638
+    },
+    {
+      "id": "ddragon:Briar",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Briar.json",
+      "retrieved_at": "2026-11-22T12:23:10.292094+00:00",
+      "payload_sha256": "281fe85089f4aa99f4af9eeb50abfb1a4d139740fb3ef0770e42c91d3e11da33",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Caitlyn",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/caitlyn/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272274+00:00",
+      "payload_sha256": "eb0d56a46947446a96c29eb0d5cda1f7d77507b8c7ebd79d08c9b4949605f8b9",
+      "short_biography_sha256": "1d764c10ff1b21e79e1e60affd0e9bba7efed264acc17f2f4ff2dfd0bcf3d263",
+      "full_biography_sha256": "cb4c92442c2eb2f2144cb9277718bbac56e232dc405bf0e98ad32ca2e9288339",
+      "full_biography_word_count": 644
+    },
+    {
+      "id": "ddragon:Caitlyn",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Caitlyn.json",
+      "retrieved_at": "2026-11-22T12:23:10.292112+00:00",
+      "payload_sha256": "a38182c152e8a9269df4d15b7b9417804e561c4fa04da668045c7ead63fd5558",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Camille",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/camille/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272541+00:00",
+      "payload_sha256": "fd148cb496fd6163ab26a7b9e538ce80104e2568a41bc9d3c1d56b5efd57b363",
+      "short_biography_sha256": "6906e126d618e8e13c5bf77c5b103e7a1352fa63c5b17af183654adb5bd09755",
+      "full_biography_sha256": "e68acf1c36d8560d0626e83bfc0cba48d178ee89eb008ddc2f1536f9fd839f7a",
+      "full_biography_word_count": 754
+    },
+    {
+      "id": "ddragon:Camille",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Camille.json",
+      "retrieved_at": "2026-11-22T12:23:10.292149+00:00",
+      "payload_sha256": "2bb2a07541da6004de1f8036b11611bd778dbb8c72d6e9753126cfa27e7ef09a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Cassiopeia",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/cassiopeia/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272350+00:00",
+      "payload_sha256": "94dd5751a7813bdf8160e9ff0e1bfd005caa0b713adfae3309c3dd375ee35326",
+      "short_biography_sha256": "57347412b80742a4bf3d5d81e6a084960d7c0e3d52198557701ef237bb40960f",
+      "full_biography_sha256": "f3f77a1e39baaeae801de5dc3cb4a2fe052f69c5e668423bbe958580f8216f74",
+      "full_biography_word_count": 752
+    },
+    {
+      "id": "ddragon:Cassiopeia",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Cassiopeia.json",
+      "retrieved_at": "2026-11-22T12:23:10.292121+00:00",
+      "payload_sha256": "a4cd120583939c6f2d5ee78f0dc9e0b09691fc22996b9e948cc3a4b6c2daeb85",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Chogath",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/chogath/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272594+00:00",
+      "payload_sha256": "4b3455d84c04a412d7abf25d9c79f34e90bcfa90fdb00e41b7f99b26eaf26b9b",
+      "short_biography_sha256": "70c82666857d3b0202f90337527f927c2556b1ac4c78c1fe158a56e907c1c584",
+      "full_biography_sha256": "7b47e28031e39774acbca4fef8e703d3751c3996f9a5c44f6783d4cada6c52e1",
+      "full_biography_word_count": 236
+    },
+    {
+      "id": "ddragon:Chogath",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Chogath.json",
+      "retrieved_at": "2026-11-22T12:23:10.292103+00:00",
+      "payload_sha256": "5cf0bd26d248abb70749eaa79bd511bda12691f6ab31f446815b3b393b098bf5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Corki",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/corki/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272768+00:00",
+      "payload_sha256": "d8bbca2b4969b7d085151029a57f5c66f1ecf70f1fcf78e748a3863b5bacf774",
+      "short_biography_sha256": "3514f7dd408bf4ee5655ff6807b186e46003f06f4f5568c9a1aada28fb675768",
+      "full_biography_sha256": "4c48f2ba93a7c3921661c8fd0ea41629fcbc6b08c5cd8d04328c5e2a12d6331f",
+      "full_biography_word_count": 246
+    },
+    {
+      "id": "ddragon:Corki",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Corki.json",
+      "retrieved_at": "2026-11-22T12:23:10.292226+00:00",
+      "payload_sha256": "426ec4a2c3d0c94a6718a06a065ae66e502f6f6701a0a26c06f2e2546a0c2163",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Darius",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/darius/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272827+00:00",
+      "payload_sha256": "f29e0130cd89e08584a94e6f83db4396a8ace0682594aaf84dad7551aeb266f0",
+      "short_biography_sha256": "bdc550862b32ee942391c13609a10b64ef23c4c1eb7e1e6bbebd45efe41e69dd",
+      "full_biography_sha256": "3da4c406770a81540089a987b024eb735b5d08af25cef2dd3fbb0c5bea509474",
+      "full_biography_word_count": 595
+    },
+    {
+      "id": "ddragon:Darius",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Darius.json",
+      "retrieved_at": "2026-11-22T12:23:10.292244+00:00",
+      "payload_sha256": "96f8ca4578195140254ad72b62c6e409a54b45d0511958fa35b8f7c7f63ed104",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Diana",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/diana/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.272781+00:00",
+      "payload_sha256": "644de8bd8925de0e8e1a85fcd9c946196f8e103b86bc1d51e9e0bcfdc1b85446",
+      "short_biography_sha256": "02c78de94626ce4ab592fdc269a7d874315b3a00f9c22cf1c255db17bd37e568",
+      "full_biography_sha256": "f6b0bc5126987b803dd342c3ccb78ff51543827d94e4318808ec8769df704d31",
+      "full_biography_word_count": 763
+    },
+    {
+      "id": "ddragon:Diana",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Diana.json",
+      "retrieved_at": "2026-11-22T12:23:10.292331+00:00",
+      "payload_sha256": "5d1b962445942d53bad2125603982ade1e35525c7b196c523f867e98145e930a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Draven",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/draven/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.273388+00:00",
+      "payload_sha256": "4ec15356d1cf7facff92b9fd7271a2d9283653363d2b4b4ff1fc079f1444c550",
+      "short_biography_sha256": "db2a9bd0951b0fde5c1b566d0f35b5e8b6e12575795bb1b863c2d4a1a86598e5",
+      "full_biography_sha256": "9bc0c7e9668847032f25603f370b67f8e2a1534b8d41f23cd3f99f4b36eac7a3",
+      "full_biography_word_count": 712
+    },
+    {
+      "id": "ddragon:Draven",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Draven.json",
+      "retrieved_at": "2026-11-22T12:23:10.292280+00:00",
+      "payload_sha256": "9be9192ed5d734d2cbab37d4a32d59b8ffbaf96cfc76a720bf7588c700048aa7",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:DrMundo",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/drmundo/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.274161+00:00",
+      "payload_sha256": "2ca700678ff7b54e85f2bf3c892bb219c0cd031e967c3af75922c6abccc3ec0b",
+      "short_biography_sha256": "904d7b321722ffbbe55350cde88308b154e62c11f612b16da9102a2f8adad5b0",
+      "full_biography_sha256": "41f12fd8256397b65c8b0932c072d77d9e6ad208c3325976cc89bbe3f387a8cd",
+      "full_biography_word_count": 680
+    },
+    {
+      "id": "ddragon:DrMundo",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/DrMundo.json",
+      "retrieved_at": "2026-11-22T12:23:10.292466+00:00",
+      "payload_sha256": "81ae1f2023c2e7b64ab8848e3051a8dbec8c6c47633aca75d8944505ddab3f59",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ekko",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ekko/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.274248+00:00",
+      "payload_sha256": "d315acba36fe0da0d25e68634467418c85ef048a560fd2209d0396293ac4a950",
+      "short_biography_sha256": "4f3570eaef19fda75e71e61f07c2ae287aaffb72c269a9f31f1c9752d1caf078",
+      "full_biography_sha256": "9baf768b12af7215f037319fdaab5f94969d35abcce2674c3e5cabba49d9c716",
+      "full_biography_word_count": 776
+    },
+    {
+      "id": "ddragon:Ekko",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ekko.json",
+      "retrieved_at": "2026-11-22T12:23:10.292424+00:00",
+      "payload_sha256": "ca4c91a962485dfb84cad8e1b56ea5951deb188cc89f6dc472bdbd3719dff151",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Elise",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/elise/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.274752+00:00",
+      "payload_sha256": "a83509dda82d8884299f99d2e82a839739acac0e5e277d248aa812f4f59f38c4",
+      "short_biography_sha256": "8eb661777491b1f3b266a8e9e634022a1b784b0653a40d7df389fb0adf76724e",
+      "full_biography_sha256": "c4ea477073f2df099e003bab23b30b50c94ab212f0fe2f19727f95d216ec1b81",
+      "full_biography_word_count": 784
+    },
+    {
+      "id": "ddragon:Elise",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Elise.json",
+      "retrieved_at": "2026-11-22T12:23:10.292374+00:00",
+      "payload_sha256": "eb9ed36884afbe5e5ff91528267d2d41c327dd1250130a302ed50bf4966dfeb5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Evelynn",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/evelynn/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.274054+00:00",
+      "payload_sha256": "941b2b31e63746ddd88151a30bbb6ba89e9bed1638487116639f3938742e1533",
+      "short_biography_sha256": "0d0ec209d119ffe624685fd1fad5592a6d93114badc6438f18e86893a13d07a6",
+      "full_biography_sha256": "3a93b95f294f5fabece55be65589e8dfcb834238279466cf39cd067d48673959",
+      "full_biography_word_count": 568
+    },
+    {
+      "id": "ddragon:Evelynn",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Evelynn.json",
+      "retrieved_at": "2026-11-22T12:23:10.292382+00:00",
+      "payload_sha256": "e74f433c258d3b626acfcda458caa40493cc8fad04a9fb3b039ce4be32328808",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ezreal",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ezreal/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.275386+00:00",
+      "payload_sha256": "85bef664aa897bc241296c426eec1a6dad6b5810b2e50457640a90ca8c1592de",
+      "short_biography_sha256": "47048346a0f3cbeaa3ac27cecd494daeca821c696d10f046865342cbbdcbd9c2",
+      "full_biography_sha256": "c4378b74fb9e526d187f29f6939cc55808c810c9830347db42354cb46eb97fdb",
+      "full_biography_word_count": 779
+    },
+    {
+      "id": "ddragon:Ezreal",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ezreal.json",
+      "retrieved_at": "2026-11-22T12:23:10.292568+00:00",
+      "payload_sha256": "ec0e39696deec630594107c385af07c50e8a2c974236cc587fa365004c04516f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Fiddlesticks",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/fiddlesticks/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.274852+00:00",
+      "payload_sha256": "37b7b151039d7aef3e6eb4bf5e3a92d4fc5f7c9b1e811655723920aade603f6c",
+      "short_biography_sha256": "0e0edea46d95e871025ce20959a84013bed00eda9a513f5e799f8c6fc2d9a07d",
+      "full_biography_sha256": "0477a2f2fe684ca022c064f8ada88e3e4513e9cdee7831bbfb2dc98c878a3467",
+      "full_biography_word_count": 527
+    },
+    {
+      "id": "ddragon:Fiddlesticks",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Fiddlesticks.json",
+      "retrieved_at": "2026-11-22T12:23:10.292587+00:00",
+      "payload_sha256": "05bad91c094f53462020ad07b6d7060e220d9852d1cac796f29c78a9537627e3",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Fiora",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/fiora/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.275480+00:00",
+      "payload_sha256": "92a6b1373ada0b7c1a50fff1bf6525380ed2691adb2c0b6ed8d9265cf172a408",
+      "short_biography_sha256": "26cdd7dca08a244dc26dc38e330e8e8a8305fa0571a74dce98e8ce67e00917be",
+      "full_biography_sha256": "24101932373a43864b796df5017104745ec91e7db03be454e17fada1a93d696f",
+      "full_biography_word_count": 685
+    },
+    {
+      "id": "ddragon:Fiora",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Fiora.json",
+      "retrieved_at": "2026-11-22T12:23:10.292606+00:00",
+      "payload_sha256": "318c65a657387a283a6338b759b053fc2e261a2af123427a74ea908de645c5f8",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Fizz",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/fizz/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.275299+00:00",
+      "payload_sha256": "22bf3539b5cf4ab243ca6c1d2caa787d65ae488cf14d5d5a8bce918c851475e6",
+      "short_biography_sha256": "2e7ce4d4fe8af74ec4fd29ba3fb6f0b3cca20bb2723c70501a6da49714e41af8",
+      "full_biography_sha256": "09ab5d37e75aed8a8092d34ab75bc4300a9096bf9e235edaf07ccca9c192b8cd",
+      "full_biography_word_count": 592
+    },
+    {
+      "id": "ddragon:Fizz",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Fizz.json",
+      "retrieved_at": "2026-11-22T12:23:10.292548+00:00",
+      "payload_sha256": "a8f93add3c5e7f57f602f4b06eb771adeaf951e083e5f24b5b6a79cd83444ad9",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Galio",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/galio/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.275577+00:00",
+      "payload_sha256": "f38f73b8a8d56fc7e77d1646a0bd6efbf9f26f3efb612db392eb5b35a68a82f0",
+      "short_biography_sha256": "a9399cbbaac6768c8aafcc533a5dd7a5a76cabea0159c1951ce505ec126434d9",
+      "full_biography_sha256": "be9e7d65ad517e0bba80ca8963a58958a66221b78af2d5ef94b32c957f3d85d0",
+      "full_biography_word_count": 859
+    },
+    {
+      "id": "ddragon:Galio",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Galio.json",
+      "retrieved_at": "2026-11-22T12:23:10.292669+00:00",
+      "payload_sha256": "6b1910be4a520deedc61d7e1a5ff77094cd8875f3f023e683dd65471978b691a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Gangplank",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/gangplank/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.275699+00:00",
+      "payload_sha256": "c80aaa0930a999f6adec3c196502aba412906d6c5d7e946b901816d0d486047e",
+      "short_biography_sha256": "58d856cd4b562f21e2d4f1034ce45ddc6db370aebf627c10cbd6da6bb4534729",
+      "full_biography_sha256": "7c431c8fdbfdf92b4a09b2aba733430a66cb9d20ba2efd78cb6ac7e1b222e00c",
+      "full_biography_word_count": 303
+    },
+    {
+      "id": "ddragon:Gangplank",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Gangplank.json",
+      "retrieved_at": "2026-11-22T12:23:10.292537+00:00",
+      "payload_sha256": "77155def3c02e5496f010e9ff72ad22a4fba4fdc2ceda7112402539402719a6e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Garen",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/garen/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.275853+00:00",
+      "payload_sha256": "3c9a907129ed835653edfc90215e0553c61944f42019632be5d31e4e04357b34",
+      "short_biography_sha256": "da6159d165642fb905da7f592b3a2c50a9c5efc21c94de8b754654dceffbf2b5",
+      "full_biography_sha256": "5d3d2c9a8e7f0da1aa5b37444fd46b49cd299ea7581fad77d793e0c73970073d",
+      "full_biography_word_count": 739
+    },
+    {
+      "id": "ddragon:Garen",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Garen.json",
+      "retrieved_at": "2026-11-22T12:23:10.292660+00:00",
+      "payload_sha256": "71b8421c171c3e07324dc6a02d941ef3f5a87559ac6328363ad5f7c42392c74c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Gnar",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/gnar/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.276345+00:00",
+      "payload_sha256": "f685dae251b0bc0ca31ce5729bc7397fe02e49ceec238d8c152a94ebfb8907ab",
+      "short_biography_sha256": "c80f6977300059726ca403bc069fa2fc6447ce7813c9aeaf36ea1fb8178a8d84",
+      "full_biography_sha256": "3208c825cc81f0c5048f463e3d6673bdf09055c31adfa72fd0ac8173a0a7b52f",
+      "full_biography_word_count": 696
+    },
+    {
+      "id": "ddragon:Gnar",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Gnar.json",
+      "retrieved_at": "2026-11-22T12:23:10.292679+00:00",
+      "payload_sha256": "0ac2d8803e0817deac9ccf1cd78102de77632beed17458b21a4dd185185ce6b0",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Gragas",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/gragas/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.276429+00:00",
+      "payload_sha256": "8f480d4281ea5bf1febdd535483d6698faf949e60c466d16940eba21d51f8bae",
+      "short_biography_sha256": "44d6f1f3927db740ee0dfcadcf40690aa0f248433ff3de8a1bfeed964fa6c807",
+      "full_biography_sha256": "a845c8756677d2b4d61c97123d22b7561bd9841547b88d353f0ba4de33953daf",
+      "full_biography_word_count": 395
+    },
+    {
+      "id": "ddragon:Gragas",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Gragas.json",
+      "retrieved_at": "2026-11-22T12:23:10.292706+00:00",
+      "payload_sha256": "e36443929910689bcd4ff3fd43128613c9955702eaed7380ebc20bef4d5ddfc6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Graves",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/graves/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.276761+00:00",
+      "payload_sha256": "c0b541acb1bd4069b6c10670919eb3f33b6f6fad8e43c92fe88f7edcd4f1a87e",
+      "short_biography_sha256": "45b5f56fd8ad13b3f632bc05644ed3051052ae8cb7a371aee846e0c2eac5168d",
+      "full_biography_sha256": "774caeb69275ef78d08c3b9ffc7d984c40d8313d1dd5f1e76ff0c67b7c609ec8",
+      "full_biography_word_count": 697
+    },
+    {
+      "id": "ddragon:Graves",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Graves.json",
+      "retrieved_at": "2026-11-22T12:23:10.292698+00:00",
+      "payload_sha256": "3126b5626ee65bbe584a96c4bad4dd2f9be9e5a830868ffc6b2eb8011498e34f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Gwen",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/gwen/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.276531+00:00",
+      "payload_sha256": "f74f2489ad49cfe4dfd89f2ab481a6ba9401e652d7180a553ebc0a17505ddc14",
+      "short_biography_sha256": "78f5fd002829a34e16468567173c00ff8f6d9edcd6fc08b5d782247e0111e016",
+      "full_biography_sha256": "358338504df36d5f9799a5178b0394c46abc6957288e2c893a269e6f01f130fe",
+      "full_biography_word_count": 687
+    },
+    {
+      "id": "ddragon:Gwen",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Gwen.json",
+      "retrieved_at": "2026-11-22T12:23:10.292688+00:00",
+      "payload_sha256": "ac8972139dc632342b110aed05bd9252450974c501912cf5e50b4f1dae4393e9",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Hecarim",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/hecarim/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.276607+00:00",
+      "payload_sha256": "6d554f69dc3bc1d92bdc76938ef71fbf75d62f7c79d1987753082ccf11014e5b",
+      "short_biography_sha256": "03e2de0dc08bbdcdfe3cd3186c1d0fc4c2c78799e3daaba130e33749e7181027",
+      "full_biography_sha256": "773126d85f5dc666a13b8e46b2a727469fc36ea477050095d56eee5a9de34221",
+      "full_biography_word_count": 709
+    },
+    {
+      "id": "ddragon:Hecarim",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Hecarim.json",
+      "retrieved_at": "2026-11-22T12:23:10.292716+00:00",
+      "payload_sha256": "59aa547f28d79e5c769629642a064edb768f7e543a6fc3007f14a096d34c484b",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Heimerdinger",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/heimerdinger/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.277894+00:00",
+      "payload_sha256": "5c0ba2fc581fc43af3c8bcbb191f50f173ab3dd799336002e923fa30ab770654",
+      "short_biography_sha256": "985297a2f3c9e53abe8aed9b5de3c47f86e699b5137637c7a79ecb92f56d9378",
+      "full_biography_sha256": "a8409f786ce081adf71626aea00c19e5393824c4106d773baa82908fdcb2d2fe",
+      "full_biography_word_count": 80
+    },
+    {
+      "id": "ddragon:Heimerdinger",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Heimerdinger.json",
+      "retrieved_at": "2026-11-22T12:23:10.292918+00:00",
+      "payload_sha256": "883b12268c60f835a45c43ac8f7effe44fa9b6eb71fd23ee779588717d61a0de",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Hwei",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/hwei/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.277725+00:00",
+      "payload_sha256": "8338096d335e51ad88b33f6adcdf155b3c1e1d51ad249c4a8778df453c9ce9bc",
+      "short_biography_sha256": "77fd0be24ea666e934a3c2a72b1c7603da5d46a4e12541679b8815c03a2852fe",
+      "full_biography_sha256": "07b8a476410105d7f0243f8f9c7a93fd3d64f85a76017b59e074be2cfccc9cd1",
+      "full_biography_word_count": 853
+    },
+    {
+      "id": "ddragon:Hwei",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Hwei.json",
+      "retrieved_at": "2026-11-22T12:23:10.292726+00:00",
+      "payload_sha256": "c7e864410a25459985eb672ba7de3f603c5d56178bd196aff2aaef1222c2962f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Illaoi",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/illaoi/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.277280+00:00",
+      "payload_sha256": "7847e8b96cc1b176e8e517c45fa62e7a0f74f09a1d21d9a4fb7097ffafb0a2b7",
+      "short_biography_sha256": "d40b0ccc5fd3a328f273d569356103ec30ffed328c5f871aa7f906d2e1048767",
+      "full_biography_sha256": "a098ac6c2f7164d57c6ccf14c57ae62a432037e2c1d50075f9401f24f7faaadc",
+      "full_biography_word_count": 702
+    },
+    {
+      "id": "ddragon:Illaoi",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Illaoi.json",
+      "retrieved_at": "2026-11-22T12:23:10.292907+00:00",
+      "payload_sha256": "b2914fb77d428e15bc151276902d421416b4fca33d54faa3cd65f89b52e613f8",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Irelia",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/irelia/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.277807+00:00",
+      "payload_sha256": "f420407a6316927a42499d2dc0d3d9496566e39212ae6b73e48ab73e545a8f7a",
+      "short_biography_sha256": "1466f960b2932ca3e507f76a14fad65df404899cb2b4a87fe1b928a1275bf7d8",
+      "full_biography_sha256": "4ad45353458df00a82ca17ef0e685fe9db48daaf7b2d7af9690302abbc9677b1",
+      "full_biography_word_count": 727
+    },
+    {
+      "id": "ddragon:Irelia",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Irelia.json",
+      "retrieved_at": "2026-11-22T12:23:10.292735+00:00",
+      "payload_sha256": "d7187fb2f5598a9c447301e5a466a93a332f9da6f74d82cd7d473448c4bfcdb7",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ivern",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ivern/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.278129+00:00",
+      "payload_sha256": "28d34427dafcc8bb34cf8b09e67b6fa69aad0c49d90b00b528ac50947f749971",
+      "short_biography_sha256": "c87ead2fce83c38f402ac63a3fc10cc76af1bc2bebe0887f81732ef8cacb0996",
+      "full_biography_sha256": "3b7dc30fa8c53a39d42418433ff72c0585fbf4d542be78eb610f616c2f61ead0",
+      "full_biography_word_count": 750
+    },
+    {
+      "id": "ddragon:Ivern",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ivern.json",
+      "retrieved_at": "2026-11-22T12:23:10.293177+00:00",
+      "payload_sha256": "f51c77b23ec0f690983286c7d546e10eb6d499f87d59ba21b60e0a2ae40dfd4f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Janna",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/janna/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.278047+00:00",
+      "payload_sha256": "2a4fb31042501f4b6396b0d32ce9c3f88d97669cd96c29f25233aae6f82ab7bf",
+      "short_biography_sha256": "23a67ad3888d9bbf28cee619491b8a5969fcf0ffd39122cae999058b31e0daa0",
+      "full_biography_sha256": "2329ea52a67e5c2d0acb9925cee2492aa567283a34f3f5adce7852fcb267e2c1",
+      "full_biography_word_count": 653
+    },
+    {
+      "id": "ddragon:Janna",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Janna.json",
+      "retrieved_at": "2026-11-22T12:23:10.292934+00:00",
+      "payload_sha256": "90d747aeb7c66d30c4b352691a0c07261d12a0713b0ae568d030c411e5ceb02f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:JarvanIV",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/jarvaniv/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.278217+00:00",
+      "payload_sha256": "c6b9f2ab041836ee5418315e2aa580c6394287c318f46655203027d0d15bbbd2",
+      "short_biography_sha256": "b1c08cbd7e56414272fc27165e5a041176a93950dec5b4fbe81d61d368a15a37",
+      "full_biography_sha256": "e5c2e6b6b0891d9a04d28abbdc10e65cf11ba2a831fa7bd28ac3dd739e1f47f2",
+      "full_biography_word_count": 914
+    },
+    {
+      "id": "ddragon:JarvanIV",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/JarvanIV.json",
+      "retrieved_at": "2026-11-22T12:23:10.293203+00:00",
+      "payload_sha256": "1d26bb085115ea455b2df9f6871b52b765b2797e96b6bae44842b3d53faf5e9d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Jax",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/jax/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.278295+00:00",
+      "payload_sha256": "5739ab7ca05fff3fcdcb6c67e83279918e95289a2e55431ea35898b83099685c",
+      "short_biography_sha256": "33d85b09ddac61b009f8cd2c98ac2f608b086ab70f223865d15aeed8774ba7b0",
+      "full_biography_sha256": "f3cc31c563b5399e4315e9a1d4e773a10c05b19aa6027a8d8c8c14bab2de13cd",
+      "full_biography_word_count": 707
+    },
+    {
+      "id": "ddragon:Jax",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Jax.json",
+      "retrieved_at": "2026-11-22T12:23:10.293194+00:00",
+      "payload_sha256": "075d1e55cf9422d9f205848e2428bd3ede810ec0690b7434d9dba6f5229aa1b4",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Jayce",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/jayce/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.279314+00:00",
+      "payload_sha256": "1d3845b48b25820f79678dca4c3cf7469c0e78d17728be2d08ec78b491633ba8",
+      "short_biography_sha256": "d31596cce561db1edef77d7deafa081239dff99bddc0a350625033a2d590bb67",
+      "full_biography_sha256": "0733ef7729cc49e40b31319f58e62f0c3970a6b6f1e9decd95b0b93a425af8cf",
+      "full_biography_word_count": 1914
+    },
+    {
+      "id": "ddragon:Jayce",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Jayce.json",
+      "retrieved_at": "2026-11-22T12:23:10.293214+00:00",
+      "payload_sha256": "c0a712ed60bbe64a2bf0cc39cdbcbdd2dcc1ce62b6c957635b654d89a68ccf4b",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Jhin",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/jhin/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.279009+00:00",
+      "payload_sha256": "2969f7fca3d4ad4ae15912f5ab2f7647ada64c520e0b66bcc118f6529bb44cf8",
+      "short_biography_sha256": "6f8bbbca15732ccaa265843706d94b94f8ee15cad98cc26b505b39940dc45598",
+      "full_biography_sha256": "de96a342b93ac7709d097f9e4c2fc47911160b3b91d26243e0fb032585716bd3",
+      "full_biography_word_count": 815
+    },
+    {
+      "id": "ddragon:Jhin",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Jhin.json",
+      "retrieved_at": "2026-11-22T12:23:10.293297+00:00",
+      "payload_sha256": "71ca8afc92f4b6e2b149b9b3352851ed12d0342e796774849fc0bbb62ae35e8c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Jinx",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/jinx/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.279169+00:00",
+      "payload_sha256": "83fe2a04b14cf2bc644fdcb9bd7da97d7ca7cb51022b6815fc3652edb59899bd",
+      "short_biography_sha256": "89896a3ee46214c958b209ac41e2244db790ede3aa8cbeb5e4e570954e882d08",
+      "full_biography_sha256": "9963d4e48159315760ace81b162487f590e13a9228aa2a42d466e5762d83690a",
+      "full_biography_word_count": 612
+    },
+    {
+      "id": "ddragon:Jinx",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Jinx.json",
+      "retrieved_at": "2026-11-22T12:23:10.293223+00:00",
+      "payload_sha256": "f334f5805714d0c1bb1870fc88a978c21c9f12653a7bf1ab5411bb82eb7ed468",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kaisa",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kaisa/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.278926+00:00",
+      "payload_sha256": "6a7259d11fb739e5ff89b871cd89c2eee3d455009e04c1081724270f90b9650d",
+      "short_biography_sha256": "dca8265c0d7637d46e5992e38adfc72a60a3d27a8cb7a43495a9f5b9a90b78ca",
+      "full_biography_sha256": "74969a8d4eaba029d9d725d6998a67168268c778826af2a9a580851b0a533d60",
+      "full_biography_word_count": 652
+    },
+    {
+      "id": "ddragon:Kaisa",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kaisa.json",
+      "retrieved_at": "2026-11-22T12:23:10.293306+00:00",
+      "payload_sha256": "fa841bb94d37f53aad99ebbc561ad989a2ece5688069e672dc0354ccabdf913c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kalista",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kalista/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.279941+00:00",
+      "payload_sha256": "19b85ba8b95df1e2a2e8487a8ac4baf56fa10f44a32c0a093dc3a6dd89d533e3",
+      "short_biography_sha256": "12089d7079bfb3390fa745f1cb9fe09a979708ace842d73372cf43d825055eae",
+      "full_biography_sha256": "2c2cf8861a051fa7eb06184a69522d2d4f16d587b6773ad0d974818dde1e5529",
+      "full_biography_word_count": 683
+    },
+    {
+      "id": "ddragon:Kalista",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kalista.json",
+      "retrieved_at": "2026-11-22T12:23:10.293357+00:00",
+      "payload_sha256": "7e1b741e7f36cf41a95f8a2708337be78043f581074c24afbc8503987aab5d25",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Karma",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/karma/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280156+00:00",
+      "payload_sha256": "60269e170d6a31765be9457d8bbe259eef5f8841bf2165b7df13ea243c78418e",
+      "short_biography_sha256": "b4d4ea0eb9d93699d64b5f7de7e3ae1b176d008c587354e958dc77df1dff473b",
+      "full_biography_sha256": "a65b7b5fa73cf176d7cf9f0dacd7139bb246b4812893a8e60ec1736cc3810904",
+      "full_biography_word_count": 703
+    },
+    {
+      "id": "ddragon:Karma",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Karma.json",
+      "retrieved_at": "2026-11-22T12:23:10.293415+00:00",
+      "payload_sha256": "0614b29ef8c7304e24ea196448946f34d788688f8dd7c0ba3f3a2a1234c704f6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Karthus",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/karthus/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.279682+00:00",
+      "payload_sha256": "e01acbdbcfec37d6d6bbca0d95013c2fd6e0a69d606dfb8143f819a84b2fc434",
+      "short_biography_sha256": "fb7395908f135105a7f83e0e9efeef37f4355ce32e858d98537f5dbe114ed7c4",
+      "full_biography_sha256": "88b084a75a57e4e33199da829afefc2ab16ce45bc6e7113e21f28e18c40a7a02",
+      "full_biography_word_count": 1097
+    },
+    {
+      "id": "ddragon:Karthus",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Karthus.json",
+      "retrieved_at": "2026-11-22T12:23:10.293374+00:00",
+      "payload_sha256": "41701edb5f8930bdfd2220e2962691bfc666d0293aeba216084e5a7bf80413ab",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kassadin",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kassadin/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.279865+00:00",
+      "payload_sha256": "9e15cd9ab02bc7ad7bafecdfdc915e9f4fd5fe33f5e8ce586bb4b1000405b854",
+      "short_biography_sha256": "0ec93c6e5ee221ba9e41e34d249716cef1124386a3bfe1f63fe883784c70ecab",
+      "full_biography_sha256": "16a165da8d18ef6976fca9c887b690266788798835484b47e3f32465e6e8ae43",
+      "full_biography_word_count": 663
+    },
+    {
+      "id": "ddragon:Kassadin",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kassadin.json",
+      "retrieved_at": "2026-11-22T12:23:10.293365+00:00",
+      "payload_sha256": "b244845ea743a5c597992974fc023e2b4e5287f74cfd0c3a5f4751e93ccbe629",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Katarina",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/katarina/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280179+00:00",
+      "payload_sha256": "e5b6e91b352fdf1dd548f2d1c13e58c6f241387b8df311066162c8a9d0e7b981",
+      "short_biography_sha256": "3bd1c8f5fefcde2f63b3e8b445c145d79084c88db495e9848501956588e5e970",
+      "full_biography_sha256": "90f457e46d4b318a82fd46be540f453c33f9de9594c08325874d266f3e8fe04b",
+      "full_biography_word_count": 629
+    },
+    {
+      "id": "ddragon:Katarina",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Katarina.json",
+      "retrieved_at": "2026-11-22T12:23:10.293466+00:00",
+      "payload_sha256": "c8462052ead29f7fc585467184d16bf7d7196816987538465af6cf3bea85d039",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kayle",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kayle/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280480+00:00",
+      "payload_sha256": "2a21b1310fd56a09e4d38c5cb8e66c668e8a4153996c89427cf3e077cfbff41a",
+      "short_biography_sha256": "a9520d6856306c161b1f26984d32ba53bb11ee153956dbbf7b29623569a858c6",
+      "full_biography_sha256": "af0dba6d7742913572ed9ad7576121eadff11a31b737960e43b0c507b1b41713",
+      "full_biography_word_count": 746
+    },
+    {
+      "id": "ddragon:Kayle",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kayle.json",
+      "retrieved_at": "2026-11-22T12:23:10.293541+00:00",
+      "payload_sha256": "9c7a449f73407b608f701e079fd815a43fafaaf031baf159c1a8c4bd77f909fa",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kayn",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kayn/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280325+00:00",
+      "payload_sha256": "e9b2bf9ccfefb2e041105883433b3a68da0bdbfda6eec760c31c6279ab16a8b6",
+      "short_biography_sha256": "fb9d33885f7cacca4b51e53199e43019c6550252e9713bed30f15be0c2344d5a",
+      "full_biography_sha256": "ec69aff3a09f6acd6c8dbd5a8e4db614e298c627ebcbf5f07e0afc80a9364ff0",
+      "full_biography_word_count": 538
+    },
+    {
+      "id": "ddragon:Kayn",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kayn.json",
+      "retrieved_at": "2026-11-22T12:23:10.293457+00:00",
+      "payload_sha256": "002cab37a74965c39c6c8b481d3db6887f98df83f09b83f441950a1ce6cd6776",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kennen",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kennen/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280406+00:00",
+      "payload_sha256": "8ee7771cb09de0f360c84192e5de39f8e9c16cdfea5f9e96cf615a4525d28bac",
+      "short_biography_sha256": "3fb2c0cef3a6bf69418733f9b5314d03cc997a904aca316e82fae3d98569dea5",
+      "full_biography_sha256": "d76ac114c4320235832c5dc7f689ea9f079fdd4fa96493c64c1834aa6a34ba6b",
+      "full_biography_word_count": 698
+    },
+    {
+      "id": "ddragon:Kennen",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kennen.json",
+      "retrieved_at": "2026-11-22T12:23:10.293475+00:00",
+      "payload_sha256": "f7ef553fab28416179663169136df155ffd7ae731e9ad0fb23c6b40f1803b140",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Khazix",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/khazix/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280811+00:00",
+      "payload_sha256": "bb52b621b48dae72a8cbebe12717e182f6a6f26c58cf616c3ba8a8c015cc2662",
+      "short_biography_sha256": "97f07b875d73be6a2a05426771292c99af60b81ef05dc9664067683807c97f36",
+      "full_biography_sha256": "7701d3d099e8ffc4a35df03aaec44eab25bc7d3e50557fee42b136d8db25e169",
+      "full_biography_word_count": 219
+    },
+    {
+      "id": "ddragon:Khazix",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Khazix.json",
+      "retrieved_at": "2026-11-22T12:23:10.293637+00:00",
+      "payload_sha256": "4ed9febfbc2659039023e95bd66ab20a2420b1d630238a09b25f25d8efd3441e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kindred",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kindred/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280574+00:00",
+      "payload_sha256": "8e12f18576c4c801af56eea00fb24298f49d3ae8aa55bb3a76830e90dc050b7f",
+      "short_biography_sha256": "33b3c7bac3608d5e6597677b11cd8489247a0d3991a9810f52864f5ebc4f8c9f",
+      "full_biography_sha256": "a6c38964e2d77af1068364954b173db10ac437e4bdb432e800b30d6d9c8f4194",
+      "full_biography_word_count": 339
+    },
+    {
+      "id": "ddragon:Kindred",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kindred.json",
+      "retrieved_at": "2026-11-22T12:23:10.293609+00:00",
+      "payload_sha256": "42ffadf7089f707d24060530ed9c4cda85efb22124ab3e88c3b1b1d2fbc1ac12",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Kled",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kled/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280725+00:00",
+      "payload_sha256": "97f4b1a892b15fbb256c202db3375d0e188a642b6166884f7d8fdfef479ba330",
+      "short_biography_sha256": "fa386bfb928976243f2e5034784facee15ca566bdeca8416afb6cf7aa0f37469",
+      "full_biography_sha256": "276bce3030fdd4e30e51af65dce1388cbbf35194f196be517e1c6741202cae32",
+      "full_biography_word_count": 666
+    },
+    {
+      "id": "ddragon:Kled",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Kled.json",
+      "retrieved_at": "2026-11-22T12:23:10.293628+00:00",
+      "payload_sha256": "6f499d238110ad0db70ec28ead7e0f1772b3e3acb6a24abc2a40b00e0be2f54d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:KogMaw",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/kogmaw/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.280886+00:00",
+      "payload_sha256": "b70fd65dd7c740c0d2a0202cb851bae8918b1566bad82fa316022b1aa625f4d6",
+      "short_biography_sha256": "3c56c707d79eefc3191e19e40a754f679ec0f4e05ee956ec6b9d7bcbc29fd54e",
+      "full_biography_sha256": "49e71bf0ffc3d6a5742c27dccdf2458fa3fa08bb322b58038412d9342e0bfb06",
+      "full_biography_word_count": 290
+    },
+    {
+      "id": "ddragon:KogMaw",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/KogMaw.json",
+      "retrieved_at": "2026-11-22T12:23:10.293646+00:00",
+      "payload_sha256": "dd27fdeefda4d9424ab8b146aa94c283af9ba1d32cb09a8afbd8191bad6d9429",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:KSante",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ksante/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.281096+00:00",
+      "payload_sha256": "b460395774c0f5b33919955cbc9afce32bd9324031814b3ce0ad717ec4cc8e42",
+      "short_biography_sha256": "4dd17402c665e4845aa3b0505cb69c14f3fd759f9ba13cf4c558fbeeaf6699cf",
+      "full_biography_sha256": "044e19eeff3c9c880bebb653458c849be39ee8214a496854ac75338fa2a861d2",
+      "full_biography_word_count": 1161
+    },
+    {
+      "id": "ddragon:KSante",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/KSante.json",
+      "retrieved_at": "2026-11-22T12:23:10.293657+00:00",
+      "payload_sha256": "54579eee44ec9e26def23ff9f146b8f749abfb66b38d13747450b73f3bc3aa49",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Leblanc",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/leblanc/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.281016+00:00",
+      "payload_sha256": "faba936241405acf5fc11ef44e6a63c6f1680feba3fbed270e43c3892e1e075c",
+      "short_biography_sha256": "dbc76a11858a13b59126b24840c899078de3826e3a7eb570418878ca1a265aee",
+      "full_biography_sha256": "eb215f89ade18f8875d8ddf61c33a3da8472305d59ee23c50422293609e3e1d2",
+      "full_biography_word_count": 645
+    },
+    {
+      "id": "ddragon:Leblanc",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Leblanc.json",
+      "retrieved_at": "2026-11-22T12:23:10.293719+00:00",
+      "payload_sha256": "f9c228da597ea7d2ec3bf99beb9b3a410b5b054d73c0e019d59f3cfb2a172b34",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:LeeSin",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/leesin/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.281283+00:00",
+      "payload_sha256": "fd635938f77207b4c5e80ed44e793cb1f26952d3844e3062ea4059c3936ed651",
+      "short_biography_sha256": "8eb377c98ba064ae69c203080d2bd5674b86943b79ae623252870088741458f4",
+      "full_biography_sha256": "8310ef6960cec7c924d33adeb49d84cef003504c82ac77aba22247f8cacdf00f",
+      "full_biography_word_count": 613
+    },
+    {
+      "id": "ddragon:LeeSin",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/LeeSin.json",
+      "retrieved_at": "2026-11-22T12:23:10.293675+00:00",
+      "payload_sha256": "e0ff109a95abadd45b4a40ab0ec70d7c895282338f9dfe8367eb78625916b59a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Leona",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/leona/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.281368+00:00",
+      "payload_sha256": "7ca150d8fbb2481384b27597d79dcb08708d45557202e2757df2ffe0182d59c6",
+      "short_biography_sha256": "c0b3d03287ff5c983102f8f8ca1d1602fb41036781cb574604e0673413cec2a2",
+      "full_biography_sha256": "a1d599a4a3af53d0c11eca7ce9d238daedede1fca236e1969b22721bb5a4fa2d",
+      "full_biography_word_count": 767
+    },
+    {
+      "id": "ddragon:Leona",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Leona.json",
+      "retrieved_at": "2026-11-22T12:23:10.293666+00:00",
+      "payload_sha256": "677d396e0f49d97abb7ed0ccc9b734946b10458b2dafef63a7bf198d57e4acf8",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Lillia",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/lillia/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.282709+00:00",
+      "payload_sha256": "3d2506bf28bd5477e66cdead6e4d19f6043da7814ea2bedee5b7232207c40f19",
+      "short_biography_sha256": "4138fc9c7a32729cc4578b2455052f3c3c40f80e5d081b1cbac11819a04ca95a",
+      "full_biography_sha256": "f276342344c7b0acc915f731dff1100137abe9af87a436bbb2730bb366ccbd3e",
+      "full_biography_word_count": 750
+    },
+    {
+      "id": "ddragon:Lillia",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Lillia.json",
+      "retrieved_at": "2026-11-22T12:23:10.293774+00:00",
+      "payload_sha256": "15faeedead562c53f2d06b622c6b173240bb2c02dd2e605853ba2658274a7399",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Lissandra",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/lissandra/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.282437+00:00",
+      "payload_sha256": "011844d4f2087d9f19b57a7f4a2ba6a4915b710d3f13a55499bd93fe7699fc3f",
+      "short_biography_sha256": "5165afd7d7adbd4e1ea396cbddbd2e6cffc77ebca4c8e8fd44fc074550d8f054",
+      "full_biography_sha256": "b4d16380adb4391350a8d4ab0481711097ba96a4eb8f3a1dd179f995ced66a87",
+      "full_biography_word_count": 705
+    },
+    {
+      "id": "ddragon:Lissandra",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Lissandra.json",
+      "retrieved_at": "2026-11-22T12:23:10.293756+00:00",
+      "payload_sha256": "50bc9d004fef7f9d3543d7640de177843b77901cfe56843078a87187210481ff",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Locke",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/locke/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.282784+00:00",
+      "payload_sha256": "f35d5bda5937f829f15ce69ba7ed11e3a64163d46baab77bce8db4f652978bd4",
+      "short_biography_sha256": "0b044575b47635247364764cd7d0aecd495083879787a91015b764cc4290aef7",
+      "full_biography_sha256": "40fc99ba54e762dc3e712e00cc3c35534d91b44a2d19e072c1cccf4fdde78f42",
+      "full_biography_word_count": 1322
+    },
+    {
+      "id": "ddragon:Locke",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Locke.json",
+      "retrieved_at": "2026-11-22T12:23:10.293728+00:00",
+      "payload_sha256": "1ec16275dfccb18851cea2ebb6a2b65969491e6b07693eb4b9843206ca3464d4",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Lucian",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/lucian/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.281791+00:00",
+      "payload_sha256": "d95c590c574c44da0a03abf0d7ac99111e74c589375333fa219623e5579cb3e7",
+      "short_biography_sha256": "d510864e78bbf5a1b2e47e36edb249021e93b6324bb2f611c77111523738694d",
+      "full_biography_sha256": "d1908ffad01e8fbf4747fad57f9d3ccfbb1086d519a64e745598bf9a2f12fd78",
+      "full_biography_word_count": 841
+    },
+    {
+      "id": "ddragon:Lucian",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Lucian.json",
+      "retrieved_at": "2026-11-22T12:23:10.293737+00:00",
+      "payload_sha256": "22b6bb366c9a5aaae6e76592a59634964e8074bb756c099a5b9e30ec2076d1f4",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Lulu",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/lulu/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.282857+00:00",
+      "payload_sha256": "c9fb16887c661047f1807562543951ebb1700fc71b23da38a6055996e4f2442a",
+      "short_biography_sha256": "5f1115d3b474a3118bca097397eeb96a63a215bd45c6e6cd5ad0ebd4e27a77ee",
+      "full_biography_sha256": "5499a871ffe08e77f1304db66d24a7f62f2df4d82eb1e7ef2d51ba0a0dd45b17",
+      "full_biography_word_count": 799
+    },
+    {
+      "id": "ddragon:Lulu",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Lulu.json",
+      "retrieved_at": "2026-11-22T12:23:10.293802+00:00",
+      "payload_sha256": "91e9ab5603c6e7f33f3319d01fa518babc3d3753b3e8140b64988c86ecae4bfe",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Lux",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/lux/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283171+00:00",
+      "payload_sha256": "3b5a55000b5e76d7c2aa40a4ba4074597a8836651df32e7d0ff5461174960d87",
+      "short_biography_sha256": "ece70b1988e08bae438ebce1cffbcd701535e3e9849fa1554f9e40d3ca7c0a05",
+      "full_biography_sha256": "ef3db0e1638b47de237815be536a72c9a0b83ece4501ad3509a22351a0a7b846",
+      "full_biography_word_count": 652
+    },
+    {
+      "id": "ddragon:Lux",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Lux.json",
+      "retrieved_at": "2026-11-22T12:23:10.293792+00:00",
+      "payload_sha256": "a09aecacd44bfb7fa5457b5b6b804da3eb51e76b5c1fa0a6d88cf3c3fae76a87",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Malphite",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/malphite/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283009+00:00",
+      "payload_sha256": "7a9e17b2ea96d3287e35b227675bc65b344dc4a30206272c25dc9934550bf80f",
+      "short_biography_sha256": "d250edf8ad6d30275c2f9690069087e936b281077a36e4ec0f00d5ac0a5ed6b7",
+      "full_biography_sha256": "2caa50ccf650e5e85bc39f7d4707111cf11e3a67f0dae781c78c26a287d9e25e",
+      "full_biography_word_count": 655
+    },
+    {
+      "id": "ddragon:Malphite",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Malphite.json",
+      "retrieved_at": "2026-11-22T12:23:10.293811+00:00",
+      "payload_sha256": "52c6864d5463b96ca47e23369028663c5361b78db1a8c78d048d876f48dab90e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Malzahar",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/malzahar/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283320+00:00",
+      "payload_sha256": "f0dc5988149245339f9756e4032d7c72e5287b35114e941411343572f699b5de",
+      "short_biography_sha256": "c594e624574dec75c48742871185227037d06b3e97a419edea863b1de0d685cc",
+      "full_biography_sha256": "82cfe1648d3bd870f1961b0303b81e1cda5827b79119e79c1522f689f62f4c5b",
+      "full_biography_word_count": 632
+    },
+    {
+      "id": "ddragon:Malzahar",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Malzahar.json",
+      "retrieved_at": "2026-11-22T12:23:10.293783+00:00",
+      "payload_sha256": "3943695df246e3840b9f63f02db15986426e74c5a263565b01810e8c8d217e5d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Maokai",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/maokai/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283585+00:00",
+      "payload_sha256": "83c6f4b22cf75a36462ac831838aae0b76697c12dde476167241be701eab8a15",
+      "short_biography_sha256": "68154d8e7f095de741ae4dd9268467659012847d1c9cd2636de996ce0fd5042e",
+      "full_biography_sha256": "e3ff8b8f9d412da3670b958ed07396e9d5c99ad26b05b2fda89ab9bcb60ee2d1",
+      "full_biography_word_count": 973
+    },
+    {
+      "id": "ddragon:Maokai",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Maokai.json",
+      "retrieved_at": "2026-11-22T12:23:10.293886+00:00",
+      "payload_sha256": "7500ac376249ca71b8a4945894331e0ea17250a10f6b10ac3c4f18860ad241da",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:MasterYi",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/masteryi/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283396+00:00",
+      "payload_sha256": "de3a2ef801954c13ee5a0fef736a20a87ba6f3af9479e28ac433121681417760",
+      "short_biography_sha256": "374449bf0bdb52f3e0d3451262901c1313c7c74d036ce264c2eb053f5bd8455b",
+      "full_biography_sha256": "684f603f127415e9558d83d5a48b9bade35eb25e61651de8f8b60e30e751bd38",
+      "full_biography_word_count": 658
+    },
+    {
+      "id": "ddragon:MasterYi",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/MasterYi.json",
+      "retrieved_at": "2026-11-22T12:23:10.293821+00:00",
+      "payload_sha256": "23f13baf4060d1aa01af6385fcd0b9757d84618f9b6926cfaddbca05c18867a0",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Mel",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/mel/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283476+00:00",
+      "payload_sha256": "80f4cbfd15614e7c082961bd72f200e87c13237e3a2af34f934ecafc50adfc69",
+      "short_biography_sha256": "6d4c094d05735e1df14172f6873250c9ad4c1ad9d308b1f768c32122bd69c22d",
+      "full_biography_sha256": "21644e82cf44f25b87ff7042618c486219eb88ec24e9bea51bf5d28b29df0e53",
+      "full_biography_word_count": 664
+    },
+    {
+      "id": "ddragon:Mel",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Mel.json",
+      "retrieved_at": "2026-11-22T12:23:10.293863+00:00",
+      "payload_sha256": "d737a7586989ad34479d7815febc627fcb51dfd198a7a1a7e59e293c3e2229c8",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Milio",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/milio/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283718+00:00",
+      "payload_sha256": "46b7525fe7c80db3bf2a68d75078de6b5b9b5cd6e6a781033ea71be0d46ccf2b",
+      "short_biography_sha256": "79b166382a766b200125077009eb190363e98cd976118be4687b57b6abc1b123",
+      "full_biography_sha256": "524037674a547a1ccd3f47ee1f50ab3498a7c30fe63e442db333c6f41351de70",
+      "full_biography_word_count": 784
+    },
+    {
+      "id": "ddragon:Milio",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Milio.json",
+      "retrieved_at": "2026-11-22T12:23:10.293894+00:00",
+      "payload_sha256": "59dc870c876273d6d27f4819b5f5dbc2d0fb764a77c391d8b20e5437da17467e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:MissFortune",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/missfortune/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.284068+00:00",
+      "payload_sha256": "93114faabae58644dcdd929cfad308c21b6fea2ee340a7b91f2bf9d65a9d9aaf",
+      "short_biography_sha256": "d36e745c91a0b9d883c9fac6b5c34af13c0b0d645efed37ab002096817b7caf1",
+      "full_biography_sha256": "38a2d8ef20f5727a1acc8c3d7e169b141f3491049480cf959a131ff346499e75",
+      "full_biography_word_count": 842
+    },
+    {
+      "id": "ddragon:MissFortune",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/MissFortune.json",
+      "retrieved_at": "2026-11-22T12:23:10.294069+00:00",
+      "payload_sha256": "d24f6d1d7d445de8c6f1ae44c4773438b7cad28570f307fe0c4afeb112b20089",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:MonkeyKing",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/monkeyking/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283896+00:00",
+      "payload_sha256": "7907a6c058238099c5d97a04c6b293bf1b4c6a34d06acab769122a7fa435b009",
+      "short_biography_sha256": "2f59cecb57fcbb1f61dcc9e7272876a24b1726820fef43eb1b566a885d4d64be",
+      "full_biography_sha256": "bc61c6b90cd1a4eda9cfa9c2fc6228bf5da2c66ce3e2f0122d25475f0a336795",
+      "full_biography_word_count": 739
+    },
+    {
+      "id": "ddragon:MonkeyKing",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/MonkeyKing.json",
+      "retrieved_at": "2026-11-22T12:23:10.294247+00:00",
+      "payload_sha256": "3f7facd5b5fdcb72c6814debd557fc7db81cb381349a4701c355db1ed55bb45a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Mordekaiser",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/mordekaiser/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283986+00:00",
+      "payload_sha256": "d6090bf6802e7622c54687036bef68399098b32880de65ba4701670f0167d1f1",
+      "short_biography_sha256": "eb0777416d9dd2b963f705a49eed24683b91a2f80d6b793ed95bb1ffbb466617",
+      "full_biography_sha256": "5dc2d4da12e7809933d53862b942bafad3ce43e59c645e30ea21b04caebbfd31",
+      "full_biography_word_count": 743
+    },
+    {
+      "id": "ddragon:Mordekaiser",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Mordekaiser.json",
+      "retrieved_at": "2026-11-22T12:23:10.294199+00:00",
+      "payload_sha256": "ac099f024781f46991ebe880f6cac973bc69fa069feff1ab1b80c617dbab2ce7",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Morgana",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/morgana/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.283793+00:00",
+      "payload_sha256": "e007a9baacbba60b8dcf083f17c081e4a4ff1462403cfd192d6d53f3605f50e9",
+      "short_biography_sha256": "ecb7d3f451e448de604164aea90c42ef054e47b1ca91f00742ffa0f5c35dafd0",
+      "full_biography_sha256": "dc773940d4c8e5d8903381d8f8cd36dd6220489749db4d7c01b215ca6c31a286",
+      "full_biography_word_count": 789
+    },
+    {
+      "id": "ddragon:Morgana",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Morgana.json",
+      "retrieved_at": "2026-11-22T12:23:10.293966+00:00",
+      "payload_sha256": "646b55090fdf4c185f608758185dbfba6c8fe1d3eef983137efc2827c760d260",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Naafiri",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/naafiri/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.284708+00:00",
+      "payload_sha256": "7906e5bfdd38298952962146de7a7407c011a236de2ff352e03ad8f9d6cf04fb",
+      "short_biography_sha256": "5d29a3af69ec0e007dedc76c1eae4caf5064f6ae56545fc91ae18b81a56f74a2",
+      "full_biography_sha256": "042d797da41489e31ba0b9eea44b7201185fef16bc2269c2507228186e937a85",
+      "full_biography_word_count": 730
+    },
+    {
+      "id": "ddragon:Naafiri",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Naafiri.json",
+      "retrieved_at": "2026-11-22T12:23:10.294346+00:00",
+      "payload_sha256": "9d27fb6bd3cc5c04063f000aa89b575fdda3fbf96535b3af90f87f97f5d39c0a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nami",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nami/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.284782+00:00",
+      "payload_sha256": "257ccdb92cbd4a3c278de6e938266bf053cfe1b6560d16e43c4646176c0a71fb",
+      "short_biography_sha256": "d8579ac23d14167a7ad0d18eb48ec059c6211cf0affbf9f2b2d3ea7759969a5c",
+      "full_biography_sha256": "095c193ff6512fa59be69193a2371a3de91e119634d2a624dd6cacc8a361bd77",
+      "full_biography_word_count": 637
+    },
+    {
+      "id": "ddragon:Nami",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nami.json",
+      "retrieved_at": "2026-11-22T12:23:10.294357+00:00",
+      "payload_sha256": "f84d985a110770fcd3612b3ce3e6f8e148de5df5557660a85df8f3b94db449cb",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nasus",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nasus/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.284928+00:00",
+      "payload_sha256": "ba7b21f7a1eab95bbf05ba069860c4cf4a05f64a135cb641dcf5ea3b23042556",
+      "short_biography_sha256": "55021ab8b9e6a2d96b759fe1d0c07a82dc088e0f90651060f2693dab08751d78",
+      "full_biography_sha256": "08a2f5d7cc56d2d8bc1e72c53c4d4c62fc61a713540332643ce14540d55fa4fb",
+      "full_biography_word_count": 972
+    },
+    {
+      "id": "ddragon:Nasus",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nasus.json",
+      "retrieved_at": "2026-11-22T12:23:10.294366+00:00",
+      "payload_sha256": "3e218ac2da93d4f18f07008abe6e0ef0093dca9cbb54fe54726047e4f467239f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nautilus",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nautilus/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.285171+00:00",
+      "payload_sha256": "660d4486386fa3a8a49433a6063e513178c28d24c261b98c468eeab19b06365a",
+      "short_biography_sha256": "81cfb68cb63d382b635bb7ae11c0d3df69e81725821fea8a07514f6bc9dcf59d",
+      "full_biography_sha256": "e25597eb2a464e65623f75167b16e739227ab442d25136d66df38ef530897606",
+      "full_biography_word_count": 711
+    },
+    {
+      "id": "ddragon:Nautilus",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nautilus.json",
+      "retrieved_at": "2026-11-22T12:23:10.294375+00:00",
+      "payload_sha256": "79d80f3112f6579079eae8827885b73ea058af93de0b20b43f3e05dfbd8b3a08",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Neeko",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/neeko/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.285716+00:00",
+      "payload_sha256": "0cb890a286a851c4a0b1b8627e0d9517d9aad53a4800990d79df737cbc7ddebe",
+      "short_biography_sha256": "05dd3bf19feb1e90635a1e60382f76720363f3add4979b57a03f3b487552c563",
+      "full_biography_sha256": "aa691478c5bbe69c6922dd4cd79c8cfa8cb3931ac80c35f40f9fc7a475191a1c",
+      "full_biography_word_count": 736
+    },
+    {
+      "id": "ddragon:Neeko",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Neeko.json",
+      "retrieved_at": "2026-11-22T12:23:10.294394+00:00",
+      "payload_sha256": "74e1da1ab5c33dc52acd69b1757d7277306859d35ab623381634d7b8320798ea",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nidalee",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nidalee/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.285642+00:00",
+      "payload_sha256": "69a4f9aa33149def33a9b18f5bbd0fe280fe5ed6c6e581f289e6cb66e41f4791",
+      "short_biography_sha256": "6fc19e84ec62b5fd12b81353a325e3479ad6867451d4d49595359d5ed678cda7",
+      "full_biography_sha256": "945b2f7026f0b56c67b3850bdd98d4871ed5793b6aed072a20edb930903fbc79",
+      "full_biography_word_count": 704
+    },
+    {
+      "id": "ddragon:Nidalee",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nidalee.json",
+      "retrieved_at": "2026-11-22T12:23:10.294385+00:00",
+      "payload_sha256": "4ee70bcf0446a4ba631f9a424b1b816c597a37f9e838f865225969f6f36b43c5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nilah",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nilah/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.285791+00:00",
+      "payload_sha256": "b0b18688aa4341c4c72dd83834578018af71a13ab6d1e8156f3d36b74b139896",
+      "short_biography_sha256": "26766818bfac48d56413a0c9c92165cc5f2d6116e6f0145299c5daf70cabf6b5",
+      "full_biography_sha256": "d6bdc29887b209035f635144805e86405d05a9203dcf142c9bfcdb9c01569769",
+      "full_biography_word_count": 834
+    },
+    {
+      "id": "ddragon:Nilah",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nilah.json",
+      "retrieved_at": "2026-11-22T12:23:10.294415+00:00",
+      "payload_sha256": "d81ba6a6c314897a46e33495700539861b21e7d6cf80f42f7a38c6603cda6061",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nocturne",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nocturne/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.285877+00:00",
+      "payload_sha256": "2a4c3e2607b44f859164b05a33151ce23aeae997e9f9687eac4e7dab5462956e",
+      "short_biography_sha256": "d74adc86a3c4990a3f0b15f3b8d1ceffa8f974784970cf8d830c6046755c6f45",
+      "full_biography_sha256": "3b7c0ab62d180c749c8512010e2f5a2712e9bd8bc192c61bcedf8d78d5abc0ea",
+      "full_biography_word_count": 569
+    },
+    {
+      "id": "ddragon:Nocturne",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nocturne.json",
+      "retrieved_at": "2026-11-22T12:23:10.294423+00:00",
+      "payload_sha256": "61d3998b8c6e2ee727ff193f76c9f6ab263638a3ac8a6b326b54ee48ea3b389d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Nunu",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/nunu/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286565+00:00",
+      "payload_sha256": "b6d7adf500644d38513fad1b01c5ea87bd4e2a9f9235ca8a1955ac46af52e548",
+      "short_biography_sha256": "2d9395454403ea5d0c13b2fa19ecb11cabb62c3e9fca82150181a050f92a6eb9",
+      "full_biography_sha256": "a22f99357d4f47194751e1c161bbea40e2bb51ffeea72d3187f0c1c2edb40304",
+      "full_biography_word_count": 1006
+    },
+    {
+      "id": "ddragon:Nunu",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Nunu.json",
+      "retrieved_at": "2026-11-22T12:23:10.294443+00:00",
+      "payload_sha256": "b1ff08184cc7b30fa136a80d3ffa9eb037a626f0e05b40e2eb576d6343877663",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Olaf",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/olaf/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286442+00:00",
+      "payload_sha256": "d41cc36d68f59e738affc3fba6d11c9d5ba77d08cbcf9f7b7d77752dcbd8cdc1",
+      "short_biography_sha256": "15e443285cb253447c32a42b7c8cc992fba996929c865c30b6f31066864b8daf",
+      "full_biography_sha256": "8352b2dc4751fb21518cfd0e6acd6718a5ed3ef4ee8415d6db4dd9db0dd25f73",
+      "full_biography_word_count": 545
+    },
+    {
+      "id": "ddragon:Olaf",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Olaf.json",
+      "retrieved_at": "2026-11-22T12:23:10.294462+00:00",
+      "payload_sha256": "50aa419968d780a3a4cb68b34cbf32fee8602e6f34d4b8afda3cb5f6ad5c3a5f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Orianna",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/orianna/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286365+00:00",
+      "payload_sha256": "1e49da8045fa155d7ea103cff1f61f5399f9f4ea423254ea2ec347db6dfaf6f5",
+      "short_biography_sha256": "04402f48cf815634286e36684ccd71e5f3b86539d8ff62ef8b1911c64f61d41d",
+      "full_biography_sha256": "10ba401ca30cd76ee89ecf91b39515c4ce9d119de950b391a66914037bfaa6d6",
+      "full_biography_word_count": 792
+    },
+    {
+      "id": "ddragon:Orianna",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Orianna.json",
+      "retrieved_at": "2026-11-22T12:23:10.294433+00:00",
+      "payload_sha256": "78fa0c689295783e476bdfd462d8b0a7d7dfbcb7efafae36a1b0ebd841f06184",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ornn",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ornn/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286707+00:00",
+      "payload_sha256": "8816a51813af7b9a7d53096ff64c015f47b7ae5138ddb1a3bfd394d52a3bae27",
+      "short_biography_sha256": "e44a5484cda88564c2311b87d3084823bc2c85147151fc656548f71286d81777",
+      "full_biography_sha256": "945faa72d2295d99608d4b4744f42d5e7afe76388a7e259a65c55de53abfd21a",
+      "full_biography_word_count": 508
+    },
+    {
+      "id": "ddragon:Ornn",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ornn.json",
+      "retrieved_at": "2026-11-22T12:23:10.294453+00:00",
+      "payload_sha256": "1367b2ff4ee90aa9300cad2ae7135d489a5fda3706f86b3ba5c559c3586d1a40",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Pantheon",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/pantheon/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286869+00:00",
+      "payload_sha256": "32826e6dc22941881ed6764730a4e07f19a6b880a51a4a141a0afb342811fde4",
+      "short_biography_sha256": "56d01d992d9307ceae8f37431435553a1a018067c03bb1ef731c66e1b2541049",
+      "full_biography_sha256": "827f3195a13a6062fa40d4f6286572c6ac98cd698c27be8d4215fa0ba1ddef24",
+      "full_biography_word_count": 790
+    },
+    {
+      "id": "ddragon:Pantheon",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Pantheon.json",
+      "retrieved_at": "2026-11-22T12:23:10.294472+00:00",
+      "payload_sha256": "df8211006e85e8c687ee9fdd1c9aa493b9b3a0628747462772e47807a76a04c1",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Poppy",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/poppy/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286947+00:00",
+      "payload_sha256": "c1ce0683c617f3519be5862f57bf0943317829dec7c1c0b38075ebcd6685ceed",
+      "short_biography_sha256": "5f9b1f24d5c45f221bb4538a393fb5e5ed59e6b6d5699a5639cb9d578cca5596",
+      "full_biography_sha256": "ecc2e872b7c3e91034aeebf42bc6d7d01c588dce3966df04fe3d2a3889b90a36",
+      "full_biography_word_count": 898
+    },
+    {
+      "id": "ddragon:Poppy",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Poppy.json",
+      "retrieved_at": "2026-11-22T12:23:10.294481+00:00",
+      "payload_sha256": "0ea90d05fdfcb4a386163ab78d2a6a919beeccda025a7829a811d5735e86e857",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Pyke",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/pyke/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287102+00:00",
+      "payload_sha256": "c33af23612e428e9ad140ce5bcfa73294b4bac6e8cc8efb62e80b54c906f744b",
+      "short_biography_sha256": "a674b6f035a2eb8359e7d6a5ca6eed8e224a87e72a8c1226c9ad6809b0f3e1b0",
+      "full_biography_sha256": "60e2640b1a1d1d30e99b68181dc924fc94cd5db465c16013f023f31b4e7ced82",
+      "full_biography_word_count": 705
+    },
+    {
+      "id": "ddragon:Pyke",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Pyke.json",
+      "retrieved_at": "2026-11-22T12:23:10.294512+00:00",
+      "payload_sha256": "844b91aab8ec78c770a02adba67809892331de873547594f0a24c89509a806ae",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Qiyana",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/qiyana/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.286784+00:00",
+      "payload_sha256": "85f330a964f3a63a6b32c9d43f867224e3b78309b97abb24eb88308726fb894c",
+      "short_biography_sha256": "476f1bdfd7619b3dfd254d8430042d0293bc9276867cbe1d7464e63fda531094",
+      "full_biography_sha256": "cf43c48ebbf8b0966b961d7bd32c4c6425f47e314c8006ff6bd616e9ae70bd76",
+      "full_biography_word_count": 716
+    },
+    {
+      "id": "ddragon:Qiyana",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Qiyana.json",
+      "retrieved_at": "2026-11-22T12:23:10.294579+00:00",
+      "payload_sha256": "895c49dcbc50e558b2026fea9f9fc4fc960cf9f9d3018c167f90ecd03ae3d383",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Quinn",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/quinn/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287598+00:00",
+      "payload_sha256": "6b521d979e3e5b92ef51a1b948015320ac322c36869ff329f2c2baf7322ce2d5",
+      "short_biography_sha256": "a674fcdeba1189a6f774b6725fa20d992c21a7842d75b9937b4b3113b5fe6381",
+      "full_biography_sha256": "c2a3a415cbecbf296c87a2ddba7d934cd64741a9cbc5b55ce49c72a6b290ad9e",
+      "full_biography_word_count": 798
+    },
+    {
+      "id": "ddragon:Quinn",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Quinn.json",
+      "retrieved_at": "2026-11-22T12:23:10.294598+00:00",
+      "payload_sha256": "876dfafd976daa945809e8c41eebcbd387ec7583ae607e1a8017d28d5f633677",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Rakan",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/rakan/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287178+00:00",
+      "payload_sha256": "f33f7e30dce97840178c21b7474e4e35c55e3469916961ba8329a290096d3b0c",
+      "short_biography_sha256": "06bc8c651573f8ebfa7d7d7e58c73f675d04dac65652e404d83b21ac461c20d9",
+      "full_biography_sha256": "2a457a2e2bc5256198244fae61948fcae4299eaee2adb9a02a82d83ecb4ebb67",
+      "full_biography_word_count": 723
+    },
+    {
+      "id": "ddragon:Rakan",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Rakan.json",
+      "retrieved_at": "2026-11-22T12:23:10.294624+00:00",
+      "payload_sha256": "32f6c0b91c2bf07c2749d943e1e95dd11176c775e4c7e54281364a2c923ed84c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Rammus",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/rammus/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287548+00:00",
+      "payload_sha256": "f6da19a5e307e151bce2c6dbf1b55e04221c492961292393f643304bc3670b80",
+      "short_biography_sha256": "1b1fc1d03613bf0cea1effd951214e1f955c6d11b188fefd8924b5cf5858ad89",
+      "full_biography_sha256": "5634c8df56d39ff70b14308b1585a257c5cd812947a6b5c3a3515539885114af",
+      "full_biography_word_count": 855
+    },
+    {
+      "id": "ddragon:Rammus",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Rammus.json",
+      "retrieved_at": "2026-11-22T12:23:10.294607+00:00",
+      "payload_sha256": "e40cacfd6db00e11cfc031a59a0b94b945e9e8ac774bff1a01d5149e2dfd69cd",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:RekSai",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/reksai/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287448+00:00",
+      "payload_sha256": "3a00d71cde30471ecefe79643c46a673f5093a2f685f8ae8a428f19501c7bd4e",
+      "short_biography_sha256": "e7d2e6924d7dd65f23fd90838cf901629f9f460d4e0a7f93006a13363ea427a9",
+      "full_biography_sha256": "7d1b6afe577dc9447d6a6eb55856c1ebcf373bb763f4f766596f9f1c2db73c13",
+      "full_biography_word_count": 91
+    },
+    {
+      "id": "ddragon:RekSai",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/RekSai.json",
+      "retrieved_at": "2026-11-22T12:23:10.294615+00:00",
+      "payload_sha256": "5205d9c7792172c31cd934ade352eefb37e62c38143353af295c51a8202e63e4",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Rell",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/rell/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288253+00:00",
+      "payload_sha256": "37956b10e3933c85379d5eb2286140270b3172d59a1b50714adfa8280b1a07ab",
+      "short_biography_sha256": "7cf3e11b2a95efc0c661f7fcfd5a10e9282fd0dace680e3ab95e90f07141d40a",
+      "full_biography_sha256": "784d487689e7fbf0b76192202695163a4f69f0b00b59815988ca59348354e853",
+      "full_biography_word_count": 811
+    },
+    {
+      "id": "ddragon:Rell",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Rell.json",
+      "retrieved_at": "2026-11-22T12:23:10.294671+00:00",
+      "payload_sha256": "6481ff973137c3fb81bf497ec63d7289929c5b0c60d7df1f5372af05de3d6126",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Renata",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/renataglasc/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287996+00:00",
+      "payload_sha256": "b3bcdf29b4f706ab952e8eec635da98ec169d25f2fa89d4fe3b89de1cf532a70",
+      "short_biography_sha256": "cbd298a66d95741e450435e6db3f6608580c93c3bdcac08c80b470951cd00bb3",
+      "full_biography_sha256": "bdc9ac16de3a2880610ee977dfeca67b1353794c80f878f182b903cc51e4fdad",
+      "full_biography_word_count": 849
+    },
+    {
+      "id": "ddragon:Renata",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Renata.json",
+      "retrieved_at": "2026-11-22T12:23:10.294654+00:00",
+      "payload_sha256": "da5518c19c5004401b3e0ab7fd6e41931479bf3c483b224f776aecd8b00a4838",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Renekton",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/renekton/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288121+00:00",
+      "payload_sha256": "056e0b082cbac88b47993e7958dc9a53b3fd10af60274de4c95b8525f4a7ac71",
+      "short_biography_sha256": "fa93a04a67a37fa008c91c11c19be557c3a63eb3f9e2c9243e4c884d3695999f",
+      "full_biography_sha256": "bbecba38e9c71fec3ab7583b856bb238e5283d3b0c6f5e4a74402fa27bf06119",
+      "full_biography_word_count": 990
+    },
+    {
+      "id": "ddragon:Renekton",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Renekton.json",
+      "retrieved_at": "2026-11-22T12:23:10.294644+00:00",
+      "payload_sha256": "57fb23f7c727b4a662f1861edb5d524c9e156f8a4bb6e42e18aa74518c896f5d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Rengar",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/rengar/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.287871+00:00",
+      "payload_sha256": "54be25fab8a1cb4e6e1f1de23f53841aedc79aaf20438fe9fbd0826221b29db3",
+      "short_biography_sha256": "7f0d03160b1a8d80f55019c1f46b4c6f1653a915ed41536ccd6dcad71a69dffd",
+      "full_biography_sha256": "84ce31b1ef758f44f3c39a1f0922fa73e5e9ea0e1429da201dae7cdcc722867b",
+      "full_biography_word_count": 589
+    },
+    {
+      "id": "ddragon:Rengar",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Rengar.json",
+      "retrieved_at": "2026-11-22T12:23:10.294662+00:00",
+      "payload_sha256": "ab1e0b41520df92cb36baba8cb0cf0235bd9d2c76e08d9e796b153d984d4d7f5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Riven",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/riven/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288301+00:00",
+      "payload_sha256": "c706e659dcb498781d499f9ecd71957002f9bebb4d80809e82712544ebd46230",
+      "short_biography_sha256": "f53b69d4e23ec61f2c3987e819fadc20e2731a23f8d0c4caa5b374a27a03ef20",
+      "full_biography_sha256": "cadb01062b66aec132c84d4b16482a022398a54554103b1b814861327827c4fe",
+      "full_biography_word_count": 729
+    },
+    {
+      "id": "ddragon:Riven",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Riven.json",
+      "retrieved_at": "2026-11-22T12:23:10.294681+00:00",
+      "payload_sha256": "9122830c9fb1e3750d1d63ee611a536e2c7f18d81e2830f0f7b27f9af532712b",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Rumble",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/rumble/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288275+00:00",
+      "payload_sha256": "87356f78518c093981ac1e69f64a2c3eddf9d531de2efbf51ad63d2268c2b8ef",
+      "short_biography_sha256": "ef14e1f9d457a5e89c13ff3abc267bbd8934a5357958562bd827c60483f86081",
+      "full_biography_sha256": "979f6238dc515fb0f737143063560ca923860e0dcf0dcbfe69a9337ea7920e39",
+      "full_biography_word_count": 284
+    },
+    {
+      "id": "ddragon:Rumble",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Rumble.json",
+      "retrieved_at": "2026-11-22T12:23:10.294773+00:00",
+      "payload_sha256": "c5dce7e5ee081d9f57877a156abc8d605a40e04c1303da6a72965ee885bb65f6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ryze",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ryze/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288366+00:00",
+      "payload_sha256": "73e0be35430a1a3f9a4eb41aed28ddde3a18bea92d894f0f290d0ea1828a2196",
+      "short_biography_sha256": "9f015272d5fabcebab6cb8b9c884ed8f48fb3272ff373803c0498ab9c8aace00",
+      "full_biography_sha256": "677d218ff12141a9b014f80067899031d946ead4db41a05f54e53260f082e766",
+      "full_biography_word_count": 821
+    },
+    {
+      "id": "ddragon:Ryze",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ryze.json",
+      "retrieved_at": "2026-11-22T12:23:10.294690+00:00",
+      "payload_sha256": "53c2639e9b62fe37d273303b838192f5609ccd4e00c2334c1b4ccf454d61582a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Samira",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/samira/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288288+00:00",
+      "payload_sha256": "d1f56824ccda87ab52e9a2fa6ddc062749bbed0fbf9e02654a918f5d028cd7a5",
+      "short_biography_sha256": "be4028486475bc0b19dc08293c595fa5cae27da46b537102adabed442370df33",
+      "full_biography_sha256": "3f5ab8be86683d9502856bc7c1101b31955e18baf200234912f25218ab60e689",
+      "full_biography_word_count": 729
+    },
+    {
+      "id": "ddragon:Samira",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Samira.json",
+      "retrieved_at": "2026-11-22T12:23:10.294868+00:00",
+      "payload_sha256": "0a7edb5c7d8d4afd92d5ef61c9f4af5d54b3b0430632f2552562a740a7627bdd",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Sejuani",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/sejuani/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288592+00:00",
+      "payload_sha256": "edb5bca60d59e01df26d9cd9ae0dea5b7d06253e6e7e70c686116cd8b3214d4f",
+      "short_biography_sha256": "b8a6d1e0e9a16448a938065320062da7237ee8e9699d1e5532423b322c1acd99",
+      "full_biography_sha256": "be041c500f1ee1d9b1229fd742438749c85af52d5f78be0186b113f733864d1a",
+      "full_biography_word_count": 609
+    },
+    {
+      "id": "ddragon:Sejuani",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Sejuani.json",
+      "retrieved_at": "2026-11-22T12:23:10.294877+00:00",
+      "payload_sha256": "a241974125423fd2c5ee0d6d4d778093de5aafce89cb67caa308ce9021376b5c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Senna",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/senna/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288532+00:00",
+      "payload_sha256": "74242ea82395c54b37c2fc7eca6e740c566b2f2e9a8fb8bf1e91a7740f8be172",
+      "short_biography_sha256": "2854bb850f122183514c7590062ee928ef31066f8e7ebc48f5e5ba27b2401cdf",
+      "full_biography_sha256": "de3cfc58c589c9fac5e53669a40fff85873e9d31982fc8e153bc3f39819e0b98",
+      "full_biography_word_count": 862
+    },
+    {
+      "id": "ddragon:Senna",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Senna.json",
+      "retrieved_at": "2026-11-22T12:23:10.294907+00:00",
+      "payload_sha256": "67a1ef6a51b5d36a5150844f0e16c935e38873399b67de3066e97c89f47de94a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Seraphine",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/seraphine/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288460+00:00",
+      "payload_sha256": "cb544520f1349c435e9d0a9fb2eda2549f3c11d6615bf46c8c4fcf297554c2d5",
+      "short_biography_sha256": "3d4439510067bc87d7c5a2c9d84cc3ec4e3ff01d091e5c0ef9bf5ea96803ff4e",
+      "full_biography_sha256": "7d51e244c0903635454b08cadc6b8fb0de30f984b56881eeaf4c251ba595db98",
+      "full_biography_word_count": 747
+    },
+    {
+      "id": "ddragon:Seraphine",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Seraphine.json",
+      "retrieved_at": "2026-11-22T12:23:10.294897+00:00",
+      "payload_sha256": "4cd2648e14e3a37f67cffa6f0494a1443409c80c0ee4dc567888640645dd7104",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Sett",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/sett/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288582+00:00",
+      "payload_sha256": "3182d1cba164b6d6c9fbc6ebde94b996d6fb2cbaebd1b1225b079e12f467a01d",
+      "short_biography_sha256": "000e25667c340f2c4c038bd92c56e5ebe767ec6311b21cc132609ec7af2eb5d0",
+      "full_biography_sha256": "fedeff4f0cb25d13fb13ae5b276826e2a5475dc336301972266f8a8923274111",
+      "full_biography_word_count": 723
+    },
+    {
+      "id": "ddragon:Sett",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Sett.json",
+      "retrieved_at": "2026-11-22T12:23:10.294887+00:00",
+      "payload_sha256": "3637ce9fb71e0007d0863423a0beff8110fc322e9db090dd0a3d1969c3ec5f6c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Shaco",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/shaco/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288801+00:00",
+      "payload_sha256": "1b77fc2291e96a12f6a6b346d6efcdbaaa330350b45afdcbd74d5213ad999c35",
+      "short_biography_sha256": "4829bbc8c610d214fdd7b4a91609399f25779ba98b67b20f925bb17a89b02ba7",
+      "full_biography_sha256": "4c7324f8fc4301859ff9c00097399c54ae1986a300aa54a95af3c116c4c1c6b9",
+      "full_biography_word_count": 201
+    },
+    {
+      "id": "ddragon:Shaco",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Shaco.json",
+      "retrieved_at": "2026-11-22T12:23:10.294966+00:00",
+      "payload_sha256": "43882643a8043197d111036eb8d3698fcd477ec8ecf1f781ee7f08ac9da067de",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Shen",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/shen/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288648+00:00",
+      "payload_sha256": "9382c9393999cdfbf77dbcefae399f4f3984d781c6eb8715fae6fdebd79990ef",
+      "short_biography_sha256": "a257dc2b095a6e0af20f1fb663a80b91bd4c1b3f53eb476eb34f660a3282f2ac",
+      "full_biography_sha256": "7088453bd2ee9807e22751f94bd6a5b14a80d5126167d347f7774af692ec5e4e",
+      "full_biography_word_count": 676
+    },
+    {
+      "id": "ddragon:Shen",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Shen.json",
+      "retrieved_at": "2026-11-22T12:23:10.295008+00:00",
+      "payload_sha256": "af08825d527697ac44f1b1f5e3e9fb99c1e2f38f0ce53fbe850708a3f4a7f0d5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Shyvana",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/shyvana/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288848+00:00",
+      "payload_sha256": "74e7c2e6c6710edc27dc13f9bb7b74df1f6c7841092b420deed170af46029a85",
+      "short_biography_sha256": "3d7de5bcbd4f6209c7d7e4f4060b6e4299936dc63a2a27d5a590dbd1be521541",
+      "full_biography_sha256": "06854e0a2544998ce23137587a1e94cdb33ff48064366aba6a8e7efe0be08f54",
+      "full_biography_word_count": 833
+    },
+    {
+      "id": "ddragon:Shyvana",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Shyvana.json",
+      "retrieved_at": "2026-11-22T12:23:10.294958+00:00",
+      "payload_sha256": "1ea35e460baa321c5363c777a576799bb936baaac746d89441554301c3586416",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Singed",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/singed/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288664+00:00",
+      "payload_sha256": "4737d2d892756b55801b3a8d8d1ea9acc6ff10993c9aa14486453b7d30258db7",
+      "short_biography_sha256": "7e0dcb702b950aab618a421a219e94dbd819fb00e82222b0a49805502d35b7ba",
+      "full_biography_sha256": "c1ce95b2a2e8ae37fee9c43f8bb1b6deaab86258db4fdbfc6b221cb85c801414",
+      "full_biography_word_count": 678
+    },
+    {
+      "id": "ddragon:Singed",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Singed.json",
+      "retrieved_at": "2026-11-22T12:23:10.294949+00:00",
+      "payload_sha256": "7424a94c2ed46746eb2f5cdebe82b6c9fdf90e10eca856f56fee5858a4bdd8d6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Sion",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/sion/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288926+00:00",
+      "payload_sha256": "85a758760517127933c19653b30ac5908a74a62977535abebd8c310dd7ba32f1",
+      "short_biography_sha256": "706f0ce6d66108935fe9ee08e854d07c349a522c4551aec07207022e5ae3838f",
+      "full_biography_sha256": "4d08f481b6e173c89ccfdb7401f16007687c83d9cd2638d17d831b71a18d9160",
+      "full_biography_word_count": 838
+    },
+    {
+      "id": "ddragon:Sion",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Sion.json",
+      "retrieved_at": "2026-11-22T12:23:10.295046+00:00",
+      "payload_sha256": "e2218ee7d9901b83e53c0eea912a0cce07d42376bc56dcc75882ec1cb057c073",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Sivir",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/sivir/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288963+00:00",
+      "payload_sha256": "812ca11e61db18cb12bc3500ef11e15c6a2434c0ca599577f45faf2e7eafd4c8",
+      "short_biography_sha256": "d56202bf07e7ae6ebdf79ce2a2b91887d12400718353f14831cf0a0b9dec5ace",
+      "full_biography_sha256": "518594a14b3e04a55a8b68396323306c362b60ec550c8760c18f2b4fb56bbf5a",
+      "full_biography_word_count": 838
+    },
+    {
+      "id": "ddragon:Sivir",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Sivir.json",
+      "retrieved_at": "2026-11-22T12:23:10.295027+00:00",
+      "payload_sha256": "9910b9c4db85096d9b7f901298f33120c81d7edfb28112c53a450f6e318d64ab",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Skarner",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/skarner/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289024+00:00",
+      "payload_sha256": "64efa24aded327eeb6745ca39c2cd1749ea674956a14e99dc44f4685b4a95565",
+      "short_biography_sha256": "bca2b3a8a9e2a5bc2a8aabb19886f403ea4f01e263be39342e504f423a75cceb",
+      "full_biography_sha256": "5c2a401804366f27fdff41fe70413146d01cb2499fd68e50e89032cb68cd92ac",
+      "full_biography_word_count": 816
+    },
+    {
+      "id": "ddragon:Skarner",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Skarner.json",
+      "retrieved_at": "2026-11-22T12:23:10.295056+00:00",
+      "payload_sha256": "660a6904cb4e5778cefac29736c5069b302b0d2a65be0dc968e4c3f6d32d7ce7",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Smolder",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/smolder/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.288951+00:00",
+      "payload_sha256": "039a681100c5752198b18bfaabb524d8ae8cf2ff183d227ffb2ee42646e6efcd",
+      "short_biography_sha256": "23776821bc49dae10b51f4319c7f3173d37c3618e87b09426f83e81eb4a0b94f",
+      "full_biography_sha256": "e8619811b3882c240b3d7df9bceed0c1c995a3d56cb9e3b3ab6105643d8db5e2",
+      "full_biography_word_count": 646
+    },
+    {
+      "id": "ddragon:Smolder",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Smolder.json",
+      "retrieved_at": "2026-11-22T12:23:10.295064+00:00",
+      "payload_sha256": "169d084a060e7a34cf748aedea762d5cecc1b52376d646f06d8d2de9bb4da498",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Sona",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/sona/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289036+00:00",
+      "payload_sha256": "ced67312d5e49ca2efee0d60adc84bc499aa370f1809f60f56832b6bbdab99b7",
+      "short_biography_sha256": "58acf6cd082288acf8899496dce5b969464febba429d1ea770b3aa3f463d4b6b",
+      "full_biography_sha256": "5b45f791cf0c3662b29ab21ebdb1b57f4b4e3403f15d61d76426ba5bee14fcf0",
+      "full_biography_word_count": 733
+    },
+    {
+      "id": "ddragon:Sona",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Sona.json",
+      "retrieved_at": "2026-11-22T12:23:10.295104+00:00",
+      "payload_sha256": "b0d1e0dfc8f5d359e4df35b6ceec5f92bcf348eafdf9eafc49ca7c33d2494eb0",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Soraka",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/soraka/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289182+00:00",
+      "payload_sha256": "110868db7262689812ca341ea60a02e454c661cdad7a62ecea16c94a04c990ab",
+      "short_biography_sha256": "3c68b7686da0f0ba5bc1d4fcf4ff3fe539d742503b9b93b4d0e0c7ad6113e616",
+      "full_biography_sha256": "c211cb4bdbc8168eb19a35b3d693e252bfa442488f1718cf6c0c1852621f2dbe",
+      "full_biography_word_count": 659
+    },
+    {
+      "id": "ddragon:Soraka",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Soraka.json",
+      "retrieved_at": "2026-11-22T12:23:10.295152+00:00",
+      "payload_sha256": "e53bfd4f8821031c2e397662d031880ab36d3629e32d3f5e39a49651916a14b5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Swain",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/swain/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289079+00:00",
+      "payload_sha256": "4054766be823444d2bc024f2392b8f9011f2970e470a6ab2265d0af5f2efd2e2",
+      "short_biography_sha256": "6382b42a35d9f004609942b2dba18ece45cf784e00764dcb2d628bd11a3da6e3",
+      "full_biography_sha256": "f62d2a90ad8257eea6902a9052b58e0ac6248c1bf23135fa5142b7ca9cef8807",
+      "full_biography_word_count": 685
+    },
+    {
+      "id": "ddragon:Swain",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Swain.json",
+      "retrieved_at": "2026-11-22T12:23:10.295074+00:00",
+      "payload_sha256": "27e945ea59065b1ece58c3b41fefcc6b6d3313c5e6e19ccb236306358381243e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Sylas",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/sylas/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289135+00:00",
+      "payload_sha256": "4e8d69e159e2d7142c7c1b3bfb6027937d686913ee3142b22a5686fa9e28caab",
+      "short_biography_sha256": "e8ee00afe1ea2a7bec6d133ff835ea468a6f0840ce52eed21aec10c4110b796f",
+      "full_biography_sha256": "0e2317a232842dcb35fedf292ebea3370416191d6f33f149499187ca7cdf05eb",
+      "full_biography_word_count": 746
+    },
+    {
+      "id": "ddragon:Sylas",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Sylas.json",
+      "retrieved_at": "2026-11-22T12:23:10.295095+00:00",
+      "payload_sha256": "201ce7bdb4bc63e8936634f080267cfcf2cba05126c573e4dd1fec7b0d40f6d6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Syndra",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/syndra/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289244+00:00",
+      "payload_sha256": "f74a96c7f99491d7b3ed1fcd451eb7154983a0e62e0b39b375d58a0deff76125",
+      "short_biography_sha256": "274ebd0896c63103353694135c1d7cc71cb41309c76310a3a93ae34ce9c52e24",
+      "full_biography_sha256": "14b2532cf04e5b03b3042a5247b59b598a568e8a8a19660d17735ece379e1529",
+      "full_biography_word_count": 727
+    },
+    {
+      "id": "ddragon:Syndra",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Syndra.json",
+      "retrieved_at": "2026-11-22T12:23:10.295163+00:00",
+      "payload_sha256": "e753a7a7336dfcbd90d48964d01618628ef005200ded92d2dcc9afbec92fae85",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:TahmKench",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/tahmkench/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289268+00:00",
+      "payload_sha256": "83aaf867b8346211962c6f40183872926391af9742a836fefa782a6aeb97044a",
+      "short_biography_sha256": "d3372b7a481b71755f4ad46b4b8e491c119d8143b7d62a8eae4a3341a4b659e7",
+      "full_biography_sha256": "bf2580449e7af3c767380bd0fd12e2ae9b3573a3339adcc03e00c0d8b6750c46",
+      "full_biography_word_count": 682
+    },
+    {
+      "id": "ddragon:TahmKench",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/TahmKench.json",
+      "retrieved_at": "2026-11-22T12:23:10.295232+00:00",
+      "payload_sha256": "af83f48b265f0960444f7eb29d78726786ee35bc16ab7d666a26a0c80ce5ba8a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Taliyah",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/taliyah/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289339+00:00",
+      "payload_sha256": "900d25dcfbad7fdd5bae040d3e1b13b73c730a4afb8ea16dff84366f0d8010ab",
+      "short_biography_sha256": "97ca48dbe4c594ba98a703235e738954b6fb3ab393ea4fd3d39a6a74a3b12638",
+      "full_biography_sha256": "e833bcb8665538f381a91c8cc0a06b43a87bbdf0be3d63f41847528b7aafb0e3",
+      "full_biography_word_count": 1677
+    },
+    {
+      "id": "ddragon:Taliyah",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Taliyah.json",
+      "retrieved_at": "2026-11-22T12:23:10.295213+00:00",
+      "payload_sha256": "1a05c855ce708078c0cdc99c3ca2f28d46681556c37187e5966f3ce5cd95156c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Talon",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/talon/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289317+00:00",
+      "payload_sha256": "105a74b076ae096e2ef7a3ce91bf53e3073c932940e20dfd65e7832b88ebc6c1",
+      "short_biography_sha256": "4579a76dfacf1b3f2599b6085bd04bc04ee477399f378071839179ad8dcc402c",
+      "full_biography_sha256": "eefa24642c0c61193065e4f9fd3e69b5bac686245e886c840a3106e9a1b755b2",
+      "full_biography_word_count": 274
+    },
+    {
+      "id": "ddragon:Talon",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Talon.json",
+      "retrieved_at": "2026-11-22T12:23:10.295222+00:00",
+      "payload_sha256": "5fce780821d1e3ae622444b63d2c9c5d3e9b823005ed42c734b433898e32aac9",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Taric",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/taric/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289570+00:00",
+      "payload_sha256": "b12defdc39de40923cf0827c0210616e0cb66e0656dbe207990906c97d42bdbe",
+      "short_biography_sha256": "b3fc178cb06798834f195d64e6e728a9b02a58d2432663d4856e56bf7a6c323c",
+      "full_biography_sha256": "750a01b2dc67698a9c314df09d82519827862c3f4e22c435ee6305aa34dea068",
+      "full_biography_word_count": 771
+    },
+    {
+      "id": "ddragon:Taric",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Taric.json",
+      "retrieved_at": "2026-11-22T12:23:10.295303+00:00",
+      "payload_sha256": "c015b23d9c15bb900a19444f09fac44f8138f98c693ced7a490f376e116208d4",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Teemo",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/teemo/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289559+00:00",
+      "payload_sha256": "a02cc8a93adc4c149fe3474b465c0ed2aa117b41b40b877cb9b7ee570086a4b7",
+      "short_biography_sha256": "7939e26aa0ba021f9bfbf720a580a22c5fad484d52c426c2888fb9d3d900dafb",
+      "full_biography_sha256": "bd370a4713b54584afc361806a066f01f70a46fb50aefd5001d44bf73b946a6b",
+      "full_biography_word_count": 585
+    },
+    {
+      "id": "ddragon:Teemo",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Teemo.json",
+      "retrieved_at": "2026-11-22T12:23:10.295242+00:00",
+      "payload_sha256": "a392712d24521f9fab09d11229ec96948d1fba6bf1d7bf261ef6bcaf176f8498",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Thresh",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/thresh/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289433+00:00",
+      "payload_sha256": "b3aaecc779659674b7b4688728b87e63b39c4105d353cf9bbbd480212a301eff",
+      "short_biography_sha256": "7085106030c3afdfd505bca72e2e1630b60b5f3ee931fbdf56abcdbd5f2af5f4",
+      "full_biography_sha256": "a40c1bd2ed9d2312b515b155a17752bfe2b8011311a699c1cc600fd86a8b833d",
+      "full_biography_word_count": 770
+    },
+    {
+      "id": "ddragon:Thresh",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Thresh.json",
+      "retrieved_at": "2026-11-22T12:23:10.295251+00:00",
+      "payload_sha256": "ffb2c4be340d7248b4be0d2c9a254f4a7aaf46fd78ec084d890474cc3b344144",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Tristana",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/tristana/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289452+00:00",
+      "payload_sha256": "4a34412291442d05b5d80063ba529432c62ea17ec09425a1cb204f9a62aba297",
+      "short_biography_sha256": "02e53d3eccf5e2c814c2aa7724887406a995da86f11669adce56416a42bff967",
+      "full_biography_sha256": "24b679d3618eef08de4b90f8dc47abf4d43996825954d80f8e2e207208dccac8",
+      "full_biography_word_count": 623
+    },
+    {
+      "id": "ddragon:Tristana",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Tristana.json",
+      "retrieved_at": "2026-11-22T12:23:10.295260+00:00",
+      "payload_sha256": "0409b7917b408f92bb7b7eefb94a17c831bb6b86c419997c6751120209260962",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Trundle",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/trundle/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289690+00:00",
+      "payload_sha256": "b0706200e7699216999b5b8a1c930b2d3ce6c903ba097a4400de48408ca5db0d",
+      "short_biography_sha256": "89ef14ad62a319e98a48cc71f3da0c5aa94cb6601e66350a1c3ebad3c5de2ddb",
+      "full_biography_sha256": "c500b688515d6e9c69201d276617e121157d7686f95d4daab1bd07c6d080b040",
+      "full_biography_word_count": 693
+    },
+    {
+      "id": "ddragon:Trundle",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Trundle.json",
+      "retrieved_at": "2026-11-22T12:23:10.295391+00:00",
+      "payload_sha256": "b9bf094a696fdd415f5dc19083858617ffe0e65c436c855595c175b9a268a779",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Tryndamere",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/tryndamere/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289865+00:00",
+      "payload_sha256": "f8f0163a8f489f3b25b626e8656bd2a346640d5d2e070f87acce00b755032cb3",
+      "short_biography_sha256": "12faa4207222a825f65ff5a614079b8f2b850e03145bcec33e6d147d8e8f5618",
+      "full_biography_sha256": "5630b51ca8b37cb80135f9c9a295704041751855aea7b89ad70aaac099bee829",
+      "full_biography_word_count": 735
+    },
+    {
+      "id": "ddragon:Tryndamere",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Tryndamere.json",
+      "retrieved_at": "2026-11-22T12:23:10.295321+00:00",
+      "payload_sha256": "b70141b8be0440610c6c058bd8f16733be76acd61ec1e9c8b31545a6e92cb7e5",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:TwistedFate",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/twistedfate/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289755+00:00",
+      "payload_sha256": "587a5e736fc2a78f0dfac7b9d4324ad2ae66984f03079d21974ce165bae08a75",
+      "short_biography_sha256": "6b016e37486d572558d701721d917a07d9ce6cf0861dc0f6aa0aaae00dc83a29",
+      "full_biography_sha256": "c25452f44100b26331ab9608f2adcb9060d2b4b13cc72e682bc086e9dfea0b58",
+      "full_biography_word_count": 746
+    },
+    {
+      "id": "ddragon:TwistedFate",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/TwistedFate.json",
+      "retrieved_at": "2026-11-22T12:23:10.295312+00:00",
+      "payload_sha256": "d44bb4e4a39b162f151409029dc202ad242dc3e94c1f347b379c6cce48349b90",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Twitch",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/twitch/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289845+00:00",
+      "payload_sha256": "45cabf25995d1eb955f781ccf55b60eb6779351d275f7cd35b1f873ff28c6068",
+      "short_biography_sha256": "1d9bc512b9bd69020484867bf63efcbcd7dff0e516c0d0954d1e8c4f05762479",
+      "full_biography_sha256": "c401b38902e8c363effd303905bbfb7fd09b3802302fe2faa76a84474ab8b2d8",
+      "full_biography_word_count": 66
+    },
+    {
+      "id": "ddragon:Twitch",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Twitch.json",
+      "retrieved_at": "2026-11-22T12:23:10.295338+00:00",
+      "payload_sha256": "59516dd49c5c8143ab9adcd8c9ed4d3cc5f0bc6d6393f18bd59e6a5409e40604",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Udyr",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/udyr/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289991+00:00",
+      "payload_sha256": "60fe84af17be328f46dcc55d3c297b48c519efbafffc7e9899871f0baafadf06",
+      "short_biography_sha256": "e3cdc036054e1812ce1c7eebd3a6826fafc9547ee0fe637161d1a00687903060",
+      "full_biography_sha256": "98233d267ef08b20147a9d0dbcd7a5c2316f7d2fcfe8c7567d783ca47cf16dc1",
+      "full_biography_word_count": 1290
+    },
+    {
+      "id": "ddragon:Udyr",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Udyr.json",
+      "retrieved_at": "2026-11-22T12:23:10.295465+00:00",
+      "payload_sha256": "af98222958cc03f01a28b054067f05246e086a123eb3d971efca3c39c3806ead",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Urgot",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/urgot/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289911+00:00",
+      "payload_sha256": "3130f8309fdbf214dd3275336101653f553eac070f756d95185b8de6df414457",
+      "short_biography_sha256": "2be816748e81f84ea3096a5cdb47f204b349ec3d393a131ec1b56c8460337b5d",
+      "full_biography_sha256": "076752bc75bb533afaf8bd275665e618f345ff33340f8efaa83646ccc637a9f3",
+      "full_biography_word_count": 705
+    },
+    {
+      "id": "ddragon:Urgot",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Urgot.json",
+      "retrieved_at": "2026-11-22T12:23:10.295551+00:00",
+      "payload_sha256": "40922cc62f7f8238b51e59bba6a43add0e2a17ff30033de4e388f999dbe018a3",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Varus",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/varus/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289968+00:00",
+      "payload_sha256": "121b7802cbd971067b04aa7882ca1b90817bd407245c47bfebdfd7f1f94b2014",
+      "short_biography_sha256": "b22c131dd5810fbf5e4214dbdea319a392fec9f4de3fe305a1aff3116faa2df9",
+      "full_biography_sha256": "56226094003c51e570d401c0318808e3c92757fb1025272b759ff5a0e73157e1",
+      "full_biography_word_count": 684
+    },
+    {
+      "id": "ddragon:Varus",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Varus.json",
+      "retrieved_at": "2026-11-22T12:23:10.295474+00:00",
+      "payload_sha256": "a571754af9906fc91027e75570ce4b84fe524f5f8e96998ca1bbe4b7a6b92e33",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Vayne",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/vayne/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.289897+00:00",
+      "payload_sha256": "04237245820b47d12e6e461388782ae0d6e1445d6174a942123e5614956f9858",
+      "short_biography_sha256": "80b3c544ab64a6892612be001a489a781a43d55cc4cb0827e80ce6b4808c0b81",
+      "full_biography_sha256": "4f64ccb03f8eae5986f9cbe1b98d565760a1a395c0657d6f2b9622b6d3a22e33",
+      "full_biography_word_count": 1384
+    },
+    {
+      "id": "ddragon:Vayne",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Vayne.json",
+      "retrieved_at": "2026-11-22T12:23:10.295560+00:00",
+      "payload_sha256": "f3c9f27578e38124b1d9e1b7545cd74cf215eb32e7ca400d48a8578c6c9e734d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Veigar",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/veigar/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290093+00:00",
+      "payload_sha256": "8bfc93ab1a7206b64c9f1de0b20a879feead8e676df5c20ae0130098bd7d3525",
+      "short_biography_sha256": "5c38b1fa7df7f1147ca3f8f0c0a98a58c03b50ebd31729bba1f47e3aaf64b575",
+      "full_biography_sha256": "f47675f96647e89c388dc0f54b832da9fc4d0963d8d3ab44094a10d532cadf5b",
+      "full_biography_word_count": 745
+    },
+    {
+      "id": "ddragon:Veigar",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Veigar.json",
+      "retrieved_at": "2026-11-22T12:23:10.295570+00:00",
+      "payload_sha256": "6d993bca7e6d051b6051c7b96627bd45ea95b0307d826d7fa18f1de6b3176e9e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Velkoz",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/velkoz/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290005+00:00",
+      "payload_sha256": "91674e404a369ec3e3b019ad3d130c09906d2333188ed1c3aa8790ab1bb5f2b1",
+      "short_biography_sha256": "e9b8ab187eaeb3a26ac1fe04fdfa213c19eacbbdc7dc367e542896369a2d6ccb",
+      "full_biography_sha256": "b1cd6921aa4ecd8ac5b0ec9159ab817b8b2e2d60a26ac7e8b9e464f3f9c65d01",
+      "full_biography_word_count": 587
+    },
+    {
+      "id": "ddragon:Velkoz",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Velkoz.json",
+      "retrieved_at": "2026-11-22T12:23:10.295580+00:00",
+      "payload_sha256": "b8a3bdadb3cd6a24721095d3e864ff0f7a0bd90a4062bd7f1e219c7edb286c36",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Vex",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/vex/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290147+00:00",
+      "payload_sha256": "48918171ce09509afea2ac54cfbeb964e6271345afbd66a7d42778055afae14c",
+      "short_biography_sha256": "80fd4506e7d59a763fb229168d80dc44edd661f002961c8b282b5d4c4aad1cd6",
+      "full_biography_sha256": "ccc0554ce2e7cab0a9a8ee120e511094d7784c4e7d992f08b5a35d200758c042",
+      "full_biography_word_count": 647
+    },
+    {
+      "id": "ddragon:Vex",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Vex.json",
+      "retrieved_at": "2026-11-22T12:23:10.295589+00:00",
+      "payload_sha256": "e6a15bc113d58ffcf5557d30a48a13a3bc0988f6da8c6b1d13cf90dd0a783fcb",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Vi",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/vi/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290041+00:00",
+      "payload_sha256": "7483602d2400eead13f9378f689b5bc081781a10f973996f01d1915df58e0c65",
+      "short_biography_sha256": "ea978b6dd0f1f3b1ecff22eab2849e09bed248b81004c7321a0bd11ccd81de95",
+      "full_biography_sha256": "bcfaa6bad372accda61224702500a6b02d1a12ea2c8edab64fbda8c6bac94d78",
+      "full_biography_word_count": 680
+    },
+    {
+      "id": "ddragon:Vi",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Vi.json",
+      "retrieved_at": "2026-11-22T12:23:10.295598+00:00",
+      "payload_sha256": "ad872c020a4aad155c624691f886d3132a136f1982f9c6a9eab5be469a3ec33a",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Viego",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/viego/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290208+00:00",
+      "payload_sha256": "af06fda8ca0b8111214b64131d42c8646b6c910c6339f6fcd90c8e04ed665af4",
+      "short_biography_sha256": "371785330408772f6f8e40806321e4f0873f76ba713fb1fac9b7475d8765cc74",
+      "full_biography_sha256": "9e111053f3e01772ccc3ea22250fda519dc5658c6575f84ddc9b85785ee82284",
+      "full_biography_word_count": 694
+    },
+    {
+      "id": "ddragon:Viego",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Viego.json",
+      "retrieved_at": "2026-11-22T12:23:10.295612+00:00",
+      "payload_sha256": "3e593d37092afafacfa853757eb17a87740feea759dcd577880b9d73fdfc55e6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Viktor",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/viktor/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290278+00:00",
+      "payload_sha256": "8909c8d4e75fd1d579be60dd6bb4a554cb47cee0a5b4aa7bf7c1172c6c427d34",
+      "short_biography_sha256": "79ab45efefab6ace5a7d844b940d8de6827f59090932b22870c75f631a59711f",
+      "full_biography_sha256": "c2fb249b3c5ab54cef5f713de2d9523a0f5e5c2caf2568bbacbedb87fadda245",
+      "full_biography_word_count": 944
+    },
+    {
+      "id": "ddragon:Viktor",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Viktor.json",
+      "retrieved_at": "2026-11-22T12:23:10.295659+00:00",
+      "payload_sha256": "7358ba12a85300f12538d1761d244f5a6a4a1b07afa4814ede4991474668b6e6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Vladimir",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/vladimir/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290233+00:00",
+      "payload_sha256": "9e81193dd4751a73919ed19e5fb512c70137c49f0c01222980fb62327698104c",
+      "short_biography_sha256": "baaa5c29a4e120722710bcacafb8b4c0eb004a7f66fd2f373a6d938a67672f2b",
+      "full_biography_sha256": "a97c660efaf88e6b511ff104ba73a6b055314d855a97bdd23b788119aac2e12a",
+      "full_biography_word_count": 769
+    },
+    {
+      "id": "ddragon:Vladimir",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Vladimir.json",
+      "retrieved_at": "2026-11-22T12:23:10.295639+00:00",
+      "payload_sha256": "81c8f8a69ad5077ca4ca79e3106d48e7d2947a24d9fb560706b41e6dcd577290",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Volibear",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/volibear/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290193+00:00",
+      "payload_sha256": "2724c3392c11da921da98f5f807c02e1fc4cb2a7cd4646da8d024f2c0a22ca6a",
+      "short_biography_sha256": "26c035417b06cdb99c35d554c1cc91027926f5f9349495c273a3e8440d184d18",
+      "full_biography_sha256": "52a1fc003827b8b46e94762e26f658983c2f19adcfd2f9269d04e58ce9455e77",
+      "full_biography_word_count": 690
+    },
+    {
+      "id": "ddragon:Volibear",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Volibear.json",
+      "retrieved_at": "2026-11-22T12:23:10.295650+00:00",
+      "payload_sha256": "e358daa4e10c1d460202567aa8e353c50161bacda38b3d250f8cd8527b4ae9ec",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Warwick",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/warwick/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290332+00:00",
+      "payload_sha256": "bebe982b8218387862168d585c8a517dfef37fe8ea83045b1cff030241a16431",
+      "short_biography_sha256": "f02a1e5af6ba707b31da9dda218bcba554132360cb108acba652c03056628ee3",
+      "full_biography_sha256": "de0bfb3ac1c47f97fdd35afa9874689c991c7968833e2fe7f64adc0d7b49faff",
+      "full_biography_word_count": 985
+    },
+    {
+      "id": "ddragon:Warwick",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Warwick.json",
+      "retrieved_at": "2026-11-22T12:23:10.295697+00:00",
+      "payload_sha256": "096a4acf90d431b5a159c6bd2237fdcf81df1e38001bde73019b28ccdebfa774",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Xayah",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/xayah/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290377+00:00",
+      "payload_sha256": "5b082837fabd4583654adb18f9655d8f102d3fdb108351e8848c97e36988d576",
+      "short_biography_sha256": "b90113502454a3cac34f05a57b3913573b989e2a1a72a2c9dac823d762ee2d3f",
+      "full_biography_sha256": "148e80b4cc7eb3c5ccdc854b980d88aeb96a53214b7e36b58dec0762c748440c",
+      "full_biography_word_count": 765
+    },
+    {
+      "id": "ddragon:Xayah",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Xayah.json",
+      "retrieved_at": "2026-11-22T12:23:10.295669+00:00",
+      "payload_sha256": "63c24eb30ac6615e4dce653a80110385250d7cb5c4deea495ef4a0c7b9399afe",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Xerath",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/xerath/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290348+00:00",
+      "payload_sha256": "f3d8bc3d6d0ddf5a124af4b5c2c2a7dcaadc39c122765b2f71daee317ac0b1c6",
+      "short_biography_sha256": "f811d6df8278b18f3959d686c6f5169b692f6009072c45880517b455c6e9aa76",
+      "full_biography_sha256": "b885ae4a9883bd51a7d46ce38f730c14783ecf3be9f6033f7a0d697785bc2680",
+      "full_biography_word_count": 2261
+    },
+    {
+      "id": "ddragon:Xerath",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Xerath.json",
+      "retrieved_at": "2026-11-22T12:23:10.295678+00:00",
+      "payload_sha256": "ed1c8d96d3d2b0df1dd87ff974e4295cfee751435c95e2c2285883d3511d16f0",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:XinZhao",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/xinzhao/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290406+00:00",
+      "payload_sha256": "b5ab817b8f9838d5f750e95834860aeafe53213a48e107ee3954da6644f94b91",
+      "short_biography_sha256": "c7712c722a5b0dd146e1937ac5025e2a50b9b45d8ebe814bacb9c297b723774e",
+      "full_biography_sha256": "99c23c89cc134ed38bada8b2db6f5436fe086524ec9f774eede990dc5fd96e0a",
+      "full_biography_word_count": 755
+    },
+    {
+      "id": "ddragon:XinZhao",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/XinZhao.json",
+      "retrieved_at": "2026-11-22T12:23:10.295687+00:00",
+      "payload_sha256": "4593e6679797f4df1866728e788dd50778b7cac4bd313a27cea3a1433442caf6",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Yasuo",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/yasuo/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290501+00:00",
+      "payload_sha256": "c01f580ee4ac1b2de832e5a6cf44bd252fbefde9c71ab037000c9292636f22fe",
+      "short_biography_sha256": "5fe837ae60571c6bcbba0131bfcc2afb22cbb18f349ba69dbb6c93ad5d1cccec",
+      "full_biography_sha256": "98c036a44750e2aa0d94ebf2112f3b9c9e8000429be0ff2c794f2de6f7feb54b",
+      "full_biography_word_count": 896
+    },
+    {
+      "id": "ddragon:Yasuo",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Yasuo.json",
+      "retrieved_at": "2026-11-22T12:23:10.295727+00:00",
+      "payload_sha256": "0506ca41a801133fe67edaf364d8bf1f9734db34f05b4799332bc422a16a82aa",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Yone",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/yone/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290597+00:00",
+      "payload_sha256": "1ebe9a9ea53030587e706e09c487fb55219d3cf202f3731bc4cda6587eb32468",
+      "short_biography_sha256": "02fa6b202047e37bdf414c631287c828f965d4b86d8cee1fc44eff53d9d81be9",
+      "full_biography_sha256": "50d0b3c29c921ae85c8ddc99c2ce51f83fac09b93b9167b36b65eb50e107b5df",
+      "full_biography_word_count": 751
+    },
+    {
+      "id": "ddragon:Yone",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Yone.json",
+      "retrieved_at": "2026-11-22T12:23:10.295793+00:00",
+      "payload_sha256": "981b0719c23eca8582b890474441ac38290fe016a8b7b20f2283a76d6e9f2846",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Yorick",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/yorick/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290450+00:00",
+      "payload_sha256": "3b2d006e182424d7dadf51ac0f168706d0a9fb63eb0a832912836650c297dfa5",
+      "short_biography_sha256": "fa3d20564e61f94e5fe610d6a19e3f5162ed44f275f38dce83209a48b29d44bf",
+      "full_biography_sha256": "fb3d066ed8b4b14b5d951ac8d65628bc281a0c99d288ae5469e1d61dd4108c73",
+      "full_biography_word_count": 911
+    },
+    {
+      "id": "ddragon:Yorick",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Yorick.json",
+      "retrieved_at": "2026-11-22T12:23:10.295774+00:00",
+      "payload_sha256": "a2ee83d568cfece05dd487468e279f42371f56de4405e9b0181787c2ab89042f",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Yunara",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/yunara/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290467+00:00",
+      "payload_sha256": "45fba244389cf37bbebe3794b1c78454ac66f543d273fc679afd0f14ea42e064",
+      "short_biography_sha256": "d85a30785da76ec3545de132aff9ec9b0bb8187f0b27174105de22f37afd601d",
+      "full_biography_sha256": "11e86676b5370f04ae6f9cbbc21a36a41e4b11ba7d6360c31b90aa7f1d1f4560",
+      "full_biography_word_count": 1170
+    },
+    {
+      "id": "ddragon:Yunara",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Yunara.json",
+      "retrieved_at": "2026-11-22T12:23:10.295719+00:00",
+      "payload_sha256": "90b9325e1587826837cf72d04c543879ba9003344f7ff2ba1d556bca78b1b52e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Yuumi",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/yuumi/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290650+00:00",
+      "payload_sha256": "d1f0e8a07106a8914c9358f4e236ab9e66222c0c66435ee92a772026a88077dc",
+      "short_biography_sha256": "f21458793d44a140367b78690080cfe48412adc787b6ff0f68da2cc00fc90c7a",
+      "full_biography_sha256": "d39fdc068163d69b835b441786136424143722813991078c028ae92afd3c3e37",
+      "full_biography_word_count": 686
+    },
+    {
+      "id": "ddragon:Yuumi",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Yuumi.json",
+      "retrieved_at": "2026-11-22T12:23:10.295813+00:00",
+      "payload_sha256": "ffea17794e4cb9ed74731270f84fb9d3f8a76ffee269c1e680323c4ec2b048ad",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zaahen",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zaahen/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290720+00:00",
+      "payload_sha256": "7ca204938088ac03271c7b7852e070381850c67b31341d216a439ce43cf59d92",
+      "short_biography_sha256": "4eb74cb5757b1f55e1b16ef6923ef91cc0ecda9d6bd62e6a8e080a450c75752a",
+      "full_biography_sha256": "d058b075efbf2d7422e027b545b2c5b4807ae701773047dd0baa12edda78335b",
+      "full_biography_word_count": 831
+    },
+    {
+      "id": "ddragon:Zaahen",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zaahen.json",
+      "retrieved_at": "2026-11-22T12:23:10.295933+00:00",
+      "payload_sha256": "0ebb63db8c818086e4be8c6b9ed0e42ada7165702d0456868b3069ed1c69162c",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zac",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zac/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290697+00:00",
+      "payload_sha256": "5dce496de31d1c3a7671df37e4c4015dafe388a3cc8fcfec9b80b5c280f4d04e",
+      "short_biography_sha256": "311c19100b3907088bac8588a1192e1512ae09820474fb0ddfb422d2d63a5d2e",
+      "full_biography_sha256": "abcf14e0589c7b79474689ea239855a77fb718b6167af6364dc7218b7c96523d",
+      "full_biography_word_count": 1237
+    },
+    {
+      "id": "ddragon:Zac",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zac.json",
+      "retrieved_at": "2026-11-22T12:23:10.295803+00:00",
+      "payload_sha256": "a8a78c6692e9d6b63d33bf94e4f8cb37ceaaab31638a3de60e0fc6f563a6c574",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zed",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zed/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290733+00:00",
+      "payload_sha256": "bcefc8c0e8287202685bdb3a60d506fd05c35df26aa3151eb3bd5c4e44c36190",
+      "short_biography_sha256": "9325541977b5f4968475c6694f58c6aee2a51d9a4932bcfbacd8fd3f3dcb1ecc",
+      "full_biography_sha256": "7b1d8dd8fb4efd5d78cf40f266ef3e7c2ce69df44fade65675ae029bc5206e72",
+      "full_biography_word_count": 659
+    },
+    {
+      "id": "ddragon:Zed",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zed.json",
+      "retrieved_at": "2026-11-22T12:23:10.295923+00:00",
+      "payload_sha256": "a4aa0e430adc322f2d461e7227967fce8d4602f234784d4849a8f25357694f5e",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zeri",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zeri/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290879+00:00",
+      "payload_sha256": "66e52097fc1616b84702f11266711f9022fb5391ffd7141aa1ee128b3b41a722",
+      "short_biography_sha256": "6f16a9bc712fff4e6061863eb3ba46f214818d231b25192eb179dd29c03e58ff",
+      "full_biography_sha256": "cf043666fd87ba304950b3b4ffdf08757263f6d2b1eb2f17d2ba9bc14ea1eabc",
+      "full_biography_word_count": 799
+    },
+    {
+      "id": "ddragon:Zeri",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zeri.json",
+      "retrieved_at": "2026-11-22T12:23:10.295943+00:00",
+      "payload_sha256": "853ab81de7115474b0100f7a55158aa366fb3ae23044822131b6eda1886ba183",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Ziggs",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/ziggs/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290925+00:00",
+      "payload_sha256": "0161bb759e3fe670272a2ee5e3b24157d161094f41ba8d37659f84abdfbbb393",
+      "short_biography_sha256": "ca18c9e1b17a963a0bcd4ce2b1f8487aa97337f8c68240e967aef912c5aba755",
+      "full_biography_sha256": "3d70a543a60ecfde0fc130e89c280c21e86f3c33913d6de320d7facb2d510f18",
+      "full_biography_word_count": 313
+    },
+    {
+      "id": "ddragon:Ziggs",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Ziggs.json",
+      "retrieved_at": "2026-11-22T12:23:10.295961+00:00",
+      "payload_sha256": "a12830a477c90107e7ce9fdf582cab8dfd8a59ee2d5e3a31c4027593c8779b35",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zilean",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zilean/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290939+00:00",
+      "payload_sha256": "6070cb0ae488f1985fca27f2be50414ab35d8e5b94dfe95eff5d6a93bb820b80",
+      "short_biography_sha256": "b8364ccf606a4965e712b92b5d47bb3caa857267756baf1e9911d95fe9d2f3f0",
+      "full_biography_sha256": "1c4b74f82fa1f26d63ff902265ce9da1e949644ca441066f803b3a1e39344ca0",
+      "full_biography_word_count": 766
+    },
+    {
+      "id": "ddragon:Zilean",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zilean.json",
+      "retrieved_at": "2026-11-22T12:23:10.296005+00:00",
+      "payload_sha256": "71eca68a8f461cb6820e5d577ab021e192fb5497234c9869512c83ea0e02b01d",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zoe",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zoe/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290867+00:00",
+      "payload_sha256": "a524b57e39beca087304fb392563e72c25642dcf4b7a6fa78857e6600f7dd841",
+      "short_biography_sha256": "86106255d3f57c006848a87fcfb83f9a1618dfafb1b60d265235680fefaebcd1",
+      "full_biography_sha256": "4ee055f6a230925be48462c2303bedb23350d21a8bf7c7bd55932b0540e7fae6",
+      "full_biography_word_count": 701
+    },
+    {
+      "id": "ddragon:Zoe",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zoe.json",
+      "retrieved_at": "2026-11-22T12:23:10.295952+00:00",
+      "payload_sha256": "577430361fa5cd399e7f36ef90cfce3be24f533362ee658a31c71d5eca866307",
+      "version": "16.23.1"
+    },
+    {
+      "id": "universe:Zyra",
+      "kind": "riot_universe",
+      "url": "https://universe-meeps.leagueoflegends.com/v1/en_us/champions/zyra/index.json",
+      "retrieved_at": "2026-11-22T12:23:10.290960+00:00",
+      "payload_sha256": "d4900652c15d13cd7873965e05b123d5249f6ab98ab01df630014c207fd6b423",
+      "short_biography_sha256": "263826422d0a99df6d85c71a1192a893b50fc7e26985f1c309984d25fd6b595b",
+      "full_biography_sha256": "bc8e0aef94904bbe1824be7ab4e100dd093d8e12a50e5f19ae6af580207847d3",
+      "full_biography_word_count": 578
+    },
+    {
+      "id": "ddragon:Zyra",
+      "kind": "riot_data_dragon",
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.23.1/data/en_US/champion/Zyra.json",
+      "retrieved_at": "2026-11-22T12:23:10.296015+00:00",
+      "payload_sha256": "8986a4f61d30bec21c253be936d29bea465856afc2fe2876d40b91b8e0e5c497",
+      "version": "16.23.1"
+    }
+  ]
+}

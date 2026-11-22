@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Gwen",
+  "riot_id": 887,
+  "name": "Gwen",
+  "title": "The Hallowed Seamstress",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "gwen",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/gwen/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/gwen/",
+    "summary": "A doll brought to life, Gwen treats her new existence as a gift from her maker. She uses enchanted sewing tools and protective mist to defend what is good in a world she is still discovering.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shadow-isles",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Viego",
+        "name": "Viego",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/viego",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Senna",
+        "name": "Senna",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/senna",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Yorick",
+        "name": "Yorick",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/yorick",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Stranger Who Sews",
+        "url": "https://universe.leagueoflegends.com/en_us/story/gwen-color-story",
+        "story_slug": "gwen-color-story",
+        "published_at": "2021-04-15T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Gwen"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Sustained Damage",
+      "Duelist",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top",
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2021-04-15",
+    "last_changed_patch_wiki": "V26.16",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 50
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 620,
+      "hpperlevel": 115,
+      "mp": 330,
+      "mpperlevel": 40,
+      "movespeed": 340,
+      "armor": 39,
+      "armorperlevel": 4.9,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 150,
+      "hpregen": 9,
+      "hpregenperlevel": 0.9,
+      "mpregen": 7.5,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 63,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.25,
+      "attackspeed": 0.69
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "A Thousand Cuts",
+        "source_id": "ddragon:Gwen"
+      },
+      {
+        "slot": "Q",
+        "name": "Snip Snip!",
+        "cooldown_by_rank": [
+          6.5,
+          5.75,
+          5,
+          4.25,
+          3.5
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          450,
+          450,
+          450,
+          450,
+          450
+        ],
+        "source_id": "ddragon:Gwen",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Hallowed Mist",
+        "cooldown_by_rank": [
+          22,
+          21,
+          20,
+          19,
+          18
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_id": "ddragon:Gwen",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Skip 'n Slash",
+        "cooldown_by_rank": [
+          13,
+          12.5,
+          12,
+          11.5,
+          11
+        ],
+        "cost_by_rank": [
+          35,
+          35,
+          35,
+          35,
+          35
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Gwen",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Needlework",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1200,
+          1200,
+          1200
+        ],
+        "source_id": "ddragon:Gwen",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Gwen"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Honor her maker by protecting life",
+    "candidate_themes": [
+      {
+        "theme": "gratitude",
+        "evidence": "A doll brought to life, Gwen treats her new existence as a gift from her maker. She uses enchanted sewing tools and protective mist to defend what is good in a world she is still discovering.",
+        "evidence_source_id": "universe:Gwen",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "hope",
+        "evidence": "A doll brought to life, Gwen treats her new existence as a gift from her maker. She uses enchanted sewing tools and protective mist to defend what is good in a world she is still discovering.",
+        "evidence_source_id": "universe:Gwen",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "care",
+        "evidence": "A doll brought to life, Gwen treats her new existence as a gift from her maker. She uses enchanted sewing tools and protective mist to defend what is good in a world she is still discovering.",
+        "evidence_source_id": "universe:Gwen",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.5
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Gwen",
+    "gameplay_api": "ddragon:Gwen",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

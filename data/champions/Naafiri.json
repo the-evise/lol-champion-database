@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Naafiri",
+  "riot_id": 950,
+  "name": "Naafiri",
+  "title": "the Hound of a Hundred Bites",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "naafiri",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/naafiri/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/naafiri/",
+    "summary": "A Shuriman pack of dune hounds is directed by a darkin presence. Their shared hunting joins collective animal instinct with an ancient intelligence, creating a threat that acts through many bodies rather than one.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shurima",
+    "species_as_listed": [
+      "Darkin"
+    ],
+    "related_champions": [
+      {
+        "id": "Aatrox",
+        "name": "Aatrox",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/aatrox",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Kayn",
+        "name": "Kayn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kayn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Varus",
+        "name": "Varus",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/varus",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "HOUNDS OF IRON",
+        "url": "https://www.youtube.com/watch?v=xIWsch7cumQ",
+        "story_slug": null,
+        "published_at": "2023-06-20",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Naafiri"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin",
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Summon",
+      "Mobile",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2023-07-19",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 70
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 610,
+      "hpperlevel": 105,
+      "mp": 400,
+      "mpperlevel": 55,
+      "movespeed": 340,
+      "armor": 28,
+      "armorperlevel": 4.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 6.25,
+      "hpregenperlevel": 0.6,
+      "mpregen": 7.5,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 55,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.1,
+      "attackspeed": 0.663
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "We Are More",
+        "source_id": "ddragon:Naafiri"
+      },
+      {
+        "slot": "Q",
+        "name": "Darkin Daggers",
+        "cooldown_by_rank": [
+          9,
+          8.5,
+          8,
+          7.5,
+          7
+        ],
+        "cost_by_rank": [
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Naafiri",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "The Call of the Pack",
+        "cooldown_by_rank": [
+          26,
+          24,
+          22,
+          20,
+          18
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Naafiri",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Eviscerate",
+        "cooldown_by_rank": [
+          11,
+          10,
+          9,
+          8,
+          7
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          450,
+          450,
+          450,
+          450,
+          450
+        ],
+        "source_id": "ddragon:Naafiri",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Hounds' Pursuit",
+        "cooldown_by_rank": [
+          110,
+          95,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Naafiri",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Naafiri"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Hunt and act through a united pack",
+    "candidate_themes": [
+      {
+        "theme": "collective-action",
+        "evidence": "A Shuriman pack of dune hounds is directed by a darkin presence. Their shared hunting joins collective animal instinct with an ancient intelligence, creating a threat that acts through many bodies rather than one.",
+        "evidence_source_id": "universe:Naafiri",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "predation",
+        "evidence": "A Shuriman pack of dune hounds is directed by a darkin presence. Their shared hunting joins collective animal instinct with an ancient intelligence, creating a threat that acts through many bodies rather than one.",
+        "evidence_source_id": "universe:Naafiri",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "unity",
+        "evidence": "A Shuriman pack of dune hounds is directed by a darkin presence. Their shared hunting joins collective animal instinct with an ancient intelligence, creating a threat that acts through many bodies rather than one.",
+        "evidence_source_id": "universe:Naafiri",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.7
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Naafiri",
+    "gameplay_api": "ddragon:Naafiri",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

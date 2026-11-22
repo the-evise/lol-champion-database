@@ -1,0 +1,331 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Camille",
+  "riot_id": 164,
+  "name": "Camille",
+  "title": "the Steel Shadow",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "camille",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/camille/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/camille/",
+    "summary": "Camille protects Clan Ferros's interests as a covert enforcer operating outside ordinary law. Her extensive augmentations and exacting standards reflect a willingness to reshape herself and others in service of order and family power.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "piltover",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Caitlyn",
+        "name": "Caitlyn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/caitlyn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Ezreal",
+        "name": "Ezreal",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ezreal",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Jayce",
+        "name": "Jayce",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/jayce",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Viktor",
+        "name": "Viktor",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/viktor",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Vi",
+        "name": "Vi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Ekko",
+        "name": "Ekko",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ekko",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Orianna",
+        "name": "Orianna",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/orianna",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Warwick",
+        "name": "Warwick",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/warwick",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Tea with the Gray Lady",
+        "url": "https://universe.leagueoflegends.com/en_us/story/camille-color-story",
+        "story_slug": "camille-color-story",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Weakest Heart",
+        "url": "https://universe.leagueoflegends.com/en_us/story/camille-weakest-heart",
+        "story_slug": "camille-weakest-heart",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Camille"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Diver"
+    ],
+    "client_tags_wiki": [
+      "Dive",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top",
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2016-12-07",
+    "last_changed_patch_wiki": "V26.19",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 2,
+      "mobility": 3,
+      "utility": 1,
+      "style": 40
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 650,
+      "hpperlevel": 99,
+      "mp": 375,
+      "mpperlevel": 52,
+      "movespeed": 340,
+      "armor": 35,
+      "armorperlevel": 4.5,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 8.5,
+      "hpregenperlevel": 0.8,
+      "mpregen": 8.15,
+      "mpregenperlevel": 0.75,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 68,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.644
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Adaptive Defenses",
+        "source_id": "ddragon:Camille"
+      },
+      {
+        "slot": "Q",
+        "name": "Precision Protocol",
+        "cooldown_by_rank": [
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "cost_by_rank": [
+          25,
+          25,
+          25,
+          25,
+          25
+        ],
+        "range_by_rank": [
+          325,
+          325,
+          325,
+          325,
+          325
+        ],
+        "source_id": "ddragon:Camille",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Tactical Sweep",
+        "cooldown_by_rank": [
+          12,
+          11.5,
+          11,
+          10.5,
+          10
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          610,
+          610,
+          610,
+          610,
+          610
+        ],
+        "source_id": "ddragon:Camille",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Hookshot",
+        "cooldown_by_rank": [
+          16,
+          15,
+          14,
+          13,
+          12
+        ],
+        "cost_by_rank": [
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Camille",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "The Hextech Ultimatum",
+        "cooldown_by_rank": [
+          140,
+          115,
+          90
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          475,
+          475,
+          475
+        ],
+        "source_id": "ddragon:Camille",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Camille"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Preserve her clan's power and order",
+    "candidate_themes": [
+      {
+        "theme": "precision",
+        "evidence": "Camille protects Clan Ferros's interests as a covert enforcer operating outside ordinary law. Her extensive augmentations and exacting standards reflect a willingness to reshape herself and others in service of order and family power.",
+        "evidence_source_id": "universe:Camille",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "control",
+        "evidence": "Camille protects Clan Ferros's interests as a covert enforcer operating outside ordinary law. Her extensive augmentations and exacting standards reflect a willingness to reshape herself and others in service of order and family power.",
+        "evidence_source_id": "universe:Camille",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "duty",
+        "evidence": "Camille protects Clan Ferros's interests as a covert enforcer operating outside ordinary law. Her extensive augmentations and exacting standards reflect a willingness to reshape herself and others in service of order and family power.",
+        "evidence_source_id": "universe:Camille",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.6666666666666666,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.4
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Camille",
+    "gameplay_api": "ddragon:Camille",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

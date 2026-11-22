@@ -1,0 +1,323 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Velkoz",
+  "riot_id": 161,
+  "name": "Vel'Koz",
+  "title": "the Eye of the Void",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "velkoz",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/velkoz/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/velkoz/",
+    "summary": "Vel'Koz studies the physical world to discover weaknesses the Void can exploit. Its curiosity is analytical and destructive: the beings it investigates are objects of research rather than lives it feels obliged to preserve.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "void",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Khazix",
+        "name": "Kha'Zix",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/khazix",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Chogath",
+        "name": "Cho'Gath",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/chogath",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "KogMaw",
+        "name": "Kog'Maw",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kogmaw",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "RekSai",
+        "name": "Rek'Sai",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/reksai",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "First Contact",
+        "url": "https://www.youtube.com/watch?v=fyb2KC-q7ls",
+        "story_slug": null,
+        "published_at": "2014-02-20T16:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "A Different Hunger",
+        "url": "https://universe.leagueoflegends.com/en_us/story/velkoz-color-story",
+        "story_slug": "velkoz-color-story",
+        "published_at": "2017-03-27T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Eye in the Abyss",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-eye-in-the-abyss",
+        "story_slug": "the-eye-in-the-abyss",
+        "published_at": "2018-08-20T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Vel'Koz: Login Theme",
+        "url": "https://www.youtube.com/watch?v=s7PafA8mrmI",
+        "story_slug": null,
+        "published_at": "2014-02-27T16:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Velkoz"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage",
+      "Support"
+    ],
+    "subclasses_wiki": [
+      "Artillery"
+    ],
+    "client_tags_wiki": [
+      "Long Range",
+      "AoE",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "support"
+      ],
+      "external": [
+        "mid",
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2014-02-27",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 1,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 590,
+      "hpperlevel": 102,
+      "mp": 469,
+      "mpperlevel": 21,
+      "movespeed": 340,
+      "armor": 22,
+      "armorperlevel": 4.7,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 525,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 55,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.59,
+      "attackspeed": 0.643
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Organic Deconstruction",
+        "source_id": "ddragon:Velkoz"
+      },
+      {
+        "slot": "Q",
+        "name": "Plasma Fission",
+        "cooldown_by_rank": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "cost_by_rank": [
+          40,
+          45,
+          50,
+          55,
+          60
+        ],
+        "range_by_rank": [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        "source_id": "ddragon:Velkoz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Void Rift",
+        "cooldown_by_rank": [
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          1.5
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        "source_id": "ddragon:Velkoz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Tectonic Disruption",
+        "cooldown_by_rank": [
+          12,
+          11.5,
+          11,
+          10.5,
+          10
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          810,
+          810,
+          810,
+          810,
+          810
+        ],
+        "source_id": "ddragon:Velkoz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Life Form Disintegration Ray",
+        "cooldown_by_rank": [
+          100,
+          90,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1575,
+          1575,
+          1575
+        ],
+        "source_id": "ddragon:Velkoz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Velkoz"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Acquire knowledge useful to the Void",
+    "candidate_themes": [
+      {
+        "theme": "analysis",
+        "evidence": "Vel'Koz studies the physical world to discover weaknesses the Void can exploit. Its curiosity is analytical and destructive: the beings it investigates are objects of research rather than lives it feels obliged to preserve.",
+        "evidence_source_id": "universe:Velkoz",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "curiosity",
+        "evidence": "Vel'Koz studies the physical world to discover weaknesses the Void can exploit. Its curiosity is analytical and destructive: the beings it investigates are objects of research rather than lives it feels obliged to preserve.",
+        "evidence_source_id": "universe:Velkoz",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "detachment",
+        "evidence": "Vel'Koz studies the physical world to discover weaknesses the Void can exploit. Its curiosity is analytical and destructive: the beings it investigates are objects of research rather than lives it feels obliged to preserve.",
+        "evidence_source_id": "universe:Velkoz",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Velkoz",
+    "gameplay_api": "ddragon:Velkoz",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

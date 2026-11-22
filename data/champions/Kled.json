@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Kled",
+  "riot_id": 240,
+  "name": "Kled",
+  "title": "the Cantankerous Cavalier",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "kled",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/kled/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/kled/",
+    "summary": "Kled is a combative Noxian yordle whose military legend is difficult to separate from exaggeration. Riding Skaarl, he fiercely defends what he considers his territory while trying to take more.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Swain",
+        "name": "Swain",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/swain",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Darius",
+        "name": "Darius",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/darius",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Tristana",
+        "name": "Tristana",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/tristana",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Elise",
+        "name": "Elise",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/elise",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "Kled: The Reunion",
+        "url": "https://www.youtube.com/watch?v=Xw46WPuXMk0",
+        "story_slug": null,
+        "published_at": "2016-07-21T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Where the Drakalops Roam",
+        "url": "https://universe.leagueoflegends.com/en_us/story/kled-color-story",
+        "story_slug": "kled-color-story",
+        "published_at": "2016-08-10T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Kled"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Dive",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Courage",
+    "release_date_wiki": "2016-08-10",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 2,
+      "utility": 1,
+      "style": 30
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 410,
+      "hpperlevel": 84,
+      "mp": 100,
+      "mpperlevel": 0,
+      "movespeed": 345,
+      "armor": 35,
+      "armorperlevel": 5.2,
+      "spellblock": 28,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 6,
+      "hpregenperlevel": 0.75,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 65,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.5,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Skaarl, the Cowardly Lizard",
+        "source_id": "ddragon:Kled"
+      },
+      {
+        "slot": "Q",
+        "name": "Bear Trap on a Rope",
+        "cooldown_by_rank": [
+          11,
+          10,
+          9,
+          8,
+          7
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Kled",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Violent Tendencies",
+        "cooldown_by_rank": [
+          13,
+          12,
+          11,
+          10,
+          9
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_id": "ddragon:Kled",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Jousting",
+        "cooldown_by_rank": [
+          13,
+          12,
+          11,
+          10,
+          9
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Kled",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Chaaaaaaaarge!!!",
+        "cooldown_by_rank": [
+          140,
+          125,
+          110
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          3500,
+          4000,
+          4500
+        ],
+        "source_id": "ddragon:Kled",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Kled"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Defend and expand what he considers his",
+    "candidate_themes": [
+      {
+        "theme": "defiance",
+        "evidence": "Kled is a combative Noxian yordle whose military legend is difficult to separate from exaggeration. Riding Skaarl, he fiercely defends what he considers his territory while trying to take more.",
+        "evidence_source_id": "universe:Kled",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "territoriality",
+        "evidence": "Kled is a combative Noxian yordle whose military legend is difficult to separate from exaggeration. Riding Skaarl, he fiercely defends what he considers his territory while trying to take more.",
+        "evidence_source_id": "universe:Kled",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "audacity",
+        "evidence": "Kled is a combative Noxian yordle whose military legend is difficult to separate from exaggeration. Riding Skaarl, he fiercely defends what he considers his territory while trying to take more.",
+        "evidence_source_id": "universe:Kled",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.3
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Kled",
+    "gameplay_api": "ddragon:Kled",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

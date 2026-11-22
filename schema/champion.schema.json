@@ -1,0 +1,237 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/the-evise/lol-champion-database/schema/champion.schema.json",
+  "title": "Champion research record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "riot_id",
+    "name",
+    "title",
+    "snapshot_version",
+    "lore",
+    "gameplay",
+    "analysis",
+    "provenance",
+    "coverage"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "riot_id": {
+      "type": "integer"
+    },
+    "name": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "snapshot_version": {
+      "type": "string"
+    },
+    "lore": {
+      "type": "object",
+      "required": [
+        "summary",
+        "summary_evidence_scope",
+        "related_champions",
+        "resources",
+        "source_id"
+      ],
+      "properties": {
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "summary_evidence_scope": {
+          "const": "universe_short_biography"
+        },
+        "region": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "related_champions": {
+          "type": "array"
+        },
+        "resources": {
+          "type": "array"
+        }
+      }
+    },
+    "gameplay": {
+      "type": "object",
+      "required": [
+        "positions",
+        "ratings",
+        "abilities"
+      ],
+      "properties": {
+        "positions": {
+          "type": "object",
+          "required": [
+            "client",
+            "external"
+          ],
+          "properties": {
+            "client": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "top",
+                  "jungle",
+                  "mid",
+                  "bottom",
+                  "support"
+                ]
+              },
+              "uniqueItems": true
+            },
+            "external": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "top",
+                  "jungle",
+                  "mid",
+                  "bottom",
+                  "support"
+                ]
+              },
+              "uniqueItems": true
+            }
+          }
+        },
+        "ratings": {
+          "type": "object",
+          "required": [
+            "difficulty",
+            "damage",
+            "toughness",
+            "control",
+            "mobility",
+            "utility",
+            "style"
+          ],
+          "properties": {
+            "difficulty": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 3
+            },
+            "damage": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 3
+            },
+            "toughness": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 3
+            },
+            "control": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 3
+            },
+            "mobility": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 3
+            },
+            "utility": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 3
+            },
+            "style": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        },
+        "abilities": {
+          "type": "array"
+        }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "required": [
+        "status",
+        "personality_scores",
+        "personality_quiz_ready",
+        "candidate_themes"
+      ],
+      "properties": {
+        "status": {
+          "const": "exploratory_not_quiz_validated"
+        },
+        "personality_scores": {
+          "type": "null"
+        },
+        "personality_quiz_ready": {
+          "const": false
+        },
+        "candidate_themes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "theme",
+              "evidence",
+              "evidence_source_id",
+              "status"
+            ],
+            "properties": {
+              "status": {
+                "const": "tentative_interpretation"
+              }
+            }
+          }
+        }
+      }
+    },
+    "provenance": {
+      "type": "object"
+    },
+    "coverage": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "boolean"
+      }
+    }
+  }
+}

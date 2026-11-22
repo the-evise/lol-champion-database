@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Sivir",
+  "riot_id": 15,
+  "name": "Sivir",
+  "title": "the Battle Mistress",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "sivir",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/sivir/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/sivir/",
+    "summary": "Sivir makes her living as a Shuriman mercenary and treasure hunter, valuing payment and practical success. The return of ancient powers draws her into responsibilities and possible futures that extend beyond a profitable contract.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shurima",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Azir",
+        "name": "Azir",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/azir",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Nasus",
+        "name": "Nasus",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/nasus",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Taliyah",
+        "name": "Taliyah",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/taliyah",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Water",
+        "url": "https://universe.leagueoflegends.com/en_us/story/sivir-color-story",
+        "story_slug": "sivir-color-story",
+        "published_at": "2016-05-09T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Trial of the Masks",
+        "url": "https://universe.leagueoflegends.com/en_us/story/trial-of-the-masks",
+        "story_slug": "trial-of-the-masks",
+        "published_at": "2019-01-08T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Bloodline",
+        "url": "https://universe.leagueoflegends.com/en_us/story/rg-shurima-story",
+        "story_slug": "rg-shurima-story",
+        "published_at": "2016-05-12T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Sivir"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Aoe",
+      "Auto-attack",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.20",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 1,
+      "utility": 2,
+      "style": 10
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 600,
+      "hpperlevel": 104,
+      "mp": 340,
+      "mpperlevel": 45,
+      "movespeed": 335,
+      "armor": 30,
+      "armorperlevel": 4,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 500,
+      "hpregen": 3.25,
+      "hpregenperlevel": 0.55,
+      "mpregen": 6,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.6,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Fleet of Foot",
+        "source_id": "ddragon:Sivir"
+      },
+      {
+        "slot": "Q",
+        "name": "Boomerang Blade",
+        "cooldown_by_rank": [
+          10,
+          9.5,
+          9,
+          8.5,
+          8
+        ],
+        "cost_by_rank": [
+          55,
+          60,
+          65,
+          70,
+          75
+        ],
+        "range_by_rank": [
+          1200,
+          1200,
+          1200,
+          1200,
+          1200
+        ],
+        "source_id": "ddragon:Sivir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Ricochet",
+        "cooldown_by_rank": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:Sivir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Spell Shield",
+        "cooldown_by_rank": [
+          24,
+          22.5,
+          21,
+          19.5,
+          18
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:Sivir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "On The Hunt",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Sivir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Sivir"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Preserve independence amid competing destinies",
+    "candidate_themes": [
+      {
+        "theme": "pragmatism",
+        "evidence": "Sivir makes her living as a Shuriman mercenary and treasure hunter, valuing payment and practical success. The return of ancient powers draws her into responsibilities and possible futures that extend beyond a profitable contract.",
+        "evidence_source_id": "universe:Sivir",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "independence",
+        "evidence": "Sivir makes her living as a Shuriman mercenary and treasure hunter, valuing payment and practical success. The return of ancient powers draws her into responsibilities and possible futures that extend beyond a profitable contract.",
+        "evidence_source_id": "universe:Sivir",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "obligation",
+        "evidence": "Sivir makes her living as a Shuriman mercenary and treasure hunter, valuing payment and practical success. The return of ancient powers draws her into responsibilities and possible futures that extend beyond a profitable contract.",
+        "evidence_source_id": "universe:Sivir",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.1
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Sivir",
+    "gameplay_api": "ddragon:Sivir",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

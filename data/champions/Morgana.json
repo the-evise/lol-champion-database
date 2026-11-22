@@ -1,0 +1,297 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Morgana",
+  "riot_id": 25,
+  "name": "Morgana",
+  "title": "the Fallen",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "morgana",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/morgana/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/morgana/",
+    "summary": "Morgana rejects an uncompromising celestial identity in favor of human feeling. She challenges laws she sees as unjust, defends outcasts, and believes people can recover from wrongdoing rather than remain permanently condemned.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "demacia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Kayle",
+        "name": "Kayle",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kayle",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Galio",
+        "name": "Galio",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/galio",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Taric",
+        "name": "Taric",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/taric",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Prayer to a Crumbling Shrine",
+        "url": "https://universe.leagueoflegends.com/en_us/story/morgana-color-story",
+        "story_slug": "morgana-color-story",
+        "published_at": "2019-03-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Canticle of the Winged Sisters",
+        "url": "https://universe.leagueoflegends.com/en_us/story/canticleofthewingedsisters",
+        "story_slug": "canticleofthewingedsisters",
+        "published_at": "2019-03-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Morgana"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Support",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Catcher"
+    ],
+    "client_tags_wiki": [
+      "Crowd Control",
+      "Ally Protection",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "support",
+        "mid"
+      ],
+      "external": [
+        "support",
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V25.21",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 2,
+      "toughness": 1,
+      "control": 3,
+      "mobility": 1,
+      "utility": 2,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 104,
+      "mp": 340,
+      "mpperlevel": 60,
+      "movespeed": 335,
+      "armor": 25,
+      "armorperlevel": 4.2,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 450,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.4,
+      "mpregen": 11,
+      "mpregenperlevel": 0.4,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 56,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.53,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Soul Siphon",
+        "source_id": "ddragon:Morgana"
+      },
+      {
+        "slot": "Q",
+        "name": "Dark Binding",
+        "cooldown_by_rank": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          1250,
+          1250,
+          1250,
+          1250,
+          1250
+        ],
+        "source_id": "ddragon:Morgana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Tormented Shadow",
+        "cooldown_by_rank": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "cost_by_rank": [
+          70,
+          80,
+          90,
+          100,
+          110
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Morgana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Black Shield",
+        "cooldown_by_rank": [
+          26,
+          23.5,
+          21,
+          18.5,
+          16
+        ],
+        "cost_by_rank": [
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Morgana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Soul Shackles",
+        "cooldown_by_rank": [
+          120,
+          110,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          625,
+          625,
+          625
+        ],
+        "source_id": "ddragon:Morgana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Morgana"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Defend humanity against unjust judgment",
+    "candidate_themes": [
+      {
+        "theme": "compassion",
+        "evidence": "Morgana rejects an uncompromising celestial identity in favor of human feeling. She challenges laws she sees as unjust, defends outcasts, and believes people can recover from wrongdoing rather than remain permanently condemned.",
+        "evidence_source_id": "universe:Morgana",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "justice",
+        "evidence": "Morgana rejects an uncompromising celestial identity in favor of human feeling. She challenges laws she sees as unjust, defends outcasts, and believes people can recover from wrongdoing rather than remain permanently condemned.",
+        "evidence_source_id": "universe:Morgana",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "redemption",
+        "evidence": "Morgana rejects an uncompromising celestial identity in favor of human feeling. She challenges laws she sees as unjust, defends outcasts, and believes people can recover from wrongdoing rather than remain permanently condemned.",
+        "evidence_source_id": "universe:Morgana",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 0.6666666666666666,
+      "toughness": 0.3333333333333333,
+      "control": 1.0,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Morgana",
+    "gameplay_api": "ddragon:Morgana",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

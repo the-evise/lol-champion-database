@@ -1,0 +1,342 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Lucian",
+  "riot_id": 236,
+  "name": "Lucian",
+  "title": "the Purifier",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "lucian",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/lucian/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/lucian/",
+    "summary": "Lucian hunts the undead as a Sentinel of Light. Thresh's killing of Senna intensified his vengeance, and even her return has not dissolved the anger behind his determination to defend the living against the Black Mist.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "unaffiliated",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Thresh",
+        "name": "Thresh",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/thresh",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "MissFortune",
+        "name": "Miss Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/missfortune",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Olaf",
+        "name": "Olaf",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/olaf",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Hecarim",
+        "name": "Hecarim",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/hecarim",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "The Climb",
+        "url": "https://youtu.be/3Eu7NzzHC84",
+        "story_slug": null,
+        "published_at": "2018-01-18T16:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Redeemed",
+        "url": "https://universe.leagueoflegends.com/en_us/story/redeemed",
+        "story_slug": "redeemed",
+        "published_at": "2021-01-06T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Homebound",
+        "url": "https://universe.leagueoflegends.com/en_us/story/homebound",
+        "story_slug": "homebound",
+        "published_at": "2019-10-11T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Shadow and Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/story/shadow-and-fortune-story",
+        "story_slug": "shadow-and-fortune-story",
+        "published_at": "2015-10-27T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Hunter of Shadows",
+        "url": "https://universe.leagueoflegends.com/en_us/story/lucian-color-story",
+        "story_slug": "lucian-color-story",
+        "published_at": "2018-10-05T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Lucian: Login Theme",
+        "url": "https://www.youtube.com/watch?v=bgFD2ZNpfN8",
+        "story_slug": null,
+        "published_at": "2013-08-22T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Lucian"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Burst",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2013-08-22",
+    "last_changed_patch_wiki": "V26.20",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 30
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 641,
+      "hpperlevel": 100,
+      "mp": 320,
+      "mpperlevel": 43,
+      "movespeed": 335,
+      "armor": 28,
+      "armorperlevel": 4.2,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 500,
+      "hpregen": 3.75,
+      "hpregenperlevel": 0.65,
+      "mpregen": 7,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.638
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Lightslinger",
+        "source_id": "ddragon:Lucian"
+      },
+      {
+        "slot": "Q",
+        "name": "Piercing Light",
+        "cooldown_by_rank": [
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "cost_by_rank": [
+          48,
+          56,
+          64,
+          72,
+          80
+        ],
+        "range_by_rank": [
+          500,
+          500,
+          500,
+          500,
+          500
+        ],
+        "source_id": "ddragon:Lucian",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Ardent Blaze",
+        "cooldown_by_rank": [
+          14,
+          13,
+          12,
+          11,
+          10
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Lucian",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Relentless Pursuit",
+        "cooldown_by_rank": [
+          16,
+          15.5,
+          15,
+          14.5,
+          14
+        ],
+        "cost_by_rank": [
+          32,
+          24,
+          16,
+          8,
+          0
+        ],
+        "range_by_rank": [
+          445,
+          445,
+          445,
+          445,
+          445
+        ],
+        "source_id": "ddragon:Lucian",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "The Culling",
+        "cooldown_by_rank": [
+          110,
+          100,
+          90
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1400,
+          1400,
+          1400
+        ],
+        "source_id": "ddragon:Lucian",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Lucian"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Protect the living and pursue undead threats",
+    "candidate_themes": [
+      {
+        "theme": "protection",
+        "evidence": "Lucian hunts the undead as a Sentinel of Light. Thresh's killing of Senna intensified his vengeance, and even her return has not dissolved the anger behind his determination to defend the living against the Black Mist.",
+        "evidence_source_id": "universe:Lucian",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "vengeance",
+        "evidence": "Lucian hunts the undead as a Sentinel of Light. Thresh's killing of Senna intensified his vengeance, and even her return has not dissolved the anger behind his determination to defend the living against the Black Mist.",
+        "evidence_source_id": "universe:Lucian",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "resolve",
+        "evidence": "Lucian hunts the undead as a Sentinel of Light. Thresh's killing of Senna intensified his vengeance, and even her return has not dissolved the anger behind his determination to defend the living against the Black Mist.",
+        "evidence_source_id": "universe:Lucian",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.3
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Lucian",
+    "gameplay_api": "ddragon:Lucian",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Shaco",
+  "riot_id": 35,
+  "name": "Shaco",
+  "title": "the Demon Jester",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "shaco",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/shaco/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/shaco/",
+    "summary": "Universe describes Shaco as an enchanted royal plaything corrupted by magic and loss. He now turns tricks and toys into instruments of murder, treating other people's suffering as entertainment. This is the cited profile's account, not a verified origin beyond it.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "unaffiliated",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Fiddlesticks",
+        "name": "Fiddlesticks",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/fiddlesticks",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Nocturne",
+        "name": "Nocturne",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/nocturne",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "Lulu and Shaco’s Quirky Encounter",
+        "url": "https://www.youtube.com/watch?v=PmnLRSHJSg8",
+        "story_slug": null,
+        "published_at": "2015-01-27T16:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated.",
+      "The summary follows the current retrieved biography; do not infer that every origin detail has independent confirmation."
+    ],
+    "source_id": "universe:Shaco"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Stealth",
+      "Summon",
+      "Mixed"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle",
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-10-10",
+    "last_changed_patch_wiki": "V26.11",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 2,
+      "style": 45
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 99,
+      "mp": 297,
+      "mpperlevel": 40,
+      "movespeed": 345,
+      "armor": 30,
+      "armorperlevel": 4,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 8.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 6,
+      "mpregenperlevel": 0.35,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 63,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3,
+      "attackspeed": 0.694
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Backstab",
+        "source_id": "ddragon:Shaco"
+      },
+      {
+        "slot": "Q",
+        "name": "Deceive",
+        "cooldown_by_rank": [
+          13,
+          12.5,
+          12,
+          11.5,
+          11
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Shaco",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Jack In The Box",
+        "cooldown_by_rank": [
+          15,
+          15,
+          15,
+          15,
+          15
+        ],
+        "cost_by_rank": [
+          70,
+          65,
+          60,
+          55,
+          50
+        ],
+        "range_by_rank": [
+          500,
+          500,
+          500,
+          500,
+          500
+        ],
+        "source_id": "ddragon:Shaco",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Two-Shiv Poison",
+        "cooldown_by_rank": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "cost_by_rank": [
+          75,
+          75,
+          75,
+          75,
+          75
+        ],
+        "range_by_rank": [
+          625,
+          625,
+          625,
+          625,
+          625
+        ],
+        "source_id": "ddragon:Shaco",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Hallucinate",
+        "cooldown_by_rank": [
+          100,
+          90,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          200,
+          200,
+          200
+        ],
+        "source_id": "ddragon:Shaco",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Shaco"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Find amusement in cruel games",
+    "candidate_themes": [
+      {
+        "theme": "mischief",
+        "evidence": "Universe describes Shaco as an enchanted royal plaything corrupted by magic and loss. He now turns tricks and toys into instruments of murder, treating other people's suffering as entertainment. This is the cited profile's account, not a verified origin beyond it.",
+        "evidence_source_id": "universe:Shaco",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "cruelty",
+        "evidence": "Universe describes Shaco as an enchanted royal plaything corrupted by magic and loss. He now turns tricks and toys into instruments of murder, treating other people's suffering as entertainment. This is the cited profile's account, not a verified origin beyond it.",
+        "evidence_source_id": "universe:Shaco",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "deception",
+        "evidence": "Universe describes Shaco as an enchanted royal plaything corrupted by magic and loss. He now turns tricks and toys into instruments of murder, treating other people's suffering as entertainment. This is the cited profile's account, not a verified origin beyond it.",
+        "evidence_source_id": "universe:Shaco",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.45
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Shaco",
+    "gameplay_api": "ddragon:Shaco",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

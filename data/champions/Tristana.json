@@ -1,0 +1,289 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Tristana",
+  "riot_id": 18,
+  "name": "Tristana",
+  "title": "the Yordle Gunner",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "tristana",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/tristana/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/tristana/",
+    "summary": "Inspired by stories of warriors, Tristana left Bandle City to create a heroic story of her own. She brings a cannon, optimism, and determined courage to battles she sees as opportunities for meaningful adventure.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "bandle-city",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Teemo",
+        "name": "Teemo",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/teemo",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Rumble",
+        "name": "Rumble",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/rumble",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "A Quiet Night",
+        "url": "https://universe.leagueoflegends.com/en_us/story/tristana-color-story",
+        "story_slug": "tristana-color-story",
+        "published_at": "2016-05-16T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Whispering Doodad",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-whispering-doodad",
+        "story_slug": "the-whispering-doodad",
+        "published_at": "2019-05-14T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Tristana"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Auto-attack",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "mid",
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 20
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 640,
+      "hpperlevel": 102,
+      "mp": 300,
+      "mpperlevel": 32,
+      "movespeed": 325,
+      "armor": 30,
+      "armorperlevel": 4,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 550,
+      "hpregen": 4,
+      "hpregenperlevel": 0.5,
+      "mpregen": 7.2,
+      "mpregenperlevel": 0.45,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.5,
+      "attackspeed": 0.656
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Draw a Bead",
+        "source_id": "ddragon:Tristana"
+      },
+      {
+        "slot": "Q",
+        "name": "Rapid Fire",
+        "cooldown_by_rank": [
+          20,
+          19,
+          18,
+          17,
+          16
+        ],
+        "cost_by_rank": [
+          15,
+          20,
+          25,
+          30,
+          35
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:Tristana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Rocket Jump",
+        "cooldown_by_rank": [
+          22,
+          20,
+          18,
+          16,
+          14
+        ],
+        "cost_by_rank": [
+          30,
+          35,
+          40,
+          45,
+          50
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Tristana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Explosive Charge",
+        "cooldown_by_rank": [
+          16,
+          15.5,
+          15,
+          14.5,
+          14
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Tristana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Buster Shot",
+        "cooldown_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Tristana",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Tristana"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Become a hero worthy of legend",
+    "candidate_themes": [
+      {
+        "theme": "courage",
+        "evidence": "Inspired by stories of warriors, Tristana left Bandle City to create a heroic story of her own. She brings a cannon, optimism, and determined courage to battles she sees as opportunities for meaningful adventure.",
+        "evidence_source_id": "universe:Tristana",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "optimism",
+        "evidence": "Inspired by stories of warriors, Tristana left Bandle City to create a heroic story of her own. She brings a cannon, optimism, and determined courage to battles she sees as opportunities for meaningful adventure.",
+        "evidence_source_id": "universe:Tristana",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "aspiration",
+        "evidence": "Inspired by stories of warriors, Tristana left Bandle City to create a heroic story of her own. She brings a cannon, optimism, and determined courage to battles she sees as opportunities for meaningful adventure.",
+        "evidence_source_id": "universe:Tristana",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.2
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Tristana",
+    "gameplay_api": "ddragon:Tristana",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

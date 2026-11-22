@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Kassadin",
+  "riot_id": 38,
+  "name": "Kassadin",
+  "title": "the Void Walker",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "kassadin",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/kassadin/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/kassadin/",
+    "summary": "After the Void consumed his village, Kassadin assembled dangerous artifacts and technologies to confront it. Knowing their cost and his limited time, he searches Icathia for Malzahar, the prophet he holds responsible.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "void",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Malzahar",
+        "name": "Malzahar",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/malzahar",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Ezreal",
+        "name": "Ezreal",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ezreal",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Whom Does the Desert Know?",
+        "url": "https://universe.leagueoflegends.com/en_us/story/kassadin-color-story",
+        "story_slug": "kassadin-color-story",
+        "published_at": "2018-10-05T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Kassadin"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Hypercarry",
+      "Mobile",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-08-07",
+    "last_changed_patch_wiki": "V26.18",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 90
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 646,
+      "hpperlevel": 113,
+      "mp": 400,
+      "mpperlevel": 87,
+      "movespeed": 335,
+      "armor": 21,
+      "armorperlevel": 4,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 150,
+      "hpregen": 6,
+      "hpregenperlevel": 0.5,
+      "mpregen": 6,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 59,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.7,
+      "attackspeed": 0.64
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Void Stone",
+        "source_id": "ddragon:Kassadin"
+      },
+      {
+        "slot": "Q",
+        "name": "Null Sphere",
+        "cooldown_by_rank": [
+          9,
+          8.5,
+          8,
+          7.5,
+          7
+        ],
+        "cost_by_rank": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "range_by_rank": [
+          650,
+          650,
+          650,
+          650,
+          650
+        ],
+        "source_id": "ddragon:Kassadin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Nether Blade",
+        "cooldown_by_rank": [
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "cost_by_rank": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "range_by_rank": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "source_id": "ddragon:Kassadin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Force Pulse",
+        "cooldown_by_rank": [
+          21,
+          20,
+          19,
+          18,
+          17
+        ],
+        "cost_by_rank": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Kassadin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Riftwalk",
+        "cooldown_by_rank": [
+          5,
+          3.5,
+          2
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          500,
+          500,
+          500
+        ],
+        "source_id": "ddragon:Kassadin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Kassadin"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Avenge his family by confronting Malzahar",
+    "candidate_themes": [
+      {
+        "theme": "vengeance",
+        "evidence": "After the Void consumed his village, Kassadin assembled dangerous artifacts and technologies to confront it. Knowing their cost and his limited time, he searches Icathia for Malzahar, the prophet he holds responsible.",
+        "evidence_source_id": "universe:Kassadin",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "resolve",
+        "evidence": "After the Void consumed his village, Kassadin assembled dangerous artifacts and technologies to confront it. Knowing their cost and his limited time, he searches Icathia for Malzahar, the prophet he holds responsible.",
+        "evidence_source_id": "universe:Kassadin",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "sacrifice",
+        "evidence": "After the Void consumed his village, Kassadin assembled dangerous artifacts and technologies to confront it. Knowing their cost and his limited time, he searches Icathia for Malzahar, the prophet he holds responsible.",
+        "evidence_source_id": "universe:Kassadin",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.9
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Kassadin",
+    "gameplay_api": "ddragon:Kassadin",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

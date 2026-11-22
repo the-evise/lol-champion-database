@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Jinx",
+  "riot_id": 222,
+  "name": "Jinx",
+  "title": "the Loose Cannon",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "jinx",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/jinx/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/jinx/",
+    "summary": "Jinx uses weapons she builds herself to spread destruction through Piltover and Zaun. Her impulsive behavior is tied to a painful past, while the disorder she creates can also become a symbol of resistance for others.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "zaun",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Caitlyn",
+        "name": "Caitlyn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/caitlyn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Vi",
+        "name": "Vi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Ekko",
+        "name": "Ekko",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ekko",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "League of Legends Music: Get Jinxed",
+        "url": "https://www.youtube.com/watch?v=0nlJuwO0GDs",
+        "story_slug": null,
+        "published_at": "2013-10-08T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Wedding Crasher",
+        "url": "https://universe.leagueoflegends.com/en_us/story/jinx-color-story",
+        "story_slug": "jinx-color-story",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Jinx: Login Theme",
+        "url": "https://www.youtube.com/watch?v=JoHRzfKrdtk",
+        "story_slug": null,
+        "published_at": "2013-10-10T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Jinx"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Auto-attack",
+      "Hypercarry",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2013-10-10",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 1,
+      "utility": 1,
+      "style": 10
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 610,
+      "hpperlevel": 105,
+      "mp": 260,
+      "mpperlevel": 50,
+      "movespeed": 325,
+      "armor": 26,
+      "armorperlevel": 4.2,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 525,
+      "hpregen": 3.75,
+      "hpregenperlevel": 0.5,
+      "mpregen": 6.7,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 59,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Get Excited!",
+        "source_id": "ddragon:Jinx"
+      },
+      {
+        "slot": "Q",
+        "name": "Switcheroo!",
+        "cooldown_by_rank": [
+          0.9,
+          0.9,
+          0.9,
+          0.9,
+          0.9
+        ],
+        "cost_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Jinx",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Zap!",
+        "cooldown_by_rank": [
+          8,
+          7,
+          6,
+          5,
+          4
+        ],
+        "cost_by_rank": [
+          40,
+          45,
+          50,
+          55,
+          60
+        ],
+        "range_by_rank": [
+          1450,
+          1450,
+          1450,
+          1450,
+          1450
+        ],
+        "source_id": "ddragon:Jinx",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Flame Chompers!",
+        "cooldown_by_rank": [
+          24,
+          20.5,
+          17,
+          13.5,
+          10
+        ],
+        "cost_by_rank": [
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "range_by_rank": [
+          925,
+          925,
+          925,
+          925,
+          925
+        ],
+        "source_id": "ddragon:Jinx",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Super Mega Death Rocket!",
+        "cooldown_by_rank": [
+          85,
+          65,
+          45
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Jinx",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Jinx"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Express defiance through destructive invention",
+    "candidate_themes": [
+      {
+        "theme": "defiance",
+        "evidence": "Jinx uses weapons she builds herself to spread destruction through Piltover and Zaun. Her impulsive behavior is tied to a painful past, while the disorder she creates can also become a symbol of resistance for others.",
+        "evidence_source_id": "universe:Jinx",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "ingenuity",
+        "evidence": "Jinx uses weapons she builds herself to spread destruction through Piltover and Zaun. Her impulsive behavior is tied to a painful past, while the disorder she creates can also become a symbol of resistance for others.",
+        "evidence_source_id": "universe:Jinx",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "volatility",
+        "evidence": "Jinx uses weapons she builds herself to spread destruction through Piltover and Zaun. Her impulsive behavior is tied to a painful past, while the disorder she creates can also become a symbol of resistance for others.",
+        "evidence_source_id": "universe:Jinx",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.1
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Jinx",
+    "gameplay_api": "ddragon:Jinx",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

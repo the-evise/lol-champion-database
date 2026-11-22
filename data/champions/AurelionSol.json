@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0.0",
+  "id": "AurelionSol",
+  "riot_id": 136,
+  "name": "Aurelion Sol",
+  "title": "The Star Forger",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "aurelionsol",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/aurelionsol/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/aurelionsol/",
+    "summary": "A celestial creator of stars, Aurelion Sol was deceived by Targon's Aspects and forced to lend his power to their purposes. He seeks release from their control, with little concern for the destruction his liberation might cause.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "unaffiliated",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Soraka",
+        "name": "Soraka",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/soraka",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Leona",
+        "name": "Leona",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/leona",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Diana",
+        "name": "Diana",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/diana",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "Aurelion Sol: The Star Forger Returns",
+        "url": "https://www.youtube.com/watch?v=CAAnY_L4Pp4",
+        "story_slug": null,
+        "published_at": "2016-03-03T16:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Twin Dawns",
+        "url": "https://universe.leagueoflegends.com/en_us/story/aurelionsol-color-story",
+        "story_slug": "aurelionsol-color-story",
+        "published_at": "2016-03-24T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Aurelion Sol: Login Theme",
+        "url": "https://www.youtube.com/watch?v=ApCoJeatwac",
+        "story_slug": null,
+        "published_at": "2016-03-24T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:AurelionSol"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Battlemage"
+    ],
+    "client_tags_wiki": [
+      "Hypercarry",
+      "AoE",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2016-03-24",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 600,
+      "hpperlevel": 90,
+      "mp": 530,
+      "mpperlevel": 40,
+      "movespeed": 340,
+      "armor": 22,
+      "armorperlevel": 4,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 550,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 8,
+      "mpregenperlevel": 0.75,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 58,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.5,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Cosmic Creator",
+        "source_id": "ddragon:AurelionSol"
+      },
+      {
+        "slot": "Q",
+        "name": "Breath of Light",
+        "cooldown_by_rank": [
+          3,
+          3,
+          3,
+          3,
+          3
+        ],
+        "cost_by_rank": [
+          30,
+          35,
+          40,
+          45,
+          50
+        ],
+        "range_by_rank": [
+          750,
+          750,
+          750,
+          750,
+          750
+        ],
+        "source_id": "ddragon:AurelionSol",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Astral Flight",
+        "cooldown_by_rank": [
+          22,
+          20,
+          18,
+          16,
+          14
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          1500,
+          1500,
+          1500,
+          1500,
+          1500
+        ],
+        "source_id": "ddragon:AurelionSol",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Singularity",
+        "cooldown_by_rank": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "cost_by_rank": [
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "range_by_rank": [
+          750,
+          750,
+          750,
+          750,
+          750
+        ],
+        "source_id": "ddragon:AurelionSol",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Falling Star / The Skies Descend",
+        "cooldown_by_rank": [
+          120,
+          110,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1250,
+          1250,
+          1250
+        ],
+        "source_id": "ddragon:AurelionSol",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:AurelionSol"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Recover freedom and cosmic autonomy",
+    "candidate_themes": [
+      {
+        "theme": "freedom",
+        "evidence": "A celestial creator of stars, Aurelion Sol was deceived by Targon's Aspects and forced to lend his power to their purposes. He seeks release from their control, with little concern for the destruction his liberation might cause.",
+        "evidence_source_id": "universe:AurelionSol",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "pride",
+        "evidence": "A celestial creator of stars, Aurelion Sol was deceived by Targon's Aspects and forced to lend his power to their purposes. He seeks release from their control, with little concern for the destruction his liberation might cause.",
+        "evidence_source_id": "universe:AurelionSol",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "creation",
+        "evidence": "A celestial creator of stars, Aurelion Sol was deceived by Targon's Aspects and forced to lend his power to their purposes. He seeks release from their control, with little concern for the destruction his liberation might cause.",
+        "evidence_source_id": "universe:AurelionSol",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:AurelionSol",
+    "gameplay_api": "ddragon:AurelionSol",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

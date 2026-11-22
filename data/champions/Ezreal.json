@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Ezreal",
+  "riot_id": 81,
+  "name": "Ezreal",
+  "title": "the Prodigal Explorer",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "ezreal",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/ezreal/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/ezreal/",
+    "summary": "Ezreal explores dangerous ruins with a magical gauntlet and a strong preference for improvisation. His confidence regularly takes him into trouble, where quick thinking and unfamiliar magical power become tools for escape.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "piltover",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Kassadin",
+        "name": "Kassadin",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kassadin",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Lux",
+        "name": "Lux",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/lux",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "RekSai",
+        "name": "Rek'Sai",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/reksai",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Curator's Gambit",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-curators-gambit",
+        "story_slug": "the-curators-gambit",
+        "published_at": "2018-10-05T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "An Explorer's Journey",
+        "url": "https://universe.leagueoflegends.com/en_us/story/an-explorers-journey",
+        "story_slug": "an-explorers-journey",
+        "published_at": "2018-09-24T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Elixir of Uloa",
+        "url": "https://universe.leagueoflegends.com/en_us/story/ezreal-color-story",
+        "story_slug": "ezreal-color-story",
+        "published_at": "2016-11-16T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Ezreal"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Long Range",
+      "Mobile",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2010-03-16",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 45
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 600,
+      "hpperlevel": 102,
+      "mp": 375,
+      "mpperlevel": 70,
+      "movespeed": 325,
+      "armor": 24,
+      "armorperlevel": 4.2,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 550,
+      "hpregen": 4,
+      "hpregenperlevel": 0.65,
+      "mpregen": 8.5,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Rising Spell Force",
+        "source_id": "ddragon:Ezreal"
+      },
+      {
+        "slot": "Q",
+        "name": "Mystic Shot",
+        "cooldown_by_rank": [
+          5.5,
+          5.25,
+          5,
+          4.75,
+          4.5
+        ],
+        "cost_by_rank": [
+          28,
+          31,
+          34,
+          37,
+          40
+        ],
+        "range_by_rank": [
+          1150,
+          1150,
+          1150,
+          1150,
+          1150
+        ],
+        "source_id": "ddragon:Ezreal",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Essence Flux",
+        "cooldown_by_rank": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          1150,
+          1150,
+          1150,
+          1150,
+          1150
+        ],
+        "source_id": "ddragon:Ezreal",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Arcane Shift",
+        "cooldown_by_rank": [
+          26,
+          23,
+          20,
+          17,
+          14
+        ],
+        "cost_by_rank": [
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "range_by_rank": [
+          475,
+          475,
+          475,
+          475,
+          475
+        ],
+        "source_id": "ddragon:Ezreal",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Trueshot Barrage",
+        "cooldown_by_rank": [
+          120,
+          105,
+          90
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Ezreal",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Ezreal"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Pursue adventure and discovery",
+    "candidate_themes": [
+      {
+        "theme": "curiosity",
+        "evidence": "Ezreal explores dangerous ruins with a magical gauntlet and a strong preference for improvisation. His confidence regularly takes him into trouble, where quick thinking and unfamiliar magical power become tools for escape.",
+        "evidence_source_id": "universe:Ezreal",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "improvisation",
+        "evidence": "Ezreal explores dangerous ruins with a magical gauntlet and a strong preference for improvisation. His confidence regularly takes him into trouble, where quick thinking and unfamiliar magical power become tools for escape.",
+        "evidence_source_id": "universe:Ezreal",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "audacity",
+        "evidence": "Ezreal explores dangerous ruins with a magical gauntlet and a strong preference for improvisation. His confidence regularly takes him into trouble, where quick thinking and unfamiliar magical power become tools for escape.",
+        "evidence_source_id": "universe:Ezreal",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.45
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Ezreal",
+    "gameplay_api": "ddragon:Ezreal",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

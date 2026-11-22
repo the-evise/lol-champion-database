@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "id": "LeeSin",
+  "riot_id": 64,
+  "name": "Lee Sin",
+  "title": "the Blind Monk",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "leesin",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/leesin/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/leesin/",
+    "summary": "Lee Sin is a blind Ionian martial artist who channels a dragon spirit. His discipline and contemplative manner support a firm commitment to protecting his homeland and preserving its spiritual balance.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "ionia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Karma",
+        "name": "Karma",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/karma",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Udyr",
+        "name": "Udyr",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/udyr",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "All That Glitters...",
+        "url": "https://universe.leagueoflegends.com/en_us/story/leesin-color-story",
+        "story_slug": "leesin-color-story",
+        "published_at": "2016-11-03T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:LeeSin"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Diver"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Energy",
+    "release_date_wiki": "2011-04-01",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 2,
+      "control": 2,
+      "mobility": 3,
+      "utility": 1,
+      "style": 55
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 645,
+      "hpperlevel": 108,
+      "mp": 200,
+      "mpperlevel": 0,
+      "movespeed": 345,
+      "armor": 36,
+      "armorperlevel": 4.5,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 7.5,
+      "hpregenperlevel": 0.7,
+      "mpregen": 50,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 66,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3,
+      "attackspeed": 0.651
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Flurry",
+        "source_id": "ddragon:LeeSin"
+      },
+      {
+        "slot": "Q",
+        "name": "Sonic Wave / Resonating Strike",
+        "cooldown_by_rank": [
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          1100,
+          1100,
+          1100,
+          1100,
+          1100
+        ],
+        "source_id": "ddragon:LeeSin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Safeguard / Iron Will",
+        "cooldown_by_rank": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "source_id": "ddragon:LeeSin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Tempest / Cripple",
+        "cooldown_by_rank": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          450,
+          450,
+          450,
+          450,
+          450
+        ],
+        "source_id": "ddragon:LeeSin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Dragon's Rage",
+        "cooldown_by_rank": [
+          110,
+          85,
+          60
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          375,
+          375,
+          375
+        ],
+        "source_id": "ddragon:LeeSin",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:LeeSin"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Defend Ionia through disciplined strength",
+    "candidate_themes": [
+      {
+        "theme": "discipline",
+        "evidence": "Lee Sin is a blind Ionian martial artist who channels a dragon spirit. His discipline and contemplative manner support a firm commitment to protecting his homeland and preserving its spiritual balance.",
+        "evidence_source_id": "universe:LeeSin",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "balance",
+        "evidence": "Lee Sin is a blind Ionian martial artist who channels a dragon spirit. His discipline and contemplative manner support a firm commitment to protecting his homeland and preserving its spiritual balance.",
+        "evidence_source_id": "universe:LeeSin",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "protection",
+        "evidence": "Lee Sin is a blind Ionian martial artist who channels a dragon spirit. His discipline and contemplative manner support a firm commitment to protecting his homeland and preserving its spiritual balance.",
+        "evidence_source_id": "universe:LeeSin",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.6666666666666666,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.55
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:LeeSin",
+    "gameplay_api": "ddragon:LeeSin",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

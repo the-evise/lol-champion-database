@@ -1,0 +1,283 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Zac",
+  "riot_id": 154,
+  "name": "Zac",
+  "title": "the Secret Weapon",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "zac",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/zac/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/zac/",
+    "summary": "Zac emerged from toxic material in Zaun and developed into a self-aware being. Rather than treat the city as prey, he helps vulnerable residents and repairs damaged infrastructure from his home among its pipes.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "zaun",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Twitch",
+        "name": "Twitch",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/twitch",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Protection",
+        "url": "https://universe.leagueoflegends.com/en_us/story/zac-color-story",
+        "story_slug": "zac-color-story",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "ZAC: GİRİŞ EKRANI MÜZİĞİ",
+        "url": "https://www.youtube.com/watch?v=AW2JL512dXs",
+        "story_slug": null,
+        "published_at": "2013-03-29T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Zac"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Tank",
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Vanguard"
+    ],
+    "client_tags_wiki": [
+      "Initiator",
+      "Self Healing",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "top",
+        "jungle",
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "None",
+    "release_date_wiki": "2013-03-29",
+    "last_changed_patch_wiki": "V26.15",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 2,
+      "toughness": 3,
+      "control": 3,
+      "mobility": 2,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 685,
+      "hpperlevel": 109,
+      "mp": 0,
+      "mpperlevel": 0,
+      "movespeed": 340,
+      "armor": 33,
+      "armorperlevel": 5.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 175,
+      "hpregen": 5,
+      "hpregenperlevel": 0.5,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.6,
+      "attackspeed": 0.736
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Cell Division",
+        "source_id": "ddragon:Zac"
+      },
+      {
+        "slot": "Q",
+        "name": "Stretching Strikes",
+        "cooldown_by_rank": [
+          14,
+          12.5,
+          11,
+          9.5,
+          8
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Zac",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Unstable Matter",
+        "cooldown_by_rank": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          350,
+          350,
+          350,
+          350,
+          350
+        ],
+        "source_id": "ddragon:Zac",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Elastic Slingshot",
+        "cooldown_by_rank": [
+          21,
+          18,
+          15,
+          12,
+          9
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "source_id": "ddragon:Zac",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Let's Bounce!",
+        "cooldown_by_rank": [
+          120,
+          105,
+          90
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          300,
+          300,
+          300
+        ],
+        "source_id": "ddragon:Zac",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Zac"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Help people and repair his city",
+    "candidate_themes": [
+      {
+        "theme": "kindness",
+        "evidence": "Zac emerged from toxic material in Zaun and developed into a self-aware being. Rather than treat the city as prey, he helps vulnerable residents and repairs damaged infrastructure from his home among its pipes.",
+        "evidence_source_id": "universe:Zac",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "service",
+        "evidence": "Zac emerged from toxic material in Zaun and developed into a self-aware being. Rather than treat the city as prey, he helps vulnerable residents and repairs damaged infrastructure from his home among its pipes.",
+        "evidence_source_id": "universe:Zac",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "initiative",
+        "evidence": "Zac emerged from toxic material in Zaun and developed into a self-aware being. Rather than treat the city as prey, he helps vulnerable residents and repairs damaged infrastructure from his home among its pipes.",
+        "evidence_source_id": "universe:Zac",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 0.6666666666666666,
+      "toughness": 1.0,
+      "control": 1.0,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Zac",
+    "gameplay_api": "ddragon:Zac",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

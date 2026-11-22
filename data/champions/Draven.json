@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Draven",
+  "riot_id": 119,
+  "name": "Draven",
+  "title": "the Glorious Executioner",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "draven",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/draven/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/draven/",
+    "summary": "Draven found the recognition he wanted in Noxian arenas rather than conventional soldiering. His performances turn violence into personal spectacle, and he pursues opponents who can help keep his fame growing.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Darius",
+        "name": "Darius",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/darius",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Swain",
+        "name": "Swain",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/swain",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "A New Dawn",
+        "url": "https://www.youtube.com/watch?v=vzHrjOMfHPY",
+        "story_slug": null,
+        "published_at": "2014-07-22T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Whispering Doodad",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-whispering-doodad",
+        "story_slug": "the-whispering-doodad",
+        "published_at": "2019-05-14T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Draven Art Spotlight",
+        "url": "https://www.youtube.com/watch?v=-SmZYn81h6E",
+        "story_slug": null,
+        "published_at": "2012-05-30T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Draven: Login Theme",
+        "url": "https://www.youtube.com/watch?v=H1xHayXetLU",
+        "story_slug": null,
+        "published_at": "2012-06-06T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "A New Dawn: BTS",
+        "url": "https://www.youtube.com/watch?v=Q40IfQbYlSw",
+        "story_slug": null,
+        "published_at": "2014-07-22T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Draven"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Auto-attack",
+      "Burst",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2012-06-06",
+    "last_changed_patch_wiki": "V26.19",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 2,
+      "utility": 1,
+      "style": 10
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 675,
+      "hpperlevel": 104,
+      "mp": 361,
+      "mpperlevel": 39,
+      "movespeed": 330,
+      "armor": 29,
+      "armorperlevel": 4.5,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 550,
+      "hpregen": 3.75,
+      "hpregenperlevel": 0.7,
+      "mpregen": 8.05,
+      "mpregenperlevel": 0.65,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 64,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.7,
+      "attackspeed": 0.679
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "League of Draven",
+        "source_id": "ddragon:Draven"
+      },
+      {
+        "slot": "Q",
+        "name": "Spinning Axe",
+        "cooldown_by_rank": [
+          12,
+          11,
+          10,
+          9,
+          8
+        ],
+        "cost_by_rank": [
+          45,
+          45,
+          45,
+          45,
+          45
+        ],
+        "range_by_rank": [
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "source_id": "ddragon:Draven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Blood Rush",
+        "cooldown_by_rank": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "cost_by_rank": [
+          40,
+          35,
+          30,
+          25,
+          20
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Draven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Stand Aside",
+        "cooldown_by_rank": [
+          16,
+          15,
+          14,
+          13,
+          12
+        ],
+        "cost_by_rank": [
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "range_by_rank": [
+          1050,
+          1050,
+          1050,
+          1050,
+          1050
+        ],
+        "source_id": "ddragon:Draven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Whirling Death",
+        "cooldown_by_rank": [
+          100,
+          90,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          20000,
+          20000,
+          20000
+        ],
+        "source_id": "ddragon:Draven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Draven"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Win public admiration through spectacle",
+    "candidate_themes": [
+      {
+        "theme": "recognition",
+        "evidence": "Draven found the recognition he wanted in Noxian arenas rather than conventional soldiering. His performances turn violence into personal spectacle, and he pursues opponents who can help keep his fame growing.",
+        "evidence_source_id": "universe:Draven",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "showmanship",
+        "evidence": "Draven found the recognition he wanted in Noxian arenas rather than conventional soldiering. His performances turn violence into personal spectacle, and he pursues opponents who can help keep his fame growing.",
+        "evidence_source_id": "universe:Draven",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "competition",
+        "evidence": "Draven found the recognition he wanted in Noxian arenas rather than conventional soldiering. His performances turn violence into personal spectacle, and he pursues opponents who can help keep his fame growing.",
+        "evidence_source_id": "universe:Draven",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.1
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Draven",
+    "gameplay_api": "ddragon:Draven",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

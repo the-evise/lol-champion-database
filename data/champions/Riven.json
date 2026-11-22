@@ -1,0 +1,308 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Riven",
+  "riot_id": 92,
+  "name": "Riven",
+  "title": "the Exile",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "riven",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/riven/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/riven/",
+    "summary": "Riven earned status as a Noxian soldier before the Ionian campaign destroyed her faith in the empire. She left it to seek another identity, but her forced return brings her past loyalties and actions back into judgment.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Leblanc",
+        "name": "LeBlanc",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/leblanc",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Yasuo",
+        "name": "Yasuo",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/yasuo",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Seams and Scars",
+        "url": "https://universe.leagueoflegends.com/en_us/story/riven-color-story",
+        "story_slug": "riven-color-story",
+        "published_at": "2020-06-23T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Confessions of a Broken Blade: Part I",
+        "url": "https://universe.leagueoflegends.com/en_us/story/confessions-of-a-broken-blade-act-1-story",
+        "story_slug": "confessions-of-a-broken-blade-act-1-story",
+        "published_at": "2018-04-23T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Confessions of a Broken Blade: Part 2",
+        "url": "https://universe.leagueoflegends.com/en_us/story/confessions-of-a-broken-blade-act-2-story",
+        "story_slug": "confessions-of-a-broken-blade-act-2-story",
+        "published_at": "2018-04-24T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Confessions of a Broken Blade: Part 3",
+        "url": "https://universe.leagueoflegends.com/en_us/story/confessions-of-a-broken-blade-act-3-story",
+        "story_slug": "confessions-of-a-broken-blade-act-3-story",
+        "published_at": "2018-04-25T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Riven"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "None",
+    "release_date_wiki": "2011-09-14",
+    "last_changed_patch_wiki": "V26.15",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 2,
+      "control": 2,
+      "mobility": 3,
+      "utility": 1,
+      "style": 75
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 100,
+      "mp": 0,
+      "mpperlevel": 0,
+      "movespeed": 340,
+      "armor": 33,
+      "armorperlevel": 4.4,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 8.5,
+      "hpregenperlevel": 0.5,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 64,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.5,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Runic Blade",
+        "source_id": "ddragon:Riven"
+      },
+      {
+        "slot": "Q",
+        "name": "Broken Wings",
+        "cooldown_by_rank": [
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          275,
+          275,
+          275,
+          275,
+          275
+        ],
+        "source_id": "ddragon:Riven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Ki Burst",
+        "cooldown_by_rank": [
+          11,
+          10,
+          9,
+          8,
+          7
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          260,
+          260,
+          260,
+          260,
+          260
+        ],
+        "source_id": "ddragon:Riven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Valor",
+        "cooldown_by_rank": [
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "source_id": "ddragon:Riven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Blade of the Exile",
+        "cooldown_by_rank": [
+          120,
+          90,
+          60
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          200,
+          200,
+          200
+        ],
+        "source_id": "ddragon:Riven",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Riven"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Find a life beyond her broken allegiance",
+    "candidate_themes": [
+      {
+        "theme": "identity",
+        "evidence": "Riven earned status as a Noxian soldier before the Ionian campaign destroyed her faith in the empire. She left it to seek another identity, but her forced return brings her past loyalties and actions back into judgment.",
+        "evidence_source_id": "universe:Riven",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "disillusionment",
+        "evidence": "Riven earned status as a Noxian soldier before the Ionian campaign destroyed her faith in the empire. She left it to seek another identity, but her forced return brings her past loyalties and actions back into judgment.",
+        "evidence_source_id": "universe:Riven",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "redemption",
+        "evidence": "Riven earned status as a Noxian soldier before the Ionian campaign destroyed her faith in the empire. She left it to seek another identity, but her forced return brings her past loyalties and actions back into judgment.",
+        "evidence_source_id": "universe:Riven",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.6666666666666666,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.75
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Riven",
+    "gameplay_api": "ddragon:Riven",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

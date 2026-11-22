@@ -1,0 +1,287 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Caitlyn",
+  "riot_id": 51,
+  "name": "Caitlyn",
+  "title": "the Sheriff of Piltover",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "caitlyn",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/caitlyn/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/caitlyn/",
+    "summary": "Caitlyn is a Piltover investigator who relies on observation, planning, and marksmanship. Her partnership with Vi combines a deliberate approach to catching criminals with a more impulsive partner's methods.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "piltover",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Vi",
+        "name": "Vi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Jinx",
+        "name": "Jinx",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/jinx",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Thrill of the Chase",
+        "url": "https://universe.leagueoflegends.com/en_us/story/caitlyn-color-story",
+        "story_slug": "caitlyn-color-story",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Progress Day",
+        "url": "https://universe.leagueoflegends.com/en_us/story/piltover-progress-day",
+        "story_slug": "piltover-progress-day",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Caitlyn"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Auto-attack",
+      "Burst",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2011-01-04",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 10
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 580,
+      "hpperlevel": 107,
+      "mp": 315,
+      "mpperlevel": 40,
+      "movespeed": 325,
+      "armor": 27,
+      "armorperlevel": 4.7,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 650,
+      "hpregen": 3.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 7.4,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 62,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 4,
+      "attackspeed": 0.681
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Headshot",
+        "source_id": "ddragon:Caitlyn"
+      },
+      {
+        "slot": "Q",
+        "name": "Piltover Peacemaker",
+        "cooldown_by_rank": [
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cost_by_rank": [
+          55,
+          60,
+          65,
+          70,
+          75
+        ],
+        "range_by_rank": [
+          1250,
+          1250,
+          1250,
+          1250,
+          1250
+        ],
+        "source_id": "ddragon:Caitlyn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Yordle Snap Trap",
+        "cooldown_by_rank": [
+          0.5,
+          0.5,
+          0.5,
+          0.5,
+          0.5
+        ],
+        "cost_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Caitlyn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "90 Caliber Net",
+        "cooldown_by_rank": [
+          16,
+          14,
+          12,
+          10,
+          8
+        ],
+        "cost_by_rank": [
+          75,
+          75,
+          75,
+          75,
+          75
+        ],
+        "range_by_rank": [
+          750,
+          750,
+          750,
+          750,
+          750
+        ],
+        "source_id": "ddragon:Caitlyn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Ace in the Hole",
+        "cooldown_by_rank": [
+          90,
+          90,
+          90
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          3500,
+          3500,
+          3500
+        ],
+        "source_id": "ddragon:Caitlyn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Caitlyn"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Pursue justice through investigation",
+    "candidate_themes": [
+      {
+        "theme": "precision",
+        "evidence": "Caitlyn is a Piltover investigator who relies on observation, planning, and marksmanship. Her partnership with Vi combines a deliberate approach to catching criminals with a more impulsive partner's methods.",
+        "evidence_source_id": "universe:Caitlyn",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "reasoning",
+        "evidence": "Caitlyn is a Piltover investigator who relies on observation, planning, and marksmanship. Her partnership with Vi combines a deliberate approach to catching criminals with a more impulsive partner's methods.",
+        "evidence_source_id": "universe:Caitlyn",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "justice",
+        "evidence": "Caitlyn is a Piltover investigator who relies on observation, planning, and marksmanship. Her partnership with Vi combines a deliberate approach to catching criminals with a more impulsive partner's methods.",
+        "evidence_source_id": "universe:Caitlyn",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.1
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Caitlyn",
+    "gameplay_api": "ddragon:Caitlyn",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

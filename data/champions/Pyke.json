@@ -1,0 +1,299 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Pyke",
+  "riot_id": 555,
+  "name": "Pyke",
+  "title": "the Bloodharbor Ripper",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "pyke",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/pyke/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/pyke/",
+    "summary": "A Bilgewater harpooner returned from an apparent death with supernatural abilities. He now hunts people he associates with exploitation, turning the city's predatory economy into the setting for his own violent reckoning.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "bilgewater",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Gangplank",
+        "name": "Gangplank",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/gangplank",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "MissFortune",
+        "name": "Miss Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/missfortune",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "Legends of Bilgewater: Pyke, the Drowned Man",
+        "url": "https://youtu.be/eFRwP9lsLEo",
+        "story_slug": null,
+        "published_at": "2018-05-31T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "THEN, TEETH",
+        "url": "https://universe.leagueoflegends.com/en_us/story/pyke-color-story",
+        "story_slug": "pyke-color-story",
+        "published_at": "2018-05-31T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Pyke: The Bloodharbor Ripper",
+        "url": "https://www.youtube.com/watch?v=UjX7FAwc7lw",
+        "story_slug": null,
+        "published_at": "2018-05-10T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Pyke"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Support",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Assassin",
+      "Catcher"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Stealth",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "support"
+      ],
+      "external": [
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2018-05-31",
+    "last_changed_patch_wiki": "V26.06",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 2,
+      "toughness": 1,
+      "control": 3,
+      "mobility": 3,
+      "utility": 1,
+      "style": 50
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 670,
+      "hpperlevel": 110,
+      "mp": 415,
+      "mpperlevel": 50,
+      "movespeed": 330,
+      "armor": 37,
+      "armorperlevel": 4.7,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 150,
+      "hpregen": 7,
+      "hpregenperlevel": 0.5,
+      "mpregen": 8,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 62,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.667
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Gift of the Drowned Ones",
+        "source_id": "ddragon:Pyke"
+      },
+      {
+        "slot": "Q",
+        "name": "Bone Skewer",
+        "cooldown_by_rank": [
+          10,
+          9.5,
+          9,
+          8.5,
+          8
+        ],
+        "cost_by_rank": [
+          70,
+          75,
+          80,
+          85,
+          90
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Pyke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Ghostwater Dive",
+        "cooldown_by_rank": [
+          14,
+          13,
+          12,
+          11,
+          10
+        ],
+        "cost_by_rank": [
+          65,
+          65,
+          65,
+          65,
+          65
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Pyke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Phantom Undertow",
+        "cooldown_by_rank": [
+          15,
+          14,
+          13,
+          12,
+          11
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Pyke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Death From Below",
+        "cooldown_by_rank": [
+          100,
+          85,
+          70
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          750,
+          750,
+          750
+        ],
+        "source_id": "ddragon:Pyke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Pyke"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Punish those he sees as exploiters",
+    "candidate_themes": [
+      {
+        "theme": "vengeance",
+        "evidence": "A Bilgewater harpooner returned from an apparent death with supernatural abilities. He now hunts people he associates with exploitation, turning the city's predatory economy into the setting for his own violent reckoning.",
+        "evidence_source_id": "universe:Pyke",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "judgment",
+        "evidence": "A Bilgewater harpooner returned from an apparent death with supernatural abilities. He now hunts people he associates with exploitation, turning the city's predatory economy into the setting for his own violent reckoning.",
+        "evidence_source_id": "universe:Pyke",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "alienation",
+        "evidence": "A Bilgewater harpooner returned from an apparent death with supernatural abilities. He now hunts people he associates with exploitation, turning the city's predatory economy into the setting for his own violent reckoning.",
+        "evidence_source_id": "universe:Pyke",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 0.6666666666666666,
+      "toughness": 0.3333333333333333,
+      "control": 1.0,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.5
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Pyke",
+    "gameplay_api": "ddragon:Pyke",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

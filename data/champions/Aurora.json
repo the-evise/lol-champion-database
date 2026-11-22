@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Aurora",
+  "riot_id": 893,
+  "name": "Aurora",
+  "title": "the Witch Between Worlds",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "aurora",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/aurora/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/aurora/",
+    "summary": "Aurora can cross between the physical and spirit worlds. Her research becomes a personal mission after meeting a distressed demigod whose identity has been lost, prompting her to search the Freljord for a way to help him.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "freljord",
+    "species_as_listed": [
+      "Vastaya"
+    ],
+    "related_champions": [
+      {
+        "id": "Ornn",
+        "name": "Ornn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ornn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Udyr",
+        "name": "Udyr",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/udyr",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Anivia",
+        "name": "Anivia",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/anivia",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Volibear",
+        "name": "Volibear",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/volibear",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Aurora"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Burst",
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Stealth",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid",
+        "top"
+      ],
+      "external": [
+        "mid",
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2024-07-17",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 3,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 607,
+      "hpperlevel": 110,
+      "mp": 475,
+      "mpperlevel": 30,
+      "movespeed": 335,
+      "armor": 23,
+      "armorperlevel": 4.5,
+      "spellblock": 32,
+      "spellblockperlevel": 1.3,
+      "attackrange": 550,
+      "hpregen": 6,
+      "hpregenperlevel": 0.55,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 53,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2,
+      "attackspeed": 0.668
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Spirit Abjuration",
+        "source_id": "ddragon:Aurora"
+      },
+      {
+        "slot": "Q",
+        "name": "Twofold Hex",
+        "cooldown_by_rank": [
+          9,
+          8.5,
+          8,
+          7.5,
+          7
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Aurora",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Across the Veil",
+        "cooldown_by_rank": [
+          22,
+          21,
+          20,
+          19,
+          18
+        ],
+        "cost_by_rank": [
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "range_by_rank": [
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "source_id": "ddragon:Aurora",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "The Weirding",
+        "cooldown_by_rank": [
+          15,
+          14,
+          13,
+          12,
+          11
+        ],
+        "cost_by_rank": [
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "range_by_rank": [
+          825,
+          825,
+          825,
+          825,
+          825
+        ],
+        "source_id": "ddragon:Aurora",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Between Worlds",
+        "cooldown_by_rank": [
+          140,
+          120,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          250,
+          250,
+          250
+        ],
+        "source_id": "ddragon:Aurora",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Aurora"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Understand spirits and help a troubled friend",
+    "candidate_themes": [
+      {
+        "theme": "curiosity",
+        "evidence": "Aurora can cross between the physical and spirit worlds. Her research becomes a personal mission after meeting a distressed demigod whose identity has been lost, prompting her to search the Freljord for a way to help him.",
+        "evidence_source_id": "universe:Aurora",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "compassion",
+        "evidence": "Aurora can cross between the physical and spirit worlds. Her research becomes a personal mission after meeting a distressed demigod whose identity has been lost, prompting her to search the Freljord for a way to help him.",
+        "evidence_source_id": "universe:Aurora",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "persistence",
+        "evidence": "Aurora can cross between the physical and spirit worlds. Her research becomes a personal mission after meeting a distressed demigod whose identity has been lost, prompting her to search the Freljord for a way to help him.",
+        "evidence_source_id": "universe:Aurora",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Aurora",
+    "gameplay_api": "ddragon:Aurora",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

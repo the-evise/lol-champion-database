@@ -1,0 +1,338 @@
+{
+  "schema_version": "1.0.0",
+  "id": "TwistedFate",
+  "riot_id": 4,
+  "name": "Twisted Fate",
+  "title": "the Card Master",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "twistedfate",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/twistedfate/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/twistedfate/",
+    "summary": "Twisted Fate travels through gambling, deception, and charm. He projects a relaxed attitude toward danger while keeping hidden options available, making adaptability and opportunism central to how he survives.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "bilgewater",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Graves",
+        "name": "Graves",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/graves",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Gangplank",
+        "name": "Gangplank",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/gangplank",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "MissFortune",
+        "name": "Miss Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/missfortune",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "A Twist of Fate",
+        "url": "https://www.youtube.com/watch?v=tEnsqpThaFg",
+        "story_slug": null,
+        "published_at": "2013-05-25T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Destiny and Fate",
+        "url": "https://universe.leagueoflegends.com/en_us/story/destiny-and-fate",
+        "story_slug": "destiny-and-fate",
+        "published_at": "2020-03-18T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Double Down",
+        "url": "https://universe.leagueoflegends.com/en_us/story/twistedfate-color-story",
+        "story_slug": "twistedfate-color-story",
+        "published_at": "2017-07-29T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Burning Tides",
+        "url": "https://universe.leagueoflegends.com/en_us/story/bilgewater-story",
+        "story_slug": "bilgewater-story",
+        "published_at": "2015-07-23T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Boys and Bombolini",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-boys-and-bombolini",
+        "story_slug": "the-boys-and-bombolini",
+        "published_at": "2022-06-01",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "A Twist of Fate: BTS",
+        "url": "https://www.youtube.com/watch?v=o-c4TdGrs6Q",
+        "story_slug": null,
+        "published_at": "2013-05-25T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:TwistedFate"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage",
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Burst"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Auto-attack",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid",
+        "bottom"
+      ],
+      "external": [
+        "top",
+        "mid",
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 2,
+      "style": 65
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 604,
+      "hpperlevel": 108,
+      "mp": 333,
+      "mpperlevel": 39,
+      "movespeed": 330,
+      "armor": 24,
+      "armorperlevel": 4.35,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 525,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.6,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 52,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Loaded Dice",
+        "source_id": "ddragon:TwistedFate"
+      },
+      {
+        "slot": "Q",
+        "name": "Wild Cards",
+        "cooldown_by_rank": [
+          6,
+          5.75,
+          5.5,
+          5.25,
+          5
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "source_id": "ddragon:TwistedFate",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Pick a Card",
+        "cooldown_by_rank": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          200,
+          200,
+          200,
+          200,
+          200
+        ],
+        "source_id": "ddragon:TwistedFate",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Stacked Deck",
+        "cooldown_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_id": "ddragon:TwistedFate",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Destiny",
+        "cooldown_by_rank": [
+          170,
+          140,
+          110
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          5500,
+          5500,
+          5500
+        ],
+        "source_id": "ddragon:TwistedFate",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:TwistedFate"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Stay ahead through charm and hidden advantages",
+    "candidate_themes": [
+      {
+        "theme": "adaptation",
+        "evidence": "Twisted Fate travels through gambling, deception, and charm. He projects a relaxed attitude toward danger while keeping hidden options available, making adaptability and opportunism central to how he survives.",
+        "evidence_source_id": "universe:TwistedFate",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "deception",
+        "evidence": "Twisted Fate travels through gambling, deception, and charm. He projects a relaxed attitude toward danger while keeping hidden options available, making adaptability and opportunism central to how he survives.",
+        "evidence_source_id": "universe:TwistedFate",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "resourcefulness",
+        "evidence": "Twisted Fate travels through gambling, deception, and charm. He projects a relaxed attitude toward danger while keeping hidden options available, making adaptability and opportunism central to how he survives.",
+        "evidence_source_id": "universe:TwistedFate",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.65
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:TwistedFate",
+    "gameplay_api": "ddragon:TwistedFate",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

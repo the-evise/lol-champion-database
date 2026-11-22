@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Jayce",
+  "riot_id": 126,
+  "name": "Jayce",
+  "title": "the Defender of Tomorrow",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "jayce",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/jayce/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/jayce/",
+    "summary": "Jayce helped establish hextech alongside Viktor and became a celebrated inventor in Piltover. As his work's social consequences become clearer, he struggles with public expectations and with technology's role in deepening division between the two cities.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "piltover",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Ezreal",
+        "name": "Ezreal",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ezreal",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Camille",
+        "name": "Camille",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/camille",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Caitlyn",
+        "name": "Caitlyn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/caitlyn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Vi",
+        "name": "Vi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Viktor",
+        "name": "Viktor",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/viktor",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Skarner",
+        "name": "Skarner",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/skarner",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "A Quick Fix",
+        "url": "https://universe.leagueoflegends.com/en_us/story/jayce-color-story",
+        "story_slug": "jayce-color-story",
+        "published_at": "2016-12-02T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Jayce Art Spotlight",
+        "url": "https://www.youtube.com/watch?v=nT_dpnbH_oo",
+        "story_slug": null,
+        "published_at": "2012-07-03T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Jayce: Login Theme",
+        "url": "https://www.youtube.com/watch?v=OcIE8UQKXdQ",
+        "story_slug": null,
+        "published_at": "2012-07-07T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Jayce"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Artillery"
+    ],
+    "client_tags_wiki": [
+      "Shapeshift",
+      "Long Range",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top",
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2012-07-07",
+    "last_changed_patch_wiki": "V26.17",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 2,
+      "utility": 2,
+      "style": 45
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 590,
+      "hpperlevel": 109,
+      "mp": 375,
+      "mpperlevel": 45,
+      "movespeed": 335,
+      "armor": 22,
+      "armorperlevel": 5,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 125,
+      "hpregen": 6,
+      "hpregenperlevel": 0.6,
+      "mpregen": 6,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 59,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Hextech Capacitor",
+        "source_id": "ddragon:Jayce"
+      },
+      {
+        "slot": "Q",
+        "name": "To the Skies! / Shock Blast",
+        "cooldown_by_rank": [
+          16,
+          14,
+          12,
+          10,
+          8,
+          6
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Jayce",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Lightning Field / Hyper Charge",
+        "cooldown_by_rank": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          285,
+          285,
+          285,
+          285,
+          285,
+          285
+        ],
+        "source_id": "ddragon:Jayce",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Thundering Blow / Acceleration Gate",
+        "cooldown_by_rank": [
+          20,
+          18,
+          16,
+          14,
+          12,
+          10
+        ],
+        "cost_by_rank": [
+          55,
+          55,
+          55,
+          55,
+          55,
+          55
+        ],
+        "range_by_rank": [
+          240,
+          240,
+          240,
+          240,
+          240,
+          240
+        ],
+        "source_id": "ddragon:Jayce",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Mercury Cannon / Mercury Hammer",
+        "cooldown_by_rank": [
+          6
+        ],
+        "cost_by_rank": [
+          0
+        ],
+        "range_by_rank": [
+          600
+        ],
+        "source_id": "ddragon:Jayce",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Jayce"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Make progress worth its human cost",
+    "candidate_themes": [
+      {
+        "theme": "innovation",
+        "evidence": "Jayce helped establish hextech alongside Viktor and became a celebrated inventor in Piltover. As his work's social consequences become clearer, he struggles with public expectations and with technology's role in deepening division between the two cities.",
+        "evidence_source_id": "universe:Jayce",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "responsibility",
+        "evidence": "Jayce helped establish hextech alongside Viktor and became a celebrated inventor in Piltover. As his work's social consequences become clearer, he struggles with public expectations and with technology's role in deepening division between the two cities.",
+        "evidence_source_id": "universe:Jayce",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "expectation",
+        "evidence": "Jayce helped establish hextech alongside Viktor and became a celebrated inventor in Piltover. As his work's social consequences become clearer, he struggles with public expectations and with technology's role in deepening division between the two cities.",
+        "evidence_source_id": "universe:Jayce",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.45
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Jayce",
+    "gameplay_api": "ddragon:Jayce",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

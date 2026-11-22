@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Fizz",
+  "riot_id": 105,
+  "name": "Fizz",
+  "title": "the Tidal Trickster",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "fizz",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/fizz/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/fizz/",
+    "summary": "Fizz is an ocean-dwelling yordle around Bilgewater whose playful behavior unsettles sailors. He interacts with sea creatures and human offerings on his own terms, remaining dangerous to anyone who treats him as harmless.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "unaffiliated",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Illaoi",
+        "name": "Illaoi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/illaoi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Nami",
+        "name": "Nami",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/nami",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Nautilus",
+        "name": "Nautilus",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/nautilus",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "video",
+        "title": "Legends of Bilgewater: Fizz & The Lucky Kraken",
+        "url": "https://youtu.be/fwOHxTMyew4",
+        "story_slug": null,
+        "published_at": "2018-05-31T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Lucky Kraken",
+        "url": "https://universe.leagueoflegends.com/en_us/story/fizz-color-story",
+        "story_slug": "fizz-color-story",
+        "published_at": "2017-11-14T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Fizz Art Spotlight",
+        "url": "https://www.youtube.com/watch?v=nYwGBmX7gZw",
+        "story_slug": null,
+        "published_at": "2011-11-10T16:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Fizz"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin",
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Mobile",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2011-11-15",
+    "last_changed_patch_wiki": "V26.04",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 3,
+      "utility": 1,
+      "style": 90
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 640,
+      "hpperlevel": 106,
+      "mp": 317,
+      "mpperlevel": 52,
+      "movespeed": 335,
+      "armor": 26,
+      "armorperlevel": 4.6,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 175,
+      "hpregen": 8,
+      "hpregenperlevel": 0.7,
+      "mpregen": 6,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 58,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.1,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Nimble Fighter",
+        "source_id": "ddragon:Fizz"
+      },
+      {
+        "slot": "Q",
+        "name": "Urchin Strike",
+        "cooldown_by_rank": [
+          8,
+          7.5,
+          7,
+          6.5,
+          6
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Fizz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Seastone Trident",
+        "cooldown_by_rank": [
+          7,
+          6,
+          5,
+          4,
+          3
+        ],
+        "cost_by_rank": [
+          30,
+          40,
+          50,
+          60,
+          70
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Fizz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Playful / Trickster",
+        "cooldown_by_rank": [
+          16,
+          14,
+          12,
+          10,
+          8
+        ],
+        "cost_by_rank": [
+          75,
+          80,
+          85,
+          90,
+          95
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Fizz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Chum the Waters",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1300,
+          1300,
+          1300
+        ],
+        "source_id": "ddragon:Fizz",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Fizz"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Explore and play around the sea",
+    "candidate_themes": [
+      {
+        "theme": "playfulness",
+        "evidence": "Fizz is an ocean-dwelling yordle around Bilgewater whose playful behavior unsettles sailors. He interacts with sea creatures and human offerings on his own terms, remaining dangerous to anyone who treats him as harmless.",
+        "evidence_source_id": "universe:Fizz",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "independence",
+        "evidence": "Fizz is an ocean-dwelling yordle around Bilgewater whose playful behavior unsettles sailors. He interacts with sea creatures and human offerings on his own terms, remaining dangerous to anyone who treats him as harmless.",
+        "evidence_source_id": "universe:Fizz",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "mischief",
+        "evidence": "Fizz is an ocean-dwelling yordle around Bilgewater whose playful behavior unsettles sailors. He interacts with sea creatures and human offerings on his own terms, remaining dangerous to anyone who treats him as harmless.",
+        "evidence_source_id": "universe:Fizz",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.9
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Fizz",
+    "gameplay_api": "ddragon:Fizz",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

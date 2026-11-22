@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Seraphine",
+  "riot_id": 147,
+  "name": "Seraphine",
+  "title": "the Starry-Eyed Songstress",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "seraphine",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/seraphine/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/seraphine/",
+    "summary": "Seraphine hears other people's souls as music. After learning to work with that overwhelming sensitivity, she becomes a performer who tries to connect Piltover and Zaun and remind their citizens of shared possibility.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "piltover",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Skarner",
+        "name": "Skarner",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/skarner",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Standing Room Only",
+        "url": "https://universe.leagueoflegends.com/en_us/story/seraphine-color-story",
+        "story_slug": "seraphine-color-story",
+        "published_at": "2020-10-29T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Seraphine"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Support",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Burst",
+      "Enchanter"
+    ],
+    "client_tags_wiki": [
+      "AoE",
+      "Ally Protection",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "bottom",
+        "support"
+      ],
+      "external": [
+        "bottom",
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2020-10-29",
+    "last_changed_patch_wiki": "V26.18",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 3,
+      "toughness": 1,
+      "control": 3,
+      "mobility": 1,
+      "utility": 2,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 570,
+      "hpperlevel": 95,
+      "mp": 360,
+      "mpperlevel": 40,
+      "movespeed": 330,
+      "armor": 26,
+      "armorperlevel": 4.2,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 525,
+      "hpregen": 6.5,
+      "hpregenperlevel": 0.6,
+      "mpregen": 11.5,
+      "mpregenperlevel": 0.95,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 50,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2,
+      "attackspeed": 0.669
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Stage Presence",
+        "source_id": "ddragon:Seraphine"
+      },
+      {
+        "slot": "Q",
+        "name": "High Note",
+        "cooldown_by_rank": [
+          8,
+          7.5,
+          7,
+          6.5,
+          6
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Seraphine",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Surround Sound",
+        "cooldown_by_rank": [
+          22,
+          22,
+          22,
+          22,
+          22
+        ],
+        "cost_by_rank": [
+          70,
+          75,
+          80,
+          85,
+          90
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Seraphine",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Beat Drop",
+        "cooldown_by_rank": [
+          11,
+          11,
+          11,
+          11,
+          11
+        ],
+        "cost_by_rank": [
+          60,
+          60,
+          60,
+          60,
+          60
+        ],
+        "range_by_rank": [
+          1300,
+          1300,
+          1300,
+          1300,
+          1300
+        ],
+        "source_id": "ddragon:Seraphine",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Encore",
+        "cooldown_by_rank": [
+          160,
+          140,
+          120
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Seraphine",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Seraphine"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Connect divided communities through music",
+    "candidate_themes": [
+      {
+        "theme": "empathy",
+        "evidence": "Seraphine hears other people's souls as music. After learning to work with that overwhelming sensitivity, she becomes a performer who tries to connect Piltover and Zaun and remind their citizens of shared possibility.",
+        "evidence_source_id": "universe:Seraphine",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "creativity",
+        "evidence": "Seraphine hears other people's souls as music. After learning to work with that overwhelming sensitivity, she becomes a performer who tries to connect Piltover and Zaun and remind their citizens of shared possibility.",
+        "evidence_source_id": "universe:Seraphine",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "unity",
+        "evidence": "Seraphine hears other people's souls as music. After learning to work with that overwhelming sensitivity, she becomes a performer who tries to connect Piltover and Zaun and remind their citizens of shared possibility.",
+        "evidence_source_id": "universe:Seraphine",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 1.0,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Seraphine",
+    "gameplay_api": "ddragon:Seraphine",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

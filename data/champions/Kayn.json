@@ -1,0 +1,304 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Kayn",
+  "riot_id": 141,
+  "name": "Kayn",
+  "title": "the Shadow Reaper",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "kayn",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/kayn/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/kayn/",
+    "summary": "Kayn hopes to lead the Order of Shadow and advance Ionian supremacy. He uses the darkin Rhaast as a weapon despite its attempt to consume him, turning his ambition into a contest over control of his body and future.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "ionia",
+    "species_as_listed": [
+      "Darkin"
+    ],
+    "related_champions": [
+      {
+        "id": "Aatrox",
+        "name": "Aatrox",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/aatrox",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Varus",
+        "name": "Varus",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/varus",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Zed",
+        "name": "Zed",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/zed",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Darius",
+        "name": "Darius",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/darius",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Blade of Millennia",
+        "url": "https://universe.leagueoflegends.com/en_us/story/kayn-color-story",
+        "story_slug": "kayn-color-story",
+        "published_at": "2017-07-12T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Lure",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-lure",
+        "story_slug": "the-lure",
+        "published_at": "2018-09-11T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Kayn"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Dive",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2017-07-12",
+    "last_changed_patch_wiki": "V26.03",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 0
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 655,
+      "hpperlevel": 103,
+      "mp": 410,
+      "mpperlevel": 50,
+      "movespeed": 340,
+      "armor": 38,
+      "armorperlevel": 4.5,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 175,
+      "hpregen": 8,
+      "hpregenperlevel": 0.75,
+      "mpregen": 11.5,
+      "mpregenperlevel": 0.95,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 68,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.7,
+      "attackspeed": 0.669
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "The Darkin Scythe",
+        "source_id": "ddragon:Kayn"
+      },
+      {
+        "slot": "Q",
+        "name": "Reaping Slash",
+        "cooldown_by_rank": [
+          7,
+          6.5,
+          6,
+          5.5,
+          5
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          350,
+          350,
+          350,
+          350,
+          350
+        ],
+        "source_id": "ddragon:Kayn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Blade's Reach",
+        "cooldown_by_rank": [
+          13,
+          12,
+          11,
+          10,
+          9
+        ],
+        "cost_by_rank": [
+          40,
+          45,
+          50,
+          55,
+          60
+        ],
+        "range_by_rank": [
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "source_id": "ddragon:Kayn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Shadow Step",
+        "cooldown_by_rank": [
+          21,
+          19,
+          17,
+          15,
+          13
+        ],
+        "cost_by_rank": [
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Kayn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Umbral Trespass",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Kayn",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Kayn"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Master Rhaast and rise to leadership",
+    "candidate_themes": [
+      {
+        "theme": "ambition",
+        "evidence": "Kayn hopes to lead the Order of Shadow and advance Ionian supremacy. He uses the darkin Rhaast as a weapon despite its attempt to consume him, turning his ambition into a contest over control of his body and future.",
+        "evidence_source_id": "universe:Kayn",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "control",
+        "evidence": "Kayn hopes to lead the Order of Shadow and advance Ionian supremacy. He uses the darkin Rhaast as a weapon despite its attempt to consume him, turning his ambition into a contest over control of his body and future.",
+        "evidence_source_id": "universe:Kayn",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "audacity",
+        "evidence": "Kayn hopes to lead the Order of Shadow and advance Ionian supremacy. He uses the darkin Rhaast as a weapon despite its attempt to consume him, turning his ambition into a contest over control of his body and future.",
+        "evidence_source_id": "universe:Kayn",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Kayn",
+    "gameplay_api": "ddragon:Kayn",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

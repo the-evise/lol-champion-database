@@ -1,0 +1,268 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Corki",
+  "riot_id": 42,
+  "name": "Corki",
+  "title": "the Daring Bombardier",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "corki",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/corki/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/corki/",
+    "summary": "Corki left Bandle City for Piltover's machinery and became a pilot in its aerial defense. He approaches danger with confidence, technical enthusiasm, and a preference for overwhelming firepower.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "bandle-city",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Heimerdinger",
+        "name": "Heimerdinger",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/heimerdinger",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Veigar",
+        "name": "Veigar",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/veigar",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Corki"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Auto-attack",
+      "AoE",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "mid",
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2009-09-19",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 2,
+      "utility": 1,
+      "style": 45
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 610,
+      "hpperlevel": 100,
+      "mp": 350,
+      "mpperlevel": 40,
+      "movespeed": 325,
+      "armor": 27,
+      "armorperlevel": 4.5,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 550,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 7.4,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 52,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.8,
+      "attackspeed": 0.644
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Hextech Munitions",
+        "source_id": "ddragon:Corki"
+      },
+      {
+        "slot": "Q",
+        "name": "Phosphorus Bomb",
+        "cooldown_by_rank": [
+          9,
+          8.5,
+          8,
+          7.5,
+          7
+        ],
+        "cost_by_rank": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "range_by_rank": [
+          825,
+          825,
+          825,
+          825,
+          825
+        ],
+        "source_id": "ddragon:Corki",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Valkyrie",
+        "cooldown_by_rank": [
+          20,
+          18,
+          16,
+          14,
+          12
+        ],
+        "cost_by_rank": [
+          80,
+          85,
+          90,
+          95,
+          100
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Corki",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Gatling Gun",
+        "cooldown_by_rank": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Corki",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Missile Barrage",
+        "cooldown_by_rank": [
+          2,
+          2,
+          2
+        ],
+        "cost_by_rank": [
+          35,
+          35,
+          35
+        ],
+        "range_by_rank": [
+          1225,
+          1225,
+          1225
+        ],
+        "source_id": "ddragon:Corki",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Corki"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Fly and defend his adopted home",
+    "candidate_themes": [
+      {
+        "theme": "enthusiasm",
+        "evidence": "Corki left Bandle City for Piltover's machinery and became a pilot in its aerial defense. He approaches danger with confidence, technical enthusiasm, and a preference for overwhelming firepower.",
+        "evidence_source_id": "universe:Corki",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "craft",
+        "evidence": "Corki left Bandle City for Piltover's machinery and became a pilot in its aerial defense. He approaches danger with confidence, technical enthusiasm, and a preference for overwhelming firepower.",
+        "evidence_source_id": "universe:Corki",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "confidence",
+        "evidence": "Corki left Bandle City for Piltover's machinery and became a pilot in its aerial defense. He approaches danger with confidence, technical enthusiasm, and a preference for overwhelming firepower.",
+        "evidence_source_id": "universe:Corki",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.45
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Corki",
+    "gameplay_api": "ddragon:Corki",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

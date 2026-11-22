@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Katarina",
+  "riot_id": 55,
+  "name": "Katarina",
+  "title": "the Sinister Blade",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "katarina",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/katarina/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/katarina/",
+    "summary": "Katarina is a Noxian assassin who pursues demanding targets with aggressive confidence. Her ambition can put allies at risk, but her identity remains closely tied to completing dangerous missions and proving her lethal skill.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Cassiopeia",
+        "name": "Cassiopeia",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/cassiopeia",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Sion",
+        "name": "Sion",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/sion",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Talon",
+        "name": "Talon",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/talon",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Garen",
+        "name": "Garen",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/garen",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Swain",
+        "name": "Swain",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/swain",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Darius",
+        "name": "Darius",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/darius",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Name of the Blade",
+        "url": "https://universe.leagueoflegends.com/en_us/story/name-of-the-blade",
+        "story_slug": "name-of-the-blade",
+        "published_at": "2020-03-03T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Message on a Blade's Edge",
+        "url": "https://universe.leagueoflegends.com/en_us/story/katarina-color-story",
+        "story_slug": "katarina-color-story",
+        "published_at": "2019-02-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Katarina"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "None",
+    "release_date_wiki": "2009-09-19",
+    "last_changed_patch_wiki": "V26.08",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 672,
+      "hpperlevel": 108,
+      "mp": 0,
+      "mpperlevel": 0,
+      "movespeed": 335,
+      "armor": 32,
+      "armorperlevel": 4.7,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 7.5,
+      "hpregenperlevel": 0.7,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 58,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.74,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Voracity",
+        "source_id": "ddragon:Katarina"
+      },
+      {
+        "slot": "Q",
+        "name": "Bouncing Blade",
+        "cooldown_by_rank": [
+          11,
+          10,
+          9,
+          8,
+          7
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          625,
+          625,
+          625,
+          625,
+          625
+        ],
+        "source_id": "ddragon:Katarina",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Preparation",
+        "cooldown_by_rank": [
+          15,
+          14,
+          13,
+          12,
+          11
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Katarina",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Shunpo",
+        "cooldown_by_rank": [
+          12,
+          11,
+          10,
+          9,
+          8
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          725,
+          725,
+          725,
+          725,
+          725
+        ],
+        "source_id": "ddragon:Katarina",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Death Lotus",
+        "cooldown_by_rank": [
+          75,
+          60,
+          45
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Katarina",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Katarina"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Excel as a Noxian assassin",
+    "candidate_themes": [
+      {
+        "theme": "ambition",
+        "evidence": "Katarina is a Noxian assassin who pursues demanding targets with aggressive confidence. Her ambition can put allies at risk, but her identity remains closely tied to completing dangerous missions and proving her lethal skill.",
+        "evidence_source_id": "universe:Katarina",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "decisiveness",
+        "evidence": "Katarina is a Noxian assassin who pursues demanding targets with aggressive confidence. Her ambition can put allies at risk, but her identity remains closely tied to completing dangerous missions and proving her lethal skill.",
+        "evidence_source_id": "universe:Katarina",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "mastery",
+        "evidence": "Katarina is a Noxian assassin who pursues demanding targets with aggressive confidence. Her ambition can put allies at risk, but her identity remains closely tied to completing dangerous missions and proving her lethal skill.",
+        "evidence_source_id": "universe:Katarina",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Katarina",
+    "gameplay_api": "ddragon:Katarina",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

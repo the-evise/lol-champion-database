@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Singed",
+  "riot_id": 27,
+  "name": "Singed",
+  "title": "the Mad Chemist",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "singed",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/singed/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/singed/",
+    "summary": "Singed sells exceptional alchemical skill with little concern for its victims. His work on shimmer helped transform Zaun's power structures, and the destructive results of experiments become further material for his continuing research.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "zaun",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Warwick",
+        "name": "Warwick",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/warwick",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Riven",
+        "name": "Riven",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/riven",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "MasterYi",
+        "name": "Master Yi",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/masteryi",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Host",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-host",
+        "story_slug": "the-host",
+        "published_at": "2020-10-29T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Engineering the Nightmare",
+        "url": "https://universe.leagueoflegends.com/en_us/story/singed-thenightmare-story",
+        "story_slug": "singed-thenightmare-story",
+        "published_at": "2017-01-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Singed"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Tank",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Specialist"
+    ],
+    "client_tags_wiki": [
+      "Battlecaster",
+      "Damage-over-Time",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-04-18",
+    "last_changed_patch_wiki": "V26.07",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 2,
+      "toughness": 3,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 650,
+      "hpperlevel": 96,
+      "mp": 330,
+      "mpperlevel": 45,
+      "movespeed": 345,
+      "armor": 34,
+      "armorperlevel": 4.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 9.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 7.5,
+      "mpregenperlevel": 0.55,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 63,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.9,
+      "attackspeed": 0.7
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Noxious Slipstream",
+        "source_id": "ddragon:Singed"
+      },
+      {
+        "slot": "Q",
+        "name": "Poison Trail",
+        "cooldown_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost_by_rank": [
+          13,
+          13,
+          13,
+          13,
+          13
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:Singed",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Mega Adhesive",
+        "cooldown_by_rank": [
+          17,
+          16,
+          15,
+          14,
+          13
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Singed",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Fling",
+        "cooldown_by_rank": [
+          10,
+          9.5,
+          9,
+          8.5,
+          8
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          125,
+          125,
+          125,
+          125,
+          125
+        ],
+        "source_id": "ddragon:Singed",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Insanity Potion",
+        "cooldown_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:Singed",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Singed"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Pursue experimentation without moral restraint",
+    "candidate_themes": [
+      {
+        "theme": "curiosity",
+        "evidence": "Singed sells exceptional alchemical skill with little concern for its victims. His work on shimmer helped transform Zaun's power structures, and the destructive results of experiments become further material for his continuing research.",
+        "evidence_source_id": "universe:Singed",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "detachment",
+        "evidence": "Singed sells exceptional alchemical skill with little concern for its victims. His work on shimmer helped transform Zaun's power structures, and the destructive results of experiments become further material for his continuing research.",
+        "evidence_source_id": "universe:Singed",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "obsession",
+        "evidence": "Singed sells exceptional alchemical skill with little concern for its victims. His work on shimmer helped transform Zaun's power structures, and the destructive results of experiments become further material for his continuing research.",
+        "evidence_source_id": "universe:Singed",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 0.6666666666666666,
+      "toughness": 1.0,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Singed",
+    "gameplay_api": "ddragon:Singed",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

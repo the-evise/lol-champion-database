@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Sett",
+  "riot_id": 875,
+  "name": "Sett",
+  "title": "the Boss",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "sett",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/sett/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/sett/",
+    "summary": "Sett rose from participant to controller of Ionia's fighting pits. His capacity to endure punishment helped him build a reputation and take power in the criminal world that expanded after the Noxian war.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "ionia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Alistar",
+        "name": "Alistar",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/alistar",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Draven",
+        "name": "Draven",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/draven",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Big Head, Bad News",
+        "url": "https://universe.leagueoflegends.com/en_us/story/sett-color-story",
+        "story_slug": "sett-color-story",
+        "published_at": "2020-01-07T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Sett"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Tank"
+    ],
+    "subclasses_wiki": [
+      "Juggernaut"
+    ],
+    "client_tags_wiki": [
+      "Duelist",
+      "Durable ",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Grit",
+    "release_date_wiki": "2020-01-14",
+    "last_changed_patch_wiki": "V25.17",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 2,
+      "toughness": 2,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 40
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 670,
+      "hpperlevel": 114,
+      "mp": 0,
+      "mpperlevel": 0,
+      "movespeed": 340,
+      "armor": 33,
+      "armorperlevel": 4.7,
+      "spellblock": 28,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 7,
+      "hpregenperlevel": 0.5,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.75,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Pit Grit",
+        "source_id": "ddragon:Sett"
+      },
+      {
+        "slot": "Q",
+        "name": "Knuckle Down",
+        "cooldown_by_rank": [
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "source_id": "ddragon:Sett",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Haymaker",
+        "cooldown_by_rank": [
+          18,
+          16.5,
+          15,
+          13.5,
+          12
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Sett",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Facebreaker",
+        "cooldown_by_rank": [
+          16,
+          14.5,
+          13,
+          11.5,
+          10
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          490,
+          490,
+          490,
+          490,
+          490
+        ],
+        "source_id": "ddragon:Sett",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "The Show Stopper",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Sett",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Sett"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Maintain the position he fought to gain",
+    "candidate_themes": [
+      {
+        "theme": "ambition",
+        "evidence": "Sett rose from participant to controller of Ionia's fighting pits. His capacity to endure punishment helped him build a reputation and take power in the criminal world that expanded after the Noxian war.",
+        "evidence_source_id": "universe:Sett",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "toughness",
+        "evidence": "Sett rose from participant to controller of Ionia's fighting pits. His capacity to endure punishment helped him build a reputation and take power in the criminal world that expanded after the Noxian war.",
+        "evidence_source_id": "universe:Sett",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "self-reliance",
+        "evidence": "Sett rose from participant to controller of Ionia's fighting pits. His capacity to endure punishment helped him build a reputation and take power in the criminal world that expanded after the Noxian war.",
+        "evidence_source_id": "universe:Sett",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 0.6666666666666666,
+      "toughness": 0.6666666666666666,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.4
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Sett",
+    "gameplay_api": "ddragon:Sett",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

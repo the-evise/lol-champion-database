@@ -1,0 +1,274 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Locke",
+  "riot_id": 805,
+  "name": "Locke",
+  "title": "the Ashen Exorcist",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "locke",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/locke/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/locke/",
+    "summary": "Corvin Locke grew up among Demacian occultists and came to regard demons as consequences of human darkness. Using forbidden exorcism rites, he forces hidden corruption into the open in pursuit of a harsher form of honesty.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "demacia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Vayne",
+        "name": "Vayne",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vayne",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Evelynn",
+        "name": "Evelynn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/evelynn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Morgana",
+        "name": "Morgana",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/morgana",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Locke"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Mobile",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2026-06-24",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 75
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 620,
+      "hpperlevel": 109,
+      "mp": 280,
+      "mpperlevel": 60,
+      "movespeed": 340,
+      "armor": 32,
+      "armorperlevel": 4.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 125,
+      "hpregen": 9,
+      "hpregenperlevel": 0.9,
+      "mpregen": 7,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 58,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.3,
+      "attackspeed": 0.688
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Silver Stake",
+        "source_id": "ddragon:Locke"
+      },
+      {
+        "slot": "Q",
+        "name": "Ritual Nails",
+        "cooldown_by_rank": [
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cost_by_rank": [
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "range_by_rank": [
+          950,
+          950,
+          950,
+          950,
+          950
+        ],
+        "source_id": "ddragon:Locke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Soul Ignition",
+        "cooldown_by_rank": [
+          18,
+          17,
+          16,
+          15,
+          14
+        ],
+        "cost_by_rank": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "range_by_rank": [
+          250,
+          250,
+          250,
+          250,
+          250
+        ],
+        "source_id": "ddragon:Locke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Ashen Pursuit",
+        "cooldown_by_rank": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "cost_by_rank": [
+          30,
+          40,
+          50,
+          60,
+          70
+        ],
+        "range_by_rank": [
+          425,
+          425,
+          425,
+          425,
+          425
+        ],
+        "source_id": "ddragon:Locke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Purgatory",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Locke",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Locke"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Expose the darkness people conceal",
+    "candidate_themes": [
+      {
+        "theme": "truth",
+        "evidence": "Corvin Locke grew up among Demacian occultists and came to regard demons as consequences of human darkness. Using forbidden exorcism rites, he forces hidden corruption into the open in pursuit of a harsher form of honesty.",
+        "evidence_source_id": "universe:Locke",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "defiance",
+        "evidence": "Corvin Locke grew up among Demacian occultists and came to regard demons as consequences of human darkness. Using forbidden exorcism rites, he forces hidden corruption into the open in pursuit of a harsher form of honesty.",
+        "evidence_source_id": "universe:Locke",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "severity",
+        "evidence": "Corvin Locke grew up among Demacian occultists and came to regard demons as consequences of human darkness. Using forbidden exorcism rites, he forces hidden corruption into the open in pursuit of a harsher form of honesty.",
+        "evidence_source_id": "universe:Locke",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.75
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Locke",
+    "gameplay_api": "ddragon:Locke",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Sylas",
+  "riot_id": 517,
+  "name": "Sylas",
+  "title": "the Unshackled",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "sylas",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/sylas/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/sylas/",
+    "summary": "Demacia first used Sylas's ability to detect magic and later imprisoned him. After escaping, he mobilizes other outcast mages against the kingdom, using stolen magic to turn the system's own resources against it.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "demacia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Lux",
+        "name": "Lux",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/lux",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Galio",
+        "name": "Galio",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/galio",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "The Shackles of Belief",
+        "url": "https://universe.leagueoflegends.com/en_us/story/shackles-of-belief",
+        "story_slug": "shackles-of-belief",
+        "published_at": "2019-11-09T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Recruit",
+        "url": "https://universe.leagueoflegends.com/en_us/story/sylas-color-story",
+        "story_slug": "sylas-color-story",
+        "published_at": "2019-01-25T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Turmoil",
+        "url": "https://universe.leagueoflegends.com/en_us/story/turmoil",
+        "story_slug": "turmoil",
+        "published_at": "2019-01-25T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Sylas"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Burst",
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Duelist",
+      "Battlecaster",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "top",
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2019-01-25",
+    "last_changed_patch_wiki": "V26.20",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 2,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 3,
+      "utility": 1,
+      "style": 70
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 600,
+      "hpperlevel": 122,
+      "mp": 400,
+      "mpperlevel": 70,
+      "movespeed": 340,
+      "armor": 29,
+      "armorperlevel": 5.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.55,
+      "attackrange": 175,
+      "hpregen": 9,
+      "hpregenperlevel": 0.9,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 61,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3.5,
+      "attackspeed": 0.645
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Petricite Burst",
+        "source_id": "ddragon:Sylas"
+      },
+      {
+        "slot": "Q",
+        "name": "Chain Lash",
+        "cooldown_by_rank": [
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cost_by_rank": [
+          55,
+          55,
+          55,
+          55,
+          55
+        ],
+        "range_by_rank": [
+          775,
+          775,
+          775,
+          775,
+          775
+        ],
+        "source_id": "ddragon:Sylas",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Kingslayer",
+        "cooldown_by_rank": [
+          12,
+          10.5,
+          9,
+          7.5,
+          6
+        ],
+        "cost_by_rank": [
+          50,
+          60,
+          70,
+          80,
+          90
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Sylas",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Abscond / Abduct",
+        "cooldown_by_rank": [
+          13,
+          12,
+          11,
+          10,
+          9
+        ],
+        "cost_by_rank": [
+          65,
+          65,
+          65,
+          65,
+          65
+        ],
+        "range_by_rank": [
+          400,
+          400,
+          400,
+          400,
+          400
+        ],
+        "source_id": "ddragon:Sylas",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Hijack",
+        "cooldown_by_rank": [
+          80,
+          55,
+          30
+        ],
+        "cost_by_rank": [
+          75,
+          75,
+          75
+        ],
+        "range_by_rank": [
+          950,
+          950,
+          950
+        ],
+        "source_id": "ddragon:Sylas",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Sylas"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Overthrow Demacia's oppressive order",
+    "candidate_themes": [
+      {
+        "theme": "resistance",
+        "evidence": "Demacia first used Sylas's ability to detect magic and later imprisoned him. After escaping, he mobilizes other outcast mages against the kingdom, using stolen magic to turn the system's own resources against it.",
+        "evidence_source_id": "universe:Sylas",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "freedom",
+        "evidence": "Demacia first used Sylas's ability to detect magic and later imprisoned him. After escaping, he mobilizes other outcast mages against the kingdom, using stolen magic to turn the system's own resources against it.",
+        "evidence_source_id": "universe:Sylas",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "vengeance",
+        "evidence": "Demacia first used Sylas's ability to detect magic and later imprisoned him. After escaping, he mobilizes other outcast mages against the kingdom, using stolen magic to turn the system's own resources against it.",
+        "evidence_source_id": "universe:Sylas",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 0.6666666666666666,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.7
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Sylas",
+    "gameplay_api": "ddragon:Sylas",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Vladimir",
+  "riot_id": 8,
+  "name": "Vladimir",
+  "title": "the Crimson Reaper",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "vladimir",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/vladimir/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/vladimir/",
+    "summary": "Vladimir has used blood magic to sustain his life and influence Noxus over many generations. His refined public persona supports a cult of followers, while the same powers let him dominate bodies and eliminate enemies.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Swain",
+        "name": "Swain",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/swain",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Leblanc",
+        "name": "LeBlanc",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/leblanc",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Elise",
+        "name": "Elise",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/elise",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Kayn",
+        "name": "Kayn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/kayn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Alone",
+        "url": "https://universe.leagueoflegends.com/en_us/story/vladimir-color-story",
+        "story_slug": "vladimir-color-story",
+        "published_at": "2020-11-19T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Art is Life",
+        "url": "https://universe.leagueoflegends.com/en_us/story/art-is-life",
+        "story_slug": "art-is-life",
+        "published_at": "2018-10-25T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Vladimir"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage",
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Battlemage"
+    ],
+    "client_tags_wiki": [
+      "Self Healing",
+      "Battlecaster",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "top",
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Crimson Rush",
+    "release_date_wiki": "2010-07-27",
+    "last_changed_patch_wiki": "V26.17",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 1,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 600,
+      "hpperlevel": 110,
+      "mp": 2,
+      "mpperlevel": 0,
+      "movespeed": 330,
+      "armor": 24,
+      "armorperlevel": 4.5,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 450,
+      "hpregen": 7,
+      "hpregenperlevel": 0.6,
+      "mpregen": 0,
+      "mpregenperlevel": 0,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 55,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Crimson Pact",
+        "source_id": "ddragon:Vladimir"
+      },
+      {
+        "slot": "Q",
+        "name": "Transfusion",
+        "cooldown_by_rank": [
+          9,
+          7.9,
+          6.8,
+          5.7,
+          4.6
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Vladimir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Sanguine Pool",
+        "cooldown_by_rank": [
+          28,
+          25,
+          22,
+          19,
+          16
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          350,
+          350,
+          350,
+          350,
+          350
+        ],
+        "source_id": "ddragon:Vladimir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Tides of Blood",
+        "cooldown_by_rank": [
+          13,
+          11,
+          9,
+          7,
+          5
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Vladimir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Hemoplague",
+        "cooldown_by_rank": [
+          120,
+          120,
+          120
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          625,
+          625,
+          625
+        ],
+        "source_id": "ddragon:Vladimir",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Vladimir"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Sustain power and influence through blood magic",
+    "candidate_themes": [
+      {
+        "theme": "control",
+        "evidence": "Vladimir has used blood magic to sustain his life and influence Noxus over many generations. His refined public persona supports a cult of followers, while the same powers let him dominate bodies and eliminate enemies.",
+        "evidence_source_id": "universe:Vladimir",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "influence",
+        "evidence": "Vladimir has used blood magic to sustain his life and influence Noxus over many generations. His refined public persona supports a cult of followers, while the same powers let him dominate bodies and eliminate enemies.",
+        "evidence_source_id": "universe:Vladimir",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "self-preservation",
+        "evidence": "Vladimir has used blood magic to sustain his life and influence Noxus over many generations. His refined public persona supports a cult of followers, while the same powers let him dominate bodies and eliminate enemies.",
+        "evidence_source_id": "universe:Vladimir",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 0.3333333333333333,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Vladimir",
+    "gameplay_api": "ddragon:Vladimir",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

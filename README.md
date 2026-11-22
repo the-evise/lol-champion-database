@@ -61,8 +61,9 @@ print(con.execute('''
 ```
 
 ```javascript
-// For an application or analysis script:
-const champions = JSON.parse(await fs.readFile('data/champions.json', 'utf8'));
+// For a Node.js application or analysis script:
+import { readFile } from 'node:fs/promises';
+const champions = JSON.parse(await readFile('data/champions.json', 'utf8'));
 const junglers = champions.filter(c => c.gameplay.positions.client.includes('jungle'));
 ```
 

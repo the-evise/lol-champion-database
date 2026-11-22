@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Sona",
+  "riot_id": 37,
+  "name": "Sona",
+  "title": "Maven of the Strings",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "sona",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/sona/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/sona/",
+    "summary": "Sona communicates through the music of her etwahl and is celebrated among Demacian nobles. The possibility that her performances are magical complicates that acceptance, while her music can both protect allies and harm enemies.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "demacia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Taric",
+        "name": "Taric",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/taric",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "XinZhao",
+        "name": "Xin Zhao",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/xinzhao",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Ryze",
+        "name": "Ryze",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/ryze",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Fragile Legacies",
+        "url": "https://universe.leagueoflegends.com/en_us/story/fragile-legacies",
+        "story_slug": "fragile-legacies",
+        "published_at": "2021-10-12",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Lure",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-lure",
+        "story_slug": "the-lure",
+        "published_at": "2018-09-11T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Sona"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Support",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Enchanter"
+    ],
+    "client_tags_wiki": [
+      "Ally Protection",
+      "Crowd Control",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "support"
+      ],
+      "external": [
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2010-09-21",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 2,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 1,
+      "utility": 2,
+      "style": 90
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 550,
+      "hpperlevel": 91,
+      "mp": 340,
+      "mpperlevel": 45,
+      "movespeed": 325,
+      "armor": 26,
+      "armorperlevel": 4.2,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 550,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 11.5,
+      "mpregenperlevel": 0.4,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 49,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.3,
+      "attackspeed": 0.644
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Power Chord",
+        "source_id": "ddragon:Sona"
+      },
+      {
+        "slot": "Q",
+        "name": "Hymn of Valor",
+        "cooldown_by_rank": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          825,
+          825,
+          825,
+          825,
+          825
+        ],
+        "source_id": "ddragon:Sona",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Aria of Perseverance",
+        "cooldown_by_rank": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "cost_by_rank": [
+          80,
+          85,
+          90,
+          95,
+          100
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Sona",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Song of Celerity",
+        "cooldown_by_rank": [
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "cost_by_rank": [
+          65,
+          65,
+          65,
+          65,
+          65
+        ],
+        "range_by_rank": [
+          430,
+          430,
+          430,
+          430,
+          430
+        ],
+        "source_id": "ddragon:Sona",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Crescendo",
+        "cooldown_by_rank": [
+          140,
+          120,
+          100
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          900,
+          900,
+          900
+        ],
+        "source_id": "ddragon:Sona",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Sona"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Connect and protect through music",
+    "candidate_themes": [
+      {
+        "theme": "creativity",
+        "evidence": "Sona communicates through the music of her etwahl and is celebrated among Demacian nobles. The possibility that her performances are magical complicates that acceptance, while her music can both protect allies and harm enemies.",
+        "evidence_source_id": "universe:Sona",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "connection",
+        "evidence": "Sona communicates through the music of her etwahl and is celebrated among Demacian nobles. The possibility that her performances are magical complicates that acceptance, while her music can both protect allies and harm enemies.",
+        "evidence_source_id": "universe:Sona",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "reserve",
+        "evidence": "Sona communicates through the music of her etwahl and is celebrated among Demacian nobles. The possibility that her performances are magical complicates that acceptance, while her music can both protect allies and harm enemies.",
+        "evidence_source_id": "universe:Sona",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 0.6666666666666666,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.9
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Sona",
+    "gameplay_api": "ddragon:Sona",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

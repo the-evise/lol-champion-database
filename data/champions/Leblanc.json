@@ -1,0 +1,296 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Leblanc",
+  "riot_id": 7,
+  "name": "LeBlanc",
+  "title": "the Deceiver",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "leblanc",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/leblanc/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/leblanc/",
+    "summary": "LeBlanc is a longstanding manipulator associated with the Black Rose. Her duplicate forms and shifting identities let her influence events without revealing her position, while her ultimate intentions remain deliberately unclear.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Vladimir",
+        "name": "Vladimir",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/vladimir",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Mel",
+        "name": "Mel",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/mel",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Mordekaiser",
+        "name": "Mordekaiser",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/mordekaiser",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Everywhere, and Everyone",
+        "url": "https://universe.leagueoflegends.com/en_us/story/leblanc-everywhere-and-everyone",
+        "story_slug": "leblanc-everywhere-and-everyone",
+        "published_at": "2025-03-05T20:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Thorns of the Black Rose",
+        "url": "https://universe.leagueoflegends.com/en_us/story/leblanc-color-story",
+        "story_slug": "leblanc-color-story",
+        "published_at": "2019-05-29T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Leblanc"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Assassin",
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Burst",
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Mobile",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2010-11-02",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 3,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 598,
+      "hpperlevel": 108,
+      "mp": 400,
+      "mpperlevel": 25,
+      "movespeed": 340,
+      "armor": 22,
+      "armorperlevel": 4.2,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 525,
+      "hpregen": 7.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 8,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 55,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.5,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Mirror Image",
+        "source_id": "ddragon:Leblanc"
+      },
+      {
+        "slot": "Q",
+        "name": "Sigil of Malice",
+        "cooldown_by_rank": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          700,
+          700,
+          700,
+          700,
+          700
+        ],
+        "source_id": "ddragon:Leblanc",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Distortion",
+        "cooldown_by_rank": [
+          15,
+          13.75,
+          12.5,
+          11.25,
+          10
+        ],
+        "cost_by_rank": [
+          60,
+          70,
+          80,
+          90,
+          100
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:Leblanc",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Ethereal Chains",
+        "cooldown_by_rank": [
+          14,
+          13.25,
+          12.5,
+          11.75,
+          11
+        ],
+        "cost_by_rank": [
+          50,
+          50,
+          50,
+          50,
+          50
+        ],
+        "range_by_rank": [
+          925,
+          925,
+          925,
+          925,
+          925
+        ],
+        "source_id": "ddragon:Leblanc",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Mimic",
+        "cooldown_by_rank": [
+          45,
+          35,
+          25
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          25000,
+          25000,
+          25000
+        ],
+        "source_id": "ddragon:Leblanc",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Leblanc"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Maintain hidden influence; ultimate aims unclear",
+    "candidate_themes": [
+      {
+        "theme": "secrecy",
+        "evidence": "LeBlanc is a longstanding manipulator associated with the Black Rose. Her duplicate forms and shifting identities let her influence events without revealing her position, while her ultimate intentions remain deliberately unclear.",
+        "evidence_source_id": "universe:Leblanc",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "strategy",
+        "evidence": "LeBlanc is a longstanding manipulator associated with the Black Rose. Her duplicate forms and shifting identities let her influence events without revealing her position, while her ultimate intentions remain deliberately unclear.",
+        "evidence_source_id": "universe:Leblanc",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "control",
+        "evidence": "LeBlanc is a longstanding manipulator associated with the Black Rose. Her duplicate forms and shifting identities let her influence events without revealing her position, while her ultimate intentions remain deliberately unclear.",
+        "evidence_source_id": "universe:Leblanc",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 1.0,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Leblanc",
+    "gameplay_api": "ddragon:Leblanc",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

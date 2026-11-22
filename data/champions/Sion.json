@@ -1,0 +1,295 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Sion",
+  "riot_id": 14,
+  "name": "Sion",
+  "title": "The Undead Juggernaut",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "sion",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/sion/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/sion/",
+    "summary": "Noxus resurrected a celebrated warlord to fight again, but little of his former identity remains intact. His violence now threatens allies as well as enemies, with fragments of self-recognition appearing between destructive charges.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "noxus",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Swain",
+        "name": "Swain",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/swain",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "JarvanIV",
+        "name": "Jarvan IV",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/jarvaniv",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Leblanc",
+        "name": "LeBlanc",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/leblanc",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "In the Mind of Madness",
+        "url": "https://universe.leagueoflegends.com/en_us/story/sion-color-story",
+        "story_slug": "sion-color-story",
+        "published_at": "2014-10-09T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "Sion: Login Theme",
+        "url": "https://www.youtube.com/watch?v=vZ9nyZTvRwY",
+        "story_slug": null,
+        "published_at": "2014-10-09T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Sion"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Tank",
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Vanguard"
+    ],
+    "client_tags_wiki": [
+      "Durable",
+      "Crowd Control",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.22",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 2,
+      "toughness": 3,
+      "control": 3,
+      "mobility": 1,
+      "utility": 1,
+      "style": 65
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 655,
+      "hpperlevel": 95,
+      "mp": 400,
+      "mpperlevel": 52,
+      "movespeed": 345,
+      "armor": 36,
+      "armorperlevel": 4.2,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 175,
+      "hpregen": 9,
+      "hpregenperlevel": 0.8,
+      "mpregen": 8,
+      "mpregenperlevel": 0.6,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 68,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 1.3,
+      "attackspeed": 0.679
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Glory in Death",
+        "source_id": "ddragon:Sion"
+      },
+      {
+        "slot": "Q",
+        "name": "Decimating Smash",
+        "cooldown_by_rank": [
+          10,
+          9,
+          8,
+          7,
+          6
+        ],
+        "cost_by_rank": [
+          45,
+          45,
+          45,
+          45,
+          45
+        ],
+        "range_by_rank": [
+          10000,
+          10000,
+          10000,
+          10000,
+          10000
+        ],
+        "source_id": "ddragon:Sion",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Soul Furnace",
+        "cooldown_by_rank": [
+          15,
+          14,
+          13,
+          12,
+          11
+        ],
+        "cost_by_rank": [
+          75,
+          80,
+          85,
+          90,
+          95
+        ],
+        "range_by_rank": [
+          500,
+          500,
+          500,
+          500,
+          500
+        ],
+        "source_id": "ddragon:Sion",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Roar of the Slayer",
+        "cooldown_by_rank": [
+          12,
+          11,
+          10,
+          9,
+          8
+        ],
+        "cost_by_rank": [
+          35,
+          40,
+          45,
+          50,
+          55
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Sion",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Unstoppable Onslaught",
+        "cooldown_by_rank": [
+          140,
+          100,
+          60
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          7500,
+          7500,
+          7500
+        ],
+        "source_id": "ddragon:Sion",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Sion"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Continue fighting while fragments of identity remain",
+    "candidate_themes": [
+      {
+        "theme": "violence",
+        "evidence": "Noxus resurrected a celebrated warlord to fight again, but little of his former identity remains intact. His violence now threatens allies as well as enemies, with fragments of self-recognition appearing between destructive charges.",
+        "evidence_source_id": "universe:Sion",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "identity",
+        "evidence": "Noxus resurrected a celebrated warlord to fight again, but little of his former identity remains intact. His violence now threatens allies as well as enemies, with fragments of self-recognition appearing between destructive charges.",
+        "evidence_source_id": "universe:Sion",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "exploitation",
+        "evidence": "Noxus resurrected a celebrated warlord to fight again, but little of his former identity remains intact. His violence now threatens allies as well as enemies, with fragments of self-recognition appearing between destructive charges.",
+        "evidence_source_id": "universe:Sion",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 0.6666666666666666,
+      "toughness": 1.0,
+      "control": 1.0,
+      "mobility": 0.3333333333333333,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.65
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Sion",
+    "gameplay_api": "ddragon:Sion",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

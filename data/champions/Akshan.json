@@ -1,0 +1,293 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Akshan",
+  "riot_id": 166,
+  "name": "Akshan",
+  "title": "the Rogue Sentinel",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "akshan",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/akshan/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/akshan/",
+    "summary": "Akshan is a vigilante whose fighting style combines stealth with conspicuous bravado. Carrying a weapon capable of reversing deaths, he pursues wrongdoers according to a personal sense of justice rather than formal authority.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shurima",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Lucian",
+        "name": "Lucian",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/lucian",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Senna",
+        "name": "Senna",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/senna",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Viego",
+        "name": "Viego",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/viego",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Gwen",
+        "name": "Gwen",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/gwen",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "In Search of Things Lost",
+        "url": "https://universe.leagueoflegends.com/en_us/story/akshan-color-story",
+        "story_slug": "akshan-color-story",
+        "published_at": "2021-08-10T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Akshan"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Marksman",
+      "Assassin"
+    ],
+    "client_tags_wiki": [
+      "Mobile",
+      "Stealth",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2021-07-22",
+    "last_changed_patch_wiki": "V26.16",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 3,
+      "utility": 2,
+      "style": 1
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 610,
+      "hpperlevel": 107,
+      "mp": 350,
+      "mpperlevel": 40,
+      "movespeed": 330,
+      "armor": 26,
+      "armorperlevel": 4.7,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 500,
+      "hpregen": 3.75,
+      "hpregenperlevel": 0.65,
+      "mpregen": 8.2,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 52,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 4,
+      "attackspeed": 0.638
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Dirty Fighting",
+        "source_id": "ddragon:Akshan"
+      },
+      {
+        "slot": "Q",
+        "name": "Avengerang",
+        "cooldown_by_rank": [
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "cost_by_rank": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "range_by_rank": [
+          850,
+          850,
+          850,
+          850,
+          850
+        ],
+        "source_id": "ddragon:Akshan",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Going Rogue",
+        "cooldown_by_rank": [
+          18,
+          14,
+          10,
+          6,
+          2
+        ],
+        "cost_by_rank": [
+          40,
+          30,
+          20,
+          10,
+          0
+        ],
+        "range_by_rank": [
+          5500,
+          5500,
+          5500,
+          5500,
+          5500
+        ],
+        "source_id": "ddragon:Akshan",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Heroic Swing",
+        "cooldown_by_rank": [
+          18,
+          16.5,
+          15,
+          13.5,
+          12
+        ],
+        "cost_by_rank": [
+          70,
+          70,
+          70,
+          70,
+          70
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Akshan",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Comeuppance",
+        "cooldown_by_rank": [
+          100,
+          85,
+          70
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          2500,
+          2500,
+          2500
+        ],
+        "source_id": "ddragon:Akshan",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Akshan"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Correct wrongs through personal justice",
+    "candidate_themes": [
+      {
+        "theme": "justice",
+        "evidence": "Akshan is a vigilante whose fighting style combines stealth with conspicuous bravado. Carrying a weapon capable of reversing deaths, he pursues wrongdoers according to a personal sense of justice rather than formal authority.",
+        "evidence_source_id": "universe:Akshan",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "audacity",
+        "evidence": "Akshan is a vigilante whose fighting style combines stealth with conspicuous bravado. Carrying a weapon capable of reversing deaths, he pursues wrongdoers according to a personal sense of justice rather than formal authority.",
+        "evidence_source_id": "universe:Akshan",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "independence",
+        "evidence": "Akshan is a vigilante whose fighting style combines stealth with conspicuous bravado. Carrying a weapon capable of reversing deaths, he pursues wrongdoers according to a personal sense of justice rather than formal authority.",
+        "evidence_source_id": "universe:Akshan",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 1.0,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.01
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Akshan",
+    "gameplay_api": "ddragon:Akshan",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

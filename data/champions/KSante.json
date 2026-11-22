@@ -1,0 +1,286 @@
+{
+  "schema_version": "1.0.0",
+  "id": "KSante",
+  "riot_id": 897,
+  "name": "K'Sante",
+  "title": "the Pride of Nazumah",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "ksante",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/ksante/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/ksante/",
+    "summary": "K'Sante protects Nazumah against enormous beasts and hostile Ascended. A broken relationship forces him to reconsider the pride behind his relentless drive, making greater wisdom part of becoming the leader his city needs.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "shurima",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Azir",
+        "name": "Azir",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/azir",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Renekton",
+        "name": "Renekton",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/renekton",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Xerath",
+        "name": "Xerath",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/xerath",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Everything We Should Have Said",
+        "url": "https://universe.leagueoflegends.com/en_us/story/ksante-color-story",
+        "story_slug": "ksante-color-story",
+        "published_at": "2022-10-18",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:KSante"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Tank",
+      "Fighter"
+    ],
+    "subclasses_wiki": [
+      "Warden",
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Durable",
+      "Duelist",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "top"
+      ],
+      "external": [
+        "top"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2022-11-02",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 2,
+      "toughness": 3,
+      "control": 3,
+      "mobility": 2,
+      "utility": 2,
+      "style": 30
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 625,
+      "hpperlevel": 120,
+      "mp": 320,
+      "mpperlevel": 60,
+      "movespeed": 330,
+      "armor": 36,
+      "armorperlevel": 5.2,
+      "spellblock": 30,
+      "spellblockperlevel": 2.1,
+      "attackrange": 150,
+      "hpregen": 9.5,
+      "hpregenperlevel": 1,
+      "mpregen": 7,
+      "mpregenperlevel": 1,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 64,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.688
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Dauntless Instinct",
+        "source_id": "ddragon:KSante"
+      },
+      {
+        "slot": "Q",
+        "name": "Ntofo Strikes",
+        "cooldown_by_rank": [
+          3.5,
+          3.5,
+          3.5,
+          3.5,
+          3.5
+        ],
+        "cost_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "range_by_rank": [
+          450,
+          450,
+          450,
+          450,
+          450
+        ],
+        "source_id": "ddragon:KSante",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Path Maker",
+        "cooldown_by_rank": [
+          14,
+          13,
+          12,
+          11,
+          10
+        ],
+        "cost_by_rank": [
+          45,
+          45,
+          45,
+          45,
+          45
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:KSante",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Footwork",
+        "cooldown_by_rank": [
+          10,
+          9.5,
+          9,
+          8.5,
+          8
+        ],
+        "cost_by_rank": [
+          45,
+          50,
+          55,
+          60,
+          65
+        ],
+        "range_by_rank": [
+          525,
+          525,
+          525,
+          525,
+          525
+        ],
+        "source_id": "ddragon:KSante",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "All Out",
+        "cooldown_by_rank": [
+          120,
+          100,
+          80
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          250,
+          250,
+          250
+        ],
+        "source_id": "ddragon:KSante",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:KSante"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Protect Nazumah while tempering pride",
+    "candidate_themes": [
+      {
+        "theme": "protection",
+        "evidence": "K'Sante protects Nazumah against enormous beasts and hostile Ascended. A broken relationship forces him to reconsider the pride behind his relentless drive, making greater wisdom part of becoming the leader his city needs.",
+        "evidence_source_id": "universe:KSante",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "growth",
+        "evidence": "K'Sante protects Nazumah against enormous beasts and hostile Ascended. A broken relationship forces him to reconsider the pride behind his relentless drive, making greater wisdom part of becoming the leader his city needs.",
+        "evidence_source_id": "universe:KSante",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "pride",
+        "evidence": "K'Sante protects Nazumah against enormous beasts and hostile Ascended. A broken relationship forces him to reconsider the pride behind his relentless drive, making greater wisdom part of becoming the leader his city needs.",
+        "evidence_source_id": "universe:KSante",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 0.6666666666666666,
+      "toughness": 1.0,
+      "control": 1.0,
+      "mobility": 0.6666666666666666,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.3
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:KSante",
+    "gameplay_api": "ddragon:KSante",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

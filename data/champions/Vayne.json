@@ -1,0 +1,275 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Vayne",
+  "riot_id": 67,
+  "name": "Vayne",
+  "title": "the Night Hunter",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "vayne",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/vayne/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/vayne/",
+    "summary": "After a demon killed her family, Vayne devoted herself to hunting monstrous threats. She treats her mission as uncompromising personal justice, relying on preparation and lethal precision rather than mercy toward her quarry.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "demacia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Evelynn",
+        "name": "Evelynn",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/evelynn",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Shaco",
+        "name": "Shaco",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/shaco",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Fiddlesticks",
+        "name": "Fiddlesticks",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/fiddlesticks",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Vayne"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Marksman"
+    ],
+    "client_tags_wiki": [
+      "Hypercarry",
+      "Stealth",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "bottom"
+      ],
+      "external": [
+        "top",
+        "bottom"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2011-05-10",
+    "last_changed_patch_wiki": "V26.20",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 0
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 580,
+      "hpperlevel": 98,
+      "mp": 232,
+      "mpperlevel": 35,
+      "movespeed": 330,
+      "armor": 23,
+      "armorperlevel": 4.6,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 550,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.4,
+      "mpregen": 7,
+      "mpregenperlevel": 0.4,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 60,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.8,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Night Hunter",
+        "source_id": "ddragon:Vayne"
+      },
+      {
+        "slot": "Q",
+        "name": "Tumble",
+        "cooldown_by_rank": [
+          6,
+          5,
+          4,
+          3,
+          2
+        ],
+        "cost_by_rank": [
+          30,
+          30,
+          30,
+          30,
+          30
+        ],
+        "range_by_rank": [
+          300,
+          300,
+          300,
+          300,
+          300
+        ],
+        "source_id": "ddragon:Vayne",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Silver Bolts",
+        "cooldown_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          750,
+          750,
+          750,
+          750,
+          750
+        ],
+        "source_id": "ddragon:Vayne",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Condemn",
+        "cooldown_by_rank": [
+          20,
+          18,
+          16,
+          14,
+          12
+        ],
+        "cost_by_rank": [
+          90,
+          90,
+          90,
+          90,
+          90
+        ],
+        "range_by_rank": [
+          550,
+          550,
+          550,
+          550,
+          550
+        ],
+        "source_id": "ddragon:Vayne",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Final Hour",
+        "cooldown_by_rank": [
+          100,
+          85,
+          70
+        ],
+        "cost_by_rank": [
+          80,
+          80,
+          80
+        ],
+        "range_by_rank": [
+          1,
+          1,
+          1
+        ],
+        "source_id": "ddragon:Vayne",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Vayne"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Destroy the threats she holds responsible",
+    "candidate_themes": [
+      {
+        "theme": "vengeance",
+        "evidence": "After a demon killed her family, Vayne devoted herself to hunting monstrous threats. She treats her mission as uncompromising personal justice, relying on preparation and lethal precision rather than mercy toward her quarry.",
+        "evidence_source_id": "universe:Vayne",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "resolve",
+        "evidence": "After a demon killed her family, Vayne devoted herself to hunting monstrous threats. She treats her mission as uncompromising personal justice, relying on preparation and lethal precision rather than mercy toward her quarry.",
+        "evidence_source_id": "universe:Vayne",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "severity",
+        "evidence": "After a demon killed her family, Vayne devoted herself to hunting monstrous threats. She treats her mission as uncompromising personal justice, relying on preparation and lethal precision rather than mercy toward her quarry.",
+        "evidence_source_id": "universe:Vayne",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Vayne",
+    "gameplay_api": "ddragon:Vayne",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

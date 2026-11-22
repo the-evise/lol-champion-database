@@ -1,0 +1,324 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Graves",
+  "riot_id": 104,
+  "name": "Graves",
+  "title": "the Outlaw",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "graves",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/graves/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/graves/",
+    "summary": "Graves is an outlaw with a quick temper and a personal code of criminal honor. After repairing his partnership with Twisted Fate, he again works alongside him in Bilgewater's unstable criminal world.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "bilgewater",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "TwistedFate",
+        "name": "Twisted Fate",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/twistedfate",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Gangplank",
+        "name": "Gangplank",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/gangplank",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "MissFortune",
+        "name": "Miss Fortune",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/missfortune",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Destiny and Fate",
+        "url": "https://universe.leagueoflegends.com/en_us/story/destiny-and-fate",
+        "story_slug": "destiny-and-fate",
+        "published_at": "2020-03-18T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "One Last Shot",
+        "url": "https://universe.leagueoflegends.com/en_us/story/graves-color-story",
+        "story_slug": "graves-color-story",
+        "published_at": "2017-07-29T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "Burning Tides",
+        "url": "https://universe.leagueoflegends.com/en_us/story/bilgewater-story",
+        "story_slug": "bilgewater-story",
+        "published_at": "2015-07-23T15:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "story",
+        "title": "The Boys and Bombolini",
+        "url": "https://universe.leagueoflegends.com/en_us/story/the-boys-and-bombolini",
+        "story_slug": "the-boys-and-bombolini",
+        "published_at": "2022-06-01",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      },
+      {
+        "type": "video",
+        "title": "A New Dawn: BTS",
+        "url": "https://www.youtube.com/watch?v=Q40IfQbYlSw",
+        "story_slug": null,
+        "published_at": "2014-07-22T15:00:00.000Z",
+        "minutes_to_read": null,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Graves"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Marksman"
+    ],
+    "subclasses_wiki": [
+      "Specialist"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Auto-attack",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2011-10-19",
+    "last_changed_patch_wiki": "V26.17",
+    "ratings": {
+      "difficulty": 2,
+      "damage": 3,
+      "toughness": 2,
+      "control": 1,
+      "mobility": 2,
+      "utility": 2,
+      "style": 20
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 625,
+      "hpperlevel": 106,
+      "mp": 325,
+      "mpperlevel": 40,
+      "movespeed": 340,
+      "armor": 33,
+      "armorperlevel": 4.6,
+      "spellblock": 33,
+      "spellblockperlevel": 1.1,
+      "attackrange": 425,
+      "hpregen": 8,
+      "hpregenperlevel": 0.7,
+      "mpregen": 8,
+      "mpregenperlevel": 0.7,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 66,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 3,
+      "attackspeed": 0.475
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "New Destiny",
+        "source_id": "ddragon:Graves"
+      },
+      {
+        "slot": "Q",
+        "name": "End of the Line",
+        "cooldown_by_rank": [
+          13,
+          11.25,
+          9.5,
+          7.75,
+          6
+        ],
+        "cost_by_rank": [
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "range_by_rank": [
+          925,
+          925,
+          925,
+          925,
+          925
+        ],
+        "source_id": "ddragon:Graves",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Smoke Screen",
+        "cooldown_by_rank": [
+          26,
+          24,
+          22,
+          20,
+          18
+        ],
+        "cost_by_rank": [
+          70,
+          75,
+          80,
+          85,
+          90
+        ],
+        "range_by_rank": [
+          950,
+          950,
+          950,
+          950,
+          950
+        ],
+        "source_id": "ddragon:Graves",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Quickdraw",
+        "cooldown_by_rank": [
+          16,
+          15,
+          14,
+          13,
+          12
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          425,
+          425,
+          425,
+          425,
+          425
+        ],
+        "source_id": "ddragon:Graves",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Collateral Damage",
+        "cooldown_by_rank": [
+          100,
+          80,
+          60
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1000,
+          1000,
+          1000
+        ],
+        "source_id": "ddragon:Graves",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Graves"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Prosper while honoring his chosen partnerships",
+    "candidate_themes": [
+      {
+        "theme": "loyalty",
+        "evidence": "Graves is an outlaw with a quick temper and a personal code of criminal honor. After repairing his partnership with Twisted Fate, he again works alongside him in Bilgewater's unstable criminal world.",
+        "evidence_source_id": "universe:Graves",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "pragmatism",
+        "evidence": "Graves is an outlaw with a quick temper and a personal code of criminal honor. After repairing his partnership with Twisted Fate, he again works alongside him in Bilgewater's unstable criminal world.",
+        "evidence_source_id": "universe:Graves",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "defiance",
+        "evidence": "Graves is an outlaw with a quick temper and a personal code of criminal honor. After repairing his partnership with Twisted Fate, he again works alongside him in Bilgewater's unstable criminal world.",
+        "evidence_source_id": "universe:Graves",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.5,
+      "damage": 1.0,
+      "toughness": 0.6666666666666666,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 0.2
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Graves",
+    "gameplay_api": "ddragon:Graves",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Karma",
+  "riot_id": 43,
+  "name": "Karma",
+  "title": "the Enlightened One",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "karma",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/karma/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/karma/",
+    "summary": "Karma embodies a recurring Ionian soul and inherits memories from previous lives. She attempts to guide her people through crisis while recognizing that protecting harmony may require painful choices and personal sacrifice.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "ionia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "Irelia",
+        "name": "Irelia",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/irelia",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "LeeSin",
+        "name": "Lee Sin",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/leesin",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Remember Me",
+        "url": "https://universe.leagueoflegends.com/en_us/story/karma-color-story",
+        "story_slug": "karma-color-story",
+        "published_at": "2019-11-09T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Karma"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage",
+      "Support"
+    ],
+    "subclasses_wiki": [
+      "Burst",
+      "Enchanter"
+    ],
+    "client_tags_wiki": [
+      "Ally Protection",
+      "AoE",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid",
+        "support"
+      ],
+      "external": [
+        "top",
+        "mid",
+        "support"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2011-02-01",
+    "last_changed_patch_wiki": "V26.10",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 2,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 1,
+      "utility": 2,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 109,
+      "mp": 374,
+      "mpperlevel": 40,
+      "movespeed": 335,
+      "armor": 28,
+      "armorperlevel": 5,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 525,
+      "hpregen": 5.5,
+      "hpregenperlevel": 0.55,
+      "mpregen": 13,
+      "mpregenperlevel": 0.8,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 49,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.3,
+      "attackspeed": 0.625
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Gathering Fire",
+        "source_id": "ddragon:Karma"
+      },
+      {
+        "slot": "Q",
+        "name": "Inner Flame",
+        "cooldown_by_rank": [
+          9,
+          8,
+          7,
+          6,
+          5
+        ],
+        "cost_by_rank": [
+          40,
+          50,
+          60,
+          70,
+          80
+        ],
+        "range_by_rank": [
+          950,
+          950,
+          950,
+          950,
+          950
+        ],
+        "source_id": "ddragon:Karma",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Focused Resolve",
+        "cooldown_by_rank": [
+          12,
+          12,
+          12,
+          12,
+          12
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          675,
+          675,
+          675,
+          675,
+          675
+        ],
+        "source_id": "ddragon:Karma",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Inspire",
+        "cooldown_by_rank": [
+          10,
+          9.5,
+          9,
+          8.5,
+          8
+        ],
+        "cost_by_rank": [
+          60,
+          65,
+          70,
+          75,
+          80
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Karma",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Mantra",
+        "cooldown_by_rank": [
+          40,
+          38,
+          36,
+          34
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          1100,
+          1100,
+          1100,
+          1100
+        ],
+        "source_id": "ddragon:Karma",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Karma"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Guide Ionia toward peace and harmony",
+    "candidate_themes": [
+      {
+        "theme": "wisdom",
+        "evidence": "Karma embodies a recurring Ionian soul and inherits memories from previous lives. She attempts to guide her people through crisis while recognizing that protecting harmony may require painful choices and personal sacrifice.",
+        "evidence_source_id": "universe:Karma",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "balance",
+        "evidence": "Karma embodies a recurring Ionian soul and inherits memories from previous lives. She attempts to guide her people through crisis while recognizing that protecting harmony may require painful choices and personal sacrifice.",
+        "evidence_source_id": "universe:Karma",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "responsibility",
+        "evidence": "Karma embodies a recurring Ionian soul and inherits memories from previous lives. She attempts to guide her people through crisis while recognizing that protecting harmony may require painful choices and personal sacrifice.",
+        "evidence_source_id": "universe:Karma",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 0.6666666666666666,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.3333333333333333,
+      "utility": 0.6666666666666666,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Karma",
+    "gameplay_api": "ddragon:Karma",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

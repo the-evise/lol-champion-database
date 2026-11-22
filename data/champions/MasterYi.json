@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0.0",
+  "id": "MasterYi",
+  "riot_id": 11,
+  "name": "Master Yi",
+  "title": "the Wuju Bladesman",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "masteryi",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/masteryi/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/masteryi/",
+    "summary": "Master Yi's training joins mental discipline with extraordinary physical skill. He prefers avoiding violence when possible and devotes himself to preserving Wuju by choosing and teaching suitable students.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "ionia",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "MonkeyKing",
+        "name": "Wukong",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/monkeyking",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Singed",
+        "name": "Singed",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/singed",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Homecoming",
+        "url": "https://universe.leagueoflegends.com/en_us/story/masteryi-color-story",
+        "story_slug": "masteryi-color-story",
+        "published_at": "2019-02-05T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:MasterYi"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Fighter",
+      "Assassin"
+    ],
+    "subclasses_wiki": [
+      "Skirmisher"
+    ],
+    "client_tags_wiki": [
+      "Auto-attack",
+      "Hypercarry",
+      "Physical"
+    ],
+    "positions": {
+      "client": [
+        "jungle"
+      ],
+      "external": [
+        "jungle"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Melee",
+    "resource": "Mana",
+    "release_date_wiki": "2009-02-21",
+    "last_changed_patch_wiki": "V26.23",
+    "ratings": {
+      "difficulty": 1,
+      "damage": 3,
+      "toughness": 1,
+      "control": 1,
+      "mobility": 2,
+      "utility": 1,
+      "style": 10
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Physical",
+    "base_stats_data_dragon": {
+      "hp": 640,
+      "hpperlevel": 105,
+      "mp": 251,
+      "mpperlevel": 42,
+      "movespeed": 355,
+      "armor": 33,
+      "armorperlevel": 5,
+      "spellblock": 32,
+      "spellblockperlevel": 2.05,
+      "attackrange": 175,
+      "hpregen": 7.5,
+      "hpregenperlevel": 0.65,
+      "mpregen": 7.25,
+      "mpregenperlevel": 0.45,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 65,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.679
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "Double Strike",
+        "source_id": "ddragon:MasterYi"
+      },
+      {
+        "slot": "Q",
+        "name": "Alpha Strike",
+        "cooldown_by_rank": [
+          20,
+          19.5,
+          19,
+          18.5,
+          18
+        ],
+        "cost_by_rank": [
+          50,
+          55,
+          60,
+          65,
+          70
+        ],
+        "range_by_rank": [
+          600,
+          600,
+          600,
+          600,
+          600
+        ],
+        "source_id": "ddragon:MasterYi",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Meditate",
+        "cooldown_by_rank": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:MasterYi",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Wuju Style",
+        "cooldown_by_rank": [
+          14,
+          14,
+          14,
+          14,
+          14
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          20,
+          20,
+          20,
+          20,
+          20
+        ],
+        "source_id": "ddragon:MasterYi",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Highlander",
+        "cooldown_by_rank": [
+          85,
+          85,
+          85
+        ],
+        "cost_by_rank": [
+          100,
+          100,
+          100
+        ],
+        "range_by_rank": [
+          1,
+          1,
+          1
+        ],
+        "source_id": "ddragon:MasterYi",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:MasterYi"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Preserve Wuju through discipline and teaching",
+    "candidate_themes": [
+      {
+        "theme": "mastery",
+        "evidence": "Master Yi's training joins mental discipline with extraordinary physical skill. He prefers avoiding violence when possible and devotes himself to preserving Wuju by choosing and teaching suitable students.",
+        "evidence_source_id": "universe:MasterYi",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "restraint",
+        "evidence": "Master Yi's training joins mental discipline with extraordinary physical skill. He prefers avoiding violence when possible and devotes himself to preserving Wuju by choosing and teaching suitable students.",
+        "evidence_source_id": "universe:MasterYi",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "mentorship",
+        "evidence": "Master Yi's training joins mental discipline with extraordinary physical skill. He prefers avoiding violence when possible and devotes himself to preserving Wuju by choosing and teaching suitable students.",
+        "evidence_source_id": "universe:MasterYi",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 0.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.3333333333333333,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 0.1
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:MasterYi",
+    "gameplay_api": "ddragon:MasterYi",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}

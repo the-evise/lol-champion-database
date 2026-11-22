@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0.0",
+  "id": "Zoe",
+  "riot_id": 142,
+  "name": "Zoe",
+  "title": "the Aspect of Twilight",
+  "snapshot_version": "16.23.1",
+  "lore": {
+    "universe_slug": "zoe",
+    "biography_url": "https://universe.leagueoflegends.com/en_US/story/champion/zoe/",
+    "champion_url": "https://universe.leagueoflegends.com/en_US/champion/zoe/",
+    "summary": "Zoe serves as Targon's cosmic messenger while approaching existence as an opportunity for play. Her extraordinary effect on reality can cause disaster without hostile intent, creating a mismatch between her lighthearted behavior and its consequences.",
+    "summary_kind": "original_paraphrase",
+    "summary_evidence_scope": "universe_short_biography",
+    "region": "mount-targon",
+    "species_as_listed": [],
+    "related_champions": [
+      {
+        "id": "AurelionSol",
+        "name": "Aurelion Sol",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/aurelionsol",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      },
+      {
+        "id": "Pantheon",
+        "name": "Pantheon",
+        "url": "https://universe.leagueoflegends.com/en_us/champion/pantheon",
+        "relationship_type": "curated_related_link",
+        "specific_relationship": null
+      }
+    ],
+    "resources": [
+      {
+        "type": "story",
+        "title": "Meet Zoe",
+        "url": "https://universe.leagueoflegends.com/en_us/story/zoe-color-story",
+        "story_slug": "zoe-color-story",
+        "published_at": "2017-11-21T16:00:00.000Z",
+        "minutes_to_read": 5,
+        "review_status": "catalogued_not_read",
+        "continuity_status": "not_adjudicated"
+      }
+    ],
+    "notes": [
+      "Summary is an original paraphrase of the retrieved Universe short biography; full biography and linked stories are not editorially reviewed.",
+      "Universe links may include historical or alternate-continuity material; continuity has not been adjudicated."
+    ],
+    "source_id": "universe:Zoe"
+  },
+  "gameplay": {
+    "classes_data_dragon": [
+      "Mage"
+    ],
+    "subclasses_wiki": [
+      "Burst"
+    ],
+    "client_tags_wiki": [
+      "Burst",
+      "Long Range",
+      "Magic"
+    ],
+    "positions": {
+      "client": [
+        "mid"
+      ],
+      "external": [
+        "mid"
+      ],
+      "source_id": "wiki_champion_data",
+      "caveat": "Client labels and secondary external labels; neither is a current role win-rate estimate."
+    },
+    "range_type": "Ranged",
+    "resource": "Mana",
+    "release_date_wiki": "2017-11-21",
+    "last_changed_patch_wiki": "V26.21",
+    "ratings": {
+      "difficulty": 3,
+      "damage": 3,
+      "toughness": 1,
+      "control": 2,
+      "mobility": 2,
+      "utility": 1,
+      "style": 100
+    },
+    "ratings_source_id": "wiki_champion_data",
+    "adaptive_damage_type_wiki": "Magic",
+    "base_stats_data_dragon": {
+      "hp": 630,
+      "hpperlevel": 106,
+      "mp": 425,
+      "mpperlevel": 25,
+      "movespeed": 340,
+      "armor": 21,
+      "armorperlevel": 4.7,
+      "spellblock": 30,
+      "spellblockperlevel": 1.3,
+      "attackrange": 550,
+      "hpregen": 7.5,
+      "hpregenperlevel": 0.6,
+      "mpregen": 8,
+      "mpregenperlevel": 0.65,
+      "crit": 0,
+      "critperlevel": 0,
+      "attackdamage": 58,
+      "attackdamageperlevel": 0,
+      "attackspeedperlevel": 2.5,
+      "attackspeed": 0.658
+    },
+    "abilities": [
+      {
+        "slot": "P",
+        "name": "More Sparkles!",
+        "source_id": "ddragon:Zoe"
+      },
+      {
+        "slot": "Q",
+        "name": "Paddle Star!",
+        "cooldown_by_rank": [
+          8.5,
+          8,
+          7.5,
+          7,
+          6.5
+        ],
+        "cost_by_rank": [
+          40,
+          45,
+          50,
+          55,
+          60
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Zoe",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "W",
+        "name": "Spell Thief",
+        "cooldown_by_rank": [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ],
+        "cost_by_rank": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "range_by_rank": [
+          3000,
+          4500,
+          6000,
+          3000,
+          3000
+        ],
+        "source_id": "ddragon:Zoe",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "E",
+        "name": "Sleepy Trouble Bubble",
+        "cooldown_by_rank": [
+          18,
+          17,
+          16,
+          15,
+          14
+        ],
+        "cost_by_rank": [
+          80,
+          80,
+          80,
+          80,
+          80
+        ],
+        "range_by_rank": [
+          800,
+          800,
+          800,
+          800,
+          800
+        ],
+        "source_id": "ddragon:Zoe",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      },
+      {
+        "slot": "R",
+        "name": "Portal Jump",
+        "cooldown_by_rank": [
+          11,
+          8,
+          5
+        ],
+        "cost_by_rank": [
+          40,
+          40,
+          40
+        ],
+        "range_by_rank": [
+          575,
+          575,
+          575
+        ],
+        "source_id": "ddragon:Zoe",
+        "data_caveat": "Static API values may omit conditional changes or special cases."
+      }
+    ],
+    "source_id": "ddragon:Zoe"
+  },
+  "analysis": {
+    "status": "exploratory_not_quiz_validated",
+    "central_motivation": "Carry cosmic messages while seeking amusement",
+    "candidate_themes": [
+      {
+        "theme": "playfulness",
+        "evidence": "Zoe serves as Targon's cosmic messenger while approaching existence as an opportunity for play. Her extraordinary effect on reality can cause disaster without hostile intent, creating a mismatch between her lighthearted behavior and its consequences.",
+        "evidence_source_id": "universe:Zoe",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "imagination",
+        "evidence": "Zoe serves as Targon's cosmic messenger while approaching existence as an opportunity for play. Her extraordinary effect on reality can cause disaster without hostile intent, creating a mismatch between her lighthearted behavior and its consequences.",
+        "evidence_source_id": "universe:Zoe",
+        "status": "tentative_interpretation"
+      },
+      {
+        "theme": "unpredictability",
+        "evidence": "Zoe serves as Targon's cosmic messenger while approaching existence as an opportunity for play. Her extraordinary effect on reality can cause disaster without hostile intent, creating a mismatch between her lighthearted behavior and its consequences.",
+        "evidence_source_id": "universe:Zoe",
+        "status": "tentative_interpretation"
+      }
+    ],
+    "personality_scores": null,
+    "personality_quiz_ready": false,
+    "gameplay_features": {
+      "difficulty": 1.0,
+      "damage": 1.0,
+      "toughness": 0.3333333333333333,
+      "control": 0.6666666666666666,
+      "mobility": 0.6666666666666666,
+      "utility": 0.3333333333333333,
+      "ability_vs_attack_style": 1.0
+    },
+    "feature_method": "Source rating normalization only: difficulty: (rating-1)/2; capabilities: rating/3; style/100. Not measured performance or personality."
+  },
+  "provenance": {
+    "lore": "universe:Zoe",
+    "gameplay_api": "ddragon:Zoe",
+    "gameplay_wiki": "wiki_champion_data",
+    "editorial": "data/editorial.tsv",
+    "field_exceptions": [
+      "candidate themes and motivation are interpretations, not Riot labels",
+      "specific relationship types and unlisted species are unknown"
+    ]
+  },
+  "coverage": {
+    "universe_available": true,
+    "full_biography_available": true,
+    "short_bio_editorial_review": true,
+    "full_biography_editorial_review": false,
+    "linked_story_editorial_review": false,
+    "wiki_available": true,
+    "game_data_available": true,
+    "continuity_reconciled": false
+  }
+}
