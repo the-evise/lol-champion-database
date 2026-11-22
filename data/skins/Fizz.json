@@ -1,0 +1,1508 @@
+{
+  "champion_id": "Fizz",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105000",
+      "riot_skin_id": 105000,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Fizz",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "922a068f-ecb8-4e96-b4f7-cecc13d1c05d",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 105005,
+          "parent_skin_id": "skin:105000",
+          "name": "Fizz Scorch Orange",
+          "colors": [
+            "#F9E330",
+            "#E6B427"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105006,
+          "parent_skin_id": "skin:105000",
+          "name": "Fizz Scorch Black",
+          "colors": [
+            "#78688A",
+            "#23325D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105007,
+          "parent_skin_id": "skin:105000",
+          "name": "Fizz Scorch Red",
+          "colors": [
+            "#D97AAF",
+            "#97192C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/base/images/fizz_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/base/images/fizz_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/base/images/fizz_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/base/fizzloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e7ce4d4fe8af74ec4fd29ba3fb6f0b3cca20bb2723c70501a6da49714e41af8",
+        "biography_word_count": 78,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105000",
+        "result_label": "Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105000",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105026",
+      "riot_skin_id": 105026,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Astronaut Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "9713ea66-bdb6-49fd-95e6-8a36a3b935c6",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-02-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        94
+      ],
+      "wiki_sets": [
+        "Astronauts"
+      ],
+      "universe_ids": [
+        "universe:star-voyagers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 105027,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105028,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105029,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105030,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105031,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105032,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105033,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105034,
+          "parent_skin_id": "skin:105026",
+          "name": "Astronaut Fizz (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin26/images/fizz_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin26/images/fizz_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin26/images/fizz_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin26/fizzloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "70962067fc6b19c0d297aecfa51e751f58136ac7b319a9dbbd9f0c716f762e49",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Astronaut",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105026",
+        "result_label": "Astronaut Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105026",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105001",
+      "riot_skin_id": 105001,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Atlantean Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "ef03ea13-d421-4634-b80e-e77d2ff6bcc6",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        108
+      ],
+      "wiki_sets": [
+        "Forgotten Depths"
+      ],
+      "universe_ids": [
+        "universe:forgotten-depths"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin01/images/fizz_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin01/images/fizz_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin01/images/fizz_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin01/fizzloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bd0570e5760e25562827907b0fdb786c9d230bd4bb14a31472de3576156ddc9d",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Atlantean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105001",
+        "result_label": "Atlantean Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105001",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105008",
+      "riot_skin_id": 105008,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Cottontail Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "263bd36d-2f9d-4b86-8ad5-f66f049b1d85",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-08-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        56
+      ],
+      "wiki_sets": [
+        "Cottontail"
+      ],
+      "universe_ids": [
+        "universe:cottontail"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin08/images/fizz_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin08/images/fizz_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin08/images/fizz_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin08/fizzloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "93565f87e959d87b618863998afe61dc9d3207a4dc711f3aeee4ea3bb4b791d8",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Cottontail",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105008",
+        "result_label": "Cottontail Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105008",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105003",
+      "riot_skin_id": 105003,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Fisherman Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "c49b1b4d-a8d3-48a9-b271-fab2323027ef",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-04-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin03/images/fizz_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin03/images/fizz_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin03/images/fizz_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin03/fizzloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "75df453799fe5425bc19da0945a749afd6dbaef2b30dbb2075bca06694110de3",
+        "biography_word_count": 3,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Fisherman",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105003",
+        "result_label": "Fisherman Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105003",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105014",
+      "riot_skin_id": 105014,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Fuzz Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "89895c41-191e-449a-a847-e90c382fb59a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-03-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin14/images/fizz_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin14/images/fizz_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin14/images/fizz_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin14/fizzloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "340ab4daa1307fdb312b9e0221b3cc988fec7fac50f54fb4d034e6c1254f8ae3",
+        "biography_word_count": 3,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Fuzz",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105014",
+        "result_label": "Fuzz Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105014",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105016",
+      "riot_skin_id": 105016,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Little Devil Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "6425b461-3b1c-45c3-88bb-e15ec99adb3d",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2020-10-22",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        116
+      ],
+      "wiki_sets": [
+        "Demonic"
+      ],
+      "universe_ids": [
+        "universe:demonic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 105017,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105018,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105019,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105020,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105021,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105022,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105023,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105024,
+          "parent_skin_id": "skin:105016",
+          "name": "Little Devil Fizz (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin16/images/fizz_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin16/images/fizz_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin16/images/fizz_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin16/fizzloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b5549d651ab0b1d69798641b0310a8877efc2df89956a0cc46dc8a821a77dba",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Little Devil",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105016",
+        "result_label": "Little Devil Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105016",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105010",
+      "riot_skin_id": 105010,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Omega Squad Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "ed70f15f-29ae-411c-af19-ae79ca77c70b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-07-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        14
+      ],
+      "wiki_sets": [
+        "Omega Squad"
+      ],
+      "universe_ids": [
+        "universe:war-is-heck"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 105011,
+          "parent_skin_id": "skin:105010",
+          "name": "Omega Squad Fizz (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105012,
+          "parent_skin_id": "skin:105010",
+          "name": "Omega Squad Fizz (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105013,
+          "parent_skin_id": "skin:105010",
+          "name": "Omega Squad Fizz (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin10/images/fizz_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin10/images/fizz_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin10/images/fizz_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin10/fizzloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f46e22dfe6440f11df35d103987e8b00b092608e5bd6f0e349ed26b483857464",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Omega Squad",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105010",
+        "result_label": "Omega Squad Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105010",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105015",
+      "riot_skin_id": 105015,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Prestige Fuzz Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "a31f1015-0e98-4c3f-899e-e001c669d4b8",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-03-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": "skin:105014",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/images/fizz_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/images/fizz_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/images/fizz_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/fizzloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "318ae501ad70322e9af091c84f45ba9bf54558b3790ba38d9ca901ce3055df9f",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Prestige Fuzz",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105015",
+        "result_label": "Prestige Fuzz Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105014",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105025",
+      "riot_skin_id": 105025,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Prestige Fuzz Fizz (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 25,
+      "content_id": "0c3e7dd6-cb85-4941-aefd-98906adcad15",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": "skin:105015",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/images/fizz_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/images/fizz_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin15/images/fizz_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin25/fizzloadscreen_25.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "318ae501ad70322e9af091c84f45ba9bf54558b3790ba38d9ca901ce3055df9f",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Prestige Fuzz (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105025",
+        "result_label": "Prestige Fuzz Fizz (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105015",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105035",
+      "riot_skin_id": 105035,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Rain Shepherd Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 35,
+      "content_id": "a97b987b-2719-44ad-97a9-ed1707b9381e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-06-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        205
+      ],
+      "wiki_sets": [
+        "Rain Shepherd"
+      ],
+      "universe_ids": [
+        "universe:rain-shepherd"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 105036,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105037,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105038,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105039,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105040,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105041,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105042,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 105043,
+          "parent_skin_id": "skin:105035",
+          "name": "Rain Shepherd Fizz (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin35/images/fizz_splash_centered_35.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin35/images/fizz_splash_uncentered_35.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin35/images/fizz_splash_tile_35.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin35/fizzloadscreen_35.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "525017535362fd9b0b8565b9bf6cdc521c8e63697312291dfd698ed0966174d7",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Rain Shepherd",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105035",
+        "result_label": "Rain Shepherd Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105035",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105009",
+      "riot_skin_id": 105009,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Super Galaxy Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "ae797176-c024-4b5d-b439-bfcfe239bf6a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-05-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        21
+      ],
+      "wiki_sets": [
+        "Super Galaxy"
+      ],
+      "universe_ids": [
+        "universe:super-galaxy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin09/images/fizz_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin09/images/fizz_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin09/images/fizz_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin09/fizzloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7df8a4f3c3f13f240eb2ce8e71a576e3f156bb2a54a2c4d17b94c573c4939305",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Super Galaxy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105009",
+        "result_label": "Super Galaxy Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105009",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105002",
+      "riot_skin_id": 105002,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Tundra Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "a147e016-76b2-418e-a42a-3dd233d98975",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin02/images/fizz_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin02/images/fizz_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin02/images/fizz_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin02/fizzloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105002",
+        "result_label": "Tundra Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105002",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:105004",
+      "riot_skin_id": 105004,
+      "champion_id": "Fizz",
+      "champion_riot_id": 105,
+      "champion_name": "Fizz",
+      "name": "Void Fizz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "8619ee5d-89c3-457d-b36e-a56b4de89d79",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2014-04-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        179
+      ],
+      "wiki_sets": [
+        "Curse of the Void"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin04/images/fizz_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin04/images/fizz_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin04/images/fizz_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fizz/skins/skin04/fizzloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "09d57afd376092abcc6ff8ba301f5bdb6119bfe874b86480bf8d007edbcdc5e9",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Fizz",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Fizz",
+          "skin": "Void",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fizz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:105004",
+        "result_label": "Void Fizz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:105004",
+        "champion_profile_ref": "data/champions/Fizz.json",
+        "gameplay_profile_ref": "data/champions/Fizz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fizz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

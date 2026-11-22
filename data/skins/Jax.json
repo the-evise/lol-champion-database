@@ -1,0 +1,1900 @@
+{
+  "champion_id": "Jax",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24000",
+      "riot_skin_id": 24000,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Jax",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "e65a29e1-7f77-4deb-94e0-fb554aedf39d",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/base/images/jax_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/base/images/jax_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/base/images/jax_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/base/jaxloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d558fc4982cb1d638a4117329efa8cc26eb1bb8b2f2fe037eb6a9d51995e558c",
+        "biography_word_count": 85,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24000",
+        "result_label": "Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24000",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24003",
+      "riot_skin_id": 24003,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Angler Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "ba88c164-738c-40b1-b118-7a2ce93209c6",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-08",
+      "retired_date": "2012-03-19",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin03/images/jax_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin03/images/jax_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin03/images/jax_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin03/jaxloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "34b28d6fabf6dfa1a493278decac108328a9d6294d662ab49069fdfe7c990ad1",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Angler",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24003",
+        "result_label": "Angler Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24003",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60024301",
+      "riot_skin_id": 60024301,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Classic Jax",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "4e861d7e-d18c-4580-8f57-9f924caee13b",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60024302,
+          "parent_skin_id": "skin:60024301",
+          "name": "Classic Jax (Vandal)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_jax/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60024303,
+          "parent_skin_id": "skin:60024301",
+          "name": "Classic Jax (Angler)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60024/60024303.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_jax/skins/skin301/images/jade_jax_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_jax/skins/skin301/images/jade_jax_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_jax/skins/skin301/images/jade_jax_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_jax/skins/skin301/jade_jaxloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b03df6412d0a0def541002f9967e8068dae33c14a417090b0736ed26188d904a",
+        "biography_word_count": 51,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60024301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60024301",
+        "result_label": "Classic Jax",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60024301",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24020",
+      "riot_skin_id": 24020,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Conqueror Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "f20d241b-2e3c-49ed-831a-a1f82098584c",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2021-04-29",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        109
+      ],
+      "wiki_sets": [
+        "Conqueror"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin20/images/jax_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin20/images/jax_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin20/images/jax_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin20/jaxloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dde66f4c5eb3dac32e71e736d8469a9850ea72302346d88fdb3321bf49618e3b",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Conqueror",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24020",
+        "result_label": "Conqueror Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24020",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24022",
+      "riot_skin_id": 24022,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Empyrean Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 22,
+      "content_id": "7143f321-50e8-4df3-b40a-7aa4605eaf90",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 24023,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24024,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24025,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24026,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24027,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24028,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24029,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24030,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24031,
+          "parent_skin_id": "skin:24022",
+          "name": "Empyrean Jax (Neon Flare)",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin22/images/jax_splash_centered_22.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin22/images/jax_splash_uncentered_22.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin22/images/jax_splash_tile_22.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin22/jaxloadscreen_22.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7d87967ea903c92f3cc955b6107be9569960755ed877f3e10d54873278a6ed6d",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24022",
+        "result_label": "Empyrean Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24022",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24013",
+      "riot_skin_id": 24013,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "God Staff Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "dc8c76b5-004c-4bb0-b2b5-44297ece29b2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-01-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin13/images/jax_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin13/images/jax_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin13/images/jax_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin13/jaxloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d82879a9216abcff74662cf47603a492ad0ba49b5d963b4c7f3dfe43d041fbb4",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "God Staff",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24013",
+        "result_label": "God Staff Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24013",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24005",
+      "riot_skin_id": 24005,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Jaximus",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "c5001121-f732-4b93-9272-522c9f6d1e9c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-05-10",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin05/images/jax_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin05/images/jax_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin05/images/jax_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin05/jaxloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c33245e792b35735c08a52849375d203eb03c97ac18ad652182f9e23914f6163",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Jaximus",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24005",
+        "result_label": "Jaximus",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24005",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24014",
+      "riot_skin_id": 24014,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Mecha Kingdoms Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "85b07a35-4576-4f3f-a367-943e6f61c2e7",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2020-01-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        127
+      ],
+      "wiki_sets": [
+        "Mecha Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:mecha-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 24015,
+          "parent_skin_id": "skin:24014",
+          "name": "Mecha Kingdoms Jax (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24016,
+          "parent_skin_id": "skin:24014",
+          "name": "Mecha Kingdoms Jax (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24017,
+          "parent_skin_id": "skin:24014",
+          "name": "Mecha Kingdoms Jax (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24018,
+          "parent_skin_id": "skin:24014",
+          "name": "Mecha Kingdoms Jax (Peacekeeper)",
+          "colors": [
+            "#0C0E15",
+            "#611B9E"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24019,
+          "parent_skin_id": "skin:24014",
+          "name": "Mecha Kingdoms Jax (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin14/images/jax_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin14/images/jax_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin14/images/jax_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin14/jaxloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b1c954a42384203e46be68832df9e43abab1d8771ca72bf335145e7024d667cb",
+        "biography_word_count": 72,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Mecha Kingdoms",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24014",
+        "result_label": "Mecha Kingdoms Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24014",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24007",
+      "riot_skin_id": 24007,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Nemesis Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "6ece0444-1abc-45f6-ad2d-4100e4986d81",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-09-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 24009,
+          "parent_skin_id": "skin:24007",
+          "name": "Nemesis Jax Sand Cream",
+          "colors": [
+            "#E2D495",
+            "#821434"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24010,
+          "parent_skin_id": "skin:24007",
+          "name": "Nemesis Jax Sand Amber",
+          "colors": [
+            "#D8A100",
+            "#282B20"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24011,
+          "parent_skin_id": "skin:24007",
+          "name": "Nemesis Jax Sand Brick",
+          "colors": [
+            "#9A2D43",
+            "#2F2B39"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin07/images/jax_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin07/images/jax_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin07/images/jax_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin07/jaxloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9037c17b7ef599fb97fb50b1c295eea4c4bf6f093ff3202c292255e73904c973",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Nemesis",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24007",
+        "result_label": "Nemesis Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24007",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24032",
+      "riot_skin_id": 24032,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Neo PAX Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "2d2f0e36-2901-435a-9fac-e1a92ce53a42",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-10-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        84
+      ],
+      "wiki_sets": [
+        "PAX"
+      ],
+      "universe_ids": [
+        "universe:pax"
+      ],
+      "variant_of": "skin:24004",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin32/images/jax_splash_centered_32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin32/images/jax_splash_uncentered_32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin32/images/jax_splash_tile_32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin32/jaxloadscreen_32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1168cd47e087ee284cd769286a48dda068f633c3cc104c2309d2abae332c6990",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Neo PAX",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24032",
+        "result_label": "Neo PAX Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24004",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24004",
+      "riot_skin_id": 24004,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "PAX Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "371bf185-f57e-4451-a1ee-283259f64c7f",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2010-03-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        84
+      ],
+      "wiki_sets": [
+        "PAX"
+      ],
+      "universe_ids": [
+        "universe:pax"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin04/images/jax_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin04/images/jax_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin04/images/jax_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin04/jaxloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4d13615443714456a31ece7ce0383b9b5e6c866251fab0565b75b781a5d4793d",
+        "biography_word_count": 17,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "PAX",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24004",
+        "result_label": "PAX Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24004",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24021",
+      "riot_skin_id": 24021,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Prestige Conqueror Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "11b4e409-980c-442b-8cfb-775ab54842e5",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2021-04-29",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        109
+      ],
+      "wiki_sets": [
+        "Conqueror"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": "skin:24020",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin21/images/jax_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin21/images/jax_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin21/images/jax_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin21/jaxloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dde66f4c5eb3dac32e71e736d8469a9850ea72302346d88fdb3321bf49618e3b",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Prestige Conqueror",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24021",
+        "result_label": "Prestige Conqueror Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24020",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24042",
+      "riot_skin_id": 24042,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Prestige Magma Chamber Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 42,
+      "content_id": "8e0cfb3b-bd70-45dc-9abc-aa540b06c1bb",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-07-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        231
+      ],
+      "wiki_sets": [
+        "Magma Chamber"
+      ],
+      "universe_ids": [
+        "universe:forgotten-lands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 24043,
+          "parent_skin_id": "skin:24042",
+          "name": "Prestige Magma Chamber Jax (Vivid)",
+          "colors": [
+            "#73B9F7",
+            "#3F2989"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin42/images/jax_splash_centered_42.skins_jax_skin42.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin42/images/jax_splash_uncentered_42.skins_jax_skin42.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin42/images/jax_splash_tile_42.skins_jax_skin42.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin42/jaxloadscreen_42.skins_jax_skin42.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a294b3fdb1edfa9f2917a9b285e19479c69ba97d62a0d3c6b4b135407227b636",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Prestige Magma Chamber",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24042",
+        "result_label": "Prestige Magma Chamber Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24042",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24033",
+      "riot_skin_id": 24033,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "PROJECT: Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 33,
+      "content_id": "6d974d7b-32df-4404-a846-493824daef96",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-03-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 24034,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24035,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24036,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24037,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24038,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24039,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24040,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 24041,
+          "parent_skin_id": "skin:24033",
+          "name": "PROJECT: Jax (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin33/images/jax_splash_centered_33.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin33/images/jax_splash_uncentered_33.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin33/images/jax_splash_tile_33.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin33/jaxloadscreen_33.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "91f6a9985e807753ad82d34cc0076909c183c449b28168bd64f1ca4364229b89",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24033",
+        "result_label": "PROJECT: Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24033",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24008",
+      "riot_skin_id": 24008,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "SKT T1 Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "5f00ecd1-e07a-458d-9211-3fa468303d2a",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-05-04",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        3
+      ],
+      "wiki_sets": [
+        "World Champions: 2013"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 24044,
+          "parent_skin_id": "skin:24008",
+          "name": "SKT T1 Jax (Elite)",
+          "colors": [
+            "#872127",
+            "#2C232C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin44/chromapreview.chroma_jax_sktt1.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin08/images/jax_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin08/images/jax_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin08/images/jax_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin08/jaxloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "960b0a0b8b070aaa1d8cc7bfe55841d89cd0e357b98a335d9ef989dbdfe691e3",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24008",
+        "result_label": "SKT T1 Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24008",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24006",
+      "riot_skin_id": 24006,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Temple Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "499ede72-a82e-4b7a-b5d8-418b5c6a3ade",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin06/images/jax_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin06/images/jax_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin06/images/jax_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin06/jaxloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3252e35e8b9464a8685053b2d3684df6a7ecbd6a8c35d6d94e744c9244de564d",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Temple",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24006",
+        "result_label": "Temple Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24006",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24001",
+      "riot_skin_id": 24001,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "The Mighty Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "de8a7718-b504-4118-bd7b-a2919adf7e3b",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        28
+      ],
+      "wiki_sets": [
+        "Winter Sports"
+      ],
+      "universe_ids": [
+        "universe:winter-sports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin01/images/jax_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin01/images/jax_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin01/images/jax_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin01/jaxloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "99251dc5d3aa758c85ca2494c9abf782c6c25298a3ab02e3d425704139959fb2",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "The Mighty",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24001",
+        "result_label": "The Mighty Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24001",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24002",
+      "riot_skin_id": 24002,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Vandal Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "c37140be-1a61-4559-9bcc-b8426a689aee",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-24",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        27
+      ],
+      "wiki_sets": [
+        "Vandal"
+      ],
+      "universe_ids": [
+        "universe:highway-heretics"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin02/images/jax_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin02/images/jax_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin02/images/jax_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin02/jaxloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "12138d42e3797a7396ef0a08ff4da2dddbc2c7cdbd2ecf36d2861e3c2b86d927",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Vandal",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24002",
+        "result_label": "Vandal Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24002",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:24012",
+      "riot_skin_id": 24012,
+      "champion_id": "Jax",
+      "champion_riot_id": 24,
+      "champion_name": "Jax",
+      "name": "Warden Jax",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "8663ab94-49d3-44b7-95d1-27998e14f070",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-09-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        50
+      ],
+      "wiki_sets": [
+        "Warden"
+      ],
+      "universe_ids": [
+        "universe:institute-of-war"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin12/images/jax_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin12/images/jax_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin12/images/jax_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jax/skins/skin12/jaxloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "81d2e07cd55b09817f7179d6f731eb893be1654a291ecbd6d2ad1528900948e5",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Jax",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Jax",
+          "skin": "Warden",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jax/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:24012",
+        "result_label": "Warden Jax",
+        "label_eligible": true,
+        "narrative_family_id": "skin:24012",
+        "champion_profile_ref": "data/champions/Jax.json",
+        "gameplay_profile_ref": "data/champions/Jax.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Jax",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

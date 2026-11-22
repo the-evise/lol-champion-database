@@ -1,0 +1,1042 @@
+{
+  "champion_id": "Illaoi",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420000",
+      "riot_skin_id": 420000,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Illaoi",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "a78c93a6-4ee9-4590-8f8c-a319494e8c5a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-11-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/base/images/illaoi_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/base/images/illaoi_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/base/images/illaoi_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/base/illaoiloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "53b0974b3f2ecb0cef3961d2f740691a8c42980f3a8ffe4eb28573af4f8a4952",
+        "biography_word_count": 60,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Illaoi",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420000",
+        "result_label": "Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420000",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420027",
+      "riot_skin_id": 420027,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Battle Bear Illaoi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "2b7a7fe0-6631-4c23-988e-d4ac5369274a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-07-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        156
+      ],
+      "wiki_sets": [
+        "Anima Squad"
+      ],
+      "universe_ids": [
+        "universe:animatech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 420028,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420029,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420030,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420031,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420032,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420033,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420034,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420035,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420036,
+          "parent_skin_id": "skin:420027",
+          "name": "Battle Bear Illaoi (Nightwire)",
+          "colors": [
+            "#F6A630",
+            "#1C61B4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin27/images/illaoi_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin27/images/illaoi_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin27/images/illaoi_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin27/illaoiloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3fad4dd8c41ba6412f38be784822f339d50479d6a17c33fde11ce24e85b269f7",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Illaoi",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Illaoi",
+          "skin": "Battle Bear",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420027",
+        "result_label": "Battle Bear Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420027",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420010",
+      "riot_skin_id": 420010,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Cosmic Invoker Illaoi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "eaa2fa13-0c24-4c08-a7b8-e9e330fd1d3c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-11-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 420011,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420012,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420013,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420014,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420015,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420016,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420017,
+          "parent_skin_id": "skin:420010",
+          "name": "Cosmic Invoker Illaoi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin10/images/illaoi_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin10/images/illaoi_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin10/images/illaoi_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin10/illaoiloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b837d39297fb9c8a27fa28b8f0c8523cc686f742d8dded73ffe4c250f50d4b41",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Illaoi",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Illaoi",
+          "skin": "Cosmic Invoker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420010",
+        "result_label": "Cosmic Invoker Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420010",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420037",
+      "riot_skin_id": 420037,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Pasta Maker Illaoi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "d8c81227-d996-4e46-9482-981465151ce2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-05-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 420038,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420039,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420040,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420041,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420042,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420043,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420044,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420045,
+          "parent_skin_id": "skin:420037",
+          "name": "Pasta Maker Illaoi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin37/images/illaoi_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin37/images/illaoi_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin37/images/illaoi_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin37/illaoiloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1e2cc86938a6c39e5bc3054002dcf52d8afc4fe46470145632491e12ef30933f",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Illaoi",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Illaoi",
+          "skin": "Pasta Maker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420037",
+        "result_label": "Pasta Maker Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420037",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420002",
+      "riot_skin_id": 420002,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Resistance Illaoi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "223a05d6-3040-4d40-8d69-2575bd5d3b6b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-03-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        25
+      ],
+      "wiki_sets": [
+        "Battlecast"
+      ],
+      "universe_ids": [
+        "universe:battlecast"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 420003,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420004,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420005,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420006,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420007,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420008,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420009,
+          "parent_skin_id": "skin:420002",
+          "name": "Resistance Illaoi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin02/images/illaoi_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin02/images/illaoi_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin02/images/illaoi_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin02/illaoiloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f2fec45eaa339f15f6a5400b783179934f7c931bac3ff107aecc772868d43461",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Illaoi",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Illaoi",
+          "skin": "Resistance",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420002",
+        "result_label": "Resistance Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420002",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420018",
+      "riot_skin_id": 420018,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Snow Moon Illaoi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "ad3ec2fc-5ff2-4395-9505-d398f61da630",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-06-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        160
+      ],
+      "wiki_sets": [
+        "Snow Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 420019,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420020,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420021,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420022,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420023,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420024,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420025,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 420026,
+          "parent_skin_id": "skin:420018",
+          "name": "Snow Moon Illaoi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin18/images/illaoi_splash_centered_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin18/images/illaoi_splash_uncentered_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin18/images/illaoi_splash_tile_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin18/illaoiloadscreen_18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5fa61397452cf9c71c75776cbe14b87b824e7b5d0f6dd1c8b586cb4a879639d6",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Illaoi",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Illaoi",
+          "skin": "Snow Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420018",
+        "result_label": "Snow Moon Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420018",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:420001",
+      "riot_skin_id": 420001,
+      "champion_id": "Illaoi",
+      "champion_riot_id": 420,
+      "champion_name": "Illaoi",
+      "name": "Void Bringer Illaoi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "45d468bf-f9a6-4031-a648-51040ad1a667",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-11-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        179
+      ],
+      "wiki_sets": [
+        "Curse of the Void"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin01/images/illaoi_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin01/images/illaoi_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin01/images/illaoi_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/illaoi/skins/skin01/illaoiloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Illaoi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:420001",
+        "result_label": "Void Bringer Illaoi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:420001",
+        "champion_profile_ref": "data/champions/Illaoi.json",
+        "gameplay_profile_ref": "data/champions/Illaoi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Illaoi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

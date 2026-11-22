@@ -1,0 +1,2061 @@
+{
+  "champion_id": "Shaco",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35000",
+      "riot_skin_id": 35000,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Shaco",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "747f359c-d13a-4dd1-aaf9-c85701b40092",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-10-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/base/images/shaco_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/base/images/shaco_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/base/images/shaco_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/base/shacoloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6f2e91e6927ee7d20582350751fc042e818e8665942595c54b9e72cc3d666abf",
+        "biography_word_count": 86,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35000",
+        "result_label": "Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35000",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35015",
+      "riot_skin_id": 35015,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Arcanist Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "7d498db7-f374-4ef3-8886-690abbc03af9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-07-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        95
+      ],
+      "wiki_sets": [
+        "Arcanists"
+      ],
+      "universe_ids": [
+        "universe:arcanists"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35016,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35017,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35018,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35019,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35020,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35021,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35022,
+          "parent_skin_id": "skin:35015",
+          "name": "Arcanist Shaco (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin15/images/shaco_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin15/images/shaco_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin15/images/shaco_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin15/shacoloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "193538cc7f67eaf1cbf358a055622084c067d4c2d27859acc9fa5e7729d1113a",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Arcanist",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35015",
+        "result_label": "Arcanist Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35015",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35005",
+      "riot_skin_id": 35005,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Asylum Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "f1e0b641-501a-4826-8a6c-3a7c7bf66283",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin05/images/shaco_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin05/images/shaco_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin05/images/shaco_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin05/shacoloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35005",
+        "result_label": "Asylum Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35005",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35064",
+      "riot_skin_id": 35064,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Cat-in-the-Box Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 64,
+      "content_id": "0f01d623-87a2-4886-bc19-df4af7a61923",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2025-04-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35065,
+          "parent_skin_id": "skin:35064",
+          "name": "Cat-in-the-Box Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35066,
+          "parent_skin_id": "skin:35064",
+          "name": "Cat-in-the-Box Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35067,
+          "parent_skin_id": "skin:35064",
+          "name": "Cat-in-the-Box Shaco (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35068,
+          "parent_skin_id": "skin:35064",
+          "name": "Cat-in-the-Box Shaco (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35069,
+          "parent_skin_id": "skin:35064",
+          "name": "Cat-in-the-Box Shaco (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35070,
+          "parent_skin_id": "skin:35064",
+          "name": "Cat-in-the-Box Shaco (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin64/images/shaco_splash_centered_64.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin64/images/shaco_splash_uncentered_64.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin64/images/shaco_splash_tile_64.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin64/shacoloadscreen_64.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1ba735634720471fec50c1f9b6ec67151a9823de900cbe0541593464b96761d9",
+        "biography_word_count": 4,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Cat-in-the-Box",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35064",
+        "result_label": "Cat-in-the-Box Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35064",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35023",
+      "riot_skin_id": 35023,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Crime City Nightmare Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 23,
+      "content_id": "d8a47a1d-3fc5-43be-b74c-efe4772c342a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-08-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        149
+      ],
+      "wiki_sets": [
+        "Crime City Nightmare"
+      ],
+      "universe_ids": [
+        "universe:crime-city-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35024,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35025,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35026,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35027,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35028,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35029,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35030,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35031,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35032,
+          "parent_skin_id": "skin:35023",
+          "name": "Crime City Nightmare Shaco (Underground)",
+          "colors": [
+            "#181121",
+            "#53022D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin23/images/shaco_splash_centered_23.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin23/images/shaco_splash_uncentered_23.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin23/images/shaco_splash_tile_23.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin23/shacoloadscreen_23.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a0cce7efdc83016216c8624a2dbcadbaf42113d68d4285018ca168acfd29bc23",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Crime City Nightmare",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35023",
+        "result_label": "Crime City Nightmare Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35023",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35008",
+      "riot_skin_id": 35008,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Dark Star Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "28cf625d-9d2c-41e7-ae85-eb58481537a4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-06-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35009,
+          "parent_skin_id": "skin:35008",
+          "name": "Dark Star Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35010,
+          "parent_skin_id": "skin:35008",
+          "name": "Dark Star Shaco (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35011,
+          "parent_skin_id": "skin:35008",
+          "name": "Dark Star Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35012,
+          "parent_skin_id": "skin:35008",
+          "name": "Dark Star Shaco (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35013,
+          "parent_skin_id": "skin:35008",
+          "name": "Dark Star Shaco (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35014,
+          "parent_skin_id": "skin:35008",
+          "name": "Dark Star Shaco (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin08/images/shaco_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin08/images/shaco_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin08/images/shaco_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin08/shacoloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "aacf3506812a63d35191b359c4ac1c344dc16347278492079987f8f6aee4b914",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35008",
+        "result_label": "Dark Star Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35008",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35054",
+      "riot_skin_id": 35054,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Fright Night Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 54,
+      "content_id": "45a6be16-0783-4ecd-a0c4-8ebede061db7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-09-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        170
+      ],
+      "wiki_sets": [
+        "Fright Night"
+      ],
+      "universe_ids": [
+        "universe:neighborhood-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35055,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35056,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35057,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35058,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35059,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35060,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35061,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35062,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35063,
+          "parent_skin_id": "skin:35054",
+          "name": "Fright Night Shaco (Ghoulish)",
+          "colors": [
+            "#68B856",
+            "#B69017"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin54/images/shaco_splash_centered_54.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin54/images/shaco_splash_uncentered_54.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin54/images/shaco_splash_tile_54.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin54/shacoloadscreen_54.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b9b0cdf4b189a01fa03b5fb8c21ab7c8e6c03c253a3daef1b408f16e7fc8746",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Fright Night",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35054",
+        "result_label": "Fright Night Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35054",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35001",
+      "riot_skin_id": 35001,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Mad Hatter Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "7760168b-2ef8-4ee6-b0ec-10abb5ac7da1",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-06-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        71
+      ],
+      "wiki_sets": [
+        "Storybook"
+      ],
+      "universe_ids": [
+        "universe:storybook"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin01/images/shaco_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin01/images/shaco_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin01/images/shaco_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin01/shacoloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "84cd41de8da86e9abd82365bbd07b71521a25030ad458c8bbb2e1bcdf7772059",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Mad Hatter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35001",
+        "result_label": "Mad Hatter Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35001",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35006",
+      "riot_skin_id": 35006,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Masked Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "4c6cb906-dcc7-4991-bdb4-46ceb2b977bb",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-01-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin06/images/shaco_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin06/images/shaco_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin06/images/shaco_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin06/shacoloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9a84c88c0bff61419282d28538adaa621d3b4ace5939e585a264ce47f876c3cc",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Masked",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35006",
+        "result_label": "Masked Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35006",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35003",
+      "riot_skin_id": 35003,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Nutcracko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "af5b17d6-fd59-4e14-b6de-3e3be5e0908f",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin03/images/shaco_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin03/images/shaco_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin03/images/shaco_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin03/shacoloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fa8f5a5ed8613cc2716a040c0eac05e64c7ab317158ee678a387fac038bfa379",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Nutcracko",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35003",
+        "result_label": "Nutcracko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35003",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35071",
+      "riot_skin_id": 35071,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Prestige Pandemonium Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 71,
+      "content_id": "5d6dc705-c838-4229-aada-9cb4890d29ba",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-04-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        229
+      ],
+      "wiki_sets": [
+        "Pandemonium"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35072,
+          "parent_skin_id": "skin:35071",
+          "name": "Prestige Pandemonium Shaco (Vivid)",
+          "colors": [
+            "#CE1717",
+            "#550000"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin71/images/shaco_splash_centered_71.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin71/images/shaco_splash_uncentered_71.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin71/images/shaco_splash_tile_71.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin71/shacoloadscreen_71.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cef22ccff43a34274178dff0ec710f3c313ba50ed97f9b54d4c59db07974fcd4",
+        "biography_word_count": 32,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Prestige Pandemonium",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35071",
+        "result_label": "Prestige Pandemonium Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35071",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35044",
+      "riot_skin_id": 35044,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Prestige Soul Fighter Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 44,
+      "content_id": "dfded778-f7bc-42a3-a23e-6dd006590af9",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-08-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        196
+      ],
+      "wiki_sets": [
+        "Soul Fighter"
+      ],
+      "universe_ids": [
+        "universe:soul-fighter"
+      ],
+      "variant_of": "skin:35043",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin44/images/shaco_splash_centered_44.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin44/images/shaco_splash_uncentered_44.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin44/images/shaco_splash_tile_44.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin44/shacoloadscreen_44.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ddfa3bc04baf9482c22fb5650d9f4e00dd94360bc6a29ad24b20a8967bbcc782",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Prestige Soul Fighter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35044",
+        "result_label": "Prestige Soul Fighter Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35043",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35002",
+      "riot_skin_id": 35002,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Royal Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "c8a8430f-e13c-4746-af7d-a22848ca482f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin02/images/shaco_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin02/images/shaco_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin02/images/shaco_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin02/shacoloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35002",
+        "result_label": "Royal Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35002",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35043",
+      "riot_skin_id": 35043,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Soul Fighter Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 43,
+      "content_id": "c2b341b5-7573-4687-b868-f47443de0613",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        196
+      ],
+      "wiki_sets": [
+        "Soul Fighter"
+      ],
+      "universe_ids": [
+        "universe:soul-fighter"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35045,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35046,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35047,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35048,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35049,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35050,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35051,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35052,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35053,
+          "parent_skin_id": "skin:35043",
+          "name": "Soul Fighter Shaco (Limitless)",
+          "colors": [
+            "#C8D0CE",
+            "#AF65D1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin43/images/shaco_splash_centered_43.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin43/images/shaco_splash_uncentered_43.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin43/images/shaco_splash_tile_43.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin43/shacoloadscreen_43.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ca905057e63ff4eef4c06becf00c199e4caa46a18e86dcd7675dfe17224c9e68",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Soul Fighter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35043",
+        "result_label": "Soul Fighter Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35043",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35007",
+      "riot_skin_id": 35007,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Wild Card Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "0c3e2dbd-d7e3-4e34-b86d-1b61eb88b354",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-05-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        41
+      ],
+      "wiki_sets": [
+        "Highstakes"
+      ],
+      "universe_ids": [
+        "universe:storybook"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin07/images/shaco_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin07/images/shaco_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin07/images/shaco_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin07/shacoloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3033ca27bc12008d1488bed22280627dfe955d9d187e7fcc20bc33562085154c",
+        "biography_word_count": 23,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Wild Card",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35007",
+        "result_label": "Wild Card Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35007",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35033",
+      "riot_skin_id": 35033,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Winterblessed Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 33,
+      "content_id": "64006c9a-1881-4d3f-8a31-d2ddcb06ceb9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-12-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        187
+      ],
+      "wiki_sets": [
+        "Winterblessed"
+      ],
+      "universe_ids": [
+        "universe:tales-of-borealis"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 35034,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35035,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35036,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35037,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35038,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35039,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35040,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35041,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 35042,
+          "parent_skin_id": "skin:35033",
+          "name": "Winterblessed Shaco (Wreathguard)",
+          "colors": [
+            "#BF2020",
+            "#368B25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin33/images/shaco_splash_centered_33.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin33/images/shaco_splash_uncentered_33.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin33/images/shaco_splash_tile_33.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin33/shacoloadscreen_33.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "83511bc733a70524c8d6c6b09f0244683fa0cf278722ae94c0592fd9d5b38841",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Shaco",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Shaco",
+          "skin": "Winterblessed",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35033",
+        "result_label": "Winterblessed Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35033",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:35004",
+      "riot_skin_id": 35004,
+      "champion_id": "Shaco",
+      "champion_riot_id": 35,
+      "champion_name": "Shaco",
+      "name": "Workshop Shaco",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "ae09d65b-9343-4ea3-aaa9-5d2d9e05b90c",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-03-29",
+      "retired_date": "2012-03-19",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin04/images/shaco_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin04/images/shaco_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin04/images/shaco_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shaco/skins/skin04/shacoloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shaco/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:35004",
+        "result_label": "Workshop Shaco",
+        "label_eligible": true,
+        "narrative_family_id": "skin:35004",
+        "champion_profile_ref": "data/champions/Shaco.json",
+        "gameplay_profile_ref": "data/champions/Shaco.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shaco",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

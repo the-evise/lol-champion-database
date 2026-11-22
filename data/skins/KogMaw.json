@@ -1,0 +1,1992 @@
+{
+  "champion_id": "KogMaw",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96000",
+      "riot_skin_id": 96000,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Kog'Maw",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "3ffd48e9-c3fb-4c92-914b-481627b3d63e",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-06-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/base/images/kogmaw_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/base/images/kogmaw_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/base/images/kogmaw_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/base/kogmawloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3c56c707d79eefc3191e19e40a754f679ec0f4e05ee956ec6b9d7bcbc29fd54e",
+        "biography_word_count": 65,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96000",
+        "result_label": "Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96000",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96019",
+      "riot_skin_id": 96019,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Arcanist Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 19,
+      "content_id": "cad19d27-d9f6-4773-b9b8-a6783d28fd1f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-07-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        95
+      ],
+      "wiki_sets": [
+        "Arcanists"
+      ],
+      "universe_ids": [
+        "universe:arcanists"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96020,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96021,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96022,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96023,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96024,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96025,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96026,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96027,
+          "parent_skin_id": "skin:96019",
+          "name": "Arcanist Kog'Maw (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin19/images/kogmaw_splash_centered_19.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin19/images/kogmaw_splash_uncentered_19.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin19/images/kogmaw_splash_tile_19.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin19/kogmawloadscreen_19.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e8c750a6686d479ad06b70b34dc5e8c7c38ea5409cef33b3adb6d81fd684f900",
+        "biography_word_count": 48,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Arcanist",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96019",
+        "result_label": "Arcanist Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96019",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96008",
+      "riot_skin_id": 96008,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Battlecast Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "4dd939fc-a08b-4342-ac01-935a87d17234",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2014-11-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        25
+      ],
+      "wiki_sets": [
+        "Battlecast"
+      ],
+      "universe_ids": [
+        "universe:battlecast"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin08/images/kogmaw_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin08/images/kogmaw_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin08/images/kogmaw_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin08/kogmawloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ae55571a615a97f52437a3127608c3b7af01b2ea31f42d2b26598032f507eb89",
+        "biography_word_count": 29,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Battlecast",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96008",
+        "result_label": "Battlecast Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96008",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96028",
+      "riot_skin_id": 96028,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Bee'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 28,
+      "content_id": "42c1425e-e003-43f4-bc6a-1ddad4d1b41a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-03-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        143
+      ],
+      "wiki_sets": [
+        "Bees!"
+      ],
+      "universe_ids": [
+        "universe:bees"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96029,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96030,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96031,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96032,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96033,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96034,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96035,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96036,
+          "parent_skin_id": "skin:96028",
+          "name": "Bee'Maw (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin28/images/kogmaw_splash_centered_28.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin28/images/kogmaw_splash_uncentered_28.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin28/images/kogmaw_splash_tile_28.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin28/kogmawloadscreen_28.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7f82cf101db733cd416feef0a247032de453cd9cf7446798e9c90f2910206eb4",
+        "biography_word_count": 8,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Bee'Maw",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96028",
+        "result_label": "Bee'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96028",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96001",
+      "riot_skin_id": 96001,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Caterpillar Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "c1456df7-ed17-48c8-b4f0-9f7ed484c2e9",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-24",
+      "retired_date": "2013-07-18",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        71
+      ],
+      "wiki_sets": [
+        "Storybook"
+      ],
+      "universe_ids": [
+        "universe:storybook"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin01/images/kogmaw_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin01/images/kogmaw_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin01/images/kogmaw_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin01/kogmawloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "03bc0f8493e5d85af813a2b920e56c1a27eb94ec41de975b42cea8a2148efbb6",
+        "biography_word_count": 36,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Caterpillar",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96001",
+        "result_label": "Caterpillar Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96001",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96006",
+      "riot_skin_id": 96006,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Deep Sea Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "bfeaf774-117a-45b1-9eab-f065ad0b760f",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-09-19",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        108
+      ],
+      "wiki_sets": [
+        "Forgotten Depths"
+      ],
+      "universe_ids": [
+        "universe:forgotten-depths"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin06/images/kogmaw_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin06/images/kogmaw_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin06/images/kogmaw_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin06/kogmawloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6e3de0c8509ca4c8dc30b3e188b09b5ad7cea47f3721383e0d443e1773204626",
+        "biography_word_count": 50,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Deep Sea",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96006",
+        "result_label": "Deep Sea Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96006",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96010",
+      "riot_skin_id": 96010,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Hextech Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "63dc33d9-39fc-49f7-b59e-82007a5dad38",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2017-12-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin10/images/kogmaw_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin10/images/kogmaw_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin10/images/kogmaw_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin10/kogmawloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "82e9edcf1eedb6eb83dae914c0b8259bc51cac0c220614c69d0e218f6ea8b122",
+        "biography_word_count": 40,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96010",
+        "result_label": "Hextech Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96010",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96007",
+      "riot_skin_id": 96007,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Jurassic Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "22ff17fa-2246-4e49-a191-d4ef6cb25d57",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-03-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin07/images/kogmaw_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin07/images/kogmaw_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin07/images/kogmaw_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin07/kogmawloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96007",
+        "result_label": "Jurassic Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96007",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96005",
+      "riot_skin_id": 96005,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Lion Dance Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "e259649d-3c57-44f3-89a3-f2570492d94a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2011-02-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        54
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Firecracker"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin05/images/kogmaw_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin05/images/kogmaw_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin05/images/kogmaw_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin05/kogmawloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5d2c311f563ced0d5d230eb0e442231a1811df637c9b25b5581ae991604def2f",
+        "biography_word_count": 34,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Lion Dance",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96005",
+        "result_label": "Lion Dance Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96005",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96003",
+      "riot_skin_id": 96003,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Monarch Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "8b727b35-0242-42b7-a946-6c74488de96d",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-11-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin03/images/kogmaw_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin03/images/kogmaw_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin03/images/kogmaw_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin03/kogmawloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96003",
+        "result_label": "Monarch Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96003",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96065",
+      "riot_skin_id": 96065,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Prestige Classic Baron Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 65,
+      "content_id": "964b4a57-9890-43ad-989f-49407c0c422f",
+      "rarity": "Mythic",
+      "availability": "Upcoming",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        234
+      ],
+      "wiki_sets": [
+        "Classic"
+      ],
+      "universe_ids": [
+        "universe:forgotten-lands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96066,
+          "parent_skin_id": "skin:96065",
+          "name": "Prestige Classic Baron Kog'Maw (Vivid)",
+          "colors": [
+            "#7552A8",
+            "#D7B576"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin66/chromapreview.chroma_kogmaw_classic.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin65/images/kogmaw_splash_centered_65.skins_kogmaw_skin65.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin65/images/kogmaw_splash_uncentered_65.skins_kogmaw_skin65.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin65/images/kogmaw_splash_tile_65.skins_kogmaw_skin65.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin65/kogmawloadscreen_65.skins_kogmaw_skin65.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "31743e2ccc4fc8bbb8935e1b375a1d0996b3bf0a34d7f0adbe1567b6066e37aa",
+        "biography_word_count": 60,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Prestige Classic Baron",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96065",
+        "result_label": "Prestige Classic Baron Kog'Maw",
+        "label_eligible": false,
+        "narrative_family_id": "skin:96065",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96009",
+      "riot_skin_id": 96009,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Pug'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "94e44e40-6a08-4f84-997b-b48803479364",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2017-03-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        61
+      ],
+      "wiki_sets": [
+        "Toy Box"
+      ],
+      "universe_ids": [
+        "universe:toy-box"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96011,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96012,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96013,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96014,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96015,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Speckled)",
+          "colors": [
+            "#FDFFEC",
+            "#FDFFEC"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96016,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96017,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96018,
+          "parent_skin_id": "skin:96009",
+          "name": "Pug'Maw (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin09/images/kogmaw_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin09/images/kogmaw_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin09/images/kogmaw_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin09/kogmawloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b49bdde43bc480abab8e74773d25248288c184c0d0118cb5076c6048f51b0771",
+        "biography_word_count": 39,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Pug'Maw",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96009",
+        "result_label": "Pug'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96009",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96004",
+      "riot_skin_id": 96004,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Reindeer Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "e23ff0ac-0a4f-4e16-972e-81acfde7d128",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin04/images/kogmaw_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin04/images/kogmaw_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin04/images/kogmaw_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin04/kogmawloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4661c13fc216607c44175fede5b31a0c38727bf9981512a1d4172818770bb684",
+        "biography_word_count": 35,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Reindeer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96004",
+        "result_label": "Reindeer Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96004",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96046",
+      "riot_skin_id": 96046,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Shan Hai Scrolls Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "031fcdd0-536f-40dc-b144-bdfee6920513",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        139
+      ],
+      "wiki_sets": [
+        "Shan Hai Scrolls"
+      ],
+      "universe_ids": [
+        "universe:shan-hai-scrolls"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96047,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96048,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96049,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96050,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96051,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96052,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96053,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96054,
+          "parent_skin_id": "skin:96046",
+          "name": "Shan Hai Scrolls Kog'Maw (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin46/images/kogmaw_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin46/images/kogmaw_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin46/images/kogmaw_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin46/kogmawloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a3a6f253351b0cb8a2cce31a5537de82f84fa0020e03b12f777c64a9a1e1305a",
+        "biography_word_count": 53,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Shan Hai Scrolls",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96046",
+        "result_label": "Shan Hai Scrolls Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96046",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96002",
+      "riot_skin_id": 96002,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Sonoran Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "ac10d82e-2fd3-4877-b9c8-ba7d63002399",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-24",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin02/images/kogmaw_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin02/images/kogmaw_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin02/images/kogmaw_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin02/kogmawloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2070ce938e036a1f1b10ef38499981e6b8ba3a2e0fcc8bcc7081b0b8bc1dcc94",
+        "biography_word_count": 31,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Sonoran",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96002",
+        "result_label": "Sonoran Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96002",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96055",
+      "riot_skin_id": 96055,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Victorious Kog'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 55,
+      "content_id": "8591f637-0f70-48d7-b259-8350797e999b",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2024-05-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        7
+      ],
+      "wiki_sets": [
+        "Victorious"
+      ],
+      "universe_ids": [
+        "universe:victorious"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96056,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Bronze)",
+          "colors": [
+            "#764D43",
+            "#764D43"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96057,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Silver)",
+          "colors": [
+            "#AAB5BA",
+            "#AAB5BA"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96058,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Gold)",
+          "colors": [
+            "#D9C445",
+            "#D9C445"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96059,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Platinum)",
+          "colors": [
+            "#55CDE5",
+            "#55CDE5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96060,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Emerald)",
+          "colors": [
+            "#26854C",
+            "#26854C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96061,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Diamond)",
+          "colors": [
+            "#65337F",
+            "#65337F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96062,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Master)",
+          "colors": [
+            "#9D228D",
+            "#9D228D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96063,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Grandmaster)",
+          "colors": [
+            "#B31316",
+            "#B31316"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96064,
+          "parent_skin_id": "skin:96055",
+          "name": "Victorious Kog'Maw (Challenger)",
+          "colors": [
+            "#1D62C8",
+            "#1D62C8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin55/images/kogmaw_splash_centered_55.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin55/images/kogmaw_splash_uncentered_55.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin55/images/kogmaw_splash_tile_55.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin55/kogmawloadscreen_55.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8b34fbb68c79df74af2df9db5aebf81020fb73950bf85a0f891a8e2ccf5b9f42",
+        "biography_word_count": 48,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Victorious",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96055",
+        "result_label": "Victorious Kog'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96055",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:96037",
+      "riot_skin_id": 96037,
+      "champion_id": "KogMaw",
+      "champion_riot_id": 96,
+      "champion_name": "Kog'Maw",
+      "name": "Zap'Maw",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "14138722-a18a-40cb-8939-d9b159a43cd6",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-08-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        162
+      ],
+      "wiki_sets": [
+        "Monster Tamers"
+      ],
+      "universe_ids": [
+        "universe:monster-tamers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 96038,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96039,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96040,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96041,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96042,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96043,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96044,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 96045,
+          "parent_skin_id": "skin:96037",
+          "name": "Zap'Maw (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin37/images/kogmaw_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin37/images/kogmaw_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin37/images/kogmaw_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kogmaw/skins/skin37/kogmawloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f58f7089ca1c2b11dc98112be5f6d34f4c73aabc177bef717b91b675b0248af3",
+        "biography_word_count": 51,
+        "source_id": "skins:client:KogMaw",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Kog'Maw",
+          "skin": "Zap'Maw",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kog%27Maw/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:96037",
+        "result_label": "Zap'Maw",
+        "label_eligible": true,
+        "narrative_family_id": "skin:96037",
+        "champion_profile_ref": "data/champions/KogMaw.json",
+        "gameplay_profile_ref": "data/champions/KogMaw.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KogMaw",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

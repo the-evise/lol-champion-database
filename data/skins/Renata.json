@@ -1,0 +1,806 @@
+{
+  "champion_id": "Renata",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:888000",
+      "riot_skin_id": 888000,
+      "champion_id": "Renata",
+      "champion_riot_id": 888,
+      "champion_name": "Renata Glasc",
+      "name": "Renata Glasc",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "a1395a00-1fd2-47bb-869a-515944e57c87",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2022-02-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/base/images/renata_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/base/images/renata_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/base/images/renata_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/base/renataloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cbd298a66d95741e450435e6db3f6608580c93c3bdcac08c80b470951cd00bb3",
+        "biography_word_count": 67,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Renata Glasc",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:888000",
+        "result_label": "Renata Glasc",
+        "label_eligible": true,
+        "narrative_family_id": "skin:888000",
+        "champion_profile_ref": "data/champions/Renata.json",
+        "gameplay_profile_ref": "data/champions/Renata.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renata",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:888001",
+      "riot_skin_id": 888001,
+      "champion_id": "Renata",
+      "champion_riot_id": 888,
+      "champion_name": "Renata Glasc",
+      "name": "Admiral Glasc",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "36d208b5-af7b-4b17-a5db-7dde65648fd8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-02-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        65
+      ],
+      "wiki_sets": [
+        "Steel Valkyries"
+      ],
+      "universe_ids": [
+        "universe:iron-firmament"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 888002,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888003,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888004,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888005,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888006,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888007,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888008,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888009,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888011,
+          "parent_skin_id": "skin:888001",
+          "name": "Admiral Glasc (Ace)",
+          "colors": [
+            "#FF70BA",
+            "#464646"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin01/images/renata_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin01/images/renata_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin01/images/renata_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin01/renataloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a77d31a0e171fd95e4381b027ea99132002b81ab85c7efe10e0d0bc4d8c3ea62",
+        "biography_word_count": 69,
+        "source_id": "skins:client:Renata",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Renata Glasc",
+          "skin": "Admiral Glasc",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:888001",
+        "result_label": "Admiral Glasc",
+        "label_eligible": true,
+        "narrative_family_id": "skin:888001",
+        "champion_profile_ref": "data/champions/Renata.json",
+        "gameplay_profile_ref": "data/champions/Renata.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renata",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:888010",
+      "riot_skin_id": 888010,
+      "champion_id": "Renata",
+      "champion_riot_id": 888,
+      "champion_name": "Renata Glasc",
+      "name": "Fright Night Renata Glasc",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "53f72977-5317-4f00-9220-b79aab6f03c4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-09-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        170
+      ],
+      "wiki_sets": [
+        "Fright Night"
+      ],
+      "universe_ids": [
+        "universe:neighborhood-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 888012,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888013,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888014,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888015,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888016,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888017,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888018,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888019,
+          "parent_skin_id": "skin:888010",
+          "name": "Fright Night Renata Glasc (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin10/images/renata_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin10/images/renata_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin10/images/renata_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin10/renataloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f7264ff9a3d04f85a0ad7a6d3e7d5d04fa35e32a14f46325a44c8b497135314a",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Renata",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Renata Glasc",
+          "skin": "Fright Night",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:888010",
+        "result_label": "Fright Night Renata Glasc",
+        "label_eligible": true,
+        "narrative_family_id": "skin:888010",
+        "champion_profile_ref": "data/champions/Renata.json",
+        "gameplay_profile_ref": "data/champions/Renata.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renata",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:888020",
+      "riot_skin_id": 888020,
+      "champion_id": "Renata",
+      "champion_riot_id": 888,
+      "champion_name": "Renata Glasc",
+      "name": "La Ilusión Renata Glasc",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "a298be41-ae36-4d6a-b513-5fc7e852be1f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-09-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        198
+      ],
+      "wiki_sets": [
+        "La Ilusión"
+      ],
+      "universe_ids": [
+        "universe:sueno-de-vida"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 888022,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888023,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888024,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888025,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888026,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888027,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888028,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888029,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 888030,
+          "parent_skin_id": "skin:888020",
+          "name": "La Ilusión Renata Glasc (Vivida)",
+          "colors": [
+            "#EE3B93",
+            "#055939"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin20/images/renata_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin20/images/renata_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin20/images/renata_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin20/renataloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a6098665eb2ac70bed630c7fa1945421ac1135bd1b3ae32f83ed41d18a329c58",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Renata",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Renata Glasc",
+          "skin": "La Ilusión",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:888020",
+        "result_label": "La Ilusión Renata Glasc",
+        "label_eligible": true,
+        "narrative_family_id": "skin:888020",
+        "champion_profile_ref": "data/champions/Renata.json",
+        "gameplay_profile_ref": "data/champions/Renata.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renata",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:888031",
+      "riot_skin_id": 888031,
+      "champion_id": "Renata",
+      "champion_riot_id": 888,
+      "champion_name": "Renata Glasc",
+      "name": "Masque of the Black Rose Renata Glasc",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 31,
+      "content_id": "ae223eae-689e-4f5a-8e1c-5de576d3671d",
+      "rarity": "Standard",
+      "availability": "Rare",
+      "release_date": "2025-01-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        211
+      ],
+      "wiki_sets": [
+        "Masque of the Black Rose"
+      ],
+      "universe_ids": [
+        "universe:masque-of-the-black-rose"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin31/images/renata_splash_centered_31.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin31/images/renata_splash_uncentered_31.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin31/images/renata_splash_tile_31.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin31/renataloadscreen_31.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9100ddebf31295ce288c01bb5693dfd3e9277d75fd4975c9bc4fefff4afd9c1d",
+        "biography_word_count": 64,
+        "source_id": "skins:client:Renata",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Renata Glasc",
+          "skin": "Masque of the Black Rose",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:888031",
+        "result_label": "Masque of the Black Rose Renata Glasc",
+        "label_eligible": true,
+        "narrative_family_id": "skin:888031",
+        "champion_profile_ref": "data/champions/Renata.json",
+        "gameplay_profile_ref": "data/champions/Renata.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renata",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:888021",
+      "riot_skin_id": 888021,
+      "champion_id": "Renata",
+      "champion_riot_id": 888,
+      "champion_name": "Renata Glasc",
+      "name": "Prestige La Ilusión Renata Glasc",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "f8dd1f79-1c44-4ae5-b05c-c6db3de6a2d7",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-09-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        198
+      ],
+      "wiki_sets": [
+        "La Ilusión"
+      ],
+      "universe_ids": [
+        "universe:sueno-de-vida"
+      ],
+      "variant_of": "skin:888020",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin21/images/renata_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin21/images/renata_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin21/images/renata_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renata/skins/skin21/renataloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "964f19e4e55b8a5d3a55316e4b64863a198291cffddd017489e8a58e1bd3a910",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Renata",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Renata Glasc",
+          "skin": "Prestige La Ilusión",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renata_Glasc/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:888021",
+        "result_label": "Prestige La Ilusión Renata Glasc",
+        "label_eligible": true,
+        "narrative_family_id": "skin:888020",
+        "champion_profile_ref": "data/champions/Renata.json",
+        "gameplay_profile_ref": "data/champions/Renata.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renata",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

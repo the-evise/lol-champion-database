@@ -1,0 +1,1726 @@
+{
+  "champion_id": "Yuumi",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350000",
+      "riot_skin_id": 350000,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Yuumi",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "b6a5784e-a3a0-4bec-abf9-8d14e0372484",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2019-05-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/base/images/yuumi_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/base/images/yuumi_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/base/images/yuumi_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/base/yuumiloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "85ce94e4b98d04a8dfa2265cc1b4e060913b67ca218ae07bebadc436e008f1d3",
+        "biography_word_count": 96,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350000",
+        "result_label": "Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350000",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350001",
+      "riot_skin_id": 350001,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Battle Principal Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "870d1723-cd81-4e3c-a5c6-2257ea157ebb",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-05-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        113
+      ],
+      "wiki_sets": [
+        "Battle Academia"
+      ],
+      "universe_ids": [
+        "universe:god-weapon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350002,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350003,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350004,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350005,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350006,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350007,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350008,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350009,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350010,
+          "parent_skin_id": "skin:350001",
+          "name": "Battle Principal Yuumi (Formal)",
+          "colors": [
+            "#111112",
+            "#EAF1F4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin01/images/yuumi_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin01/images/yuumi_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin01/images/yuumi_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin01/yuumiloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "579a0af222c4b23e90ece0fbb60fe81e711edb11d1f6a02a623e9b9464465c99",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Battle Principal",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350001",
+        "result_label": "Battle Principal Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350001",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350028",
+      "riot_skin_id": 350028,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Bewitching Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 28,
+      "content_id": "b6b0fb60-52c6-4e03-925b-abb08acf061e",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2021-10-07",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        172
+      ],
+      "wiki_sets": [
+        "Bewitching"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350029,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350030,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350031,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350032,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350033,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350034,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350035,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350036,
+          "parent_skin_id": "skin:350028",
+          "name": "Bewitching Yuumi (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin28/images/yuumi_splash_centered_28.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin28/images/yuumi_splash_uncentered_28.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin28/images/yuumi_splash_tile_28.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin28/yuumiloadscreen_28.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "63183a68cf17a8faedbbfc3151496d01143c8ab3f7c45c4d2ad9509ee1e86bf6",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Bewitching",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350028",
+        "result_label": "Bewitching Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350028",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350049",
+      "riot_skin_id": 350049,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Cyber Cat Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 49,
+      "content_id": "aeea52c5-7d00-4bc5-9911-5cad80eb9303",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-07-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        156
+      ],
+      "wiki_sets": [
+        "Anima Squad"
+      ],
+      "universe_ids": [
+        "universe:animatech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350051,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350052,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350053,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350054,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350055,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350056,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350057,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350058,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350059,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Nightwire)",
+          "colors": [
+            "#F6A630",
+            "#1C61B4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350060,
+          "parent_skin_id": "skin:350049",
+          "name": "Cyber Cat Yuumi (Override)",
+          "colors": [
+            "#FE4BA7",
+            "#74649C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin49/images/yuumi_splash_centered_49.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin49/images/yuumi_splash_uncentered_49.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin49/images/yuumi_splash_tile_49.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin49/yuumiloadscreen_49.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c9783edbd776adb0b6c6ceeab731549abab8a3537180e465d4f1ac0bdb1bb014",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Cyber Cat",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350049",
+        "result_label": "Cyber Cat Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350049",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350037",
+      "riot_skin_id": 350037,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "EDG Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "d1cdbfaf-4bbb-41c3-ab2f-79fa62c20785",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2022-05-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        158
+      ],
+      "wiki_sets": [
+        "World Champions: 2021"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350038,
+          "parent_skin_id": "skin:350037",
+          "name": "EDG Yuumi (Elite)",
+          "colors": [
+            "#131521",
+            "#9E1517"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350048,
+          "parent_skin_id": "skin:350037",
+          "name": "EDG Yuumi (Tenfold Triumph)",
+          "colors": [
+            "#FF1515",
+            "#E8CD6B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin37/images/yuumi_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin37/images/yuumi_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin37/images/yuumi_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin37/yuumiloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0077be022cd178628af0bcfcc1d9f6e66699eaa0c3ac5bfb57559bf2fa36cecc",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "EDG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350037",
+        "result_label": "EDG Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350037",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350070",
+      "riot_skin_id": 350070,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Firecracker Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 70,
+      "content_id": "db4b170b-5113-47d9-a15d-8deb90a4c20e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-02-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        54
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Firecracker"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350071,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350072,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350073,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350074,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350075,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350076,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350077,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350078,
+          "parent_skin_id": "skin:350070",
+          "name": "Firecracker Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin70/images/yuumi_splash_centered_70.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin70/images/yuumi_splash_uncentered_70.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin70/images/yuumi_splash_tile_70.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin70/yuumiloadscreen_70.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fc2259078861ebebca783f0b657468810002f8f01c7d30c76e824f441a028932",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Firecracker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350070",
+        "result_label": "Firecracker Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350070",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350011",
+      "riot_skin_id": 350011,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Heartseeker Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "9608d59d-b722-49bb-b828-6f93564c94cc",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2020-02-04",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        64
+      ],
+      "wiki_sets": [
+        "Heartbreakers"
+      ],
+      "universe_ids": [
+        "universe:be-mine"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350012,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350013,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350014,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350015,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350016,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350017,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350018,
+          "parent_skin_id": "skin:350011",
+          "name": "Heartseeker Yuumi (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin11/images/yuumi_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin11/images/yuumi_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin11/images/yuumi_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin11/yuumiloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d60dcdd13ee5f16b6606e80ea577bd2eec1147e771e06ae4e70984413ddcef3b",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Heartseeker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350011",
+        "result_label": "Heartseeker Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350011",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350061",
+      "riot_skin_id": 350061,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Nightbringer Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 61,
+      "content_id": "051e313b-925d-43df-a71c-ee667e9ab8e3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-07-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350062,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350063,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350064,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350065,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350066,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350067,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350068,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350069,
+          "parent_skin_id": "skin:350061",
+          "name": "Nightbringer Yuumi (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin61/images/yuumi_splash_centered_61.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin61/images/yuumi_splash_uncentered_61.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin61/images/yuumi_splash_tile_61.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin61/yuumiloadscreen_61.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5f6b777654e3be0007fcf332a68527a2547b49e6a8fb7b2616b1e20e65c292dd",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350061",
+        "result_label": "Nightbringer Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350061",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350050",
+      "riot_skin_id": 350050,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Prestige Cyber Cat Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 50,
+      "content_id": "cde7ee6d-2f3e-414c-a9be-c000a3d53ef0",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-07-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        156
+      ],
+      "wiki_sets": [
+        "Anima Squad"
+      ],
+      "universe_ids": [
+        "universe:animatech"
+      ],
+      "variant_of": "skin:350049",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin50/images/yuumi_splash_centered_50.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin50/images/yuumi_splash_uncentered_50.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin50/images/yuumi_splash_tile_50.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin50/yuumiloadscreen_50.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3bfc474ab383e0c61a245feeeb97caaa41a174c370337ae9a0d72ccc380513dd",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Prestige Cyber Cat",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350050",
+        "result_label": "Prestige Cyber Cat Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350049",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350039",
+      "riot_skin_id": 350039,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Shiba Yuumi",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 39,
+      "content_id": "029a96db-db0a-4ae7-94d2-30a802b955bc",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-04-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350040,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350041,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350042,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350043,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350044,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350045,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350046,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350047,
+          "parent_skin_id": "skin:350039",
+          "name": "Shiba Yuumi (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin39/images/yuumi_splash_centered_39.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin39/images/yuumi_splash_uncentered_39.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin39/images/yuumi_splash_tile_39.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin39/yuumiloadscreen_39.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b0da8d531863045e90866ba9d8c5e609eee6d060055357d33762d67e58f83f5",
+        "biography_word_count": 17,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Shiba",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350039",
+        "result_label": "Shiba Yuumi",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350039",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:350019",
+      "riot_skin_id": 350019,
+      "champion_id": "Yuumi",
+      "champion_riot_id": 350,
+      "champion_name": "Yuumi",
+      "name": "Yuubee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 19,
+      "content_id": "fa6ffb0a-5a82-44b7-80f5-25571ff8ae5e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-03-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        143
+      ],
+      "wiki_sets": [
+        "Bees!"
+      ],
+      "universe_ids": [
+        "universe:bees"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 350020,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350021,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350022,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350023,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350024,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350025,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350026,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 350027,
+          "parent_skin_id": "skin:350019",
+          "name": "Yuubee (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin19/images/yuumi_splash_centered_19.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin19/images/yuumi_splash_uncentered_19.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin19/images/yuumi_splash_tile_19.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yuumi/skins/skin19/yuumiloadscreen_19.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a97dbc488bf83c8679a0f9ed723106ced2eb13eea1bea40acb0787ed5d3f83f5",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Yuumi",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Yuumi",
+          "skin": "Yuubee",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yuumi/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:350019",
+        "result_label": "Yuubee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:350019",
+        "champion_profile_ref": "data/champions/Yuumi.json",
+        "gameplay_profile_ref": "data/champions/Yuumi.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yuumi",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

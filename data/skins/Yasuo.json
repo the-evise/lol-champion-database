@@ -1,0 +1,2647 @@
+{
+  "champion_id": "Yasuo",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157000",
+      "riot_skin_id": 157000,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Yasuo",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "c58bd47d-2cf9-4583-9ff3-719f8a7efcdf",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-12-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/base/images/yasuo_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/base/images/yasuo_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/base/images/yasuo_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/base/yasuoloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2d7ec39476886e0e131add77dd1f8e1e78012f1c30e8369ccd97b0dc6ac28562",
+        "biography_word_count": 78,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157000",
+        "result_label": "Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157000",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157017",
+      "riot_skin_id": 157017,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Battle Boss Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "45d40292-0b02-42a2-9a96-7e512d77bb51",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-06-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        11
+      ],
+      "wiki_sets": [
+        "Arcade: Battle Bosses"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157019,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157020,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157021,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157022,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157023,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157024,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157025,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157026,
+          "parent_skin_id": "skin:157017",
+          "name": "Battle Boss Yasuo (K.O.)",
+          "colors": [
+            "#A5FFF8",
+            "#D87BFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin17/images/yasuo_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin17/images/yasuo_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin17/images/yasuo_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin17/yasuoloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4f4baa78f2203f8812a0f48caa7b2ed57ae3c5d4e34572ab1fada2f19f5bd59f",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Battle Boss",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157017",
+        "result_label": "Battle Boss Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157017",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157077",
+      "riot_skin_id": 157077,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Battle Wolf Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 77,
+      "content_id": "e93d7817-cdf0-4f79-9dc4-d697fe34b7e2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-07-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        156
+      ],
+      "wiki_sets": [
+        "Anima Squad"
+      ],
+      "universe_ids": [
+        "universe:animatech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157078,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157079,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157080,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157081,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin81/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157082,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin82/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157083,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin83/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157084,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin84/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157085,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin85/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157086,
+          "parent_skin_id": "skin:157077",
+          "name": "Battle Wolf Yasuo (Nightwire)",
+          "colors": [
+            "#F6A630",
+            "#1C61B4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin86/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin77/images/yasuo_splash_centered_77.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin77/images/yasuo_splash_uncentered_77.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin77/images/yasuo_splash_tile_77.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin77/yasuoloadscreen_77.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9fbd94a5d01d80858395bae6df5eabb049cbf0b31e8ee1c3f2ebf8a832f9088c",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Battle Wolf",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157077",
+        "result_label": "Battle Wolf Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157077",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157003",
+      "riot_skin_id": 157003,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Blood Moon Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "ba7e7e39-3bd8-490e-947b-c973d86eb297",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-02-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin03/images/yasuo_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin03/images/yasuo_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin03/images/yasuo_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin03/yasuoloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c991de999cdbe0284ce9a4a58b8ef47ac0714b696484c07abb04ffef13f0e7c2",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157003",
+        "result_label": "Blood Moon Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157003",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157055",
+      "riot_skin_id": 157055,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Dream Dragon Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 55,
+      "content_id": "a0589345-1cef-463f-bdc2-4edf8101a802",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2021-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": "skin:157054",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin55/images/yasuo_splash_centered_55.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin55/images/yasuo_splash_uncentered_55.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin55/images/yasuo_splash_tile_55.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin55/yasuoloadscreen_55.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f9e1d27312aee46515d448cc1ba9c5fb066688b42bb5462ea7918b5153315def",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Dream Dragon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157055",
+        "result_label": "Dream Dragon Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157054",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157068",
+      "riot_skin_id": 157068,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Foreseen Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 68,
+      "content_id": "acdd767d-c09f-4779-8dad-301f299ee1f4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-01-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        180
+      ],
+      "wiki_sets": [
+        "Otherroads"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157069,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157070,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157071,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157072,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157073,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157074,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157075,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157076,
+          "parent_skin_id": "skin:157068",
+          "name": "Foreseen Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin68/images/yasuo_splash_centered_68.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin68/images/yasuo_splash_uncentered_68.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin68/images/yasuo_splash_tile_68.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin68/yasuoloadscreen_68.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "78b7accc324bdd5bb920ab049ad3e23c4fc29277c0149127d36b8ab6df4d50e2",
+        "biography_word_count": 69,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Foreseen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157068",
+        "result_label": "Foreseen Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157068",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157087",
+      "riot_skin_id": 157087,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Genesis Nightbringer Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 87,
+      "content_id": "79fced46-fb02-4377-9e06-1e6536c2679f",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-10-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": "skin:157009",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin87/images/yasuo_splash_centered_87.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin87/images/yasuo_splash_uncentered_87.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin87/images/yasuo_splash_tile_87.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin87/yasuoloadscreen_87.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "79b6921c3be3153af87c27140a2f9edb99c3a5f6e10c66f41f4da16faa94d12a",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Genesis Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157087",
+        "result_label": "Genesis Nightbringer Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157009",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157001",
+      "riot_skin_id": 157001,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "High Noon Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "1004e2ca-db2e-469e-b2dd-292c057e3dee",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-12-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157004,
+          "parent_skin_id": "skin:157001",
+          "name": "High Noon Yasuo (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157005,
+          "parent_skin_id": "skin:157001",
+          "name": "High Noon Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157006,
+          "parent_skin_id": "skin:157001",
+          "name": "High Noon Yasuo (Jasper)",
+          "colors": [
+            "#9F4A25",
+            "#9F4A25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157007,
+          "parent_skin_id": "skin:157001",
+          "name": "High Noon Yasuo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157008,
+          "parent_skin_id": "skin:157001",
+          "name": "High Noon Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin01/images/yasuo_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin01/images/yasuo_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin01/images/yasuo_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin01/yasuoloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b48b0295c5dc434ad3a601a1be3fe7f235cec95f7cff1bfb456053e9fb90832",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157001",
+        "result_label": "High Noon Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157001",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157056",
+      "riot_skin_id": 157056,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Inkshadow Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 56,
+      "content_id": "e3885943-4359-4414-a1f8-2338340b0fae",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-05-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157058,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157059,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157060,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157061,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157062,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157063,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157064,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157065,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157066,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (Inked)",
+          "colors": [
+            "#B5CED6",
+            "#33D889"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157067,
+          "parent_skin_id": "skin:157056",
+          "name": "Inkshadow Yasuo (DEFY MSI 2023)",
+          "colors": [
+            "#B4CECD",
+            "#D55049"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin56/images/yasuo_splash_centered_56.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin56/images/yasuo_splash_uncentered_56.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin56/images/yasuo_splash_tile_56.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin56/yasuoloadscreen_56.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9bd367c68cccdad7189e3308c945e6999a990d58f5cddc679d64b4732745f5e0",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157056",
+        "result_label": "Inkshadow Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157056",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157009",
+      "riot_skin_id": 157009,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Nightbringer Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "6fa40a68-04c5-4113-8d4f-787fd93f6657",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2017-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157034,
+          "parent_skin_id": "skin:157009",
+          "name": "Nightbringer Yasuo (Pariah)",
+          "colors": [
+            "#C33C3E",
+            "#0C0E15"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin09/images/yasuo_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin09/images/yasuo_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin09/images/yasuo_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin09/yasuoloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "79b6921c3be3153af87c27140a2f9edb99c3a5f6e10c66f41f4da16faa94d12a",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157009",
+        "result_label": "Nightbringer Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157009",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157010",
+      "riot_skin_id": 157010,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Odyssey Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "77ffd1cc-b937-40de-a50e-0e19759fecab",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        73
+      ],
+      "wiki_sets": [
+        "Odyssey"
+      ],
+      "universe_ids": [
+        "universe:odyssey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157011,
+          "parent_skin_id": "skin:157010",
+          "name": "Odyssey Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157012,
+          "parent_skin_id": "skin:157010",
+          "name": "Odyssey Yasuo (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157013,
+          "parent_skin_id": "skin:157010",
+          "name": "Odyssey Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157014,
+          "parent_skin_id": "skin:157010",
+          "name": "Odyssey Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157015,
+          "parent_skin_id": "skin:157010",
+          "name": "Odyssey Yasuo (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157016,
+          "parent_skin_id": "skin:157010",
+          "name": "Odyssey Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin10/images/yasuo_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin10/images/yasuo_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin10/images/yasuo_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin10/yasuoloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c8dce157ab8b79c6f373ffd63f1a9bf129a921754d467a7ae8341d5722033171",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Odyssey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157010",
+        "result_label": "Odyssey Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157010",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157088",
+      "riot_skin_id": 157088,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Petals of Spring Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 88,
+      "content_id": "c22d7d01-d1ed-4b7f-9a15-77d32e403045",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2026-02-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        225
+      ],
+      "wiki_sets": [
+        "Petals of Spring"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157089,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin89/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157090,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin90/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157091,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin91/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157092,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin92/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157093,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin93/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157094,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin94/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157095,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin95/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157096,
+          "parent_skin_id": "skin:157088",
+          "name": "Petals of Spring Yasuo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin96/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin88/images/yasuo_splash_centered_88.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin88/images/yasuo_splash_uncentered_88.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin88/images/yasuo_splash_tile_88.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin88/yasuoloadscreen_88.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b979957b3333db79be611bb1fe5fee88f7547e888ef327ee21bb860b059f94b",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Petals of Spring",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157088",
+        "result_label": "Petals of Spring Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157088",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157057",
+      "riot_skin_id": 157057,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Prestige Inkshadow Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 57,
+      "content_id": "0a3a7f12-4416-4dc4-9ebf-63c4b3b18f04",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-05-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": "skin:157056",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin57/images/yasuo_splash_centered_57.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin57/images/yasuo_splash_uncentered_57.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin57/images/yasuo_splash_tile_57.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin57/yasuoloadscreen_57.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fa3c6051089a0bcf37b4efefd0e2d0b3e592a60980e3d5782dd6e3f70d2146cd",
+        "biography_word_count": 32,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Prestige Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157057",
+        "result_label": "Prestige Inkshadow Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157056",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157035",
+      "riot_skin_id": 157035,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Prestige True Damage Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 35,
+      "content_id": "84bd1b99-bcc2-4b3d-b246-25437e3050ca",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2020-09-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:157018",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin35/images/yasuo_splash_centered_35.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin35/images/yasuo_splash_uncentered_35.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin35/images/yasuo_splash_tile_35.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin35/yasuoloadscreen_35.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d38c386b5569277885b4df6ca0ba4eb5b0040401a9dd76108a5cdd18b0b45107",
+        "biography_word_count": 78,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Prestige True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157035",
+        "result_label": "Prestige True Damage Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157018",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157002",
+      "riot_skin_id": 157002,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "PROJECT: Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "34821579-2e63-44a0-b223-c3274cbe1129",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2014-08-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin02/images/yasuo_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin02/images/yasuo_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin02/images/yasuo_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin02/yasuoloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b5a1816f8f78d65de1595993d9b049cd7644c8bbef91d44bd796be8a3f32d272",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157002",
+        "result_label": "PROJECT: Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157002",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157045",
+      "riot_skin_id": 157045,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Sea Dog Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 45,
+      "content_id": "80c7b13a-a231-43d5-8b1a-49ea9c1b2989",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-05-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        138
+      ],
+      "wiki_sets": [
+        "Ruined"
+      ],
+      "universe_ids": [
+        "universe:the-ruined-king-saga"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157046,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157047,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157048,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157049,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157050,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157051,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157052,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157053,
+          "parent_skin_id": "skin:157045",
+          "name": "Sea Dog Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin45/images/yasuo_splash_centered_45.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin45/images/yasuo_splash_uncentered_45.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin45/images/yasuo_splash_tile_45.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin45/yasuoloadscreen_45.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6eb1afa49e8622c705e812a128e6f11482001ca818ffc6293bcc04acbdf444ac",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Sea Dog",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157045",
+        "result_label": "Sea Dog Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157045",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157036",
+      "riot_skin_id": 157036,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Spirit Blossom Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 36,
+      "content_id": "1f4d8ae7-a68a-4b9f-8e77-3927a91d14d8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-07-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157037,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157038,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157039,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157040,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157041,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157042,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157043,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157044,
+          "parent_skin_id": "skin:157036",
+          "name": "Spirit Blossom Yasuo (Night Blossom)",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin36/images/yasuo_splash_centered_36.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin36/images/yasuo_splash_uncentered_36.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin36/images/yasuo_splash_tile_36.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin36/yasuoloadscreen_36.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0955787c776461a5d88e0c5a8d8547ceb787f2101cf6926cd1b970dae52d92f8",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157036",
+        "result_label": "Spirit Blossom Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157036",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157097",
+      "riot_skin_id": 157097,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "True Damage Know My Name Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 97,
+      "content_id": "14726818-9453-4e42-93c2-84c484a55e5c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157098,
+          "parent_skin_id": "skin:157097",
+          "name": "True Damage Know My Name Yasuo (Unlocked)",
+          "colors": [
+            "#CECEEE",
+            "#1B1D57"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin98/chromapreview.chroma_yasuo_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157099,
+          "parent_skin_id": "skin:157097",
+          "name": "True Damage Know My Name Yasuo (Momentous)",
+          "colors": [
+            "#C5B290",
+            "#2E71EF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin99/chromapreview.chroma_yasuo_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157100,
+          "parent_skin_id": "skin:157097",
+          "name": "True Damage Know My Name Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin100/chromapreview.chroma_yasuo_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157101,
+          "parent_skin_id": "skin:157097",
+          "name": "True Damage Know My Name Yasuo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin101/chromapreview.chroma_yasuo_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157102,
+          "parent_skin_id": "skin:157097",
+          "name": "True Damage Know My Name Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin102/chromapreview.chroma_yasuo_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin97/images/yasuo_splash_centered_97.skins_yasuo_skin97.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin97/images/yasuo_splash_uncentered_97.skins_yasuo_skin97.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin97/images/yasuo_splash_tile_97.skins_yasuo_skin97.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin97/yasuoloadscreen_97.skins_yasuo_skin97.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c8373dad2bd38038a958ea0b71c7e62bfa91a22293e2c4fe82fe0273fa5ab278",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/19/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "True Damage Know My Name",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157097",
+        "result_label": "True Damage Know My Name Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157097",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157018",
+      "riot_skin_id": 157018,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "True Damage Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "25e4fc45-e487-41a8-8e33-803427efa5e1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 157027,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157028,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157029,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157030,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157031,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157032,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 157033,
+          "parent_skin_id": "skin:157018",
+          "name": "True Damage Yasuo (Freestyle)",
+          "colors": [
+            "#BD1357",
+            "#19182A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin18/images/yasuo_splash_centered_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin18/images/yasuo_splash_uncentered_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin18/images/yasuo_splash_tile_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin18/yasuoloadscreen_18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7d37a861057450e8e2d69f614164257561665763a1f0c2b5bd1e36c518520a2e",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157018",
+        "result_label": "True Damage Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157018",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:157054",
+      "riot_skin_id": 157054,
+      "champion_id": "Yasuo",
+      "champion_riot_id": 157,
+      "champion_name": "Yasuo",
+      "name": "Truth Dragon Yasuo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 54,
+      "content_id": "3e4180d7-3273-4ba1-9f9b-979a65ac9e56",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2021-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": "skin:157055",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin54/images/yasuo_splash_centered_54.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin54/images/yasuo_splash_uncentered_54.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin54/images/yasuo_splash_tile_54.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/yasuo/skins/skin54/yasuoloadscreen_54.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c32975f8d33ad3c3c4bcdce61320044fa0a1bdac209ddee2c6e16c94b573aac3",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Yasuo",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Yasuo",
+          "skin": "Truth Dragon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Yasuo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:157054",
+        "result_label": "Truth Dragon Yasuo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:157055",
+        "champion_profile_ref": "data/champions/Yasuo.json",
+        "gameplay_profile_ref": "data/champions/Yasuo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Yasuo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

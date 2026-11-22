@@ -1,0 +1,1020 @@
+{
+  "champion_id": "Zilean",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26000",
+      "riot_skin_id": 26000,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Zilean",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "db9934b7-8b40-4623-9558-b56b7080ebe0",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-04-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/base/images/zilean_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/base/images/zilean_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/base/images/zilean_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/base/zileanloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c2d08c3e9c89826227e57ea3acb3dc9e7a5633be9165f81b1e4b9d044811a9ca",
+        "biography_word_count": 81,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26000",
+        "result_label": "Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26000",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26024",
+      "riot_skin_id": 26024,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Arcana Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "fd510373-a5d4-41ff-a195-52d9cf884219",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-09-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        146
+      ],
+      "wiki_sets": [
+        "Arcana"
+      ],
+      "universe_ids": [
+        "universe:arcana"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 26025,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26026,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26027,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26028,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26029,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26030,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26031,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26032,
+          "parent_skin_id": "skin:26024",
+          "name": "Arcana Zilean (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin24/images/zilean_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin24/images/zilean_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin24/images/zilean_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin24/zileanloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "09b76e6610088b20a0d627c22cb1c4dd533bf22b8b883b4e4df34d3a156ac257",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Zilean",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Arcana",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26024",
+        "result_label": "Arcana Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26024",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26005",
+      "riot_skin_id": 26005,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Blood Moon Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "1db3070d-50fc-4cb5-9861-9d9ac052c76b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-05-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin05/images/zilean_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin05/images/zilean_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin05/images/zilean_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin05/zileanloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c95395c764297c37ec5872aa5cbca613f9cfc91192e15083604f47a81b343feb",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Zilean",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26005",
+        "result_label": "Blood Moon Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26005",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26002",
+      "riot_skin_id": 26002,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Groovy Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "f4fdb873-7273-444d-a9a4-3020ff6f3eea",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-07-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin02/images/zilean_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin02/images/zilean_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin02/images/zilean_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin02/zileanloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "874b82b8746800e6a728ece424867f68240d1d8de80bb7a94733e004cee6dde9",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Zilean",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Groovy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26002",
+        "result_label": "Groovy Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26002",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26001",
+      "riot_skin_id": 26001,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Old Saint Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "3873e557-7adc-47e2-a153-0831f820c00e",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2009-12-23",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin01/images/zilean_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin01/images/zilean_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin01/images/zilean_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin01/zileanloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "529ddd3e472da388b89d68e94025c54a1a1613faf7de9fe0631cf7c1a93b853b",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Zilean",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Old Saint",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26001",
+        "result_label": "Old Saint Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26001",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26003",
+      "riot_skin_id": 26003,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Shurima Desert Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "2f1b3685-7721-454d-8894-4444c87d550c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-09-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        178
+      ],
+      "wiki_sets": [
+        "Chronicle"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin03/images/zilean_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin03/images/zilean_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin03/images/zilean_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin03/zileanloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26003",
+        "result_label": "Shurima Desert Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26003",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26006",
+      "riot_skin_id": 26006,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Sugar Rush Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "144a1c95-e750-4989-aeff-2241c5158dcf",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-12-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        57
+      ],
+      "wiki_sets": [
+        "Sugar Rush"
+      ],
+      "universe_ids": [
+        "universe:sugar-rush"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 26007,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26008,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26009,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26010,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26011,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26012,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26013,
+          "parent_skin_id": "skin:26006",
+          "name": "Sugar Rush Zilean (Sweet Tooth)",
+          "colors": [
+            "#E58BA5",
+            "#6FFDFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin06/images/zilean_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin06/images/zilean_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin06/images/zilean_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin06/zileanloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "40ee4c4a3aad3b76b17c0b53a858c71a805abffe514203f8344c1d0e2baec847",
+        "biography_word_count": 26,
+        "source_id": "skins:client:Zilean",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Sugar Rush",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26006",
+        "result_label": "Sugar Rush Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26006",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26004",
+      "riot_skin_id": 26004,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Time Machine Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "73db786f-032e-47f8-bcfb-e9fa3addec88",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-04-12",
+      "retired_date": "2012-03-19",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        106
+      ],
+      "wiki_sets": [
+        "Mad Scientists"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin04/images/zilean_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin04/images/zilean_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin04/images/zilean_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin04/zileanloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26004",
+        "result_label": "Time Machine Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26004",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:26014",
+      "riot_skin_id": 26014,
+      "champion_id": "Zilean",
+      "champion_riot_id": 26,
+      "champion_name": "Zilean",
+      "name": "Winterblessed Zilean",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "2ebd0768-9bc9-45d9-aba2-d6b960f24cb3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-12-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        187
+      ],
+      "wiki_sets": [
+        "Winterblessed"
+      ],
+      "universe_ids": [
+        "universe:tales-of-borealis"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 26015,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26016,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26017,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26018,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26019,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26020,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26021,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26022,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 26023,
+          "parent_skin_id": "skin:26014",
+          "name": "Winterblessed Zilean (Wreathguard)",
+          "colors": [
+            "#BF2020",
+            "#368B25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin14/images/zilean_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin14/images/zilean_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin14/images/zilean_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zilean/skins/skin14/zileanloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7fadcfea3cc68b247fc429f5d9d0d95454724466f3302053c9ca3aead2aaf8ec",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Zilean",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Zilean",
+          "skin": "Winterblessed",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zilean/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:26014",
+        "result_label": "Winterblessed Zilean",
+        "label_eligible": true,
+        "narrative_family_id": "skin:26014",
+        "champion_profile_ref": "data/champions/Zilean.json",
+        "gameplay_profile_ref": "data/champions/Zilean.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zilean",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

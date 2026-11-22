@@ -1,0 +1,958 @@
+{
+  "champion_id": "Quinn",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133000",
+      "riot_skin_id": 133000,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Quinn",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "1a2e636d-3c46-4c03-90ae-ccff840d9c37",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-03-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/base/images/quinn_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/base/images/quinn_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/base/images/quinn_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/base/quinnloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c9d663eb5ecb5a178addf13e4983fc1eaba169d2fd4b03a9c2caa5ad0fdf83f5",
+        "biography_word_count": 73,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133000",
+        "result_label": "Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133000",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133003",
+      "riot_skin_id": 133003,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Corsair Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "e7a0cf29-4fa7-4e97-a146-a0470497c1a6",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-07-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        49
+      ],
+      "wiki_sets": [
+        "Bilgewater: Burning Tides"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin03/images/quinn_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin03/images/quinn_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin03/images/quinn_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin03/quinnloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0350e270f1b25db3b9d7f50b73365dcb81c431c79a1cc0364604a895d9518168",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Corsair",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133003",
+        "result_label": "Corsair Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133003",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133004",
+      "riot_skin_id": 133004,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Heartseeker Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "9ca53593-ac97-45fd-9cc2-d362ba378124",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2017-02-02",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        64
+      ],
+      "wiki_sets": [
+        "Heartbreakers"
+      ],
+      "universe_ids": [
+        "universe:be-mine"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin04/images/quinn_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin04/images/quinn_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin04/images/quinn_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin04/quinnloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0ea6dd078f0b8cefaa86f90a4dc05ef7a8c5b275524ca4bc88e1e4e354754162",
+        "biography_word_count": 35,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Heartseeker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133004",
+        "result_label": "Heartseeker Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133004",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133001",
+      "riot_skin_id": 133001,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Phoenix Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "c14cee3b-dde2-4b53-a9d2-9106033dfa1d",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-03-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        111
+      ],
+      "wiki_sets": [
+        "Silver Age"
+      ],
+      "universe_ids": [
+        "universe:silver-age"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin01/images/quinn_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin01/images/quinn_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin01/images/quinn_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin01/quinnloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "740267e201eb5485e97fe2a4d17d2372fda08c6c42322815f4bba0ad84ab9c46",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Phoenix",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133001",
+        "result_label": "Phoenix Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133001",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133024",
+      "riot_skin_id": 133024,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "PROJECT: Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "931f167d-c810-408f-b213-e5806a449e23",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-05-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 133025,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133026,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133027,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133028,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133029,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133030,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133031,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133032,
+          "parent_skin_id": "skin:133024",
+          "name": "PROJECT: Quinn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin24/images/quinn_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin24/images/quinn_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin24/images/quinn_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin24/quinnloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1bf8628c927d065271c31828cb9ca443b6597b2e2417c32da2b464c9e12a909f",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133024",
+        "result_label": "PROJECT: Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133024",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133014",
+      "riot_skin_id": 133014,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Star Guardian Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "8744d1ba-9664-41f3-982e-b39c99a806c3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-07-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 133015,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133016,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133017,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133018,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133019,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133020,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133021,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133022,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133023,
+          "parent_skin_id": "skin:133014",
+          "name": "Star Guardian Quinn (Brilliant)",
+          "colors": [
+            "#FDA4DA",
+            "#9DE5FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin14/images/quinn_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin14/images/quinn_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin14/images/quinn_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin14/quinnloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9ba248c6015489fe0295ad324f3d024a972d5f3da83426bf35e4a7accd834da9",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133014",
+        "result_label": "Star Guardian Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133014",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133005",
+      "riot_skin_id": 133005,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Warden Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "36bcef17-a16f-4870-9ce8-cefaad501802",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-01-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        50
+      ],
+      "wiki_sets": [
+        "Warden"
+      ],
+      "universe_ids": [
+        "universe:institute-of-war"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 133006,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133007,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133008,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133009,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133010,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133011,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133012,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 133013,
+          "parent_skin_id": "skin:133005",
+          "name": "Warden Quinn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin05/images/quinn_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin05/images/quinn_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin05/images/quinn_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin05/quinnloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8ce5ee9af3e11bbca7daba301c9153d059a61da8cd22e2a1ac97dd15b90a51b6",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Warden",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133005",
+        "result_label": "Warden Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133005",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:133002",
+      "riot_skin_id": 133002,
+      "champion_id": "Quinn",
+      "champion_riot_id": 133,
+      "champion_name": "Quinn",
+      "name": "Woad Scout Quinn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "e225245a-aecf-46a2-ae57-fa2a9fc0f855",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-06-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        68
+      ],
+      "wiki_sets": [
+        "Woad"
+      ],
+      "universe_ids": [
+        "universe:woad-tribe"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin02/images/quinn_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin02/images/quinn_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin02/images/quinn_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/quinn/skins/skin02/quinnloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b88b68548219018421b6a22010874ad829cd3fc46c49ce99c909a73af58e6f0c",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Quinn",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Quinn",
+          "skin": "Woad Scout",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Quinn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:133002",
+        "result_label": "Woad Scout Quinn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:133002",
+        "champion_profile_ref": "data/champions/Quinn.json",
+        "gameplay_profile_ref": "data/champions/Quinn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Quinn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

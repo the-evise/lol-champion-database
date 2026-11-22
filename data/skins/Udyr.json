@@ -1,0 +1,640 @@
+{
+  "champion_id": "Udyr",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77000",
+      "riot_skin_id": 77000,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Udyr",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "8422c8c4-5341-4702-a4df-b9689680765a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-12-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/base/images/udyr_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/base/images/udyr_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/base/images/udyr_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/base/udyrloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e3cdc036054e1812ce1c7eebd3a6826fafc9547ee0fe637161d1a00687903060",
+        "biography_word_count": 85,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77000",
+        "result_label": "Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77000",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77001",
+      "riot_skin_id": 77001,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Black Belt Udyr",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "34a3d018-c518-49e5-9372-7a56d6db7607",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-07-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin01/images/udyr_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin01/images/udyr_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin01/images/udyr_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin01/udyrloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "63c9a115ed632d5a2bddce277e35090fb12ec7e6877d5f90e7ea1277e2ef57ad",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Udyr",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Black Belt",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77001",
+        "result_label": "Black Belt Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77001",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77004",
+      "riot_skin_id": 77004,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Definitely Not Udyr",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "f79d0ba4-828c-4e16-a66a-b15a4d276984",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-03-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        101
+      ],
+      "wiki_sets": [
+        "Definitely Not"
+      ],
+      "universe_ids": [
+        "universe:definitely-not"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin04/images/udyr_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin04/images/udyr_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin04/images/udyr_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin04/udyrloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dc694c45b0509ffdb76d784c00fd31dabc63aa637773e2d9055d59b3249171db",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Udyr",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Definitely Not",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77004",
+        "result_label": "Definitely Not Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77004",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77005",
+      "riot_skin_id": 77005,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Dragon Oracle Udyr",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "d96ef494-d4e8-423c-a0fe-a4f3e54ae6ba",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-08-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin05/images/udyr_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin05/images/udyr_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin05/images/udyr_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin05/udyrloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7f48c6700cd6d2e16568c1d995ae78c339f842d8f322b5963633b51ea3d1c755",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Udyr",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Dragon Oracle",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77005",
+        "result_label": "Dragon Oracle Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77005",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77006",
+      "riot_skin_id": 77006,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Inkshadow Udyr",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "b988a2b3-32d8-41cb-a957-424147fe5c24",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-05-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 77007,
+          "parent_skin_id": "skin:77006",
+          "name": "Inkshadow Udyr (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 77008,
+          "parent_skin_id": "skin:77006",
+          "name": "Inkshadow Udyr (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 77009,
+          "parent_skin_id": "skin:77006",
+          "name": "Inkshadow Udyr (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 77010,
+          "parent_skin_id": "skin:77006",
+          "name": "Inkshadow Udyr (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 77011,
+          "parent_skin_id": "skin:77006",
+          "name": "Inkshadow Udyr (Inked)",
+          "colors": [
+            "#B5CED6",
+            "#33D889"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin06/images/udyr_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin06/images/udyr_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin06/images/udyr_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin06/udyrloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "667610d701a40bc1cb3c5212c2e84d930b762ca9c85d48ffd0558e0051ffb4a4",
+        "biography_word_count": 64,
+        "source_id": "skins:client:Udyr",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77006",
+        "result_label": "Inkshadow Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77006",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77002",
+      "riot_skin_id": 77002,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Primal Udyr",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "84af39d2-d87a-456c-a3b8-d4d4e782f29b",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-12-06",
+      "retired_date": "2015-08-29",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        32
+      ],
+      "wiki_sets": [
+        "Prehistoric Hunters"
+      ],
+      "universe_ids": [
+        "universe:prehistoric-hunters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin02/images/udyr_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin02/images/udyr_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin02/images/udyr_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin02/udyrloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "67b817ad921afce3aa953d54639361d59d29603b08284577b9723a0077a81af3",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Udyr",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Primal",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77002",
+        "result_label": "Primal Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77002",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:77003",
+      "riot_skin_id": 77003,
+      "champion_id": "Udyr",
+      "champion_riot_id": 77,
+      "champion_name": "Udyr",
+      "name": "Spirit Guard Udyr",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "cdb8f37a-ca19-487e-991c-5e8d1451f3ed",
+      "rarity": "Ultimate",
+      "availability": "Available",
+      "release_date": "2013-07-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 3250,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        163
+      ],
+      "wiki_sets": [
+        "Spirit Guard"
+      ],
+      "universe_ids": [
+        "universe:spirit-guard"
+      ],
+      "variant_of": null,
+      "forms_wiki": [
+        "Base",
+        "Tiger",
+        "Turtle",
+        "Bear",
+        "Phoenix"
+      ],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin03/images/udyr_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin03/images/udyr_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin03/images/udyr_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/udyr/skins/skin03/udyrloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a1282fbbdeba95211b030c2f0f574b6d5aa6f3c4a577d291faa44a496c9c012b",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Udyr",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Udyr",
+          "skin": "Spirit Guard",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Udyr/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:77003",
+        "result_label": "Spirit Guard Udyr",
+        "label_eligible": true,
+        "narrative_family_id": "skin:77003",
+        "champion_profile_ref": "data/champions/Udyr.json",
+        "gameplay_profile_ref": "data/champions/Udyr.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Udyr",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

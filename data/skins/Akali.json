@@ -1,0 +1,3158 @@
+{
+  "champion_id": "Akali",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84000",
+      "riot_skin_id": 84000,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Akali",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "6812c2a4-a981-454b-bf78-884d3859a880",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-05-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/base/images/akali_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/base/images/akali_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/base/images/akali_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/base/akaliloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "65b3e67ce302317d0b3665d6030136256ebb47abcba0a196ee908b7835f8602d",
+        "biography_word_count": 70,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84000",
+        "result_label": "Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84000",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84003",
+      "riot_skin_id": 84003,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "All-star Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "0eb988a9-d05f-4e9a-b59e-ed229d21f97b",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-24",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        31
+      ],
+      "wiki_sets": [
+        "Soccer Cup"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin03/images/akali_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin03/images/akali_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin03/images/akali_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin03/akaliloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ebe894cceaa77865ca26dc72aaee98eab33bbe88a81e131a79ded0b8f772c3a5",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "All-star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84003",
+        "result_label": "All-star Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84003",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84005",
+      "riot_skin_id": 84005,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Blood Moon Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "6bf4d881-c3c9-4b39-add6-f8f2a4752a0b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-06-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin05/images/akali_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin05/images/akali_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin05/images/akali_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin05/akaliloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bd2c9e5162b3665e08f6e5c5f7991601c09900b7b146da7c79a1461005b21a34",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84005",
+        "result_label": "Blood Moon Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84005",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60084301",
+      "riot_skin_id": 60084301,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Classic Akali",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "ac306eaa-100d-4445-a7e6-03216bea8d84",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60084302,
+          "parent_skin_id": "skin:60084301",
+          "name": "Classic Akali (Stinger)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60084/60084302.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_akali/skins/skin301/images/jade_akali_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_akali/skins/skin301/images/jade_akali_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_akali/skins/skin301/images/jade_akali_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_akali/skins/skin301/jade_akaliloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60084301",
+        "result_label": "Classic Akali",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60084301",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84070",
+      "riot_skin_id": 84070,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Coven Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 70,
+      "content_id": "8b461ddf-1b75-4068-9562-7d9f8e184c53",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-10-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84072,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84073,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84074,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84075,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84076,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84077,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84078,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84079,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84080,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Destined)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84081,
+          "parent_skin_id": "skin:84070",
+          "name": "Coven Akali (Profane)",
+          "colors": [
+            "#429184",
+            "#942861"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin81/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin70/images/akali_splash_centered_70.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin70/images/akali_splash_uncentered_70.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin70/images/akali_splash_tile_70.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin70/akaliloadscreen_70.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a991d81c08aa3250ba5a921d7c8405dbadaad67d1c5dc6cd554eb31d675e988a",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84070",
+        "result_label": "Coven Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84070",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84050",
+      "riot_skin_id": 84050,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Crime City Nightmare Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 50,
+      "content_id": "877fdd33-3365-40b8-acae-1971696461ca",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-08-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        149
+      ],
+      "wiki_sets": [
+        "Crime City Nightmare"
+      ],
+      "universe_ids": [
+        "universe:crime-city-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84051,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84052,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84053,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84054,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84055,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84056,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84057,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84058,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84059,
+          "parent_skin_id": "skin:84050",
+          "name": "Crime City Nightmare Akali (Underground)",
+          "colors": [
+            "#181121",
+            "#53022D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin50/images/akali_splash_centered_50.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin50/images/akali_splash_uncentered_50.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin50/images/akali_splash_tile_50.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin50/akaliloadscreen_50.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6615d0f9c6b60b7b146d76285ee847b7e9e863d44682437abc0afa8de1210fda",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Crime City Nightmare",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84050",
+        "result_label": "Crime City Nightmare Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84050",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "wiki:Akali:crimson",
+      "riot_skin_id": null,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Crimson Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "wiki_only",
+      "skin_num": null,
+      "content_id": null,
+      "rarity": null,
+      "availability": "Removed",
+      "release_date": "2010-05-11",
+      "retired_date": "2012-03-19",
+      "legacy_client": null,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": false,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": null,
+        "uncentered_splash": null,
+        "tile": null,
+        "loading": null
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "wiki:Akali:crimson",
+        "result_label": "Crimson Akali",
+        "label_eligible": false,
+        "narrative_family_id": "wiki:Akali:crimson",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84068",
+      "riot_skin_id": 84068,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "DRX Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 68,
+      "content_id": "a08417c4-6446-4a82-9534-0a4122cc0847",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2023-06-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        194
+      ],
+      "wiki_sets": [
+        "World Champions: 2022"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84069,
+          "parent_skin_id": "skin:84068",
+          "name": "DRX Akali (Elite)",
+          "colors": [
+            "#E4E489",
+            "#195FC8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin68/images/akali_splash_centered_68.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin68/images/akali_splash_uncentered_68.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin68/images/akali_splash_tile_68.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin68/akaliloadscreen_68.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "602d2f37cfc04f2579f1b1a7a2ac867470078c77f4dfb31879d75fc7b581cbeb",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "DRX",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84068",
+        "result_label": "DRX Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84068",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84082",
+      "riot_skin_id": 84082,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Empyrean Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 82,
+      "content_id": "fae76547-a7c2-4452-8197-bfc5508491a0",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-05-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84083,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin83/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84084,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin84/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84085,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin85/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84086,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin86/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84087,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin87/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84088,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin88/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84089,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin89/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84090,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin90/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84091,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Neon Facade)",
+          "colors": [
+            "#E14940",
+            "#83E584"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin91/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84104,
+          "parent_skin_id": "skin:84082",
+          "name": "Empyrean Akali (Paragon)",
+          "colors": [
+            "#FEF9B0",
+            "#564998"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin104/chromapreview.chroma_akali_empyrean.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin82/images/akali_splash_centered_82.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin82/images/akali_splash_uncentered_82.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin82/images/akali_splash_tile_82.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin82/akaliloadscreen_82.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8cd21d143ee48b5c6618ef06510e531d43e0577b385f5170872f8d9e57f53084",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/20/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84082",
+        "result_label": "Empyrean Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84082",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84007",
+      "riot_skin_id": 84007,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Headhunter Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "f7c2762a-7c7b-4687-a707-48429271073a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-03-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        30
+      ],
+      "wiki_sets": [
+        "Headhunter"
+      ],
+      "universe_ids": [
+        "universe:headhunter"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84010,
+          "parent_skin_id": "skin:84007",
+          "name": "Headhunter Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84011,
+          "parent_skin_id": "skin:84007",
+          "name": "Headhunter Akali (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84012,
+          "parent_skin_id": "skin:84007",
+          "name": "Headhunter Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin07/images/akali_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin07/images/akali_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin07/images/akali_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin07/akaliloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9578f9510652185294e530bbf86a4cabf2dca8f8552cc6b55a6ef1a920a7e8dc",
+        "biography_word_count": 33,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Headhunter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84007",
+        "result_label": "Headhunter Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84007",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84002",
+      "riot_skin_id": 84002,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Infernal Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "a34d8b8a-1afe-4875-be19-2e55c61aaff0",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-05-11",
+      "retired_date": "2012-03-19",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin02/images/akali_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin02/images/akali_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin02/images/akali_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin02/akaliloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "974fdee99ce4aec8738b31639b8d04c39e28f63f7d0d25b0ec600df844df7ec0",
+        "biography_word_count": 28,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Infernal",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84002",
+        "result_label": "Infernal Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84002",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84009",
+      "riot_skin_id": 84009,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "K/DA Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "d9fb0ced-9dda-46be-b53f-c1fbf26aabd7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin09/images/akali_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin09/images/akali_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin09/images/akali_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin09/akaliloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6a293adc8391cf173d8c4c58b92c3780360c287e48642049b1373b617787aa3c",
+        "biography_word_count": 28,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84009",
+        "result_label": "K/DA Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84009",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84032",
+      "riot_skin_id": 84032,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "K/DA ALL OUT Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "3b35245e-1144-4e4a-a387-0345164640bb",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-10-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84041,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84042,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84043,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84044,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84045,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84046,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84047,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (BADDEST)",
+          "colors": [
+            "#0C0C0F",
+            "#272A3F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84048,
+          "parent_skin_id": "skin:84032",
+          "name": "K/DA ALL OUT Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin32/images/akali_splash_centered_32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin32/images/akali_splash_uncentered_32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin32/images/akali_splash_tile_32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin32/akaliloadscreen_32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7e98c8cbdf85ca8d979518f88bc1969eef7e60819faf5b5d2756d485a5732f19",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "KDA ALL OUT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84032",
+        "result_label": "K/DA ALL OUT Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84032",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84102",
+      "riot_skin_id": 84102,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "K/DA FIRESTARTER Ignition Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 102,
+      "content_id": "8c147c55-6321-4eb1-851d-0e6fd9236238",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-11-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:84103",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin102/images/akali_splash_centered_102.skins_akali_skin102.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin102/images/akali_splash_uncentered_102.skins_akali_skin102.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin102/images/akali_splash_tile_102.skins_akali_skin102.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin102/akaliloadscreen_102.skins_akali_skin102.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0f4374b423307c9b304dc4b95904cbdb510086d95127370812be42c8f4740c4b",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/22/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "KDA FIRESTARTER Ignition",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84102",
+        "result_label": "K/DA FIRESTARTER Ignition Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84103",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84004",
+      "riot_skin_id": 84004,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Nurse Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "1e7a338e-8a02-4ab7-9064-d8b57e83481f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-01-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        115
+      ],
+      "wiki_sets": [
+        "Rift Hospital"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84033,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84034,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84035,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84036,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84037,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84038,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84039,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84040,
+          "parent_skin_id": "skin:84004",
+          "name": "Nurse Akali (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin04/images/akali_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin04/images/akali_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin04/images/akali_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin04/akaliloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6dde4a745d0bc52d693e67e9e92502dbf0b973b34d02bba9176577e4d2823158",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Nurse",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84004",
+        "result_label": "Nurse Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84004",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84071",
+      "riot_skin_id": 84071,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Prestige Coven Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 71,
+      "content_id": "3431de6a-aae7-48ab-86d9-122149786c7d",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-10-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": "skin:84070",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin71/images/akali_splash_centered_71.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin71/images/akali_splash_uncentered_71.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin71/images/akali_splash_tile_71.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin71/akaliloadscreen_71.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f0ab67b254b265663ff1a36ce40938fcf20ca55860fea91251c412d6cc6483b2",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/19/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Prestige Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84071",
+        "result_label": "Prestige Coven Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84070",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84013",
+      "riot_skin_id": 84013,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Prestige K/DA Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "575e7281-a381-40f1-970e-c8aeb6a42e44",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2018-12-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:84009",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/images/akali_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/images/akali_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/images/akali_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/akaliloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "815963f3e76d276cdb411acf1a796955a8eecf509fdd71f3535e05dd576b651f",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Prestige KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84013",
+        "result_label": "Prestige K/DA Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84009",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84060",
+      "riot_skin_id": 84060,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Prestige K/DA Akali (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 60,
+      "content_id": "20ac43bb-366b-4e75-9378-0cadc5424b61",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:84013",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/images/akali_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/images/akali_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin13/images/akali_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin60/akaliloadscreen_60.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "815963f3e76d276cdb411acf1a796955a8eecf509fdd71f3535e05dd576b651f",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Prestige KDA (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84060",
+        "result_label": "Prestige K/DA Akali (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84013",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84014",
+      "riot_skin_id": 84014,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "PROJECT: Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "c45a8eb4-12b2-45b4-94da-ce908f6af887",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-08-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84016,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84017,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84018,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84019,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84020,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84021,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84022,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84023,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84024,
+          "parent_skin_id": "skin:84014",
+          "name": "PROJECT: Akali (Reckoning)",
+          "colors": [
+            "#FF5500",
+            "#162B30"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin14/images/akali_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin14/images/akali_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin14/images/akali_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin14/akaliloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7c257b227254ce184fd48a63d4b576633ca46dd46e9cf3408179ada4cacb9161",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84014",
+        "result_label": "PROJECT: Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84014",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84008",
+      "riot_skin_id": 84008,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Sashimi Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "26a977a7-81b5-4532-b95f-3200d76d49aa",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-09-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        26
+      ],
+      "wiki_sets": [
+        "Culinary Masters"
+      ],
+      "universe_ids": [
+        "universe:culinary-masters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin08/images/akali_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin08/images/akali_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin08/images/akali_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin08/akaliloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "00a7081e4de15544bd5b329fb170a54bc32eb31e3f5717320aecd22fedbff133",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Sashimi",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84008",
+        "result_label": "Sashimi Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84008",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84006",
+      "riot_skin_id": 84006,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Silverfang Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "a78721e4-18a6-4854-acf1-56d12aeedf94",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin06/images/akali_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin06/images/akali_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin06/images/akali_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin06/akaliloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "55308d467354e4909a835dd9541e7dfc253e0b81a3d15143c72f5105068b11d5",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Silverfang",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84006",
+        "result_label": "Silverfang Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84006",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84092",
+      "riot_skin_id": 84092,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Spirit Blossom Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 92,
+      "content_id": "ef44cad8-b68a-4f72-b787-0dace84b665b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84093,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin93/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84094,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin94/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84095,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin95/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84096,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin96/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84097,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin97/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84098,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin98/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84099,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin99/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84100,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin100/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84101,
+          "parent_skin_id": "skin:84092",
+          "name": "Spirit Blossom Akali (Paragon)",
+          "colors": [
+            "#233CF4",
+            "#9836EB"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin101/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin92/images/akali_splash_centered_92.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin92/images/akali_splash_uncentered_92.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin92/images/akali_splash_tile_92.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin92/akaliloadscreen_92.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1613fabee328e5d6e20632524b516890c055130d7119dbdc9125a40e096aae09",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/21/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84092",
+        "result_label": "Spirit Blossom Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84092",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84061",
+      "riot_skin_id": 84061,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Star Guardian Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 61,
+      "content_id": "98e96e3f-d11a-43a0-82df-614f058fbb9d",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2022-07-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84062,
+          "parent_skin_id": "skin:84061",
+          "name": "Star Guardian Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84063,
+          "parent_skin_id": "skin:84061",
+          "name": "Star Guardian Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84064,
+          "parent_skin_id": "skin:84061",
+          "name": "Star Guardian Akali (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84065,
+          "parent_skin_id": "skin:84061",
+          "name": "Star Guardian Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84066,
+          "parent_skin_id": "skin:84061",
+          "name": "Star Guardian Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84067,
+          "parent_skin_id": "skin:84061",
+          "name": "Star Guardian Akali (Brilliant)",
+          "colors": [
+            "#FDA4DA",
+            "#9DE5FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin61/images/akali_splash_centered_61.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin61/images/akali_splash_uncentered_61.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin61/images/akali_splash_tile_61.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin61/akaliloadscreen_61.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1964c37c6e3786d3b38ccf6cb2d86e25fea392615e7303b87cee7d1f7f34832e",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84061",
+        "result_label": "Star Guardian Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84061",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84001",
+      "riot_skin_id": 84001,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "Stinger Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "328fc0ae-9f6d-44c8-972d-833a061bb74a",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-05-11",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin01/images/akali_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin01/images/akali_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin01/images/akali_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin01/akaliloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e7ca89474a1434483861cbdd0c014df2259f9919e2966f4c5a9c48f29c26ecd",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "Stinger",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84001",
+        "result_label": "Stinger Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84001",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84015",
+      "riot_skin_id": 84015,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "True Damage Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "60242bab-0053-4f52-a7de-525c6e96089b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84025,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84026,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84027,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84028,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84029,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84030,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84031,
+          "parent_skin_id": "skin:84015",
+          "name": "True Damage Akali (Freestyle)",
+          "colors": [
+            "#BD1357",
+            "#19182A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin15/images/akali_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin15/images/akali_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin15/images/akali_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin15/akaliloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ee9cda96d3f770ae928553e480e28c23ac3bcf850079960cb4744329b94392f8",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84015",
+        "result_label": "True Damage Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84015",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:84103",
+      "riot_skin_id": 84103,
+      "champion_id": "Akali",
+      "champion_riot_id": 84,
+      "champion_name": "Akali",
+      "name": "True Damage Know My Name Akali",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 103,
+      "content_id": "57981fce-7100-4bc6-ac83-7ca198088cec",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2026-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 84105,
+          "parent_skin_id": "skin:84103",
+          "name": "True Damage Know My Name Akali (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin105/chromapreview.chroma_akali_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84106,
+          "parent_skin_id": "skin:84103",
+          "name": "True Damage Know My Name Akali (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin106/chromapreview.chroma_akali_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84107,
+          "parent_skin_id": "skin:84103",
+          "name": "True Damage Know My Name Akali (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin107/chromapreview.chroma_akali_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84108,
+          "parent_skin_id": "skin:84103",
+          "name": "True Damage Know My Name Akali (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin108/chromapreview.chroma_akali_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84109,
+          "parent_skin_id": "skin:84103",
+          "name": "True Damage Know My Name Akali (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin109/chromapreview.chroma_akali_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 84110,
+          "parent_skin_id": "skin:84103",
+          "name": "True Damage Know My Name Akali (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin110/chromapreview.chroma_akali_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin103/images/akali_splash_centered_103.skins_akali_skin103.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin103/images/akali_splash_uncentered_103.skins_akali_skin103.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin103/images/akali_splash_tile_103.skins_akali_skin103.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/akali/skins/skin103/akaliloadscreen_103.skins_akali_skin103.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "96837f90f5fb57c9dbca522163006211804017684cc2ebeee4bb6430bf9f2b13",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Akali",
+        "json_pointer": "/skins/23/description",
+        "wiki_locator": {
+          "champion": "Akali",
+          "skin": "True Damage Know My Name",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Akali/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:84103",
+        "result_label": "True Damage Know My Name Akali",
+        "label_eligible": true,
+        "narrative_family_id": "skin:84103",
+        "champion_profile_ref": "data/champions/Akali.json",
+        "gameplay_profile_ref": "data/champions/Akali.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Akali",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

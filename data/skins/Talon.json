@@ -1,0 +1,1631 @@
+{
+  "champion_id": "Talon",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91000",
+      "riot_skin_id": 91000,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Talon",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "d7ffba76-4ff5-412d-820c-d47f4898c02c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/base/images/talon_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/base/images/talon_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/base/images/talon_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/base/talonloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4579a76dfacf1b3f2599b6085bd04bc04ee477399f378071839179ad8dcc402c",
+        "biography_word_count": 82,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91000",
+        "result_label": "Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91000",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91005",
+      "riot_skin_id": 91005,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Blood Moon Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "df6e9ac8-e902-4996-a3ae-caca5844d610",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-02-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin05/images/talon_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin05/images/talon_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin05/images/talon_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin05/talonloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b2546aff1f4171b16f86dea036bafec57ea4274f19791fe74024c72cbe7c279a",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91005",
+        "result_label": "Blood Moon Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91005",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91002",
+      "riot_skin_id": 91002,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Crimson Elite Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "a6acc251-2a4b-45b1-a833-f86cdd3b80eb",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        122
+      ],
+      "wiki_sets": [
+        "Crimson Elite"
+      ],
+      "universe_ids": [
+        "universe:crimson-elite"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin02/images/talon_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin02/images/talon_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin02/images/talon_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin02/talonloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "090369a46f0886a52c57fd1c197d0c9675b379925a735ea3aefaf078e137c96d",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Crimson Elite",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91002",
+        "result_label": "Crimson Elite Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91002",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91003",
+      "riot_skin_id": 91003,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Dragonblade Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "6365c435-5d99-4de7-9b5d-61a417a62360",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-01-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        53
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Warring Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:warring-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 91006,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91007,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91008,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91009,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91010,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91011,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91050,
+          "parent_skin_id": "skin:91003",
+          "name": "Dragonblade Talon (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin03/images/talon_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin03/images/talon_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin03/images/talon_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin03/talonloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cebcba2b106734dfcf7b95e96dde2421bf2fae9dc2159a9140506f2f1a1e412c",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Dragonblade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91003",
+        "result_label": "Dragonblade Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91003",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91012",
+      "riot_skin_id": 91012,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Enduring Sword Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "4458edc6-200c-467a-b9cf-e12458be392e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-09-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 91013,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91014,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91015,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91016,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91017,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91018,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91019,
+          "parent_skin_id": "skin:91012",
+          "name": "Enduring Sword Talon (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin12/images/talon_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin12/images/talon_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin12/images/talon_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin12/talonloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d45417debef3f8fd0fe7c18c1ea6a4fcfe6901b2cc996844320dacf064425dac",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Enduring Sword",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91012",
+        "result_label": "Enduring Sword Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91012",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91059",
+      "riot_skin_id": 91059,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Grand Reckoning Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 59,
+      "content_id": "d781115f-7c93-47c4-90ea-bdb820893144",
+      "rarity": "Standard",
+      "availability": "Rare",
+      "release_date": "2025-03-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        215
+      ],
+      "wiki_sets": [
+        "Grand Reckoning"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin59/images/talon_splash_centered_59.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin59/images/talon_splash_uncentered_59.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin59/images/talon_splash_tile_59.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin59/talonloadscreen_59.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dade986e3e0970bd2711e088d47e7f209f97f5b33a0d36dc3cca9c18c882269e",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Grand Reckoning",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91059",
+        "result_label": "Grand Reckoning Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91059",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91038",
+      "riot_skin_id": 91038,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "High Noon Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 38,
+      "content_id": "76dc1bf3-0445-4255-8f8b-c518c5eb9a7b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-05-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 91040,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91041,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91042,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91043,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91044,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91045,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91046,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91047,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91048,
+          "parent_skin_id": "skin:91038",
+          "name": "High Noon Talon (Nomad)",
+          "colors": [
+            "#95ECFF",
+            "#C33C3E"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin38/images/talon_splash_centered_38.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin38/images/talon_splash_uncentered_38.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin38/images/talon_splash_tile_38.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin38/talonloadscreen_38.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5f7783cf9469edf71dfeb17ceb618a2726d039a1d3926e8db78e59a3ff886ec2",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91038",
+        "result_label": "High Noon Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91038",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91039",
+      "riot_skin_id": 91039,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Prestige High Noon Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 39,
+      "content_id": "31f46f18-b9db-4b8a-bdb7-7396fd9c7e1c",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2022-05-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": "skin:91038",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin39/images/talon_splash_centered_39.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin39/images/talon_splash_uncentered_39.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin39/images/talon_splash_tile_39.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin39/talonloadscreen_39.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a973633553c6a5373091c1ff356786d504410b56dbbf5b8350a8b3fe4b6f4c01",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Prestige High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91039",
+        "result_label": "Prestige High Noon Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91038",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91049",
+      "riot_skin_id": 91049,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Primal Ambush Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 49,
+      "content_id": "9232d238-fbbe-462c-a1b4-d5391844f19b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-01-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        200
+      ],
+      "wiki_sets": [
+        "Primal Ambush"
+      ],
+      "universe_ids": [
+        "universe:fury-and-fang"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 91051,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91052,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91053,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91054,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91055,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91056,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91057,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91058,
+          "parent_skin_id": "skin:91049",
+          "name": "Primal Ambush Talon (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin49/images/talon_splash_centered_49.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin49/images/talon_splash_uncentered_49.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin49/images/talon_splash_tile_49.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin49/talonloadscreen_49.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "22da3f963d6b89a18537788d88474905e45094d6a3d6a0201696bd4ce9cb3068",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Primal Ambush",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91049",
+        "result_label": "Primal Ambush Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91049",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91001",
+      "riot_skin_id": 91001,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Renegade Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "603f729d-89db-4a75-9c1b-6a2be4bb3fe9",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin01/images/talon_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin01/images/talon_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin01/images/talon_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin01/talonloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91001",
+        "result_label": "Renegade Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91001",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91004",
+      "riot_skin_id": 91004,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "SSW Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "fbe65d4e-0178-4f24-8412-c5b540fd912e",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2015-05-13",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        4
+      ],
+      "wiki_sets": [
+        "World Champions: 2014"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin04/images/talon_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin04/images/talon_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin04/images/talon_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin04/talonloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d741f5a51135ad4576506cbcb33a6f0bb1fbdc21ba64cbd34a72aa3e8d4d1550",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "SSW",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91004",
+        "result_label": "SSW Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91004",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91020",
+      "riot_skin_id": 91020,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Talon Blackwood",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "6499065d-1daf-4845-a3b4-6ad015297ae9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-03-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        38
+      ],
+      "wiki_sets": [
+        "Rift Quest"
+      ],
+      "universe_ids": [
+        "universe:riftquest"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 91021,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91022,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91023,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91024,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91025,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91026,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91027,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91028,
+          "parent_skin_id": "skin:91020",
+          "name": "Talon Blackwood (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin20/images/talon_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin20/images/talon_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin20/images/talon_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin20/talonloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "80881a6f026b0a8816d33d957f0533e2ee8f43a25a6ba4ff5ec556dea109e43b",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Talon Blackwood",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91020",
+        "result_label": "Talon Blackwood",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91020",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:91029",
+      "riot_skin_id": 91029,
+      "champion_id": "Talon",
+      "champion_riot_id": 91,
+      "champion_name": "Talon",
+      "name": "Withered Rose Talon",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "3c78eb9b-505a-42e8-a61b-173d1b717d58",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-02-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        141
+      ],
+      "wiki_sets": [
+        "Withered Rose"
+      ],
+      "universe_ids": [
+        "universe:crystal-rose"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 91030,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91031,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91032,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91033,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91034,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91035,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91036,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 91037,
+          "parent_skin_id": "skin:91029",
+          "name": "Withered Rose Talon (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin29/images/talon_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin29/images/talon_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin29/images/talon_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/talon/skins/skin29/talonloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "88f1374366ff4903b12f7a26e1b15a77171b6c3e667698f0c62c84f696bc56d1",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Talon",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Talon",
+          "skin": "Withered Rose",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Talon/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:91029",
+        "result_label": "Withered Rose Talon",
+        "label_eligible": true,
+        "narrative_family_id": "skin:91029",
+        "champion_profile_ref": "data/champions/Talon.json",
+        "gameplay_profile_ref": "data/champions/Talon.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Talon",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

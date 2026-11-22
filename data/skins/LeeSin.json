@@ -1,0 +1,2464 @@
+{
+  "champion_id": "LeeSin",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64000",
+      "riot_skin_id": 64000,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Lee Sin",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "25ff16bb-b3fe-4b2d-b8bc-fe8502c816cb",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-04-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/base/images/leesin_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/base/images/leesin_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/base/images/leesin_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/base/leesinloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8eb377c98ba064ae69c203080d2bd5674b86943b79ae623252870088741458f4",
+        "biography_word_count": 68,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64000",
+        "result_label": "Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64000",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64002",
+      "riot_skin_id": 64002,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Acolyte Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "f9654d96-327a-47fe-850e-375431bc498f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-04-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        180
+      ],
+      "wiki_sets": [
+        "Otherroads"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin02/images/leesin_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin02/images/leesin_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin02/images/leesin_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin02/leesinloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4dc7190b20f84104398b37165c3f7980e57855a063c13eb9b8c9154584d34a75",
+        "biography_word_count": 46,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Acolyte",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64002",
+        "result_label": "Acolyte Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64002",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60064301",
+      "riot_skin_id": 60064301,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Classic Lee Sin",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "637f7d1f-b090-4b48-bb5d-3742203c080a",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60064302,
+          "parent_skin_id": "skin:60064301",
+          "name": "Classic Lee Sin (Acolyte)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_leesin/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_leesin/skins/skin301/images/jade_leesin_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_leesin/skins/skin301/images/jade_leesin_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_leesin/skins/skin301/images/jade_leesin_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_leesin/skins/skin301/jade_leesinloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "95d3f5045a721206bdf752e91931905daf8527a191dbb048e3cdc68bc77a657e",
+        "biography_word_count": 53,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60064301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60064301",
+        "result_label": "Classic Lee Sin",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60064301",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64052",
+      "riot_skin_id": 64052,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Divine Heavenscale Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 52,
+      "content_id": "bcd5d042-38bf-4cff-a936-9955068de801",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-02-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        201
+      ],
+      "wiki_sets": [
+        "Heavenscale"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": "skin:64051",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin52/images/leesin_splash_centered_52.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin52/images/leesin_splash_uncentered_52.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin52/images/leesin_splash_tile_52.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin52/leesinloadscreen_52.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c0525170c61f546ff04011d8ff8b6eac692a558937a9aae6f3b56ea5f214ffde",
+        "biography_word_count": 61,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Divine Heavenscale",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64052",
+        "result_label": "Divine Heavenscale Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64051",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64003",
+      "riot_skin_id": 64003,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Dragon Fist Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "c09770c2-c173-43a5-959d-878a62516b46",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2012-01-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        55
+      ],
+      "wiki_sets": [
+        "Lunar Revel"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64007,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin Duel Black",
+          "colors": [
+            "#201F20",
+            "#F9CD16"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64008,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin Duel Blue",
+          "colors": [
+            "#516DA4",
+            "#BFE7E8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64009,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin Duel Yellow",
+          "colors": [
+            "#F6E669",
+            "#3B3A41"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64021,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64022,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64023,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64024,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64025,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64053,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64070,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Royal)",
+          "colors": [
+            "#AA48C8",
+            "#451D22"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64071,
+          "parent_skin_id": "skin:64003",
+          "name": "Dragon Fist Lee Sin (Jade)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin03/images/leesin_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin03/images/leesin_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin03/images/leesin_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin03/leesinloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0b9baf1bbd647b3b6d294b44e2fa3252120408f836502e829bae86c8605cbfcb",
+        "biography_word_count": 44,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Dragon Fist",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64003",
+        "result_label": "Dragon Fist Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64003",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64029",
+      "riot_skin_id": 64029,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "FPX Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "c3d8870d-34c9-400b-806e-33d51bdf9045",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2020-04-30",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        130
+      ],
+      "wiki_sets": [
+        "World Champions: 2019"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64030,
+          "parent_skin_id": "skin:64029",
+          "name": "FPX Lee Sin (Elite)",
+          "colors": [
+            "#0C0C0F",
+            "#9B1520"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin29/images/leesin_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin29/images/leesin_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin29/images/leesin_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin29/leesinloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1001bafd725d496da06cd3e31c0bb455c249714a591d53a77641deb100b81a96",
+        "biography_word_count": 12,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "FPX",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64029",
+        "result_label": "FPX Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64029",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64011",
+      "riot_skin_id": 64011,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "God Fist Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "6c3d314b-0ba8-4430-a3bf-f80cb1e69da1",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2017-04-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin11/images/leesin_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin11/images/leesin_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin11/images/leesin_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin11/leesinloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b596e9ea95601f1c0aabf1f097c349428d77896ded1cbe7bf91986be8e00f351",
+        "biography_word_count": 49,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "God Fist",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64011",
+        "result_label": "God Fist Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64011",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64051",
+      "riot_skin_id": 64051,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Heavenscale Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 51,
+      "content_id": "e38d52fe-5654-4203-8b02-f7744735d593",
+      "rarity": "Legendary",
+      "availability": "Legacy",
+      "release_date": "2024-02-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        201
+      ],
+      "wiki_sets": [
+        "Heavenscale"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64054,
+          "parent_skin_id": "skin:64051",
+          "name": "Heavenscale Lee Sin (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64055,
+          "parent_skin_id": "skin:64051",
+          "name": "Heavenscale Lee Sin (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64056,
+          "parent_skin_id": "skin:64051",
+          "name": "Heavenscale Lee Sin (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64057,
+          "parent_skin_id": "skin:64051",
+          "name": "Heavenscale Lee Sin (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64058,
+          "parent_skin_id": "skin:64051",
+          "name": "Heavenscale Lee Sin (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64059,
+          "parent_skin_id": "skin:64051",
+          "name": "Heavenscale Lee Sin (Lustrous)",
+          "colors": [
+            "#DFA6DF",
+            "#E0D7D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin51/images/leesin_splash_centered_51.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin51/images/leesin_splash_uncentered_51.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin51/images/leesin_splash_tile_51.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin51/leesinloadscreen_51.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c0525170c61f546ff04011d8ff8b6eac692a558937a9aae6f3b56ea5f214ffde",
+        "biography_word_count": 61,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Heavenscale",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64051",
+        "result_label": "Heavenscale Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64051",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64072",
+      "riot_skin_id": 64072,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Inkshadow Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 72,
+      "content_id": "934196c4-5336-41aa-bff8-457345f5a6c9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-06-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64073,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64074,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64075,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64076,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64077,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64078,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64079,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64080,
+          "parent_skin_id": "skin:64072",
+          "name": "Inkshadow Lee Sin (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin72/images/leesin_splash_centered_72.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin72/images/leesin_splash_uncentered_72.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin72/images/leesin_splash_tile_72.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin72/leesinloadscreen_72.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6ce243c39ae3be3938a0ead13fddb6dba227f0c9884d90cc8733be217ce163d9",
+        "biography_word_count": 61,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/19/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64072",
+        "result_label": "Inkshadow Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64072",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64010",
+      "riot_skin_id": 64010,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Knockout Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "c7dec5f4-f1c5-41ce-91fc-1d70c77078a0",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-05-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        51
+      ],
+      "wiki_sets": [
+        "Crime City"
+      ],
+      "universe_ids": [
+        "universe:crime-city-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin10/images/leesin_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin10/images/leesin_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin10/images/leesin_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin10/leesinloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3968c6c93f90e2be440a5dac241f7a005786fb5c242e1430a5be774d90477e48",
+        "biography_word_count": 41,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Knockout",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64010",
+        "result_label": "Knockout Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64010",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64004",
+      "riot_skin_id": 64004,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Muay Thai Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "456f3a57-192f-4b3e-931b-2787736e7887",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-07-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64060,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64061,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64062,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64063,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64064,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64065,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64066,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64067,
+          "parent_skin_id": "skin:64004",
+          "name": "Muay Thai Lee Sin (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin04/images/leesin_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin04/images/leesin_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin04/images/leesin_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin04/leesinloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c1e23908849ad1f1178552d2394fd1c1115388d701f8674231ff590105845547",
+        "biography_word_count": 34,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Muay Thai",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64004",
+        "result_label": "Muay Thai Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64004",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64027",
+      "riot_skin_id": 64027,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Nightbringer Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "8bf804a5-8393-4825-9383-1f4d83616ecc",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-12-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin27/images/leesin_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin27/images/leesin_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin27/images/leesin_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin27/leesinloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f1de93e11d360d517e0c8e2c59e72bf00477d0a39f8a5d8fdc31d509d36689d5",
+        "biography_word_count": 45,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64027",
+        "result_label": "Nightbringer Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64027",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64012",
+      "riot_skin_id": 64012,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Playmaker Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "64812704-5a42-41d8-90e7-fac1566dbc8a",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2018-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        31
+      ],
+      "wiki_sets": [
+        "Soccer Cup"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64013,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64014,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64015,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64016,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64017,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64018,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64019,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64020,
+          "parent_skin_id": "skin:64012",
+          "name": "Playmaker Lee Sin (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin12/images/leesin_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin12/images/leesin_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin12/images/leesin_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin12/leesinloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b7e1c0cf8f3f3cda1bf4cc81593550ad5fbe27343b4f328faccb66f659b1ce00",
+        "biography_word_count": 50,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Playmaker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64012",
+        "result_label": "Playmaker Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64012",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64005",
+      "riot_skin_id": 64005,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Pool Party Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "2815c064-9fa2-4c3f-99d2-9281e5fbeadc",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-09-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        15
+      ],
+      "wiki_sets": [
+        "Pool Party"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin05/images/leesin_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin05/images/leesin_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin05/images/leesin_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin05/leesinloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d3ef21a48c8aac0fa2c759808824acb81eb1a1406893d3bc38e02291664e4c7c",
+        "biography_word_count": 36,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Pool Party",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64005",
+        "result_label": "Pool Party Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64005",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64028",
+      "riot_skin_id": 64028,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Prestige Nightbringer Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 28,
+      "content_id": "4a6a1b31-4d11-4aee-9337-71dd8be9af05",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-12-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": "skin:64027",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin28/images/leesin_splash_centered_28.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin28/images/leesin_splash_uncentered_28.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin28/images/leesin_splash_tile_28.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin28/leesinloadscreen_28_le.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dc5f169b774239bd8a058e3ea6eeab519505b341b65b0ec2dcbdb9404a5d90aa",
+        "biography_word_count": 23,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Prestige Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64028",
+        "result_label": "Prestige Nightbringer Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64027",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64039",
+      "riot_skin_id": 64039,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Prestige Nightbringer Lee Sin (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 39,
+      "content_id": "18abcad7-4f34-47a0-94a6-dbaa209db50f",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": "skin:64028",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin39/images/leesin_splash_centered_39.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin39/images/leesin_splash_uncentered_39.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin39/images/leesin_splash_tile_39.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin39/leesinloadscreen_39_le.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dc5f169b774239bd8a058e3ea6eeab519505b341b65b0ec2dcbdb9404a5d90aa",
+        "biography_word_count": 23,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Prestige Nightbringer (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64039",
+        "result_label": "Prestige Nightbringer Lee Sin (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64028",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64006",
+      "riot_skin_id": 64006,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "SKT T1 Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "9ab22338-d376-4863-a007-d0d71bc50c01",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-05-04",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        3
+      ],
+      "wiki_sets": [
+        "World Champions: 2013"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64082,
+          "parent_skin_id": "skin:64006",
+          "name": "SKT T1 Lee Sin (Elite)",
+          "colors": [
+            "#872127",
+            "#2C232C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin82/chromapreview.chroma_leesin_sktt1.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin06/images/leesin_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin06/images/leesin_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin06/images/leesin_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin06/leesinloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6a141f188355e6d1b754f74d03758fbe5146d368342907e299e357aa1d1033cf",
+        "biography_word_count": 12,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64006",
+        "result_label": "SKT T1 Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64006",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64031",
+      "riot_skin_id": 64031,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Storm Dragon Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 31,
+      "content_id": "a25d016a-2bf2-4ebf-a81f-04f74531f655",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2020-10-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64032,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64033,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Jadeclaw)",
+          "colors": [
+            "#88FF00",
+            "#00B170"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64034,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64035,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64036,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64037,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64038,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Emberclaw)",
+          "colors": [
+            "#110A20",
+            "#5C1111"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64050,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Mythic)",
+          "colors": [
+            "#E3CB3E",
+            "#BD3030"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64081,
+          "parent_skin_id": "skin:64031",
+          "name": "Storm Dragon Lee Sin (Beacon)",
+          "colors": [
+            "#FF7D31",
+            "#4E3426"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin81/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin31/images/leesin_splash_centered_31.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin31/images/leesin_splash_uncentered_31.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin31/images/leesin_splash_tile_31.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin31/leesinloadscreen_31.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b20d3956f7f5a3ac57302ff432b4f61b9a051908a1bd3585cccce8f6fb7ebb0f",
+        "biography_word_count": 53,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Storm Dragon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64031",
+        "result_label": "Storm Dragon Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64031",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64068",
+      "riot_skin_id": 64068,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "T1 Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 68,
+      "content_id": "6119b84c-bdfb-4438-a058-751cc33e3a61",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2024-08-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        207
+      ],
+      "wiki_sets": [
+        "World Champions: 2023"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64069,
+          "parent_skin_id": "skin:64068",
+          "name": "T1 Lee Sin (Elite)",
+          "colors": [
+            "#AE1F1F",
+            "#DF4F1A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin68/images/leesin_splash_centered_68.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin68/images/leesin_splash_uncentered_68.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin68/images/leesin_splash_tile_68.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin68/leesinloadscreen_68.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e39683c3ec9383431fbe4b4d5abe436e1dce4d3d4dd836d78952828829cd4d2f",
+        "biography_word_count": 12,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64068",
+        "result_label": "T1 Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64068",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64001",
+      "riot_skin_id": 64001,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Traditional Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "d838adcb-4bdd-48a1-bfd1-b261f77c0c13",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-04-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        82
+      ],
+      "wiki_sets": [
+        "Traditional"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin01/images/leesin_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin01/images/leesin_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin01/images/leesin_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin01/leesinloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6271bf84477c55221cc903912d37aa6763108e8bb60160fce51270671d88884e",
+        "biography_word_count": 55,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Traditional",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64001",
+        "result_label": "Traditional Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64001",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:64041",
+      "riot_skin_id": 64041,
+      "champion_id": "LeeSin",
+      "champion_riot_id": 64,
+      "champion_name": "Lee Sin",
+      "name": "Zenith Games Lee Sin",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 41,
+      "content_id": "48f3c37e-e658-49f3-84a5-1f724be55c91",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-09-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        165
+      ],
+      "wiki_sets": [
+        "Zenith Games"
+      ],
+      "universe_ids": [
+        "universe:kinetex-machina"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 64042,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64043,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64044,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64045,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64046,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64047,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64048,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 64049,
+          "parent_skin_id": "skin:64041",
+          "name": "Zenith Games Lee Sin (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin41/images/leesin_splash_centered_41.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin41/images/leesin_splash_uncentered_41.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin41/images/leesin_splash_tile_41.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/leesin/skins/skin41/leesinloadscreen_41.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a99f728db7a5337b61d2b671d184d3f94a09a19d8e1c108561111275855ab978",
+        "biography_word_count": 49,
+        "source_id": "skins:client:LeeSin",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Lee Sin",
+          "skin": "Zenith Games",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Lee_Sin/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:64041",
+        "result_label": "Zenith Games Lee Sin",
+        "label_eligible": true,
+        "narrative_family_id": "skin:64041",
+        "champion_profile_ref": "data/champions/LeeSin.json",
+        "gameplay_profile_ref": "data/champions/LeeSin.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:LeeSin",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

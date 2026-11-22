@@ -1,0 +1,1715 @@
+{
+  "champion_id": "Ekko",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245000",
+      "riot_skin_id": 245000,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Ekko",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "e0e0461c-a848-4c38-a3a2-41e9737b6d29",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-05-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/base/images/ekko_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/base/images/ekko_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/base/images/ekko_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/base/ekkoloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "28cf4a894d3db6532fc33b16965272ac93206699ffc8fa7ca9dcd8c2fddb72e1",
+        "biography_word_count": 74,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245000",
+        "result_label": "Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245000",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245002",
+      "riot_skin_id": 245002,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Academy Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "05c094de-d840-469e-bc33-b6dc933809ea",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-08-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        22
+      ],
+      "wiki_sets": [
+        "Academy"
+      ],
+      "universe_ids": [
+        "universe:academy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin02/images/ekko_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin02/images/ekko_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin02/images/ekko_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin02/ekkoloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cf31f2328b86fe729dd23db457015c7f7deb2c52c96dc11ea1718394eff66dce",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Academy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245002",
+        "result_label": "Academy Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245002",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245036",
+      "riot_skin_id": 245036,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Arcane Firelight Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 36,
+      "content_id": "e04b32d0-c41f-42d9-9640-ca127cbe9f55",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2022-02-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        152
+      ],
+      "wiki_sets": [
+        "Arcane"
+      ],
+      "universe_ids": [
+        "universe:arcane"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245037,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245038,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245039,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245040,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245041,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245042,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245043,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245044,
+          "parent_skin_id": "skin:245036",
+          "name": "Arcane Firelight Ekko (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin36/images/ekko_splash_centered_36.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin36/images/ekko_splash_uncentered_36.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin36/images/ekko_splash_tile_36.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin36/ekkoloadscreen_36.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "942acd87662ce162c7972f6a5c93f89e501b1b09a58ccaf7387c7d6381ced3e3",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Arcane Firelight",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245036",
+        "result_label": "Arcane Firelight Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245036",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245057",
+      "riot_skin_id": 245057,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Arcane Last Stand Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 57,
+      "content_id": "825920c7-38ad-449f-81cd-e289a18d0c31",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2024-12-11",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        152
+      ],
+      "wiki_sets": [
+        "Arcane"
+      ],
+      "universe_ids": [
+        "universe:arcane"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245058,
+          "parent_skin_id": "skin:245057",
+          "name": "Arcane Last Stand Ekko (Paragon)",
+          "colors": [
+            "#BCD6EF",
+            "#474AF7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin57/images/ekko_splash_centered_57.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin57/images/ekko_splash_uncentered_57.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin57/images/ekko_splash_tile_57.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin57/ekkoloadscreen_57.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "45e6b3839cc9450128a633fa0a4c835897b33181edf0991a5810eabaae42dac0",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Arcane Last Stand",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245057",
+        "result_label": "Arcane Last Stand Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245057",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245056",
+      "riot_skin_id": 245056,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Breakout True Damage Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 56,
+      "content_id": "e584e8a4-01c2-447f-85f9-9612e9918eb3",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-11-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:245019",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin56/images/ekko_splash_centered_56.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin56/images/ekko_splash_uncentered_56.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin56/images/ekko_splash_tile_56.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin56/ekkoloadscreen_56.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ece15fd1aa1f158e96a4a29033cb98aa18e0413c0812440de2925014b27041de",
+        "biography_word_count": 68,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Breakout True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245056",
+        "result_label": "Breakout True Damage Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245019",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245046",
+      "riot_skin_id": 245046,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Prestige Star Guardian Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "7ee10bd6-b606-4c5b-b0bb-874b19d4b71a",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2022-07-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": "skin:245045",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin46/images/ekko_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin46/images/ekko_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin46/images/ekko_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin46/ekkoloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7f8aab154a91ef0bc63feee5838cca230afdd692109be379451df8bcaccfad0f",
+        "biography_word_count": 35,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Prestige Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245046",
+        "result_label": "Prestige Star Guardian Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245045",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245059",
+      "riot_skin_id": 245059,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Prestige True Damage Know My Name Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 59,
+      "content_id": "71f9d5eb-6a3d-44bb-b432-ec9352e40a54",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245060,
+          "parent_skin_id": "skin:245059",
+          "name": "Prestige True Damage Know My Name Ekko (Vivid)",
+          "colors": [
+            "#C6CACD",
+            "#4A53F3"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin60/chromapreview.chroma_ekko_damage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin59/images/ekko_splash_centered_59.skins_ekko_skin59.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin59/images/ekko_splash_uncentered_59.skins_ekko_skin59.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin59/images/ekko_splash_tile_59.skins_ekko_skin59.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin59/ekkoloadscreen_59.skins_ekko_skin59.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b65b2663b31c30171016e07f0aed145c01d9d8c05798a06ea98ba1d004fa68b",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Prestige True Damage Know My Name",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245059",
+        "result_label": "Prestige True Damage Know My Name Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245059",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245003",
+      "riot_skin_id": 245003,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "PROJECT: Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "211a12cf-7257-4d6d-8fe4-77227cb1a02f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-08-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin03/images/ekko_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin03/images/ekko_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin03/images/ekko_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin03/ekkoloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "630e6019a21ab80620935092912bf19a5bb0b4aae20ad810fc2d1dab747bb896",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245003",
+        "result_label": "PROJECT: Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245003",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245028",
+      "riot_skin_id": 245028,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Pulsefire Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 28,
+      "content_id": "8ef8ec26-89d3-48c2-b665-bc48daf63ea4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-05-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        36
+      ],
+      "wiki_sets": [
+        "Pulsefire"
+      ],
+      "universe_ids": [
+        "universe:pulsefire"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245029,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245030,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245031,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245032,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245033,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Chrono)",
+          "colors": [
+            "#162D57",
+            "#A50031"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245034,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245035,
+          "parent_skin_id": "skin:245028",
+          "name": "Pulsefire Ekko (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin28/images/ekko_splash_centered_28.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin28/images/ekko_splash_uncentered_28.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin28/images/ekko_splash_tile_28.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin28/ekkoloadscreen_28.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f27542df3c4ce7f25f29b779220e90977ab8160911fe40ca5f05281382f8eacf",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Pulsefire",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245028",
+        "result_label": "Pulsefire Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245028",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245001",
+      "riot_skin_id": 245001,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Sandstorm Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "e9873a4a-1842-4022-a363-005e0a005018",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-05-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245004,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245005,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245006,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245007,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245008,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245009,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245010,
+          "parent_skin_id": "skin:245001",
+          "name": "Sandstorm Ekko (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin01/images/ekko_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin01/images/ekko_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin01/images/ekko_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin01/ekkoloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245001",
+        "result_label": "Sandstorm Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245001",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245011",
+      "riot_skin_id": 245011,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "SKT T1 Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "e713ca6b-1c63-45c6-9b69-5bf5dc49b43a",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2017-06-27",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        6
+      ],
+      "wiki_sets": [
+        "World Champions: 2016"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin11/images/ekko_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin11/images/ekko_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin11/images/ekko_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin11/ekkoloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2499a41e5db3516d81e32a44c816b837717fdee6bb2158a77829181904bab987",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245011",
+        "result_label": "SKT T1 Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245011",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245045",
+      "riot_skin_id": 245045,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Star Guardian Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 45,
+      "content_id": "e46f114f-1001-4c70-a5f7-4ac439621a7b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-07-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245047,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245048,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245049,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245050,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245051,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245052,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245053,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245054,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245055,
+          "parent_skin_id": "skin:245045",
+          "name": "Star Guardian Ekko (Brilliant)",
+          "colors": [
+            "#FDA4DA",
+            "#9DE5FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin45/images/ekko_splash_centered_45.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin45/images/ekko_splash_uncentered_45.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin45/images/ekko_splash_tile_45.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin45/ekkoloadscreen_45.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ff8388b5161ffab50fc98888da94150a81ecd7c92997e41fabced7a6be192f25",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245045",
+        "result_label": "Star Guardian Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245045",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245012",
+      "riot_skin_id": 245012,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "Trick or Treat Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "19b28884-1b8e-4437-a746-eac6a8fb8741",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-10-24",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        88
+      ],
+      "wiki_sets": [
+        "Trick-or-Treat"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245013,
+          "parent_skin_id": "skin:245012",
+          "name": "Trick or Treat Ekko (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245014,
+          "parent_skin_id": "skin:245012",
+          "name": "Trick or Treat Ekko (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245015,
+          "parent_skin_id": "skin:245012",
+          "name": "Trick or Treat Ekko (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245016,
+          "parent_skin_id": "skin:245012",
+          "name": "Trick or Treat Ekko (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245017,
+          "parent_skin_id": "skin:245012",
+          "name": "Trick or Treat Ekko (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245018,
+          "parent_skin_id": "skin:245012",
+          "name": "Trick or Treat Ekko (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin12/images/ekko_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin12/images/ekko_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin12/images/ekko_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin12/ekkoloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b8bf3f76ac2f4de6f668ed3b6475de6f2b8c849803da0aa22d734622806108be",
+        "biography_word_count": 22,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "Trick or Treat",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245012",
+        "result_label": "Trick or Treat Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245012",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:245019",
+      "riot_skin_id": 245019,
+      "champion_id": "Ekko",
+      "champion_riot_id": 245,
+      "champion_name": "Ekko",
+      "name": "True Damage Ekko",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 19,
+      "content_id": "57cc8b19-97a8-40c5-9b85-abd339422637",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 245020,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245021,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245022,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Freestyle)",
+          "colors": [
+            "#BD1357",
+            "#19182A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245023,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245024,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245025,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245026,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 245027,
+          "parent_skin_id": "skin:245019",
+          "name": "True Damage Ekko (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin19/images/ekko_splash_centered_19.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin19/images/ekko_splash_uncentered_19.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin19/images/ekko_splash_tile_19.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ekko/skins/skin19/ekkoloadscreen_19.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ece15fd1aa1f158e96a4a29033cb98aa18e0413c0812440de2925014b27041de",
+        "biography_word_count": 68,
+        "source_id": "skins:client:Ekko",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Ekko",
+          "skin": "True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ekko/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:245019",
+        "result_label": "True Damage Ekko",
+        "label_eligible": true,
+        "narrative_family_id": "skin:245019",
+        "champion_profile_ref": "data/champions/Ekko.json",
+        "gameplay_profile_ref": "data/champions/Ekko.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ekko",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

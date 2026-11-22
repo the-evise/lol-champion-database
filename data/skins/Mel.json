@@ -1,0 +1,534 @@
+{
+  "champion_id": "Mel",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:800000",
+      "riot_skin_id": 800000,
+      "champion_id": "Mel",
+      "champion_riot_id": 800,
+      "champion_name": "Mel",
+      "name": "Mel",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2025-01-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/base/images/mel_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/base/images/mel_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/base/images/mel_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/base/melloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6d4c094d05735e1df14172f6873250c9ad4c1ad9d308b1f768c32122bd69c22d",
+        "biography_word_count": 98,
+        "source_id": "skins:client:Mel",
+        "json_pointer": "/skins/0/description",
+        "wiki_locator": {
+          "champion": "Mel",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:800000",
+        "result_label": "Mel",
+        "label_eligible": true,
+        "narrative_family_id": "skin:800000",
+        "champion_profile_ref": "data/champions/Mel.json",
+        "gameplay_profile_ref": "data/champions/Mel.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Mel",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:800001",
+      "riot_skin_id": 800001,
+      "champion_id": "Mel",
+      "champion_riot_id": 800,
+      "champion_name": "Mel",
+      "name": "Arcane Councilor Mel",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "ffc342e1-d641-45cb-ad5c-daa9ee719f1b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-01-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        152
+      ],
+      "wiki_sets": [
+        "Arcane"
+      ],
+      "universe_ids": [
+        "universe:arcane"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 800002,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800003,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800004,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800005,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800006,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800007,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800008,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800009,
+          "parent_skin_id": "skin:800001",
+          "name": "Arcane Councilor Mel (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin01/images/mel_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin01/images/mel_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin01/images/mel_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin01/melloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c950ae3fdefeffd7e175cf260c6ef9ff75377a568cb8c26a6d49197efb4f26ee",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Mel",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Mel",
+          "skin": "Arcane Councilor",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:800001",
+        "result_label": "Arcane Councilor Mel",
+        "label_eligible": true,
+        "narrative_family_id": "skin:800001",
+        "champion_profile_ref": "data/champions/Mel.json",
+        "gameplay_profile_ref": "data/champions/Mel.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Mel",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:800012",
+      "riot_skin_id": 800012,
+      "champion_id": "Mel",
+      "champion_riot_id": 800,
+      "champion_name": "Mel",
+      "name": "Coven Mel",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "7f7fd406-a916-4b0a-99e4-cc56126134b1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-09-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 800013,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin13/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800014,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin14/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800015,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin15/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800016,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin16/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800017,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin17/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800018,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin18/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800019,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin19/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 800020,
+          "parent_skin_id": "skin:800012",
+          "name": "Coven Mel (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin20/chromapreview.chroma_mel_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin12/images/mel_splash_centered_12.skins_mel_skin12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin12/images/mel_splash_uncentered_12.skins_mel_skin12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin12/images/mel_splash_tile_12.skins_mel_skin12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin12/melloadscreen_12.skins_mel_skin12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2f8e0bdef6dcd3ab0d0f41b5d61b8b6c0b40aeafeedf3bf127e64ddd5b3e332a",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Mel",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Mel",
+          "skin": "Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:800012",
+        "result_label": "Coven Mel",
+        "label_eligible": true,
+        "narrative_family_id": "skin:800012",
+        "champion_profile_ref": "data/champions/Mel.json",
+        "gameplay_profile_ref": "data/champions/Mel.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Mel",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:800010",
+      "riot_skin_id": 800010,
+      "champion_id": "Mel",
+      "champion_riot_id": 800,
+      "champion_name": "Mel",
+      "name": "Prestige Winterblessed Mel",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "a0a9d769-26e6-48ef-8a70-50a9adc016b7",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2025-12-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        187
+      ],
+      "wiki_sets": [
+        "Winterblessed"
+      ],
+      "universe_ids": [
+        "universe:tales-of-borealis"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 800011,
+          "parent_skin_id": "skin:800010",
+          "name": "Prestige Winterblessed Mel (Vivid)",
+          "colors": [
+            "#F44EDB",
+            "#F3AE71"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin10/images/mel_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin10/images/mel_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin10/images/mel_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/mel/skins/skin10/melloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c87ee4a31616f1057f52bab56abcec7350c7a25c97227576747c1298c4af9dc0",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Mel",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Mel",
+          "skin": "Prestige Winterblessed",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Mel/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:800010",
+        "result_label": "Prestige Winterblessed Mel",
+        "label_eligible": true,
+        "narrative_family_id": "skin:800010",
+        "champion_profile_ref": "data/champions/Mel.json",
+        "gameplay_profile_ref": "data/champions/Mel.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Mel",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

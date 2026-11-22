@@ -1,0 +1,1987 @@
+{
+  "champion_id": "Senna",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235000",
+      "riot_skin_id": 235000,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Senna",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "20d450fb-b184-4865-9aca-f7f51c19679f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/base/images/senna_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/base/images/senna_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/base/images/senna_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/base/sennaloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "95a849b9ca0378b1de74bb859695a6a640167d79d03198b030513d180f315a66",
+        "biography_word_count": 90,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235000",
+        "result_label": "Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235000",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235036",
+      "riot_skin_id": 235036,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Bewitching Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 36,
+      "content_id": "bad04087-202c-4131-85c3-a9b572d957ba",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2022-10-20",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        172
+      ],
+      "wiki_sets": [
+        "Bewitching"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235038,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235039,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235040,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235041,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235042,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235043,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235044,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235045,
+          "parent_skin_id": "skin:235036",
+          "name": "Bewitching Senna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin36/images/senna_splash_centered_36.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin36/images/senna_splash_uncentered_36.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin36/images/senna_splash_tile_36.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin36/sennaloadscreen_36.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d5a3e5fb0ca0615c2a0c2310d24f8c2dccee50876ceac8c1f85d5ad05785abc6",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Bewitching",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235036",
+        "result_label": "Bewitching Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235036",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235010",
+      "riot_skin_id": 235010,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "High Noon Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "29c58fab-aa9a-4d3a-8ce0-bda3ae303c4b",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2020-06-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235011,
+          "parent_skin_id": "skin:235010",
+          "name": "High Noon Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235012,
+          "parent_skin_id": "skin:235010",
+          "name": "High Noon Senna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235013,
+          "parent_skin_id": "skin:235010",
+          "name": "High Noon Senna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235014,
+          "parent_skin_id": "skin:235010",
+          "name": "High Noon Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235015,
+          "parent_skin_id": "skin:235010",
+          "name": "High Noon Senna (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235037,
+          "parent_skin_id": "skin:235010",
+          "name": "High Noon Senna (Mythic)",
+          "colors": [
+            "#CFC0A7",
+            "#59C3F2"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin10/images/senna_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin10/images/senna_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin10/images/senna_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin10/sennaloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7ef4b78247adefcb0ecc2d06312d72f3314cd75bb74c7c64ab63e44de3f0e715",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235010",
+        "result_label": "High Noon Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235010",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235026",
+      "riot_skin_id": 235026,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Lunar Eclipse Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "52cd45ce-526c-4151-a479-243407a6aa30",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-04-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        93
+      ],
+      "wiki_sets": [
+        "Eclipse"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235028,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235029,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235030,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235031,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235032,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235033,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235034,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235035,
+          "parent_skin_id": "skin:235026",
+          "name": "Lunar Eclipse Senna (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin26/images/senna_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin26/images/senna_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin26/images/senna_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin26/sennaloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "22b6331f07fbb0a3c9c8e8a594108d9f26343a78a6c4dbb1b535d12be33dbbdc",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Lunar Eclipse",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235026",
+        "result_label": "Lunar Eclipse Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235026",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235063",
+      "riot_skin_id": 235063,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Masked Justice Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 63,
+      "content_id": "506f3eae-ebeb-45c2-989f-80588b490bf8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-02-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        214
+      ],
+      "wiki_sets": [
+        "Masked Justice"
+      ],
+      "universe_ids": [
+        "universe:super-planet-force-savers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235064,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235065,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235066,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235067,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235068,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235069,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235070,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235071,
+          "parent_skin_id": "skin:235063",
+          "name": "Masked Justice Senna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin63/images/senna_splash_centered_63.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin63/images/senna_splash_uncentered_63.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin63/images/senna_splash_tile_63.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin63/sennaloadscreen_63.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "768d1c1fdf7a923d84a1ad4d86dbdf77da62482a4c33a6727595e78eff4ccf8b",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Masked Justice",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235063",
+        "result_label": "Masked Justice Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235063",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235027",
+      "riot_skin_id": 235027,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Prestige Lunar Eclipse Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "d59405ad-b70d-4300-adad-7e528746c1e8",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2022-04-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        93
+      ],
+      "wiki_sets": [
+        "Eclipse"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": "skin:235026",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin27/images/senna_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin27/images/senna_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin27/images/senna_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin27/sennaloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "74ad37761db69cea2d811315ab401aa8daa867a24513d29aadf261aaf20e2cb3",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Prestige Lunar Eclipse",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235027",
+        "result_label": "Prestige Lunar Eclipse Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235026",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235009",
+      "riot_skin_id": 235009,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Prestige True Damage Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "2ad7afbc-ef72-4d6f-9058-52370e32d9fb",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2020-02-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:235001",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin09/images/senna_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin09/images/senna_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin09/images/senna_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin09/sennaloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "853b240a62a8fa9a4f2c4014b69a6ba76b4eece92a3b826e7265423b58694778",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Prestige True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235009",
+        "result_label": "Prestige True Damage Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235001",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235016",
+      "riot_skin_id": 235016,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "PROJECT: Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "72c26512-82ae-4cb3-9dc8-27d806e0800c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-05-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235017,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235018,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235019,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235020,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235021,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235022,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235023,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235024,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235025,
+          "parent_skin_id": "skin:235016",
+          "name": "PROJECT: Senna (Reckoning)",
+          "colors": [
+            "#FF5500",
+            "#162B30"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/images/senna_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/images/senna_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/images/senna_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin16/sennaloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "13bed815d2bce83e5f25d9a2e66459a3f820c1d71a150401c2a2d1356220913a",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235016",
+        "result_label": "PROJECT: Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235016",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235046",
+      "riot_skin_id": 235046,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Star Guardian Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "64d795c8-1fc6-4fb4-91ca-d5c1ddd9810b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-07-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235048,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235049,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235050,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235051,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235052,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235053,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235054,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235055,
+          "parent_skin_id": "skin:235046",
+          "name": "Star Guardian Senna (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin46/images/senna_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin46/images/senna_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin46/images/senna_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin46/sennaloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c0f009bcd524c7bc239b63e1dd43b4bcd9a1f7d187aafd0d8657c5185e390a08",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235046",
+        "result_label": "Star Guardian Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235046",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235081",
+      "riot_skin_id": 235081,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "True Damage Know My Name Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 81,
+      "content_id": "36a7d6a6-fdf0-4201-89ee-af7cf7acb880",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235082,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin82/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235083,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin83/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235084,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin84/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235085,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin85/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235086,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin86/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235087,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin87/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235088,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin88/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235089,
+          "parent_skin_id": "skin:235081",
+          "name": "True Damage Know My Name Senna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin89/chromapreview.chroma_senna_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin81/images/senna_splash_centered_81.skins_senna_skin81.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin81/images/senna_splash_uncentered_81.skins_senna_skin81.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin81/images/senna_splash_tile_81.skins_senna_skin81.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin81/sennaloadscreen_81.skins_senna_skin81.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b424c2000560c224f680652c76e960f4329e3be7d2c7821ac234ad48020100d7",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "True Damage Know My Name",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235081",
+        "result_label": "True Damage Know My Name Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235081",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235001",
+      "riot_skin_id": 235001,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "True Damage Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "5121be1f-4963-4ef9-994c-0476a43c319f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235002,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Freestyle)",
+          "colors": [
+            "#BD1357",
+            "#19182A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235003,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235004,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235005,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235006,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235007,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235008,
+          "parent_skin_id": "skin:235001",
+          "name": "True Damage Senna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin01/images/senna_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin01/images/senna_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin01/images/senna_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin01/sennaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3d9f282fbc82d8e4a7ac31e8861c09edbee7df27286ef569c4cac6f633b76ffe",
+        "biography_word_count": 69,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235001",
+        "result_label": "True Damage Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235001",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235072",
+      "riot_skin_id": 235072,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Warhound Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 72,
+      "content_id": "88c0ad18-d066-4b00-9e0d-7205de5e8397",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-03-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        228
+      ],
+      "wiki_sets": [
+        "Warhounds"
+      ],
+      "universe_ids": [
+        "universe:howling-road"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235073,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235074,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235075,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235076,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235077,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235078,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235079,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235080,
+          "parent_skin_id": "skin:235072",
+          "name": "Warhound Senna (Fearless Fang)",
+          "colors": [
+            "#FF5500",
+            "#550000"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin72/images/senna_splash_centered_72.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin72/images/senna_splash_uncentered_72.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin72/images/senna_splash_tile_72.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin72/sennaloadscreen_72.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b0c59619ee67dbe53f1a94b43ae78fe9b5e9744d5cffb2e91230c76fb6fa2ae1",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Warhound",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235072",
+        "result_label": "Warhound Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235072",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:235056",
+      "riot_skin_id": 235056,
+      "champion_id": "Senna",
+      "champion_riot_id": 235,
+      "champion_name": "Senna",
+      "name": "Winterblessed Senna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 56,
+      "content_id": "7290529e-1a83-4fa5-b636-48f8a496dce7",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2023-12-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        187
+      ],
+      "wiki_sets": [
+        "Winterblessed"
+      ],
+      "universe_ids": [
+        "universe:tales-of-borealis"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 235057,
+          "parent_skin_id": "skin:235056",
+          "name": "Winterblessed Senna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235058,
+          "parent_skin_id": "skin:235056",
+          "name": "Winterblessed Senna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235059,
+          "parent_skin_id": "skin:235056",
+          "name": "Winterblessed Senna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235060,
+          "parent_skin_id": "skin:235056",
+          "name": "Winterblessed Senna (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235061,
+          "parent_skin_id": "skin:235056",
+          "name": "Winterblessed Senna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 235062,
+          "parent_skin_id": "skin:235056",
+          "name": "Winterblessed Senna (Wreathguard)",
+          "colors": [
+            "#BF2020",
+            "#368B25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin56/images/senna_splash_centered_56.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin56/images/senna_splash_uncentered_56.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin56/images/senna_splash_tile_56.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/senna/skins/skin56/sennaloadscreen_56.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "afecf57b6dc9c1d39768d191819efdb30c5190015d39c01316d456ea9c6fff7a",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Senna",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Senna",
+          "skin": "Winterblessed",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Senna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:235056",
+        "result_label": "Winterblessed Senna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:235056",
+        "champion_profile_ref": "data/champions/Senna.json",
+        "gameplay_profile_ref": "data/champions/Senna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Senna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

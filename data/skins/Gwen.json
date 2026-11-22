@@ -1,0 +1,1179 @@
+{
+  "champion_id": "Gwen",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887000",
+      "riot_skin_id": 887000,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Gwen",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "5819f347-23eb-413f-902b-24b69a0e92c8",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2021-04-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/base/images/gwen_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/base/images/gwen_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/base/images/gwen_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/base/gwenloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f446bf20e32c7edb09ee4d31f2fb8fad96ef03bc89abd29d93a9bdc80ebdc0e8",
+        "biography_word_count": 77,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887000",
+        "result_label": "Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887000",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887030",
+      "riot_skin_id": 887030,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Battle Queen Gwen",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 30,
+      "content_id": "e5a01edc-b36b-469b-8520-9092597139e2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-08-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        137
+      ],
+      "wiki_sets": [
+        "Battle Queens"
+      ],
+      "universe_ids": [
+        "universe:battle-queens"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 887031,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887032,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887033,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887034,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887035,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887036,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887037,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887038,
+          "parent_skin_id": "skin:887030",
+          "name": "Battle Queen Gwen (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin30/images/gwen_splash_centered_30.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin30/images/gwen_splash_uncentered_30.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin30/images/gwen_splash_tile_30.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin30/gwenloadscreen_30.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9265f8149b849d700b53fc481cec3d3fde5acd4887ddd3dd7d28a01ebc6a2e02",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Gwen",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Battle Queen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887030",
+        "result_label": "Battle Queen Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887030",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887011",
+      "riot_skin_id": 887011,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Cafe Cuties Gwen",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "eda85149-8565-40d7-977b-00683e9d65c8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-12-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        153
+      ],
+      "wiki_sets": [
+        "Cafe Cuties"
+      ],
+      "universe_ids": [
+        "universe:cafe-cuties"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 887012,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887013,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887014,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887015,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887016,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887017,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887018,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887019,
+          "parent_skin_id": "skin:887011",
+          "name": "Cafe Cuties Gwen (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin11/images/gwen_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin11/images/gwen_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin11/images/gwen_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin11/gwenloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c139c64fbb3be3dd437aae405062bcd2642ba18f29ea3aec4bfc772dd9f98354",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Gwen",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Cafe Cuties",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887011",
+        "result_label": "Cafe Cuties Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887011",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887048",
+      "riot_skin_id": 887048,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Faerie Court Gwen",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 48,
+      "content_id": "2a2018e6-cfe7-4cc5-8c4d-45d521b892ff",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-08-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        191
+      ],
+      "wiki_sets": [
+        "Faerie Court"
+      ],
+      "universe_ids": [
+        "universe:winged-reign"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 887049,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887049.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887050,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887050.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887051,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887051.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887052,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887052.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887053,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887053.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887054,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887054.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887055,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887055.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887056,
+          "parent_skin_id": "skin:887048",
+          "name": "Faerie Court Gwen (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/887/887056.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin48/images/gwen_splash_centered_48.skins_gwen_skin48.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin48/images/gwen_splash_uncentered_48.skins_gwen_skin48.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin48/images/gwen_splash_tile_48.skins_gwen_skin48.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin48/gwenloadscreen_48.skins_gwen_skin48.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "25c33cf5e037b223a01192c1d4950d8aa3d965eb5400bdcfa63d6da0f1bfb1e3",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Gwen",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Faerie Court",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887048",
+        "result_label": "Faerie Court Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887048",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887039",
+      "riot_skin_id": 887039,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Rain Shepherd Gwen",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 39,
+      "content_id": "abdf025a-0fcb-4939-9f7f-6da24554f7ca",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-11-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        205
+      ],
+      "wiki_sets": [
+        "Rain Shepherd"
+      ],
+      "universe_ids": [
+        "universe:rain-shepherd"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 887040,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887041,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887042,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887043,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887044,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887045,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887046,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887047,
+          "parent_skin_id": "skin:887039",
+          "name": "Rain Shepherd Gwen (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin39/images/gwen_splash_centered_39.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin39/images/gwen_splash_uncentered_39.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin39/images/gwen_splash_tile_39.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin39/gwenloadscreen_39.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ba8ea31a2119141a4391b5725249330ced4001c1e7be6133d22fdee44fa8f953",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Gwen",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Rain Shepherd",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887039",
+        "result_label": "Rain Shepherd Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887039",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887020",
+      "riot_skin_id": 887020,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Soul Fighter Gwen",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "a704c25e-cc2d-408f-9762-4fdd83b04b07",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        196
+      ],
+      "wiki_sets": [
+        "Soul Fighter"
+      ],
+      "universe_ids": [
+        "universe:soul-fighter"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 887021,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887022,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887023,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887024,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887025,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887026,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887027,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887028,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887029,
+          "parent_skin_id": "skin:887020",
+          "name": "Soul Fighter Gwen (Limitless)",
+          "colors": [
+            "#C8D0CE",
+            "#AF65D1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin20/images/gwen_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin20/images/gwen_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin20/images/gwen_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin20/gwenloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ab40d94af5874481744605b17917c89e242dbd5627b34ed9e89626a4a8e1dd01",
+        "biography_word_count": 66,
+        "source_id": "skins:client:Gwen",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Soul Fighter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887020",
+        "result_label": "Soul Fighter Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887020",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:887001",
+      "riot_skin_id": 887001,
+      "champion_id": "Gwen",
+      "champion_riot_id": 887,
+      "champion_name": "Gwen",
+      "name": "Space Groove Gwen",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "d77d2959-0755-44c0-94b0-330a0f02d69a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-04-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        144
+      ],
+      "wiki_sets": [
+        "Space Groove"
+      ],
+      "universe_ids": [
+        "universe:space-groove"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 887002,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887003,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887004,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887005,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887006,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887007,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887008,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887009,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Disco)",
+          "colors": [
+            "#9DFFEF",
+            "#AA55FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 887010,
+          "parent_skin_id": "skin:887001",
+          "name": "Space Groove Gwen (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin01/images/gwen_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin01/images/gwen_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin01/images/gwen_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gwen/skins/skin01/gwenloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cc9e09be4d699a15104b34aadae049a67b6fa400421d3e40de9e97e6eb223cad",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Gwen",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Gwen",
+          "skin": "Space Groove",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gwen/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:887001",
+        "result_label": "Space Groove Gwen",
+        "label_eligible": true,
+        "narrative_family_id": "skin:887001",
+        "champion_profile_ref": "data/champions/Gwen.json",
+        "gameplay_profile_ref": "data/champions/Gwen.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gwen",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

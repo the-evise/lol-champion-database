@@ -1,0 +1,1735 @@
+{
+  "champion_id": "Malphite",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54000",
+      "riot_skin_id": 54000,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Malphite",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "bcaf6aa8-aef3-4e7d-a56a-84aeadd92dc7",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-09-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/base/images/malphite_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/base/images/malphite_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/base/images/malphite_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/base/malphiteloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d250edf8ad6d30275c2f9690069087e936b281077a36e4ec0f00d5ac0a5ed6b7",
+        "biography_word_count": 80,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54000",
+        "result_label": "Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54000",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54002",
+      "riot_skin_id": 54002,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Coral Reef Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "7ff04792-f26e-4589-b3e8-f77cd5b22e11",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-11-08",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        108
+      ],
+      "wiki_sets": [
+        "Forgotten Depths"
+      ],
+      "universe_ids": [
+        "universe:forgotten-depths"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin02/images/malphite_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin02/images/malphite_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin02/images/malphite_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin02/malphiteloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "773d64db9cdd5aab2ef5ad6467169c2aeac20d804544bbe90fdcf403ea4884e3",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Coral Reef",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54002",
+        "result_label": "Coral Reef Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54002",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54023",
+      "riot_skin_id": 54023,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Dark Star Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 23,
+      "content_id": "dd989633-807d-4c5f-85dc-43cafde04e43",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-03-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin23/images/malphite_splash_centered_23.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin23/images/malphite_splash_uncentered_23.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin23/images/malphite_splash_tile_23.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin23/malphiteloadscreen_23.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6bd03c301876ab7155072e6f635f1e09585d69931daac7bfac1a1bbc4b2bb7f6",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54023",
+        "result_label": "Dark Star Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54023",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54025",
+      "riot_skin_id": 54025,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "FPX Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 25,
+      "content_id": "0ea0e7df-139f-4a46-97c5-e0cf0a856212",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2020-04-30",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        130
+      ],
+      "wiki_sets": [
+        "World Champions: 2019"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 54026,
+          "parent_skin_id": "skin:54025",
+          "name": "FPX Malphite (Elite)",
+          "colors": [
+            "#0C0C0F",
+            "#9B1520"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54047,
+          "parent_skin_id": "skin:54025",
+          "name": "FPX Malphite (Tenfold Triumph)",
+          "colors": [
+            "#FF1515",
+            "#E8CD6B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin25/images/malphite_splash_centered_25.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin25/images/malphite_splash_uncentered_25.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin25/images/malphite_splash_tile_25.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin25/malphiteloadscreen_25.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "41dcb89c974f0e0614c54e215cf844a8a7f2e6437e130faca8c22cbfd1601776",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "FPX",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54025",
+        "result_label": "FPX Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54025",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54005",
+      "riot_skin_id": 54005,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Glacial Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "3a440604-d307-4b72-93a7-ff3d35c5547d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2012-07-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        112
+      ],
+      "wiki_sets": [
+        "Glacial"
+      ],
+      "universe_ids": [
+        "universe:glacial"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin05/images/malphite_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin05/images/malphite_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin05/images/malphite_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin05/malphiteloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "961ea900a1ecdf8ee81a17e554b89a4cf52df9dcbd5983f950ff2f430f50e225",
+        "biography_word_count": 3,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Glacial",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54005",
+        "result_label": "Glacial Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54005",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54007",
+      "riot_skin_id": 54007,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Ironside Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "6cb2a39d-e0ea-498a-852d-26b2d8ecaf91",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-10-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        49
+      ],
+      "wiki_sets": [
+        "Bilgewater: Burning Tides"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin07/images/malphite_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin07/images/malphite_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin07/images/malphite_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin07/malphiteloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "486ee59c21094ecc41bf93374565d18cfd69e3ba94b610f790f1897abb0e2b0e",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Ironside",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54007",
+        "result_label": "Ironside Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54007",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54037",
+      "riot_skin_id": 54037,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Lunar Guardian Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "05bd3544-9513-4cb1-863d-51de322a9a59",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-01-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        55
+      ],
+      "wiki_sets": [
+        "Lunar Revel"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 54038,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54039,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54040,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54041,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54042,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54043,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54044,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54045,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54046,
+          "parent_skin_id": "skin:54037",
+          "name": "Lunar Guardian Malphite (Resplendent)",
+          "colors": [
+            "#3766D5",
+            "#C6EB6E"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin37/images/malphite_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin37/images/malphite_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin37/images/malphite_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin37/malphiteloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8d93c90da74dfc8ac6016af44402845d282c0838f1880627c6c06bdbe3311c91",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Lunar Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54037",
+        "result_label": "Lunar Guardian Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54037",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54003",
+      "riot_skin_id": 54003,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Marble Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "030b77a3-8563-48d8-b9af-3dc756e54b71",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-03-21",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin03/images/malphite_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin03/images/malphite_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin03/images/malphite_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin03/malphiteloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54003",
+        "result_label": "Marble Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54003",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54006",
+      "riot_skin_id": 54006,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Mecha Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "bb54155d-e9e2-430a-80ad-695ca43cb0dd",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2014-07-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        35
+      ],
+      "wiki_sets": [
+        "Mecha"
+      ],
+      "universe_ids": [
+        "universe:mecha"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 54008,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54009,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54010,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54011,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54012,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54013,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54014,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54015,
+          "parent_skin_id": "skin:54006",
+          "name": "Mecha Malphite (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin06/images/malphite_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin06/images/malphite_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin06/images/malphite_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin06/malphiteloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "426d6270abdfd874015159b515e41180e4e8914fc05bcb890ade943649b66a0c",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Mecha",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54006",
+        "result_label": "Mecha Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54006",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54004",
+      "riot_skin_id": 54004,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Obsidian Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "e19aa7f9-6e24-4dfb-80a0-29c1807f6d93",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-08-15",
+      "retired_date": "2015-08-29",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin04/images/malphite_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin04/images/malphite_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin04/images/malphite_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin04/malphiteloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "61b30b028ae2c2768f7e75b1e4cdb7b4f6dc171520acbb0ad9f27908a6a877fa",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Obsidian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54004",
+        "result_label": "Obsidian Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54004",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54016",
+      "riot_skin_id": 54016,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Odyssey Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "99f7d4a5-61b6-4b53-945b-6bb0869b4474",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        73
+      ],
+      "wiki_sets": [
+        "Odyssey"
+      ],
+      "universe_ids": [
+        "universe:odyssey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 54017,
+          "parent_skin_id": "skin:54016",
+          "name": "Odyssey Malphite (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54018,
+          "parent_skin_id": "skin:54016",
+          "name": "Odyssey Malphite (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54019,
+          "parent_skin_id": "skin:54016",
+          "name": "Odyssey Malphite (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54020,
+          "parent_skin_id": "skin:54016",
+          "name": "Odyssey Malphite (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54021,
+          "parent_skin_id": "skin:54016",
+          "name": "Odyssey Malphite (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54022,
+          "parent_skin_id": "skin:54016",
+          "name": "Odyssey Malphite (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin16/images/malphite_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin16/images/malphite_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin16/images/malphite_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin16/malphiteloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ec87c12039ba72fb096c526e18cf381235c37a9014fff69284f934e9e1e964c7",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Odyssey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54016",
+        "result_label": "Odyssey Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54016",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54027",
+      "riot_skin_id": 54027,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Old God Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "abee7872-1d73-4e0e-ab7b-6e7a07b5f1f7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-08-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 54028,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54029,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54030,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54031,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54032,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54033,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54034,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54035,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54036,
+          "parent_skin_id": "skin:54027",
+          "name": "Old God Malphite (Dark Ritual)",
+          "colors": [
+            "#162B30",
+            "#8E0A38"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin27/images/malphite_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin27/images/malphite_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin27/images/malphite_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin27/malphiteloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "857d19e3651a93b021faec8791919fbbb3668fb9f8cea755da78388ed985f008",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Old God",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54027",
+        "result_label": "Old God Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54027",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54048",
+      "riot_skin_id": 54048,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Pool Party Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 48,
+      "content_id": "8a14e0fe-f225-488f-8c42-2d74726c5217",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-04-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        15
+      ],
+      "wiki_sets": [
+        "Pool Party"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 54049,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54050,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54051,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54052,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54053,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54054,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54055,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 54056,
+          "parent_skin_id": "skin:54048",
+          "name": "Pool Party Malphite (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin48/images/malphite_splash_centered_48.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin48/images/malphite_splash_uncentered_48.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin48/images/malphite_splash_tile_48.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin48/malphiteloadscreen_48.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "71a9797dfe3298df75edbf12df936452356cb3180282b99bfe1981f967e7e683",
+        "biography_word_count": 10,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Pool Party",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54048",
+        "result_label": "Pool Party Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54048",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54024",
+      "riot_skin_id": 54024,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Prestige Dark Star Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "68ed3abe-9bc4-47bc-a977-d2d43b44bfcf",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2020-03-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": "skin:54023",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin24/images/malphite_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin24/images/malphite_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin24/images/malphite_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin24/malphiteloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0e3152f9a4c17a32ccb01ff62eafafe94eb836642b159ecf16a084e0d2904781",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Prestige Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54024",
+        "result_label": "Prestige Dark Star Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54023",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:54001",
+      "riot_skin_id": 54001,
+      "champion_id": "Malphite",
+      "champion_riot_id": 54,
+      "champion_name": "Malphite",
+      "name": "Shamrock Malphite",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "e16fe434-527e-4e56-a597-3439518e85ab",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-03-16",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin01/images/malphite_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin01/images/malphite_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin01/images/malphite_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/malphite/skins/skin01/malphiteloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "40c984c7d52d0c3b65fe4cc2468b750809dded361d6229f138c20da2aa0fcae6",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Malphite",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Malphite",
+          "skin": "Shamrock",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Malphite/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:54001",
+        "result_label": "Shamrock Malphite",
+        "label_eligible": true,
+        "narrative_family_id": "skin:54001",
+        "champion_profile_ref": "data/champions/Malphite.json",
+        "gameplay_profile_ref": "data/champions/Malphite.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Malphite",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

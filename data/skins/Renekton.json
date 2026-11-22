@@ -1,0 +1,1801 @@
+{
+  "champion_id": "Renekton",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58000",
+      "riot_skin_id": 58000,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Renekton",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "bdfc28a8-b7ad-439a-8de0-09a2fb9ae40e",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-01-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/base/images/renekton_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/base/images/renekton_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/base/images/renekton_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/base/renektonloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b0e75aaddf0ecbf9bc13962cdfae6ab6cc33180489a59631a96a8f7f3bd0ce2",
+        "biography_word_count": 79,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58000",
+        "result_label": "Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58000",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58018",
+      "riot_skin_id": 58018,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Blackfrost Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "6df1e5a8-a480-4184-9ee0-a63ca3d17e4c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-03-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        129
+      ],
+      "wiki_sets": [
+        "Blackfrost"
+      ],
+      "universe_ids": [
+        "universe:blackfrost"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 58019,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58020,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58021,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58022,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58023,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58024,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58025,
+          "parent_skin_id": "skin:58018",
+          "name": "Blackfrost Renekton (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin18/images/renekton_splash_centered_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin18/images/renekton_splash_uncentered_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin18/images/renekton_splash_tile_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin18/renektonloadscreen_18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f71b9fa22486c5641194d9138efd1d13cc6b4e9ab19616e1349e5a1efc577b65",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Blackfrost",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58018",
+        "result_label": "Blackfrost Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58018",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58003",
+      "riot_skin_id": 58003,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Bloodfury Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "4ce80d01-4427-44a0-81d0-611f77e4c8ca",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-07-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        126
+      ],
+      "wiki_sets": [
+        "Bloodstone"
+      ],
+      "universe_ids": [
+        "universe:bloodstone"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin03/images/renekton_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin03/images/renekton_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin03/images/renekton_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin03/renektonloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "33113872d4874744cae0b804c313cbb4f8891187fd536bc0e221304b9c7f7bd2",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Bloodfury",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58003",
+        "result_label": "Bloodfury Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58003",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58033",
+      "riot_skin_id": 58033,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Dawnbringer Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 33,
+      "content_id": "07cbefcd-9797-4ea8-9995-ff0596e77ed7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-04-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 58034,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58035,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58036,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58037,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58038,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58039,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58040,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58041,
+          "parent_skin_id": "skin:58033",
+          "name": "Dawnbringer Renekton (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin33/images/renekton_splash_centered_33.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin33/images/renekton_splash_uncentered_33.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin33/images/renekton_splash_tile_33.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin33/renektonloadscreen_33.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7fd7aa4df5053241fbcc84f03d3b948b56310892abcdb46dfba7495a4475ef31",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Dawnbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58033",
+        "result_label": "Dawnbringer Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58033",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58001",
+      "riot_skin_id": 58001,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Galactic Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "c9b23225-ea3a-418a-b0fc-c4db328f2a85",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-01-18",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        136
+      ],
+      "wiki_sets": [
+        "Galactic"
+      ],
+      "universe_ids": [
+        "universe:galactic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin01/images/renekton_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin01/images/renekton_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin01/images/renekton_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin01/renektonloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58001",
+        "result_label": "Galactic Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58001",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58017",
+      "riot_skin_id": 58017,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Hextech Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "fba0f0e7-78c8-49aa-b797-41429dd6dd9e",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2018-12-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin17/images/renekton_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin17/images/renekton_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin17/images/renekton_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin17/renektonloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5edec6dcaa7525576ee6851bfcdec4c54bc61a7dc904ce329fbe9feb1a7c8bdd",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58017",
+        "result_label": "Hextech Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58017",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58048",
+      "riot_skin_id": 58048,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Inkshadow Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 48,
+      "content_id": "c629f872-8c24-48c0-b5e3-e5ed090eca45",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-06-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 58049,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58050,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58051,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58052,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58053,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58054,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58055,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58056,
+          "parent_skin_id": "skin:58048",
+          "name": "Inkshadow Renekton (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin48/images/renekton_splash_centered_48.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin48/images/renekton_splash_uncentered_48.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin48/images/renekton_splash_tile_48.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin48/renektonloadscreen_48.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1496c690129c443aacafd628a9f0a1a818fdbee7e690c8886b76414e622dc875",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58048",
+        "result_label": "Inkshadow Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58048",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58002",
+      "riot_skin_id": 58002,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Outback Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "382b165c-6e15-472e-952e-87a6bd022346",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-01-18",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin02/images/renekton_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin02/images/renekton_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin02/images/renekton_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin02/renektonloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6b236a88c7adcb6c9a21b69a232fab38b8c1694506c0f1a5255f8965eab25504",
+        "biography_word_count": 4,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Outback",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58002",
+        "result_label": "Outback Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58002",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58006",
+      "riot_skin_id": 58006,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Pool Party Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "69483bf7-986c-494e-ad33-8e4de32be944",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-09-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        15
+      ],
+      "wiki_sets": [
+        "Pool Party"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin06/images/renekton_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin06/images/renekton_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin06/images/renekton_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin06/renektonloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9bfe86d45e9682780d2e9b8d0d3353ad3e8c4d437365152a42426f8051b0086e",
+        "biography_word_count": 17,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Pool Party",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58006",
+        "result_label": "Pool Party Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58006",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58007",
+      "riot_skin_id": 58007,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Prehistoric Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "d393e071-ca49-4d7b-a65f-ee0d34dce6b2",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        32
+      ],
+      "wiki_sets": [
+        "Prehistoric Hunters"
+      ],
+      "universe_ids": [
+        "universe:prehistoric-hunters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin07/images/renekton_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin07/images/renekton_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin07/images/renekton_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin07/renektonloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a46f010003bf209a0184242e7d1a694db6f3c9fb8442c0681451a9d23e41bbf9",
+        "biography_word_count": 35,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Prehistoric",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58007",
+        "result_label": "Prehistoric Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58007",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58026",
+      "riot_skin_id": 58026,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "PROJECT: Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "37e08350-d6cd-448b-a623-851b41b4b8bf",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2021-05-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 58027,
+          "parent_skin_id": "skin:58026",
+          "name": "PROJECT: Renekton (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58028,
+          "parent_skin_id": "skin:58026",
+          "name": "PROJECT: Renekton (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58029,
+          "parent_skin_id": "skin:58026",
+          "name": "PROJECT: Renekton (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58030,
+          "parent_skin_id": "skin:58026",
+          "name": "PROJECT: Renekton (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58031,
+          "parent_skin_id": "skin:58026",
+          "name": "PROJECT: Renekton (Reckoning)",
+          "colors": [
+            "#FF5500",
+            "#162B30"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58032,
+          "parent_skin_id": "skin:58026",
+          "name": "PROJECT: Renekton (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin26/images/renekton_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin26/images/renekton_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin26/images/renekton_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin26/renektonloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0a25e1f3ab447a75f646c1e990a8b8808da4b72837c4121e76c1814c788bbabe",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58026",
+        "result_label": "PROJECT: Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58026",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58009",
+      "riot_skin_id": 58009,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Renektoy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "3629369b-d668-4275-90b9-338233256180",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2017-03-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        61
+      ],
+      "wiki_sets": [
+        "Toy Box"
+      ],
+      "universe_ids": [
+        "universe:toy-box"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 58010,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58011,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58012,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58013,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58014,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58015,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58016,
+          "parent_skin_id": "skin:58009",
+          "name": "Renektoy (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin09/images/renekton_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin09/images/renekton_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin09/images/renekton_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin09/renektonloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "188b2e34dda47b6544a4d27971dfcc0dc1e0ea7f3f287ba92c23b810a9890bfc",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Renektoy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58009",
+        "result_label": "Renektoy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58009",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58004",
+      "riot_skin_id": 58004,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Rune Wars Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "59df6ada-06a1-4a94-8038-fd144853d5d6",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2012-04-30",
+      "retired_date": "2015-08-29",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        180
+      ],
+      "wiki_sets": [
+        "Otherroads"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin04/images/renekton_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin04/images/renekton_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin04/images/renekton_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin04/renektonloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58004",
+        "result_label": "Rune Wars Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58004",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58005",
+      "riot_skin_id": 58005,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Scorched Earth Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "733a68c7-c9b2-49fa-ae90-c6174774764e",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-02-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin05/images/renekton_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin05/images/renekton_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin05/images/renekton_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin05/renektonloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d078ac3526cd9bffeb9dd99fa75f06c981d664c82c1e491b158d427a4ee64e7e",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Scorched Earth",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58005",
+        "result_label": "Scorched Earth Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58005",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58008",
+      "riot_skin_id": 58008,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "SKT T1 Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "b5fe5d2d-6838-45da-8a4a-10222b85895b",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2016-08-17",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        5
+      ],
+      "wiki_sets": [
+        "World Champions: 2015"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin08/images/renekton_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin08/images/renekton_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin08/images/renekton_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin08/renektonloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b300ac868d9fbdd87981ee214cccec85ce5922ff7f7cd20cde106be6b9e96d29",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58008",
+        "result_label": "SKT T1 Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58008",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:58042",
+      "riot_skin_id": 58042,
+      "champion_id": "Renekton",
+      "champion_riot_id": 58,
+      "champion_name": "Renekton",
+      "name": "Worlds 2023 Renekton",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 42,
+      "content_id": "0c4fb178-0622-4ffe-8759-0277ffe9a5f5",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2023-10-11",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 58043,
+          "parent_skin_id": "skin:58042",
+          "name": "Worlds 2023 Renekton (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58044,
+          "parent_skin_id": "skin:58042",
+          "name": "Worlds 2023 Renekton (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58045,
+          "parent_skin_id": "skin:58042",
+          "name": "Worlds 2023 Renekton (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58046,
+          "parent_skin_id": "skin:58042",
+          "name": "Worlds 2023 Renekton (Unlocked)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 58047,
+          "parent_skin_id": "skin:58042",
+          "name": "Worlds 2023 Renekton (Destined)",
+          "colors": [
+            "#BF15C5",
+            "#0C2CBD"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin42/images/renekton_splash_centered_42.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin42/images/renekton_splash_uncentered_42.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin42/images/renekton_splash_tile_42.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/renekton/skins/skin42/renektonloadscreen_42.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0d963d0d14cb56cda655c172dcf095e9f0898da47974c02ceda6be3054a4195d",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Renekton",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Renekton",
+          "skin": "Worlds 2023",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Renekton/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:58042",
+        "result_label": "Worlds 2023 Renekton",
+        "label_eligible": true,
+        "narrative_family_id": "skin:58042",
+        "champion_profile_ref": "data/champions/Renekton.json",
+        "gameplay_profile_ref": "data/champions/Renekton.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Renekton",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1817 @@
+{
+  "champion_id": "Zyra",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143000",
+      "riot_skin_id": 143000,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Zyra",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "45cf47b4-2549-423b-9c13-32fd10980bfc",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-07-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/base/images/zyra_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/base/images/zyra_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/base/images/zyra_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/base/zyraloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "263826422d0a99df6d85c71a1192a893b50fc7e26985f1c309984d25fd6b595b",
+        "biography_word_count": 79,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143000",
+        "result_label": "Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143000",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143055",
+      "riot_skin_id": 143055,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Blood Moon Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 55,
+      "content_id": "e3d89809-6633-4073-b881-033a263b8a31",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-04-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143056,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143057,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143058,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143059,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143060,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143061,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143062,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143063,
+          "parent_skin_id": "skin:143055",
+          "name": "Blood Moon Zyra (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin55/images/zyra_splash_centered_55.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin55/images/zyra_splash_uncentered_55.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin55/images/zyra_splash_tile_55.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin55/zyraloadscreen_55.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dd950ba44ac0756e1f74d80e4d1a1dc6623c632ec554f8ef1656db76066403b0",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143055",
+        "result_label": "Blood Moon Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143055",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143005",
+      "riot_skin_id": 143005,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Coven Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "628f936d-b1dc-4d9f-9397-5fb98094d27b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-04-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143017,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143018,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143019,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143020,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143021,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143022,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143023,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143024,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143025,
+          "parent_skin_id": "skin:143005",
+          "name": "Coven Zyra (Dark Ritual)",
+          "colors": [
+            "#162B30",
+            "#8E0A38"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin05/images/zyra_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin05/images/zyra_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin05/images/zyra_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin05/zyraloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8af879934abc109a13fcaebf7c490f29436404353e6e0087e4b56efc764c4bb2",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143005",
+        "result_label": "Coven Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143005",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143016",
+      "riot_skin_id": 143016,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Crime City Nightmare Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "48bad858-9fee-46c0-b91b-b1a7cb8ed05e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-08-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        149
+      ],
+      "wiki_sets": [
+        "Crime City Nightmare"
+      ],
+      "universe_ids": [
+        "universe:crime-city-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143026,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143027,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143028,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143029,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143030,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143031,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143032,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143033,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143034,
+          "parent_skin_id": "skin:143016",
+          "name": "Crime City Nightmare Zyra (Underground)",
+          "colors": [
+            "#181121",
+            "#53022D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin16/images/zyra_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin16/images/zyra_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin16/images/zyra_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin16/zyraloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6de9753a68b4b7275c4d5955c35db474b8a0458e4904a0112b97537d3cec432b",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Crime City Nightmare",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143016",
+        "result_label": "Crime City Nightmare Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143016",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143007",
+      "riot_skin_id": 143007,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Crystal Rose Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "6d86df99-034d-46cb-8e46-bca1df07c92a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-02-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        140
+      ],
+      "wiki_sets": [
+        "Crystal Rose"
+      ],
+      "universe_ids": [
+        "universe:crystal-rose"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143008,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143009,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143010,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143011,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143012,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143013,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143014,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143015,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143035,
+          "parent_skin_id": "skin:143007",
+          "name": "Crystal Rose Zyra (Tiffany & Co.)",
+          "colors": [
+            "#6ECFCC",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin07/images/zyra_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin07/images/zyra_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin07/images/zyra_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin07/zyraloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e19464dc90b415973f564b84253924cf7190f42a39287bd1222eb6028ef20c78",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Crystal Rose",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143007",
+        "result_label": "Crystal Rose Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143007",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143004",
+      "riot_skin_id": 143004,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Dragon Sorceress Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "9c339ca8-5982-46e2-ada0-fd84529c199a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-03-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin04/images/zyra_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin04/images/zyra_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin04/images/zyra_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin04/zyraloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8a1d5a87d0c6a8419506aa18bedd990ea4a70c8b76c1729f6393a99245729828",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Dragon Sorceress",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143004",
+        "result_label": "Dragon Sorceress Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143004",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143002",
+      "riot_skin_id": 143002,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Haunted Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "12e2b7a7-40b9-4782-bb23-01b325bcf78a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2013-10-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        88
+      ],
+      "wiki_sets": [
+        "Trick-or-Treat"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin02/images/zyra_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin02/images/zyra_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin02/images/zyra_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin02/zyraloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "816330ff586cfa9b24a1ff50f107061ed58d57c30640ca1f15f677330fd1641a",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Haunted",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143002",
+        "result_label": "Haunted Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143002",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143036",
+      "riot_skin_id": 143036,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Mythmaker Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 36,
+      "content_id": "02fbff3a-35c5-439c-befe-7c6349a4c4ec",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2023-01-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        188
+      ],
+      "wiki_sets": [
+        "Mythmaker"
+      ],
+      "universe_ids": [
+        "universe:storycraft"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143037,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143038,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143039,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143040,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143041,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143042,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143043,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143044,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143045,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Gilded)",
+          "colors": [
+            "#181818",
+            "#DDAA0E"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143065,
+          "parent_skin_id": "skin:143036",
+          "name": "Mythmaker Zyra (Paragon)",
+          "colors": [
+            "#474AF7",
+            "#BCD6EF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin36/images/zyra_splash_centered_36.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin36/images/zyra_splash_uncentered_36.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin36/images/zyra_splash_tile_36.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin36/zyraloadscreen_36.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2fc3381fdac6c64a431589e7051bcd65e4c04f1588a84482f632f4156bc162c8",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Mythmaker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143036",
+        "result_label": "Mythmaker Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143036",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143006",
+      "riot_skin_id": 143006,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Prestige Coven Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "a2d57756-c43a-46bf-a89f-36c6610b647a",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2020-04-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": "skin:143005",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin06/images/zyra_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin06/images/zyra_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin06/images/zyra_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin06/zyraloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "594a6bc3edd9c7b550ff7283626da65e1709f20572e224ae3dd0a02e8bfe6f07",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Prestige Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143006",
+        "result_label": "Prestige Coven Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143005",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143003",
+      "riot_skin_id": 143003,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "SKT T1 Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "39284bfb-043b-444c-9331-3bdac1ff2ad5",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-05-04",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        3
+      ],
+      "wiki_sets": [
+        "World Champions: 2013"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143074,
+          "parent_skin_id": "skin:143003",
+          "name": "SKT T1 Zyra (Elite)",
+          "colors": [
+            "#872127",
+            "#2C232C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin74/chromapreview.chroma_zyra_sktt1.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin03/images/zyra_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin03/images/zyra_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin03/images/zyra_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin03/zyraloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fe7fd4908b9009b99e4ae0646204f190d6ba751642614fde1bea4c547150bc41",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143003",
+        "result_label": "SKT T1 Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143003",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143064",
+      "riot_skin_id": 143064,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Spirit Blossom Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 64,
+      "content_id": "4653c959-14e6-4753-b64d-c0a74adca7e9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-04-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143066,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143067,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143068,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143069,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143070,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143071,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143072,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143073,
+          "parent_skin_id": "skin:143064",
+          "name": "Spirit Blossom Zyra (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin64/images/zyra_splash_centered_64.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin64/images/zyra_splash_uncentered_64.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin64/images/zyra_splash_tile_64.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin64/zyraloadscreen_64.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4c9e4f668731675b7575e5a79f0abf7b2af0492b3c973b64bd57c4147fbefa66",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143064",
+        "result_label": "Spirit Blossom Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143064",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143046",
+      "riot_skin_id": 143046,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Street Demons Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "68d9824f-0695-4281-88c3-642dc0a5e521",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-09-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        197
+      ],
+      "wiki_sets": [
+        "Street Demons"
+      ],
+      "universe_ids": [
+        "universe:concrete-canvas"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 143047,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143048,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143049,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143050,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143051,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143052,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143053,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 143054,
+          "parent_skin_id": "skin:143046",
+          "name": "Street Demons Zyra (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin46/images/zyra_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin46/images/zyra_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin46/images/zyra_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin46/zyraloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2c2b5268555d4a7ab893a5b83f2afa2d7686df602d9a3fc8dc3c10f465888ec5",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Street Demons",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143046",
+        "result_label": "Street Demons Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143046",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:143001",
+      "riot_skin_id": 143001,
+      "champion_id": "Zyra",
+      "champion_riot_id": 143,
+      "champion_name": "Zyra",
+      "name": "Wildfire Zyra",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "3f9455f0-67f8-42fe-b0ff-f9f1ebff1ea3",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-07-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin01/images/zyra_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin01/images/zyra_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin01/images/zyra_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zyra/skins/skin01/zyraloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3defcb622fa8864dd31b7ef76f58a2782c23f64876931f0513c8aa2e32900c4e",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Zyra",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Zyra",
+          "skin": "Wildfire",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zyra/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:143001",
+        "result_label": "Wildfire Zyra",
+        "label_eligible": true,
+        "narrative_family_id": "skin:143001",
+        "champion_profile_ref": "data/champions/Zyra.json",
+        "gameplay_profile_ref": "data/champions/Zyra.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zyra",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

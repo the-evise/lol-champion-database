@@ -1,0 +1,1484 @@
+{
+  "champion_id": "Olaf",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2000",
+      "riot_skin_id": 2000,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Olaf",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "e87e9476-eaaa-476b-931f-b5d1fede83f2",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-06-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/base/images/olaf_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/base/images/olaf_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/base/images/olaf_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/base/olafloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "15e443285cb253447c32a42b7c8cc992fba996929c865c30b6f31066864b8daf",
+        "biography_word_count": 88,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2000",
+        "result_label": "Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2000",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2003",
+      "riot_skin_id": 2003,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Brolaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "44931fcb-0311-4510-ac9b-1fc55527fb68",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2010-12-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 2007,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2008,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2009,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2010,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2011,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2012,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2013,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2014,
+          "parent_skin_id": "skin:2003",
+          "name": "Brolaf (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin03/images/olaf_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin03/images/olaf_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin03/images/olaf_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin03/olafloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1f078ace1916d05160a709d455a8fd1d09069ab3a461152daa61ef92b67dc4e3",
+        "biography_word_count": 20,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Brolaf",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2003",
+        "result_label": "Brolaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2003",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2006",
+      "riot_skin_id": 2006,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Butcher Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "43f0c696-bfb8-463a-9be1-ac9444580fb0",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-09-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        26
+      ],
+      "wiki_sets": [
+        "Culinary Masters"
+      ],
+      "universe_ids": [
+        "universe:culinary-masters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin06/images/olaf_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin06/images/olaf_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin06/images/olaf_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin06/olafloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bf44d25c96a8173c3c19dc3ff4182d19653536362e8a1b0fefa1f560c8f6d296",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Butcher",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2006",
+        "result_label": "Butcher Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2006",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2016",
+      "riot_skin_id": 2016,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Dragonslayer Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "79e5cbff-5e93-4003-a208-432d82b2336d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-01-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 2017,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2018,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2019,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2020,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2021,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2022,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2023,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2024,
+          "parent_skin_id": "skin:2016",
+          "name": "Dragonslayer Olaf (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin16/images/olaf_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin16/images/olaf_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin16/images/olaf_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin16/olafloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "76654ad52f881993d119a0810dd49bb78cf1597b098ea8738ed4822e674b74cd",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Dragonslayer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2016",
+        "result_label": "Dragonslayer Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2016",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2001",
+      "riot_skin_id": 2001,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Forsaken Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "8aa0c96d-2736-405f-b5f5-7e46c0937b14",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-08",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin01/images/olaf_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin01/images/olaf_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin01/images/olaf_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin01/olafloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2001",
+        "result_label": "Forsaken Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2001",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2002",
+      "riot_skin_id": 2002,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Glacial Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "be1051f7-45a7-47f3-9d92-b8f0e596f48f",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-08",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        112
+      ],
+      "wiki_sets": [
+        "Glacial"
+      ],
+      "universe_ids": [
+        "universe:glacial"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin02/images/olaf_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin02/images/olaf_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin02/images/olaf_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin02/olafloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f3e37686ce8f09c7eb1fc96a378de3bc96d9e33a1aad81dfc5dbe735d6f6e34b",
+        "biography_word_count": 12,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Glacial",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2002",
+        "result_label": "Glacial Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2002",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2044",
+      "riot_skin_id": 2044,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Infernal Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 44,
+      "content_id": "a104c0ce-41ab-4a8b-b7e8-1a90a272875c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-05-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 2045,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2046,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2047,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2048,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2049,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2050,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2051,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2052,
+          "parent_skin_id": "skin:2044",
+          "name": "Infernal Olaf (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin44/images/olaf_splash_centered_44.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin44/images/olaf_splash_uncentered_44.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin44/images/olaf_splash_tile_44.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin44/olafloadscreen_44.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "23adf84002a04adc9a80cfdaa870383b79a86167dcd8b4ffdbf9cda41964b49d",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Infernal",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2044",
+        "result_label": "Infernal Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2044",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2005",
+      "riot_skin_id": 2005,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Marauder Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "ee1c064d-8cf4-4aa5-a74a-75c5bf86b979",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-09-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        45
+      ],
+      "wiki_sets": [
+        "Marauder"
+      ],
+      "universe_ids": [
+        "universe:institute-of-war"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin05/images/olaf_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin05/images/olaf_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin05/images/olaf_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin05/olafloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "347833395c91d985532a0866516529afb15ea9b28c99361a0586f58ef33799f9",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Marauder",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2005",
+        "result_label": "Marauder Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2005",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2035",
+      "riot_skin_id": 2035,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Pentakill III: Lost Chapter Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 35,
+      "content_id": "d6bf7788-e9bd-40b7-8126-a5b900cd92ab",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-09-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        151
+      ],
+      "wiki_sets": [
+        "Pentakill III: The Lost Chapter"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 2036,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2037,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2038,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2039,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2040,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2041,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2042,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2043,
+          "parent_skin_id": "skin:2035",
+          "name": "Pentakill III: Lost Chapter Olaf (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin35/images/olaf_splash_centered_35.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin35/images/olaf_splash_uncentered_35.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin35/images/olaf_splash_tile_35.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin35/olafloadscreen_35.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Pentakill's later Olaf meets enemies with laughter and overwhelming percussion as Stentorus's chosen champion.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "ea3f3d49003b8013075d397292da435c79317e35b45bb530a815c2c1e37719c9",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Pentakill Lost Chapter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "audacity",
+          "devotion",
+          "intensity"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2035",
+        "result_label": "Pentakill III: Lost Chapter Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2035",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2004",
+      "riot_skin_id": 2004,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Pentakill Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "86e1d322-e456-457a-b47e-239978e01d4f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-10-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        16
+      ],
+      "wiki_sets": [
+        "Pentakill"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin04/images/olaf_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin04/images/olaf_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin04/images/olaf_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin04/olafloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Olaf contributes aggressive drumming to Pentakill, combining rhythmic skill with his violent warrior persona.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "d99e985d220c635d733a032a44248a2302217c33d67a8bf1daebcb348c116af5",
+        "biography_word_count": 25,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Pentakill",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "intensity",
+          "performance",
+          "violence"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2004",
+        "result_label": "Pentakill Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2004",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2025",
+      "riot_skin_id": 2025,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "Sentinel Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 25,
+      "content_id": "245dd1ee-8c60-41a2-8227-a5b425acb506",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-07-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        147
+      ],
+      "wiki_sets": [
+        "Sentinels of Light"
+      ],
+      "universe_ids": [
+        "universe:the-ruined-king-saga"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 2026,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2027,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2028,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2029,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2030,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2031,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2032,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2033,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 2034,
+          "parent_skin_id": "skin:2025",
+          "name": "Sentinel Olaf (Resolute)",
+          "colors": [
+            "#080808",
+            "#8E0A38"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/images/olaf_splash_centered_25.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/images/olaf_splash_uncentered_25.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/images/olaf_splash_tile_25.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin25/olafloadscreen_25.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "62301520443d4b4917262f37f3c977a22b2b9a01cd1e57b91be648926948de0f",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "Sentinel",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2025",
+        "result_label": "Sentinel Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2025",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:2015",
+      "riot_skin_id": 2015,
+      "champion_id": "Olaf",
+      "champion_riot_id": 2,
+      "champion_name": "Olaf",
+      "name": "SKT T1 Olaf",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "7416919c-5922-464f-97ab-467bc03dce7b",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2017-06-27",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        6
+      ],
+      "wiki_sets": [
+        "World Champions: 2016"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin15/images/olaf_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin15/images/olaf_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin15/images/olaf_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/olaf/skins/skin15/olafloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "61849e0056ee1484e3805c75bc08e45da4062b5fbf2835984bb9c4bd5ea55992",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Olaf",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Olaf",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Olaf/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:2015",
+        "result_label": "SKT T1 Olaf",
+        "label_eligible": true,
+        "narrative_family_id": "skin:2015",
+        "champion_profile_ref": "data/champions/Olaf.json",
+        "gameplay_profile_ref": "data/champions/Olaf.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Olaf",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

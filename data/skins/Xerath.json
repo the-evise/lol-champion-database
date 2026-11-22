@@ -1,0 +1,1095 @@
+{
+  "champion_id": "Xerath",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101000",
+      "riot_skin_id": 101000,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Xerath",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "586c2161-018b-4a60-8f6b-e5410abe5690",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-10-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/base/images/xerath_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/base/images/xerath_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/base/images/xerath_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/base/xerathloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f811d6df8278b18f3959d686c6f5169b692f6009072c45880517b455c6e9aa76",
+        "biography_word_count": 71,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101000",
+        "result_label": "Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101000",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101012",
+      "riot_skin_id": 101012,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Arcana Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "4500e9c0-6be0-483c-aa27-93241777fa65",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-05-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        146
+      ],
+      "wiki_sets": [
+        "Arcana"
+      ],
+      "universe_ids": [
+        "universe:arcana"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 101013,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101014,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101015,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101016,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101017,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101018,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101019,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101020,
+          "parent_skin_id": "skin:101012",
+          "name": "Arcana Xerath (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin12/images/xerath_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin12/images/xerath_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin12/images/xerath_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin12/xerathloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c4431dc161466604935084a7f91eced56a2725b481bf8138976de7186907fd70",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Arcana",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101012",
+        "result_label": "Arcana Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101012",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101021",
+      "riot_skin_id": 101021,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Astronaut Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "7b7cdce9-7a7f-4145-ac60-2eb30b489ad8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-02-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        94
+      ],
+      "wiki_sets": [
+        "Astronauts"
+      ],
+      "universe_ids": [
+        "universe:star-voyagers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 101022,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101023,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101024,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101025,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101026,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101027,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101028,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101029,
+          "parent_skin_id": "skin:101021",
+          "name": "Astronaut Xerath (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin21/images/xerath_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin21/images/xerath_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin21/images/xerath_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin21/xerathloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "be2ce4e38dadb04cc287c2b723c9e626ff801d3dad5170328c968448f122214a",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Astronaut",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101021",
+        "result_label": "Astronaut Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101021",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101002",
+      "riot_skin_id": 101002,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Battlecast Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "1f1bf620-dd78-4980-b1c8-a76e63e7bb34",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-10-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        25
+      ],
+      "wiki_sets": [
+        "Battlecast"
+      ],
+      "universe_ids": [
+        "universe:battlecast"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin02/images/xerath_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin02/images/xerath_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin02/images/xerath_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin02/xerathloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8c25f48c83dcd9aac96ab7233d474a8ca238fe4aed5b540dfc945fb47d8055e7",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Battlecast",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101002",
+        "result_label": "Battlecast Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101002",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101032",
+      "riot_skin_id": 101032,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Corrupted Petricite Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "6b8705dc-be45-4968-a44e-0f19dc5faf43",
+      "rarity": "Epic",
+      "availability": "Rare",
+      "release_date": "2026-03-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        224
+      ],
+      "wiki_sets": [
+        "The Laws of Stone"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin32/images/xerath_splash_centered_32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin32/images/xerath_splash_uncentered_32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin32/images/xerath_splash_tile_32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin32/xerathloadscreen_32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fc1f1de516afc15661189a087907e6055a8c7ebcea38315cad5dbe265d01223e",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Corrupted Petricite",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101032",
+        "result_label": "Corrupted Petricite Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101032",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101030",
+      "riot_skin_id": 101030,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Crystalis Indomitus Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 30,
+      "content_id": "8e429091-beb3-47fb-af65-907bd0e2a1fe",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-06-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        202
+      ],
+      "wiki_sets": [
+        "Crystalis Indomitus"
+      ],
+      "universe_ids": [
+        "universe:magicae-prismatica"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 101031,
+          "parent_skin_id": "skin:101030",
+          "name": "Crystalis Indomitus Xerath (Fractured)",
+          "colors": [
+            "#239DE9",
+            "#22D389"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin30/images/xerath_splash_centered_30.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin30/images/xerath_splash_uncentered_30.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin30/images/xerath_splash_tile_30.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin30/xerathloadscreen_30.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f3ee2e9019981b2951dbd135a21edd3eab6bea113478aa48f66f6cb3188557fc",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Crystalis Indomitus",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101030",
+        "result_label": "Crystalis Indomitus Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101030",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101005",
+      "riot_skin_id": 101005,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Dark Star Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "6e2fdf93-b547-4d1f-ad2b-1a5672572986",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-03-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 101006,
+          "parent_skin_id": "skin:101005",
+          "name": "Dark Star Xerath (Antimatter)",
+          "colors": [
+            "#000000",
+            "#A50031"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101007,
+          "parent_skin_id": "skin:101005",
+          "name": "Dark Star Xerath (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101008,
+          "parent_skin_id": "skin:101005",
+          "name": "Dark Star Xerath (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101009,
+          "parent_skin_id": "skin:101005",
+          "name": "Dark Star Xerath (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101010,
+          "parent_skin_id": "skin:101005",
+          "name": "Dark Star Xerath (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 101011,
+          "parent_skin_id": "skin:101005",
+          "name": "Dark Star Xerath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin05/images/xerath_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin05/images/xerath_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin05/images/xerath_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin05/xerathloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b5312004e9b9d01788a7896135464fec0169df4e0bdabdddb9974c54237b1b05",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101005",
+        "result_label": "Dark Star Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101005",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101004",
+      "riot_skin_id": 101004,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Guardian of the Sands Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "4142aa20-ee66-45e9-9175-b1dfe283d37d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-04-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin04/images/xerath_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin04/images/xerath_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin04/images/xerath_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin04/xerathloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "82962accc117516d57c1aa227d3746ae06702eba80a51aab7ed0089ce2c78303",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Guardian of the Sands",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101004",
+        "result_label": "Guardian of the Sands Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101004",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101001",
+      "riot_skin_id": 101001,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Runeborn Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "44c94634-3faf-498a-9bed-ec1945055d9f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-10-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin01/images/xerath_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin01/images/xerath_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin01/images/xerath_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin01/xerathloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101001",
+        "result_label": "Runeborn Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101001",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:101003",
+      "riot_skin_id": 101003,
+      "champion_id": "Xerath",
+      "champion_riot_id": 101,
+      "champion_name": "Xerath",
+      "name": "Scorched Earth Xerath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "87c974da-4430-4409-b374-ae360895e20e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2012-07-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin03/images/xerath_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin03/images/xerath_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin03/images/xerath_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/xerath/skins/skin03/xerathloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1659fee28c8155cc9efd3483b1ecf67e890ea48ee389a4bfc1434c0ce917ef3d",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Xerath",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Xerath",
+          "skin": "Scorched Earth",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Xerath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:101003",
+        "result_label": "Scorched Earth Xerath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:101003",
+        "champion_profile_ref": "data/champions/Xerath.json",
+        "gameplay_profile_ref": "data/champions/Xerath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Xerath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2084 @@
+{
+  "champion_id": "Nidalee",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76000",
+      "riot_skin_id": 76000,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Nidalee",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "9e39d0b3-736f-4351-b293-bf662b23e438",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-12-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/base/images/nidalee_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/base/images/nidalee_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/base/images/nidalee_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/base/nidaleeloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dcf978f4a8f3f14e5136d12867de639b66ad880be37eeb7615a6710c2bdba422",
+        "biography_word_count": 70,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76000",
+        "result_label": "Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76000",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76005",
+      "riot_skin_id": 76005,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Bewitching Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "3d39d31f-6eb7-4fc5-9cd7-a920c0db6b15",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        172
+      ],
+      "wiki_sets": [
+        "Bewitching"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin05/images/nidalee_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin05/images/nidalee_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin05/images/nidalee_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin05/nidaleeloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a4f499388513bc9451e8f3d7fb50d773f6b83bd08fffafa4e4a1e762c69243a",
+        "biography_word_count": 18,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Bewitching",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76005",
+        "result_label": "Bewitching Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76005",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76008",
+      "riot_skin_id": 76008,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Challenger Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "1334d46e-494b-41e4-8dd8-4cea0e76594f",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2016-01-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        9
+      ],
+      "wiki_sets": [
+        "Challenger"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76010,
+          "parent_skin_id": "skin:76008",
+          "name": "Challenger Nidalee (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin08/images/nidalee_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin08/images/nidalee_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin08/images/nidalee_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin08/nidaleeloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e70f9976ca84b1243655d173627a246d014163f3046c128d2449650ae46fbd1",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Challenger",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76008",
+        "result_label": "Challenger Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76008",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60076301",
+      "riot_skin_id": 60076301,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Classic Nidalee",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "4a459aa4-8fc6-408d-af9d-15d4bf2bca2b",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60076302,
+          "parent_skin_id": "skin:60076301",
+          "name": "Classic Nidalee (French Maid)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nidalee/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nidalee/skins/skin301/images/jade_nidalee_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nidalee/skins/skin301/images/jade_nidalee_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nidalee/skins/skin301/images/jade_nidalee_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nidalee/skins/skin301/jade_nidaleeloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ca7a9e5770e7ffdcd2de7e5058275f7e38ba4872fb70547ce802b777a257ef92",
+        "biography_word_count": 63,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60076301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60076301",
+        "result_label": "Classic Nidalee",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60076301",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76018",
+      "riot_skin_id": 76018,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Cosmic Huntress Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "0466c53d-ed49-40f4-b5ac-f1c643492078",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-11-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76019,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76020,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76021,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76022,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76023,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee  (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76024,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76025,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76026,
+          "parent_skin_id": "skin:76018",
+          "name": "Cosmic Huntress Nidalee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin18/images/nidalee_splash_centered_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin18/images/nidalee_splash_uncentered_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin18/images/nidalee_splash_tile_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin18/nidaleeloadscreen_18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f5bd10d5d3342fae3ec41afcb8fec48316e7b158cb33e7cef487916efc745f72",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Cosmic Huntress",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76018",
+        "result_label": "Cosmic Huntress Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76018",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76011",
+      "riot_skin_id": 76011,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Dawnbringer Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "ce4d860b-d042-45f9-aad7-f4a7a61a8cf7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-12-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76012,
+          "parent_skin_id": "skin:76011",
+          "name": "Dawnbringer Nidalee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76013,
+          "parent_skin_id": "skin:76011",
+          "name": "Dawnbringer Nidalee (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76014,
+          "parent_skin_id": "skin:76011",
+          "name": "Dawnbringer Nidalee (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76015,
+          "parent_skin_id": "skin:76011",
+          "name": "Dawnbringer Nidalee (Paragon)",
+          "colors": [
+            "#6FFDFF",
+            "#2377FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76016,
+          "parent_skin_id": "skin:76011",
+          "name": "Dawnbringer Nidalee (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76017,
+          "parent_skin_id": "skin:76011",
+          "name": "Dawnbringer Nidalee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin11/images/nidalee_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin11/images/nidalee_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin11/images/nidalee_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin11/nidaleeloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "103338d56e67e15997003a021083023562ccd0b05eb8cd6085403d2c81b521a4",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Dawnbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76011",
+        "result_label": "Dawnbringer Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76011",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76027",
+      "riot_skin_id": 76027,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "DWG Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "7ceb832a-1fcb-4621-9fee-ac70fc692316",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2021-04-29",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        145
+      ],
+      "wiki_sets": [
+        "World Champions: 2020"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76028,
+          "parent_skin_id": "skin:76027",
+          "name": "DWG Nidalee (Elite)",
+          "colors": [
+            "#050B19",
+            "#0055FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin27/images/nidalee_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin27/images/nidalee_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin27/images/nidalee_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin27/nidaleeloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bc1de89383713c0bf7e5d49a9a4f5d026b9b6e4301cde775012c2189c825d369",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "DWG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76027",
+        "result_label": "DWG Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76027",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76003",
+      "riot_skin_id": 76003,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "French Maid Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "4f525eca-ead1-449c-bd6a-67dd89e64d77",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-06-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin03/images/nidalee_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin03/images/nidalee_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin03/images/nidalee_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin03/nidaleeloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6b1968b13f2f35aa3df85e420bd22228cc4b39847dcb4988ec992ace1f1a0122",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "French Maid",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76003",
+        "result_label": "French Maid Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76003",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76006",
+      "riot_skin_id": 76006,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Headhunter Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "0707d17a-6fcb-4ef9-90c9-b0adc2e5391d",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-03-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        30
+      ],
+      "wiki_sets": [
+        "Headhunter"
+      ],
+      "universe_ids": [
+        "universe:headhunter"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin06/images/nidalee_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin06/images/nidalee_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin06/images/nidalee_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin06/nidaleeloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "447ff3172af18478e9b54f9a86c9c146c8d5028812fd496333ee6ed0f3ffa05a",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Headhunter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76006",
+        "result_label": "Headhunter Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76006",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76039",
+      "riot_skin_id": 76039,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Kittalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 39,
+      "content_id": "e0500bf2-35ed-4f02-9f30-75e7bdf8733d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-04-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76040,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76041,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76042,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76043,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76044,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76045,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76046,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76047,
+          "parent_skin_id": "skin:76039",
+          "name": "Kittalee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin39/images/nidalee_splash_centered_39.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin39/images/nidalee_splash_uncentered_39.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin39/images/nidalee_splash_tile_39.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin39/nidaleeloadscreen_39.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7f8436a1a235d469be67b73dfc89daa9b50e7ae0dab9a4c8ea3fdc4d4f28dfd2",
+        "biography_word_count": 16,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Kittalee",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76039",
+        "result_label": "Kittalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76039",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76048",
+      "riot_skin_id": 76048,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "La Ilusión Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 48,
+      "content_id": "9a913a36-4bb5-4dab-8948-5dc09ce07a3b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-09-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        198
+      ],
+      "wiki_sets": [
+        "La Ilusión"
+      ],
+      "universe_ids": [
+        "universe:sueno-de-vida"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76049,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76050,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76051,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76052,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76053,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76054,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76055,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76056,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76057,
+          "parent_skin_id": "skin:76048",
+          "name": "La Ilusión Nidalee (Vivida)",
+          "colors": [
+            "#EE3B93",
+            "#055939"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin48/images/nidalee_splash_centered_48.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin48/images/nidalee_splash_uncentered_48.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin48/images/nidalee_splash_tile_48.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin48/nidaleeloadscreen_48.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b1141c6dab1644b497c4263094b84b8b4b9047f3446cc360d995244441c8dc22",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "La Ilusión",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76048",
+        "result_label": "La Ilusión Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76048",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76002",
+      "riot_skin_id": 76002,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Leopard Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "747d110f-bb22-4478-9ee0-cb6549ecc576",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-24",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin02/images/nidalee_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin02/images/nidalee_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin02/images/nidalee_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin02/nidaleeloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6c775051e674f683f8b4a7ed3fd4bdf3740b590043d5b081dfa3bf4461f6d57b",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Leopard",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76002",
+        "result_label": "Leopard Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76002",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76029",
+      "riot_skin_id": 76029,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Ocean Song Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "8e7da020-46cf-492b-90a7-0167f22be9ba",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-06-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        159
+      ],
+      "wiki_sets": [
+        "Ocean Song"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76030,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76031,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76032,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76033,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76034,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76035,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76036,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76037,
+          "parent_skin_id": "skin:76029",
+          "name": "Ocean Song Nidalee (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin29/images/nidalee_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin29/images/nidalee_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin29/images/nidalee_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin29/nidaleeloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e28c1a5a9427f4a4edb4e1cff1a009003f6392838be5050a2d45d36da21d1e0",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Ocean Song",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76029",
+        "result_label": "Ocean Song Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76029",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76004",
+      "riot_skin_id": 76004,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Pharaoh Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "eed634f1-76a3-47e4-b0d8-ae7adf93e375",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-01-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        67
+      ],
+      "wiki_sets": [
+        "Pharaoh"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin04/images/nidalee_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin04/images/nidalee_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin04/images/nidalee_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin04/nidaleeloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4d4d75e704a24d9a586c23a1094ad5af45817719d7d64618f6729400df25c317",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Pharaoh",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76004",
+        "result_label": "Pharaoh Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76004",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76001",
+      "riot_skin_id": 76001,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Snow Bunny Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "63613f82-2664-4332-ae6f-6e09702209e8",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2009-12-17",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin01/images/nidalee_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin01/images/nidalee_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin01/images/nidalee_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin01/nidaleeloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e39ddbc1b150f03282e42c6ce923e062fbd2a4b7168b87d6c44530af5050dee",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Snow Bunny",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76001",
+        "result_label": "Snow Bunny Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76001",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76058",
+      "riot_skin_id": 76058,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Spirit Blossom Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 58,
+      "content_id": "92fcf529-61f4-41fb-99ae-25427c201d59",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 76059,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76060,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76061,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76062,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76063,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76064,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76065,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76066,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 76067,
+          "parent_skin_id": "skin:76058",
+          "name": "Spirit Blossom Nidalee (Paragon)",
+          "colors": [
+            "#FE7CA6",
+            "#547DF1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin58/images/nidalee_splash_centered_58.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin58/images/nidalee_splash_uncentered_58.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin58/images/nidalee_splash_tile_58.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin58/nidaleeloadscreen_58.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a62f888724f065adb69229145bf18c4d38c2ee52499e9dc32cb6df764dcc0b16",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76058",
+        "result_label": "Spirit Blossom Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76058",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76009",
+      "riot_skin_id": 76009,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Super Galaxy Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "ce60b471-a66c-4161-9020-68d7f17f5626",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-10-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        21
+      ],
+      "wiki_sets": [
+        "Super Galaxy"
+      ],
+      "universe_ids": [
+        "universe:super-galaxy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin09/images/nidalee_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin09/images/nidalee_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin09/images/nidalee_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin09/nidaleeloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "736914044ad7286b38e0caf5a74b479762eab447f2c6b4e7c8c2fcac7284add5",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Super Galaxy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76009",
+        "result_label": "Super Galaxy Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76009",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:76007",
+      "riot_skin_id": 76007,
+      "champion_id": "Nidalee",
+      "champion_riot_id": 76,
+      "champion_name": "Nidalee",
+      "name": "Warring Kingdoms Nidalee",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "1d052190-f4d8-45d3-9865-7fe00d138390",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-02-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        53
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Warring Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:warring-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin07/images/nidalee_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin07/images/nidalee_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin07/images/nidalee_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nidalee/skins/skin07/nidaleeloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3e27d9bb4758d8759fc4f9c7e9f9f1b8fbfdc28df5c23df384f8130d865d98fd",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Nidalee",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Nidalee",
+          "skin": "Warring Kingdoms",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nidalee/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:76007",
+        "result_label": "Warring Kingdoms Nidalee",
+        "label_eligible": true,
+        "narrative_family_id": "skin:76007",
+        "champion_profile_ref": "data/champions/Nidalee.json",
+        "gameplay_profile_ref": "data/champions/Nidalee.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nidalee",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

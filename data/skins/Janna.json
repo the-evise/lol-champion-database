@@ -1,0 +1,2147 @@
+{
+  "champion_id": "Janna",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40000",
+      "riot_skin_id": 40000,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Janna",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "c0e03e5b-f895-4018-9bbd-067d3bad2b03",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-09-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/base/images/janna_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/base/images/janna_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/base/images/janna_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/base/jannaloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4565e2774cc20331ac6a0fbb6bce9a4a13465900991447a577ddbad15aab1f32",
+        "biography_word_count": 90,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40000",
+        "result_label": "Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40000",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40027",
+      "riot_skin_id": 40027,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Battle Queen Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "9e3bdfd4-3a52-4e38-99ac-fc06a2c430f0",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-12-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        137
+      ],
+      "wiki_sets": [
+        "Battle Queens"
+      ],
+      "universe_ids": [
+        "universe:battle-queens"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40028,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40029,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40030,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40031,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40032,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40033,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Coronation)",
+          "colors": [
+            "#FF80B1",
+            "#9DFFEF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40034,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40035,
+          "parent_skin_id": "skin:40027",
+          "name": "Battle Queen Janna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin27/images/janna_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin27/images/janna_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin27/images/janna_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin27/jannaloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "090d4b010ae5edf754c223bd1383ae43890d07a465de584505084d27b74ac746",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Battle Queen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40027",
+        "result_label": "Battle Queen Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40027",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40013",
+      "riot_skin_id": 40013,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Bewitching Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "a36d8d63-143c-4208-a93d-fccc272e5d50",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-10-24",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        172
+      ],
+      "wiki_sets": [
+        "Bewitching"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40014,
+          "parent_skin_id": "skin:40013",
+          "name": "Bewitching Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40015,
+          "parent_skin_id": "skin:40013",
+          "name": "Bewitching Janna (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40016,
+          "parent_skin_id": "skin:40013",
+          "name": "Bewitching Janna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40017,
+          "parent_skin_id": "skin:40013",
+          "name": "Bewitching Janna (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40018,
+          "parent_skin_id": "skin:40013",
+          "name": "Bewitching Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40019,
+          "parent_skin_id": "skin:40013",
+          "name": "Bewitching Janna (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin13/images/janna_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin13/images/janna_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin13/images/janna_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin13/jannaloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "afb7c645bef822d7b1587c66e26dd4a1cd1576fb35c1a8fb9e44e3f5a895a5c5",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Bewitching",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40013",
+        "result_label": "Bewitching Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40013",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40067",
+      "riot_skin_id": 40067,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Coven Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 67,
+      "content_id": "e7d4faf0-3a87-4204-ac90-72c28048ad04",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2026-09-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40068,
+          "parent_skin_id": "skin:40067",
+          "name": "Coven Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin68/chromapreview.chroma_janna_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40069,
+          "parent_skin_id": "skin:40067",
+          "name": "Coven Janna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin69/chromapreview.chroma_janna_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40070,
+          "parent_skin_id": "skin:40067",
+          "name": "Coven Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin70/chromapreview.chroma_janna_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40071,
+          "parent_skin_id": "skin:40067",
+          "name": "Coven Janna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin71/chromapreview.chroma_janna_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40072,
+          "parent_skin_id": "skin:40067",
+          "name": "Coven Janna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin72/chromapreview.chroma_janna_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40073,
+          "parent_skin_id": "skin:40067",
+          "name": "Coven Janna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin73/chromapreview.chroma_janna_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin67/images/janna_splash_centered_67.skins_janna_skin67.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin67/images/janna_splash_uncentered_67.skins_janna_skin67.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin67/images/janna_splash_tile_67.skins_janna_skin67.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin67/jannaloadscreen_67.skins_janna_skin67.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d2e3a0d6751ac1a1deff78ba36b9e56e327384408b4a5ef86f1596db5de0e0c9",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40067",
+        "result_label": "Coven Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40067",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40036",
+      "riot_skin_id": 40036,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Crystal Rose Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 36,
+      "content_id": "2e4bde78-2608-4af4-98ec-8841520a4942",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-02-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        140
+      ],
+      "wiki_sets": [
+        "Crystal Rose"
+      ],
+      "universe_ids": [
+        "universe:crystal-rose"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40037,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40038,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40039,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40040,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40041,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40042,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40043,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40044,
+          "parent_skin_id": "skin:40036",
+          "name": "Crystal Rose Janna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin36/images/janna_splash_centered_36.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin36/images/janna_splash_uncentered_36.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin36/images/janna_splash_tile_36.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin36/jannaloadscreen_36.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0c3fe08a070c3d32e10ef42cb09d355dd80faf4ba3128e840824d2710cd758b5",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Crystal Rose",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40036",
+        "result_label": "Crystal Rose Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40036",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40045",
+      "riot_skin_id": 40045,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Cyber Halo Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 45,
+      "content_id": "0349a884-9a2b-429e-8a88-e247a5cff79e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-08-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        65
+      ],
+      "wiki_sets": [
+        "Steel Valkyries"
+      ],
+      "universe_ids": [
+        "universe:iron-firmament"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40047,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40048,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40049,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40050,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40051,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40052,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40053,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40054,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40055,
+          "parent_skin_id": "skin:40045",
+          "name": "Cyber Halo Janna (Ace)",
+          "colors": [
+            "#FF70BA",
+            "#464646"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin45/images/janna_splash_centered_45.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin45/images/janna_splash_uncentered_45.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin45/images/janna_splash_tile_45.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin45/jannaloadscreen_45.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e48294bbdcc5d305a2311a00796d7ca1e580adad6925badfa9d0ca69139de116",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Cyber Halo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40045",
+        "result_label": "Cyber Halo Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40045",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40066",
+      "riot_skin_id": 40066,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Dawnbringer Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 66,
+      "content_id": "5639bb63-72ce-4d7f-8069-451dbc5a7ef3",
+      "rarity": "Epic",
+      "availability": "Rare",
+      "release_date": "2025-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin66/images/janna_splash_centered_66.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin66/images/janna_splash_uncentered_66.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin66/images/janna_splash_tile_66.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin66/jannaloadscreen_66.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1723a7cad9b8680313fa1c31933353c69eb0289e0bf946906870f2233ce22d44",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Dawnbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40066",
+        "result_label": "Dawnbringer Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40066",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40006",
+      "riot_skin_id": 40006,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Fnatic Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "20ad3c8c-150d-461f-866a-435f8ed04f94",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-09-24",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        1
+      ],
+      "wiki_sets": [
+        "World Champions: 2011"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin06/images/janna_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin06/images/janna_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin06/images/janna_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin06/jannaloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b277b95ca74ee4a6c2cc963fac3dd42c12fcb8cb246bda17e21bb9448d8a280e",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Fnatic",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40006",
+        "result_label": "Fnatic Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40006",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40005",
+      "riot_skin_id": 40005,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Forecast Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "c14b2fe4-c343-445b-bb07-9e8cc284f0b7",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2013-09-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin05/images/janna_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin05/images/janna_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin05/images/janna_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin05/jannaloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5f3e9272a18ded202774eea9e68f0aadbed738410842e137f76e762c5f2f05d1",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Forecast",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40005",
+        "result_label": "Forecast Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40005",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40003",
+      "riot_skin_id": 40003,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Frost Queen Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "a54115dc-e458-4db1-afd5-6efe31a15bf9",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-12-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        128
+      ],
+      "wiki_sets": [
+        "Freljord"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin03/images/janna_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin03/images/janna_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin03/images/janna_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin03/jannaloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40003",
+        "result_label": "Frost Queen Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40003",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40020",
+      "riot_skin_id": 40020,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Guardian of the Sands Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "e9fde5ec-50fe-4c1b-837d-d1e216279418",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-01-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40021,
+          "parent_skin_id": "skin:40020",
+          "name": "Guardian of the Sands Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40022,
+          "parent_skin_id": "skin:40020",
+          "name": "Guardian of the Sands Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40023,
+          "parent_skin_id": "skin:40020",
+          "name": "Guardian of the Sands Janna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40024,
+          "parent_skin_id": "skin:40020",
+          "name": "Guardian of the Sands Janna (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40025,
+          "parent_skin_id": "skin:40020",
+          "name": "Guardian of the Sands Janna (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40026,
+          "parent_skin_id": "skin:40020",
+          "name": "Guardian of the Sands Janna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin20/images/janna_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin20/images/janna_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin20/images/janna_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin20/jannaloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "34462062e2d103360a6e368af2608a28ff2716634f10fef23d1259137f121ba1",
+        "biography_word_count": 35,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Guardian of the Sands",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40020",
+        "result_label": "Guardian of the Sands Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40020",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40056",
+      "riot_skin_id": 40056,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Heavenscale Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 56,
+      "content_id": "ade1aca0-2880-41f2-8cb3-f5293e33e566",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2024-02-07",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        201
+      ],
+      "wiki_sets": [
+        "Heavenscale"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40057,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40058,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40059,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40060,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40061,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40062,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40063,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40064,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40065,
+          "parent_skin_id": "skin:40056",
+          "name": "Heavenscale Janna (Lustrous)",
+          "colors": [
+            "#DFA6DF",
+            "#E0D7D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin56/images/janna_splash_centered_56.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin56/images/janna_splash_uncentered_56.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin56/images/janna_splash_tile_56.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin56/jannaloadscreen_56.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7aa76befe970bdbf7627ab4a6ab5c0c381a3ba5b44e0314a4a2e25eee4b4a3d7",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Heavenscale",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40056",
+        "result_label": "Heavenscale Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40056",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40002",
+      "riot_skin_id": 40002,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Hextech Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "f59b671d-5542-4cf7-b7a3-9a7ea0a366ca",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-11-08",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin02/images/janna_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin02/images/janna_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin02/images/janna_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin02/jannaloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3b45508bf7cfb1d7b2b4a8cb3b48525cba8ea01acbc7658b41d805ca5291c3b9",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40002",
+        "result_label": "Hextech Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40002",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40046",
+      "riot_skin_id": 40046,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Prestige Cyber Halo Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "9e93892b-2fc9-44e2-b5c0-b3fc96cdc87d",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2022-08-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        65
+      ],
+      "wiki_sets": [
+        "Steel Valkyries"
+      ],
+      "universe_ids": [
+        "universe:iron-firmament"
+      ],
+      "variant_of": "skin:40045",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin46/images/janna_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin46/images/janna_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin46/images/janna_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin46/jannaloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "43bbc82ce924b7ec1f12d017248f83fde04197fa6ff05762bd9a76ff79e49a76",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Prestige Cyber Halo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40046",
+        "result_label": "Prestige Cyber Halo Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40045",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40008",
+      "riot_skin_id": 40008,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Sacred Sword Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "e36cf527-0508-47a9-81a2-987873d533bd",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-09-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 40009,
+          "parent_skin_id": "skin:40008",
+          "name": "Sacred Sword Janna (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40010,
+          "parent_skin_id": "skin:40008",
+          "name": "Sacred Sword Janna (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40011,
+          "parent_skin_id": "skin:40008",
+          "name": "Sacred Sword Janna (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 40012,
+          "parent_skin_id": "skin:40008",
+          "name": "Sacred Sword Janna (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin08/images/janna_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin08/images/janna_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin08/images/janna_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin08/jannaloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1c7a07a306a91b968b13100ac05f6bc15d640c578d92ed36e1f4f422e8f218aa",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Sacred Sword",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40008",
+        "result_label": "Sacred Sword Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40008",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40007",
+      "riot_skin_id": 40007,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Star Guardian Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "5a2efda3-1598-4c48-97be-5f8251adab9a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-10-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        19
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 1"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin07/images/janna_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin07/images/janna_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin07/images/janna_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin07/jannaloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a9989ff97530e21860062a48c8ca4fb2b657467b7388d9b17c8e80b668df59c",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40007",
+        "result_label": "Star Guardian Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40007",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40001",
+      "riot_skin_id": 40001,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Tempest Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "47b8a6e9-a568-418d-9df1-129bf539ce27",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-07-13",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin01/images/janna_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin01/images/janna_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin01/images/janna_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin01/jannaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40001",
+        "result_label": "Tempest Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40001",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:40004",
+      "riot_skin_id": 40004,
+      "champion_id": "Janna",
+      "champion_riot_id": 40,
+      "champion_name": "Janna",
+      "name": "Victorious Janna",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "be6b53c0-41e0-4e88-aa79-6ff2db120f0b",
+      "rarity": "Rare",
+      "availability": "Limited",
+      "release_date": "2012-11-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        7
+      ],
+      "wiki_sets": [
+        "Victorious"
+      ],
+      "universe_ids": [
+        "universe:victorious"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin04/images/janna_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin04/images/janna_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin04/images/janna_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/janna/skins/skin04/jannaloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d9500a448543b73cffe5dea9a410eb392a8a7e113e9d74012f3ec1cfe208f7b8",
+        "biography_word_count": 35,
+        "source_id": "skins:client:Janna",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Janna",
+          "skin": "Victorious",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Janna/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:40004",
+        "result_label": "Victorious Janna",
+        "label_eligible": true,
+        "narrative_family_id": "skin:40004",
+        "champion_profile_ref": "data/champions/Janna.json",
+        "gameplay_profile_ref": "data/champions/Janna.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Janna",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

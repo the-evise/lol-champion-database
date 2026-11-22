@@ -1,0 +1,1299 @@
+{
+  "champion_id": "Gnar",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150000",
+      "riot_skin_id": 150000,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Gnar",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "be88ff21-b846-4ed5-89c0-7f064b2c599b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-08-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/base/images/gnar_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/base/images/gnar_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/base/images/gnar_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/base/gnarloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c28375fbe4b221ea42be07a8d33cc80c11e9dd26bdd0bead97b47d765c9e222e",
+        "biography_word_count": 70,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150000",
+        "result_label": "Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150000",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150015",
+      "riot_skin_id": 150015,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Astronaut Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "fcc90a5b-c3c9-41e4-9f74-4005d9543cb8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-05-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        94
+      ],
+      "wiki_sets": [
+        "Astronauts"
+      ],
+      "universe_ids": [
+        "universe:star-voyagers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 150016,
+          "parent_skin_id": "skin:150015",
+          "name": "Astronaut Gnar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150017,
+          "parent_skin_id": "skin:150015",
+          "name": "Astronaut Gnar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150018,
+          "parent_skin_id": "skin:150015",
+          "name": "Astronaut Gnar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150019,
+          "parent_skin_id": "skin:150015",
+          "name": "Astronaut Gnar (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150020,
+          "parent_skin_id": "skin:150015",
+          "name": "Astronaut Gnar (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150021,
+          "parent_skin_id": "skin:150015",
+          "name": "Astronaut Gnar (Chrono)",
+          "colors": [
+            "#162D57",
+            "#A50031"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin15/images/gnar_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin15/images/gnar_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin15/images/gnar_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin15/gnarloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "811c3e561bd7e4e34cdcc96a61fad3e26649d46e9f7175975717cc5794365519",
+        "biography_word_count": 33,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "Astronaut",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150015",
+        "result_label": "Astronaut Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150015",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150001",
+      "riot_skin_id": 150001,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Dino Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "b6d9cade-ff92-49a9-9a8a-f0bd45304fa9",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-08-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        61
+      ],
+      "wiki_sets": [
+        "Toy Box"
+      ],
+      "universe_ids": [
+        "universe:toy-box"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 150005,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150006,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150007,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150008,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150009,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Astral)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150010,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150011,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150012,
+          "parent_skin_id": "skin:150001",
+          "name": "Dino Gnar (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin01/images/gnar_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin01/images/gnar_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin01/images/gnar_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin01/gnarloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150001",
+        "result_label": "Dino Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150001",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150004",
+      "riot_skin_id": 150004,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "El León Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "4c659807-a053-4de5-9475-1134076cfa04",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-06-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        34
+      ],
+      "wiki_sets": [
+        "Luchador"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin04/images/gnar_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin04/images/gnar_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin04/images/gnar_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin04/gnarloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1e5dd7b3ffc296804f0525dc2a2fcefca125a8876ccb605949adf580fd511393",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "El León",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150004",
+        "result_label": "El León Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150004",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150022",
+      "riot_skin_id": 150022,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Elderwood Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 22,
+      "content_id": "c4abe727-0e5d-43c2-8fc7-e7bc650fb544",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-01-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        58
+      ],
+      "wiki_sets": [
+        "Elderwood"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 150023,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150024,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150025,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150026,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150027,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150028,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150029,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150030,
+          "parent_skin_id": "skin:150022",
+          "name": "Elderwood Gnar (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin22/images/gnar_splash_centered_22.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin22/images/gnar_splash_uncentered_22.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin22/images/gnar_splash_tile_22.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin22/gnarloadscreen_22.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dba1acb8fc0ece44be82fe60eff2b0dfac35fd6ce7ae154a17d688b50788d83a",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "Elderwood",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150022",
+        "result_label": "Elderwood Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150022",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150002",
+      "riot_skin_id": 150002,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Gentleman Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "58643ba8-93e9-4070-8159-431763a7a260",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-07-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        102
+      ],
+      "wiki_sets": [
+        "High Society"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin02/images/gnar_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin02/images/gnar_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin02/images/gnar_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin02/gnarloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1725ce38710e8788a42be64ecbbf0e1099b9adb1991b7ed32ae96eb7c2ed602d",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "Gentleman",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150002",
+        "result_label": "Gentleman Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150002",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150031",
+      "riot_skin_id": 150031,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "La Ilusión Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 31,
+      "content_id": "48f4671a-8add-436d-8929-3bc6fff1fbbf",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-09-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        198
+      ],
+      "wiki_sets": [
+        "La Ilusión"
+      ],
+      "universe_ids": [
+        "universe:sueno-de-vida"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 150032,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150033,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150034,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150035,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150036,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150037,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150038,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150039,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 150040,
+          "parent_skin_id": "skin:150031",
+          "name": "La Ilusión Gnar (Vivida)",
+          "colors": [
+            "#EE3B93",
+            "#055939"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin31/images/gnar_splash_centered_31.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin31/images/gnar_splash_uncentered_31.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin31/images/gnar_splash_tile_31.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin31/gnarloadscreen_31.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "021b6cdc942a5c6f95dbf05dc748dbef0943f10a170d5623eab2d02058d9ac1a",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "La Ilusión",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150031",
+        "result_label": "La Ilusión Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150031",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150003",
+      "riot_skin_id": 150003,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Snow Day Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "54d9d01c-e27e-45d4-8c51-e1eb6692bf04",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2015-12-10",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        46
+      ],
+      "wiki_sets": [
+        "Snow Day"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin03/images/gnar_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin03/images/gnar_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin03/images/gnar_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin03/gnarloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e5115d77f0a9685235d6ab3ac59be386251223d99f4219a5a0d4e7bd21f0082e",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "Snow Day",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150003",
+        "result_label": "Snow Day Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150003",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150014",
+      "riot_skin_id": 150014,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "SSG Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "bd860411-8aea-488e-b5d8-b796d406ffc5",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-07-20",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        75
+      ],
+      "wiki_sets": [
+        "World Champions: 2017"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 150043,
+          "parent_skin_id": "skin:150014",
+          "name": "SSG Gnar (Elite)",
+          "colors": [
+            "#C271F5",
+            "#CBE1F7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin14/images/gnar_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin14/images/gnar_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin14/images/gnar_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin14/gnarloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a69a543a40f755802b3a7de738fe3cf2f8bc8d9fccf41bd17abac83a78d8e493",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "SSG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150014",
+        "result_label": "SSG Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150014",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150013",
+      "riot_skin_id": 150013,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "Super Galaxy Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "5da8eb38-4dba-414e-ae40-76aa96212d65",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-10-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        21
+      ],
+      "wiki_sets": [
+        "Super Galaxy"
+      ],
+      "universe_ids": [
+        "universe:super-galaxy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin13/images/gnar_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin13/images/gnar_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin13/images/gnar_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin13/gnarloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ab74e29e780dd6dab2e2b420bb7bc141869d984be7bff5f92a6881e8fc2669e1",
+        "biography_word_count": 32,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "Super Galaxy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150013",
+        "result_label": "Super Galaxy Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150013",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:150041",
+      "riot_skin_id": 150041,
+      "champion_id": "Gnar",
+      "champion_riot_id": 150,
+      "champion_name": "Gnar",
+      "name": "T1 Gnar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 41,
+      "content_id": "42914a78-82df-46cc-9815-b9e1776e60e1",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2025-09-10",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        220
+      ],
+      "wiki_sets": [
+        "World Champions: 2024"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 150042,
+          "parent_skin_id": "skin:150041",
+          "name": "T1 Gnar (Elite)",
+          "colors": [
+            "#BB363D",
+            "#BCBBC6"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin41/images/gnar_splash_centered_41.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin41/images/gnar_splash_uncentered_41.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin41/images/gnar_splash_tile_41.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/gnar/skins/skin41/gnarloadscreen_41.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d6d730735122fa3ad4e634a194b7c433718767d0b91e9d73471a0a9413551c01",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Gnar",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Gnar",
+          "skin": "T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Gnar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:150041",
+        "result_label": "T1 Gnar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:150041",
+        "champion_profile_ref": "data/champions/Gnar.json",
+        "gameplay_profile_ref": "data/champions/Gnar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Gnar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

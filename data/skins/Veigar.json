@@ -1,0 +1,2026 @@
+{
+  "champion_id": "Veigar",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45000",
+      "riot_skin_id": 45000,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Veigar",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "96716114-4a07-407a-a7d3-d2dbaafbffa5",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-07-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/base/images/veigar_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/base/images/veigar_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/base/images/veigar_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/base/veigarloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "decc339a01e6242bb25a9c80dd98775c36829ae68b6633b5e55e2883238c2be4",
+        "biography_word_count": 87,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45000",
+        "result_label": "Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45000",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45032",
+      "riot_skin_id": 45032,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Astronaut Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "ecf0fede-f316-4fe2-aa6f-0480187eb729",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-07-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        94
+      ],
+      "wiki_sets": [
+        "Astronauts"
+      ],
+      "universe_ids": [
+        "universe:star-voyagers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45033,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45034,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45035,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45036,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45037,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45038,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45039,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45040,
+          "parent_skin_id": "skin:45032",
+          "name": "Astronaut Veigar (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin32/images/veigar_splash_centered_32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin32/images/veigar_splash_uncentered_32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin32/images/veigar_splash_tile_32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin32/veigarloadscreen_32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "33492023645a1963b52da6a9987bfe4d473fee3690cd702ee97f501be7b4e8f4",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Astronaut",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45032",
+        "result_label": "Astronaut Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45032",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45007",
+      "riot_skin_id": 45007,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Bad Santa Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "734b2b79-4410-4ff1-9337-779a5f42d427",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2012-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin07/images/veigar_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin07/images/veigar_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin07/images/veigar_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin07/veigarloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0a641cd5c6ab76d2a890975ffb3e8ca63e79f9a6cc80f55dbd8e32342682e654",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Bad Santa",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45007",
+        "result_label": "Bad Santa Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45007",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45005",
+      "riot_skin_id": 45005,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Baron Von Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "ba1be444-aba2-4fa3-9820-3cfd73d7786d",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-06-27",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        70
+      ],
+      "wiki_sets": [
+        "Road Warrior"
+      ],
+      "universe_ids": [
+        "universe:highway-heretics"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin05/images/veigar_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin05/images/veigar_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin05/images/veigar_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin05/veigarloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "260f714f9d23d42e0c326cd4ab11180f4594522902e49369c7c1f5a726ae4de7",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Baron Von",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45005",
+        "result_label": "Baron Von Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45005",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45002",
+      "riot_skin_id": 45002,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Curling Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "2b3332bf-5344-45c3-a6d9-e62f669da55b",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        28
+      ],
+      "wiki_sets": [
+        "Winter Sports"
+      ],
+      "universe_ids": [
+        "universe:winter-sports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin02/images/veigar_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin02/images/veigar_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin02/images/veigar_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin02/veigarloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8ad849abc595c878ee70e358657a238fdea810c4da791729a5112e96d1b87801",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Curling",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45002",
+        "result_label": "Curling Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45002",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45013",
+      "riot_skin_id": 45013,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Elderwood Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "b78be0c8-9ed6-4ff2-968c-baede61e29be",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-08-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        58
+      ],
+      "wiki_sets": [
+        "Elderwood"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45014,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45015,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45016,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45017,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45018,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45019,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45020,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45021,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45022,
+          "parent_skin_id": "skin:45013",
+          "name": "Elderwood Veigar (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin13/images/veigar_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin13/images/veigar_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin13/images/veigar_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin13/veigarloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1617b1923c2d6568e1e6e8d0ddf26cbccd35df129bb3f55b44a7dd8481ee3ef6",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Elderwood",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45013",
+        "result_label": "Elderwood Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45013",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45008",
+      "riot_skin_id": 45008,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Final Boss Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "5135bf64-fd0a-47db-9d1c-df5d5d21f067",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2014-08-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        11
+      ],
+      "wiki_sets": [
+        "Arcade: Battle Bosses"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45042,
+          "parent_skin_id": "skin:45008",
+          "name": "Final Boss Veigar (Mythic)",
+          "colors": [
+            "#9DC2D9",
+            "#7F449C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin08/images/veigar_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin08/images/veigar_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin08/images/veigar_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin08/veigarloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "35b15788df2dfbf1f7c51a56ae746ac51a7d3faf1679882ac799e96a485fe20c",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Final Boss",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45008",
+        "result_label": "Final Boss Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45008",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45060",
+      "riot_skin_id": 45060,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Fright Night Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 60,
+      "content_id": "67243f3c-18a7-4abb-bb7e-9d73e95ce121",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2024-09-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        170
+      ],
+      "wiki_sets": [
+        "Fright Night"
+      ],
+      "universe_ids": [
+        "universe:neighborhood-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45061,
+          "parent_skin_id": "skin:45060",
+          "name": "Fright Night Veigar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45062,
+          "parent_skin_id": "skin:45060",
+          "name": "Fright Night Veigar (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45063,
+          "parent_skin_id": "skin:45060",
+          "name": "Fright Night Veigar (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45064,
+          "parent_skin_id": "skin:45060",
+          "name": "Fright Night Veigar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45065,
+          "parent_skin_id": "skin:45060",
+          "name": "Fright Night Veigar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45066,
+          "parent_skin_id": "skin:45060",
+          "name": "Fright Night Veigar (Ghoulish)",
+          "colors": [
+            "#68B856",
+            "#B69017"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin60/images/veigar_splash_centered_60.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin60/images/veigar_splash_uncentered_60.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin60/images/veigar_splash_tile_60.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin60/veigarloadscreen_60.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7de3c3f8f34efc7a1662c337daaab7e179c2d8a8b45d77c7a03d5ef3c260b6f3",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Fright Night",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45060",
+        "result_label": "Fright Night Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45060",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45023",
+      "riot_skin_id": 45023,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Furyhorn Cosplay Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 23,
+      "content_id": "a52fe62c-ae4f-4fd0-be34-cf5a85f48791",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-04-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        101
+      ],
+      "wiki_sets": [
+        "Definitely Not"
+      ],
+      "universe_ids": [
+        "universe:definitely-not"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45024,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45025,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45026,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45027,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45028,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45029,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45030,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45031,
+          "parent_skin_id": "skin:45023",
+          "name": "Furyhorn Cosplay Veigar (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin23/images/veigar_splash_centered_23.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin23/images/veigar_splash_uncentered_23.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin23/images/veigar_splash_tile_23.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin23/veigarloadscreen_23.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e7ab25ba5e8e561aabbacb66680322eebaa96860304991ac88a80c5297cd9c34",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Furyhorn Cosplay",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45023",
+        "result_label": "Furyhorn Cosplay Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45023",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45051",
+      "riot_skin_id": 45051,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "King Beegar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 51,
+      "content_id": "339dca3c-d803-42d3-999b-00b25a76a440",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-11-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        143
+      ],
+      "wiki_sets": [
+        "Bees!"
+      ],
+      "universe_ids": [
+        "universe:bees"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45052,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45053,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45054,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45055,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45056,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45057,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45058,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45059,
+          "parent_skin_id": "skin:45051",
+          "name": "King Beegar (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin51/images/veigar_splash_centered_51.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin51/images/veigar_splash_uncentered_51.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin51/images/veigar_splash_tile_51.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin51/veigarloadscreen_51.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4582af192da846b149cb5568a1397818e5861adee9fb85b2538c9e2f9e1f6a40",
+        "biography_word_count": 33,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "King Beegar",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45051",
+        "result_label": "King Beegar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45051",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45004",
+      "riot_skin_id": 45004,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Leprechaun Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "fd9da5a4-0ff3-418a-89c9-d2aba294d062",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        72
+      ],
+      "wiki_sets": [
+        "Fables"
+      ],
+      "universe_ids": [
+        "universe:fables"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin04/images/veigar_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin04/images/veigar_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin04/images/veigar_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin04/veigarloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "19a399fa3b0f6cdbb55afa09e6b3e9422a5341a00107943ab6152b352d5771e4",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Leprechaun",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45004",
+        "result_label": "Leprechaun Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45004",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45041",
+      "riot_skin_id": 45041,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Monster Tamer Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 41,
+      "content_id": "2fbd37eb-4868-4722-be21-247d50afd314",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-08-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        162
+      ],
+      "wiki_sets": [
+        "Monster Tamers"
+      ],
+      "universe_ids": [
+        "universe:monster-tamers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45043,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45044,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45045,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45046,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45047,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45048,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Jasper)",
+          "colors": [
+            "#9F4A25",
+            "#9F4A25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45049,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45050,
+          "parent_skin_id": "skin:45041",
+          "name": "Monster Tamer Veigar (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin41/images/veigar_splash_centered_41.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin41/images/veigar_splash_uncentered_41.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin41/images/veigar_splash_tile_41.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin41/veigarloadscreen_41.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f5dc337e7892f98651673e93bbed6ee570ea5624b3d225f269149674b77a8047",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Monster Tamer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45041",
+        "result_label": "Monster Tamer Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45041",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45009",
+      "riot_skin_id": 45009,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Omega Squad Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "e95a5025-a823-43a2-a809-40f4c684710d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-07-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        14
+      ],
+      "wiki_sets": [
+        "Omega Squad"
+      ],
+      "universe_ids": [
+        "universe:war-is-heck"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45010,
+          "parent_skin_id": "skin:45009",
+          "name": "Omega Squad Veigar (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45011,
+          "parent_skin_id": "skin:45009",
+          "name": "Omega Squad Veigar (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 45012,
+          "parent_skin_id": "skin:45009",
+          "name": "Omega Squad Veigar (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin09/images/veigar_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin09/images/veigar_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin09/images/veigar_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin09/veigarloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "62dbffa53a0acf47eb71d1bc0deece81642829305c267db5caf44d08a8e2910c",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Omega Squad",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45009",
+        "result_label": "Omega Squad Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45009",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45067",
+      "riot_skin_id": 45067,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Prestige Magma Chamber Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 67,
+      "content_id": "4cbf7fad-fdb1-4483-9235-1333055ec1ee",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-07-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        231
+      ],
+      "wiki_sets": [
+        "Magma Chamber"
+      ],
+      "universe_ids": [
+        "universe:forgotten-lands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 45068,
+          "parent_skin_id": "skin:45067",
+          "name": "Prestige Magma Chamber Veigar (Vivid)",
+          "colors": [
+            "#D8EDFF",
+            "#501ABB"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin67/images/veigar_splash_centered_67.skins_veigar_skin67.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin67/images/veigar_splash_uncentered_67.skins_veigar_skin67.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin67/images/veigar_splash_tile_67.skins_veigar_skin67.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin67/veigarloadscreen_67.skins_veigar_skin67.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1151d9be5a6a43af522dbee656d990327cc2ea64b1d517cf53d49fa047d4d081",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Prestige Magma Chamber",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45067",
+        "result_label": "Prestige Magma Chamber Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45067",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45006",
+      "riot_skin_id": 45006,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Superb Villain Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "b2f10388-8420-45bb-a1ce-517fe72b9a68",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-01-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        111
+      ],
+      "wiki_sets": [
+        "Silver Age"
+      ],
+      "universe_ids": [
+        "universe:silver-age"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin06/images/veigar_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin06/images/veigar_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin06/images/veigar_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin06/veigarloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "29075c2e2e38d85178b866f50f8cd93f102d1b21e421d18b5f8ca8bb7ff29f6c",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Superb Villain",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45006",
+        "result_label": "Superb Villain Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45006",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45003",
+      "riot_skin_id": 45003,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "Veigar Greybeard",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "f23a9367-22fa-4b29-b9b3-deea7e29c437",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-09-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        38
+      ],
+      "wiki_sets": [
+        "Rift Quest"
+      ],
+      "universe_ids": [
+        "universe:riftquest"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin03/images/veigar_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin03/images/veigar_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin03/images/veigar_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin03/veigarloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b26b5d99879af4feb49368f4c5a1fba6d1d247faa0eb8a69094ca1ce8b946f12",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "Veigar Greybeard",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45003",
+        "result_label": "Veigar Greybeard",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45003",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:45001",
+      "riot_skin_id": 45001,
+      "champion_id": "Veigar",
+      "champion_riot_id": 45,
+      "champion_name": "Veigar",
+      "name": "White Mage Veigar",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "4c8358f2-ff7c-4916-87dc-e54894292ee8",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-12-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 390,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        114
+      ],
+      "wiki_sets": [
+        "Medieval"
+      ],
+      "universe_ids": [
+        "universe:ye-olde"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin01/images/veigar_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin01/images/veigar_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin01/images/veigar_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/veigar/skins/skin01/veigarloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7d217402f3bb7cde3ba84c5fbcc7af7fdb83eda48688ea86d545289ddc81e554",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Veigar",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Veigar",
+          "skin": "White Mage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Veigar/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:45001",
+        "result_label": "White Mage Veigar",
+        "label_eligible": true,
+        "narrative_family_id": "skin:45001",
+        "champion_profile_ref": "data/champions/Veigar.json",
+        "gameplay_profile_ref": "data/champions/Veigar.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Veigar",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

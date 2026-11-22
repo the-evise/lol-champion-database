@@ -1,0 +1,1741 @@
+{
+  "champion_id": "Anivia",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34000",
+      "riot_skin_id": 34000,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Anivia",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "083ed4a8-ceae-4fa4-8a6e-8c989a3b7283",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-07-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/base/images/anivia_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/base/images/anivia_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/base/images/anivia_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/base/anivialoadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "71182051d1e7778500f2c8053dd2dca25181227948f8b07fd5d093da9e8783b5",
+        "biography_word_count": 91,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34000",
+        "result_label": "Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34000",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34037",
+      "riot_skin_id": 34037,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Bewitching Batnivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "a1f5a2b1-3e60-4dd7-a4e5-14419d128d3f",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2022-10-20",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        172
+      ],
+      "wiki_sets": [
+        "Bewitching"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 34038,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34039,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34040,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34041,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34042,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34043,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34044,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34045,
+          "parent_skin_id": "skin:34037",
+          "name": "Bewitching Batnivia (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin37/images/anivia_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin37/images/anivia_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin37/images/anivia_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin37/anivialoadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5d344df01a84a55f2310900227162e056f61046a09e6ba46fbdc37796cb49e8a",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Bewitching Batnivia",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34037",
+        "result_label": "Bewitching Batnivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34037",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34002",
+      "riot_skin_id": 34002,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Bird of Prey Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "c4ad26a0-69a2-4f61-8b90-10f582cbcd06",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-05-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin02/images/anivia_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin02/images/anivia_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin02/images/anivia_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin02/anivialoadscreen_2.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34002",
+        "result_label": "Bird of Prey Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34002",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34005",
+      "riot_skin_id": 34005,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Blackfrost Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "482b7a49-7791-43e0-8462-46121147cba8",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2013-04-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        129
+      ],
+      "wiki_sets": [
+        "Blackfrost"
+      ],
+      "universe_ids": [
+        "universe:blackfrost"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin05/images/anivia_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin05/images/anivia_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin05/images/anivia_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin05/anivialoadscreen_5.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34005",
+        "result_label": "Blackfrost Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34005",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34017",
+      "riot_skin_id": 34017,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Cosmic Flight Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "73045b60-2ffb-4c8a-b53a-61975bd2aeb5",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-11-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 34018,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34019,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34020,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34021,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34022,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34023,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34024,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34025,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34026,
+          "parent_skin_id": "skin:34017",
+          "name": "Cosmic Flight Anivia (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin17/images/anivia_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin17/images/anivia_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin17/images/anivia_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin17/anivialoadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a966a46a704fb50a5f14826c71b637b5b92bcf13b885b023cd6416f8efee0197",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Cosmic Flight",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34017",
+        "result_label": "Cosmic Flight Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34017",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34027",
+      "riot_skin_id": 34027,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Divine Phoenix Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "0ecac496-317c-4365-b055-1454da495a6a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-09-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        150
+      ],
+      "wiki_sets": [
+        "Phoenixmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 34028,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34029,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34030,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34031,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34032,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34033,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34034,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34035,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34036,
+          "parent_skin_id": "skin:34027",
+          "name": "Divine Phoenix Anivia (Golden Tiger)",
+          "colors": [
+            "#FF9D13",
+            "#B9FFC1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/images/anivia_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/images/anivia_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/images/anivia_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin27/anivialoadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e5815c2bb95facd59dd6c91bc7b983b7150e09bdd53386092aae092667ad15b",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Divine Phoenix",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34027",
+        "result_label": "Divine Phoenix Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34027",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34007",
+      "riot_skin_id": 34007,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Festival Queen Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "49cde125-7c6e-4fb2-8af3-9003a2c6da29",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2017-02-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin07/images/anivia_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin07/images/anivia_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin07/images/anivia_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin07/anivialoadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8773810994ec59e46e0a8c2a39d24b279ebba514f2497d792c3edf5c581d8d11",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Festival Queen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34007",
+        "result_label": "Festival Queen Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34007",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34004",
+      "riot_skin_id": 34004,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Hextech Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "4e4eb5b4-a220-4d21-9d6a-b6acd9a46ec3",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-03-01",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin04/images/anivia_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin04/images/anivia_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin04/images/anivia_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin04/anivialoadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a89ae3a064da9891d994386d591ae95becf7c24357e5833d3a7178867a38fde",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34004",
+        "result_label": "Hextech Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34004",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34003",
+      "riot_skin_id": 34003,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Noxus Hunter Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "77efecdd-d08e-4779-ad5d-1ee52c874879",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-08-24",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin03/images/anivia_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin03/images/anivia_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin03/images/anivia_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin03/anivialoadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34003",
+        "result_label": "Noxus Hunter Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34003",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34056",
+      "riot_skin_id": 34056,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Old God Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 56,
+      "content_id": "fe075c5b-25e6-4fec-a791-24be4f13e232",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-09-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 34057,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin57/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34058,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin58/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34059,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin59/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34060,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin60/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34061,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin61/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34062,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin62/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34063,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin63/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34064,
+          "parent_skin_id": "skin:34056",
+          "name": "Old God Anivia (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin64/chromapreview.chroma_anivia_oldgod.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin56/images/anivia_splash_centered_56.skins_anivia_skin56.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin56/images/anivia_splash_uncentered_56.skins_anivia_skin56.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin56/images/anivia_splash_tile_56.skins_anivia_skin56.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin56/anivialoadscreen_56.skins_anivia_skin56.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5d07c277e481ccbcfbaf922e2a20aa6c0204b7728f864615781b5bc49fb2dfb5",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Old God",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34056",
+        "result_label": "Old God Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34056",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34008",
+      "riot_skin_id": 34008,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Papercraft Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "1278f2f4-c5d1-4728-bea2-18b5e68facd8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        96
+      ],
+      "wiki_sets": [
+        "Papercraft"
+      ],
+      "universe_ids": [
+        "universe:folded-edges"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 34009,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34010,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34011,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34012,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34013,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34014,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34015,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34016,
+          "parent_skin_id": "skin:34008",
+          "name": "Papercraft Anivia (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin08/images/anivia_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin08/images/anivia_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin08/images/anivia_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin08/anivialoadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3598bc8c62d846ef64ad86cfd93e118f6dde5340735abb13935eec41a3500652",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Papercraft",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34008",
+        "result_label": "Papercraft Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34008",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34006",
+      "riot_skin_id": 34006,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Prehistoric Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "6d5331d5-4272-496e-b998-f1a43b7582c0",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        32
+      ],
+      "wiki_sets": [
+        "Prehistoric Hunters"
+      ],
+      "universe_ids": [
+        "universe:prehistoric-hunters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin06/images/anivia_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin06/images/anivia_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin06/images/anivia_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin06/anivialoadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "276fb9bb9362bc7ba3c6b53ea85bfe0c138d2cade08085ec5aaea0f37e7e000a",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Prehistoric",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34006",
+        "result_label": "Prehistoric Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34006",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34001",
+      "riot_skin_id": 34001,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Team Spirit Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "7f4dd691-b859-4d99-8fd8-22aeb8aa40b9",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        28
+      ],
+      "wiki_sets": [
+        "Winter Sports"
+      ],
+      "universe_ids": [
+        "universe:winter-sports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin01/images/anivia_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin01/images/anivia_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin01/images/anivia_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin01/anivialoadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ec6f2da8cb77b0860cb5b6145729af1f004222bf0d1c22f3879dfb2d15937579",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Team Spirit",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34001",
+        "result_label": "Team Spirit Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34001",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:34046",
+      "riot_skin_id": 34046,
+      "champion_id": "Anivia",
+      "champion_riot_id": 34,
+      "champion_name": "Anivia",
+      "name": "Victorious Anivia",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "6a6bb9f9-768e-4ee8-ad85-cd67201d0504",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2023-07-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        7
+      ],
+      "wiki_sets": [
+        "Victorious"
+      ],
+      "universe_ids": [
+        "universe:victorious"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 34047,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Bronze)",
+          "colors": [
+            "#764D43",
+            "#764D43"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34048,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Silver)",
+          "colors": [
+            "#AAB5BA",
+            "#AAB5BA"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34049,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Gold)",
+          "colors": [
+            "#D9C445",
+            "#D9C445"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34050,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Platinum)",
+          "colors": [
+            "#26854C",
+            "#26854C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34051,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Diamond)",
+          "colors": [
+            "#65337F",
+            "#65337F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34052,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Master)",
+          "colors": [
+            "#9D228D",
+            "#9D228D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34053,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Grandmaster)",
+          "colors": [
+            "#B31316",
+            "#B31316"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 34054,
+          "parent_skin_id": "skin:34046",
+          "name": "Victorious Anivia (Challenger)",
+          "colors": [
+            "#1D62C8",
+            "#1D62C8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin46/images/anivia_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin46/images/anivia_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin46/images/anivia_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/anivia/skins/skin46/anivialoadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "17f265515f20b55c8472312d9c4f887d3ed30bde7a4a3013958cc59bb5ab7173",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Anivia",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Anivia",
+          "skin": "Victorious",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Anivia/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:34046",
+        "result_label": "Victorious Anivia",
+        "label_eligible": true,
+        "narrative_family_id": "skin:34046",
+        "champion_profile_ref": "data/champions/Anivia.json",
+        "gameplay_profile_ref": "data/champions/Anivia.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Anivia",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

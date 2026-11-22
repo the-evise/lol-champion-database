@@ -1,0 +1,1613 @@
+{
+  "champion_id": "Rakan",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497000",
+      "riot_skin_id": 497000,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Rakan",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "355b8ae7-efd4-4348-b56e-304184d41f51",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2017-04-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/base/images/rakan_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/base/images/rakan_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/base/images/rakan_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/base/rakanloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "71a7b5390cc6a709311c802da84469e7763f146ed95a574f4b36c785e078fd57",
+        "biography_word_count": 61,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497000",
+        "result_label": "Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497000",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497018",
+      "riot_skin_id": 497018,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Arcana Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "af9f08a9-c3d1-475a-bab7-b359fb824a6a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-04-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        146
+      ],
+      "wiki_sets": [
+        "Arcana"
+      ],
+      "universe_ids": [
+        "universe:arcana"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497019,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497020,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497021,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497022,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497023,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497024,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497025,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497026,
+          "parent_skin_id": "skin:497018",
+          "name": "Arcana Rakan (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin18/images/rakan_splash_centered_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin18/images/rakan_splash_uncentered_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin18/images/rakan_splash_tile_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin18/rakanloadscreen_18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "758e2fe0d93da655a0d490ee2105f6ed4955d3538e38c8a14b27b515a31c334c",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Arcana",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497018",
+        "result_label": "Arcana Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497018",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497047",
+      "riot_skin_id": 497047,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Battle Academia Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 47,
+      "content_id": "72776c02-d34e-4267-9978-4cf35b3415ac",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-03-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        113
+      ],
+      "wiki_sets": [
+        "Battle Academia"
+      ],
+      "universe_ids": [
+        "universe:god-weapon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497048,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497049,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497050,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497051,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497052,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497053,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497054,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497055,
+          "parent_skin_id": "skin:497047",
+          "name": "Battle Academia Rakan (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin47/images/rakan_splash_centered_47.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin47/images/rakan_splash_uncentered_47.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin47/images/rakan_splash_tile_47.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin47/rakanloadscreen_47.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "de0e65766c5df0cba459e4503deee4ac20e8384452218114ec6534c187be0e0c",
+        "biography_word_count": 64,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Battle Academia",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497047",
+        "result_label": "Battle Academia Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497047",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497027",
+      "riot_skin_id": 497027,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Broken Covenant Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "f4b68bbf-b70d-43fc-800c-f94e1f8aca9f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-03-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        190
+      ],
+      "wiki_sets": [
+        "Broken Covenant"
+      ],
+      "universe_ids": [
+        "universe:forsaken-hymn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497028,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497029,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497030,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497031,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497032,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497033,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497034,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497035,
+          "parent_skin_id": "skin:497027",
+          "name": "Broken Covenant Rakan (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin27/images/rakan_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin27/images/rakan_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin27/images/rakan_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin27/rakanloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "91a2b68b2d9bf5e65b6b2c056ee0be7c284d217644441da146c3e25db53dbe77",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Broken Covenant",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497027",
+        "result_label": "Broken Covenant Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497027",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497001",
+      "riot_skin_id": 497001,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Cosmic Dawn Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "e2054453-f9c4-42aa-a940-cbef439c7eff",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-04-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin01/images/rakan_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin01/images/rakan_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin01/images/rakan_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin01/rakanloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f7497f786453d56d69b4702a905b3b4288bec4bdff36b61ada042f5e92227660",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Cosmic Dawn",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497001",
+        "result_label": "Cosmic Dawn Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497001",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497037",
+      "riot_skin_id": 497037,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Dragonmancer Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "8b8666fc-2db7-4be1-9a45-0d37b800e076",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-01-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497039,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497040,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497041,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497042,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497043,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497044,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497045,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497046,
+          "parent_skin_id": "skin:497037",
+          "name": "Dragonmancer Rakan (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin37/images/rakan_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin37/images/rakan_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin37/images/rakan_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin37/rakanloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d076b2f2408f8519603f3238c2ff9acf2b50c0ebc0bd4df760e97876c0d281e9",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Dragonmancer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497037",
+        "result_label": "Dragonmancer Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497037",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497009",
+      "riot_skin_id": 497009,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Elderwood Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "f8577020-b666-4225-8b26-5daaf30f757b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-12-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        58
+      ],
+      "wiki_sets": [
+        "Elderwood"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497010,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497011,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497012,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497013,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497014,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497015,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497016,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Emberwood)",
+          "colors": [
+            "#27211C",
+            "#971458"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497017,
+          "parent_skin_id": "skin:497009",
+          "name": "Elderwood Rakan (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin09/images/rakan_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin09/images/rakan_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin09/images/rakan_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin09/rakanloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "81b3420f5bda84cc96bee8f3f5540ca3f23cc8f1cfc5ace126b71d6996aa5270",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Elderwood",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497009",
+        "result_label": "Elderwood Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497009",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497004",
+      "riot_skin_id": 497004,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "iG Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "422acd02-3b3c-4d6a-ad4d-b02aad2ac59d",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2019-04-23",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        107
+      ],
+      "wiki_sets": [
+        "World Champions: 2018"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497057,
+          "parent_skin_id": "skin:497004",
+          "name": "iG Rakan (Elite)",
+          "colors": [
+            "#568DF3",
+            "#ECC642"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin04/images/rakan_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin04/images/rakan_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin04/images/rakan_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin04/rakanloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5cbf725bbda55c1abaf80eba5bac27e776a6e2d173182fff337e4ceb9afb6e81",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "iG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497004",
+        "result_label": "iG Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497004",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497038",
+      "riot_skin_id": 497038,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Prestige Dragonmancer Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 38,
+      "content_id": "92e17935-9b4f-42fb-829e-901cf9ca730a",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-01-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": "skin:497037",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin38/images/rakan_splash_centered_38.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin38/images/rakan_splash_uncentered_38.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin38/images/rakan_splash_tile_38.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin38/rakanloadscreen_38.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fb91635c8d85a4e79f44757d8d6ce40c5f2e80fb42c128c0a9d3809465f246e1",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Prestige Dragonmancer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497038",
+        "result_label": "Prestige Dragonmancer Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497037",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497036",
+      "riot_skin_id": 497036,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Redeemed Star Guardian Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 36,
+      "content_id": "a2c12410-98dc-4924-8324-088c843a2340",
+      "rarity": "Legendary",
+      "availability": "Legacy",
+      "release_date": "2023-10-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": "skin:497005",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin36/images/rakan_splash_centered_36.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin36/images/rakan_splash_uncentered_36.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin36/images/rakan_splash_tile_36.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin36/rakanloadscreen_36.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dc6abeec0aee70586b960d0c39058fc714c69b8dcd38a51e87a56dc84805303d",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Redeemed Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497036",
+        "result_label": "Redeemed Star Guardian Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497005",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497003",
+      "riot_skin_id": 497003,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "SSG Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "3595ea4f-3234-4105-88d7-f63cccc38481",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-07-20",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        75
+      ],
+      "wiki_sets": [
+        "World Champions: 2017"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497056,
+          "parent_skin_id": "skin:497003",
+          "name": "SSG Rakan (Elite)",
+          "colors": [
+            "#C271F5",
+            "#CBE1F7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin03/images/rakan_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin03/images/rakan_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin03/images/rakan_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin03/rakanloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c197b642e0aaac80efd697ac281e9f8f26a187a74ad8615aac5ffdd72ff64bd0",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "SSG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497003",
+        "result_label": "SSG Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497003",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497005",
+      "riot_skin_id": 497005,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Star Guardian Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "9083042f-e996-4fec-8557-98eac7b2774d",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2019-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        119
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 3"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 497006,
+          "parent_skin_id": "skin:497005",
+          "name": "Star Guardian Rakan (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497007,
+          "parent_skin_id": "skin:497005",
+          "name": "Star Guardian Rakan (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 497008,
+          "parent_skin_id": "skin:497005",
+          "name": "Star Guardian Rakan (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin05/images/rakan_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin05/images/rakan_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin05/images/rakan_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin05/rakanloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d1601bccf0c6756c4729f6bb03b4dd9732b7bc70dc836096304458e126d2c24b",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497005",
+        "result_label": "Star Guardian Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497005",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:497002",
+      "riot_skin_id": 497002,
+      "champion_id": "Rakan",
+      "champion_riot_id": 497,
+      "champion_name": "Rakan",
+      "name": "Sweetheart Rakan",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "929e5074-44a7-41f7-8d76-9ab41add5f0b",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-02-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        64
+      ],
+      "wiki_sets": [
+        "Heartbreakers"
+      ],
+      "universe_ids": [
+        "universe:be-mine"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin02/images/rakan_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin02/images/rakan_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin02/images/rakan_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/rakan/skins/skin02/rakanloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f9f7af0f26091a814e5ed567eb352019c9bcb6cbbc156fb543c5a5bbcd71869d",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Rakan",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Rakan",
+          "skin": "Sweetheart",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Rakan/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:497002",
+        "result_label": "Sweetheart Rakan",
+        "label_eligible": true,
+        "narrative_family_id": "skin:497002",
+        "champion_profile_ref": "data/champions/Rakan.json",
+        "gameplay_profile_ref": "data/champions/Rakan.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Rakan",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2415 @@
+{
+  "champion_id": "Katarina",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55000",
+      "riot_skin_id": 55000,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Katarina",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "da013a79-4601-4ff4-935c-1a1e14a0e014",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-09-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/base/images/katarina_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/base/images/katarina_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/base/images/katarina_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/base/katarinaloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3bd1c8f5fefcde2f63b3e8b445c145d79084c88db495e9848501956588e5e970",
+        "biography_word_count": 71,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55000",
+        "result_label": "Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55000",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55012",
+      "riot_skin_id": 55012,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Battle Academia Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "92df77a2-5f01-470a-a261-35e793c71c12",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-05-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        113
+      ],
+      "wiki_sets": [
+        "Battle Academia"
+      ],
+      "universe_ids": [
+        "universe:god-weapon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55013,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55014,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Formal)",
+          "colors": [
+            "#111112",
+            "#EAF1F4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55015,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55016,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55017,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55018,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55019,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55020,
+          "parent_skin_id": "skin:55012",
+          "name": "Battle Academia Katarina (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin12/images/katarina_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin12/images/katarina_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin12/images/katarina_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin12/katarinaloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ef3ffbd67284a3bbcf37e00230283183d21e8f89a03b5e8d9b301bcc25785d6c",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Battle Academia",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55012",
+        "result_label": "Battle Academia Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55012",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55029",
+      "riot_skin_id": 55029,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Battle Queen Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "49fb2a00-8872-4e0e-b441-c2def2103ee3",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2020-12-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        137
+      ],
+      "wiki_sets": [
+        "Battle Queens"
+      ],
+      "universe_ids": [
+        "universe:battle-queens"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55030,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55031,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55032,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55033,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55034,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55035,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55036,
+          "parent_skin_id": "skin:55029",
+          "name": "Battle Queen Katarina (Coronation)",
+          "colors": [
+            "#FF80B1",
+            "#9DFFEF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin29/images/katarina_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin29/images/katarina_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin29/images/katarina_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin29/katarinaloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "182c1491d1da1fc3e8d3d12f006d88ea28606279df36978e4b62061fd2d950d9",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Battle Queen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55029",
+        "result_label": "Battle Queen Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55029",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55003",
+      "riot_skin_id": 55003,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Bilgewater Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "d1dd0e5c-348f-4376-b2b5-4e5e8167e4ad",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-08-29",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        49
+      ],
+      "wiki_sets": [
+        "Bilgewater: Burning Tides"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin03/images/katarina_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin03/images/katarina_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin03/images/katarina_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin03/katarinaloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "43182bfba54f36bd001a56fa17a153d4314b70862fcd381b0e825e8a59e8787c",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Bilgewater",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55003",
+        "result_label": "Bilgewater Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55003",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55021",
+      "riot_skin_id": 55021,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Blood Moon Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "b4b349e1-ca8c-4d24-a029-85187cbed1b4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-02-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55022,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55023,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55024,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55025,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55026,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55027,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55028,
+          "parent_skin_id": "skin:55021",
+          "name": "Blood Moon Katarina (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin21/images/katarina_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin21/images/katarina_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin21/images/katarina_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin21/katarinaloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "09b60a2f5ab4d77e86e196d07a3c9a77550d9378117a946647729e13b57dc62b",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55021",
+        "result_label": "Blood Moon Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55021",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55059",
+      "riot_skin_id": 55059,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Chosen of the Wolf Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 59,
+      "content_id": "d9a6f776-bbf7-4719-8ede-7e3000007ece",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-11-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        209
+      ],
+      "wiki_sets": [
+        "Chosen of the Wolf"
+      ],
+      "universe_ids": [
+        "universe:chosen-of-the-wolf"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55061,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55062,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55063,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55064,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55065,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55066,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55067,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55068,
+          "parent_skin_id": "skin:55059",
+          "name": "Chosen of the Wolf Katarina (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin59/images/katarina_splash_centered_59.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin59/images/katarina_splash_uncentered_59.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin59/images/katarina_splash_tile_59.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin59/katarinaloadscreen_59.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "745ca9a6fe344055334e80f30c5f223a24555d2e7bfccab82f06827d5e3681a9",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Chosen of the Wolf",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55059",
+        "result_label": "Chosen of the Wolf Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55059",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60055301",
+      "riot_skin_id": 60055301,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Classic Katarina",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "179fde5f-86c0-4590-83d9-654481badc81",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60055302,
+          "parent_skin_id": "skin:60055301",
+          "name": "Classic Katarina (Mercenary)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_katarina/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_katarina/skins/skin301/images/jade_katarina_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_katarina/skins/skin301/images/jade_katarina_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_katarina/skins/skin301/images/jade_katarina_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_katarina/skins/skin301/jade_katarinaloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c4c4ae5ea29d993b08f5f0be80e7c85b6dad08dd20fa329f91b12c272ab48d9f",
+        "biography_word_count": 51,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60055301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60055301",
+        "result_label": "Classic Katarina",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60055301",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55010",
+      "riot_skin_id": 55010,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Death Sworn Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "85bd2e95-8f5c-41b8-95d5-9230c1c880f5",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2017-10-25",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        87
+      ],
+      "wiki_sets": [
+        "Death Sworn"
+      ],
+      "universe_ids": [
+        "universe:death-sworn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin10/images/katarina_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin10/images/katarina_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin10/images/katarina_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin10/katarinaloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3d194f60ed1869d257180eb0a009a50c0056642f03dc3cd7bdf1cb637ac96237",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Death Sworn",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55010",
+        "result_label": "Death Sworn Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55010",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55047",
+      "riot_skin_id": 55047,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Faerie Court Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 47,
+      "content_id": "156a2eb7-31f4-4198-aeea-2dc154dfc6a7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-03-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        191
+      ],
+      "wiki_sets": [
+        "Faerie Court"
+      ],
+      "universe_ids": [
+        "universe:winged-reign"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55049,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55050,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55051,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55052,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55053,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55054,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55055,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55056,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55057,
+          "parent_skin_id": "skin:55047",
+          "name": "Faerie Court Katarina (Winsome)",
+          "colors": [
+            "#866EFF",
+            "#8AE1E8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin47/images/katarina_splash_centered_47.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin47/images/katarina_splash_uncentered_47.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin47/images/katarina_splash_tile_47.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin47/katarinaloadscreen_47.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dd3d09fab452effc8cd98674f95b2fb10377d7c92638a80dca4a514db1bdecfc",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Faerie Court",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55047",
+        "result_label": "Faerie Court Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55047",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55005",
+      "riot_skin_id": 55005,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "High Command Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "5a260596-10b2-4417-a3dd-e420c636c25a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-02-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        177
+      ],
+      "wiki_sets": [
+        "Bilgewater: Mercs"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin05/images/katarina_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin05/images/katarina_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin05/images/katarina_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin05/katarinaloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55005",
+        "result_label": "High Command Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55005",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55037",
+      "riot_skin_id": 55037,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "High Noon Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "bb321c70-fd8a-460f-a7fa-cb06b5fe519f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-05-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55038,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55039,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55040,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55041,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55042,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55043,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55044,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55045,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55046,
+          "parent_skin_id": "skin:55037",
+          "name": "High Noon Katarina (Nomad)",
+          "colors": [
+            "#95ECFF",
+            "#C33C3E"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin37/images/katarina_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin37/images/katarina_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin37/images/katarina_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin37/katarinaloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4094adf5daaa37850cfd7e548be2ea560128f7babf861930a93a09a5b06112e2",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55037",
+        "result_label": "High Noon Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55037",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55004",
+      "riot_skin_id": 55004,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Kitty Cat Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "62afc333-ce0a-4d74-88e1-3d8697d49ad6",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        88
+      ],
+      "wiki_sets": [
+        "Trick-or-Treat"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin04/images/katarina_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin04/images/katarina_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin04/images/katarina_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin04/katarinaloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6dc3d13acae84713a9fbb71e42b8673812f0444958080c7027f790edf21c8791",
+        "biography_word_count": 21,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Kitty Cat",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55004",
+        "result_label": "Kitty Cat Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55004",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55001",
+      "riot_skin_id": 55001,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Mercenary Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "bdf82d63-e04b-4468-bec6-27c01dab8630",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-11-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin01/images/katarina_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin01/images/katarina_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin01/images/katarina_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin01/katarinaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55001",
+        "result_label": "Mercenary Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55001",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55070",
+      "riot_skin_id": 55070,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Petals of Spring Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 70,
+      "content_id": "b7d5646d-dfd0-4bfb-aa07-c4f397166f79",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2026-02-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        225
+      ],
+      "wiki_sets": [
+        "Petals of Spring"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55071,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55072,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55073,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55074,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55075,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55076,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55077,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 55078,
+          "parent_skin_id": "skin:55070",
+          "name": "Petals of Spring Katarina (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin70/images/katarina_splash_centered_70.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin70/images/katarina_splash_uncentered_70.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin70/images/katarina_splash_tile_70.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin70/katarinaloadscreen_70.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "db58077dcda5a0c61b76fa8aa531c56fb9df072282d620a2fa1fc382fc76a05d",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/19/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Petals of Spring",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55070",
+        "result_label": "Petals of Spring Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55070",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55048",
+      "riot_skin_id": 55048,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Prestige Faerie Court Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 48,
+      "content_id": "1f3473e5-8d1e-4e8d-ae8a-6e834bf478a8",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-03-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        191
+      ],
+      "wiki_sets": [
+        "Faerie Court"
+      ],
+      "universe_ids": [
+        "universe:winged-reign"
+      ],
+      "variant_of": "skin:55047",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin48/images/katarina_splash_centered_48.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin48/images/katarina_splash_uncentered_48.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin48/images/katarina_splash_tile_48.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin48/katarinaloadscreen_48.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cb2c60aa31cfe48dce566d1eaa85b06af1a549921cb3aeebba3e98619ba31da5",
+        "biography_word_count": 31,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Prestige Faerie Court",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55048",
+        "result_label": "Prestige Faerie Court Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55047",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55060",
+      "riot_skin_id": 55060,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Prestige Masque of the Black Rose Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 60,
+      "content_id": "2461f68f-16c5-4fe0-b208-4967b7754768",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2025-01-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        211
+      ],
+      "wiki_sets": [
+        "Masque of the Black Rose"
+      ],
+      "universe_ids": [
+        "universe:masque-of-the-black-rose"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55069,
+          "parent_skin_id": "skin:55060",
+          "name": "Prestige Masque of the Black Rose Katarina (Enigma)",
+          "colors": [
+            "#474AF7",
+            "#BCD6EF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin60/images/katarina_splash_centered_60.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin60/images/katarina_splash_uncentered_60.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin60/images/katarina_splash_tile_60.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin60/katarinaloadscreen_60.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3e09847e3ba0afab182352dd7e941be15e5981ff2f4c65a6d49d34cb0247ab10",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Prestige Masque of the Black Rose",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55060",
+        "result_label": "Prestige Masque of the Black Rose Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55060",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55009",
+      "riot_skin_id": 55009,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "PROJECT: Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "e8c8ea2c-5d90-4907-b851-6979cfe91010",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-08-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin09/images/katarina_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin09/images/katarina_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin09/images/katarina_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin09/katarinaloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0dddd8e912abb690fe357758ac912e1a2bc15ae99b576842dea459f6f0ca90b6",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55009",
+        "result_label": "PROJECT: Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55009",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55002",
+      "riot_skin_id": 55002,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Red Card Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "bdeed643-9ac8-4cb6-b3d1-316ba6e053ff",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-06-24",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        31
+      ],
+      "wiki_sets": [
+        "Soccer Cup"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin02/images/katarina_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin02/images/katarina_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin02/images/katarina_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin02/katarinaloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "299c8411d01c460827eb0f5e84fa2c61977813362c490400760cf47ca59ab76a",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Red Card",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55002",
+        "result_label": "Red Card Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55002",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55006",
+      "riot_skin_id": 55006,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Sandstorm Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "4031d471-0273-4d57-b4c1-d9f81fd02251",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-01-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin06/images/katarina_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin06/images/katarina_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin06/images/katarina_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin06/katarinaloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55006",
+        "result_label": "Sandstorm Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55006",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55007",
+      "riot_skin_id": 55007,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Slay Belle Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "4af7f8e3-e9d2-4b9f-a4e2-8d9c9282940e",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2012-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin07/images/katarina_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin07/images/katarina_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin07/images/katarina_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin07/katarinaloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "76086c5e8d9a04fbec1f6631f1f62a0378b7fee2712d8d24d1324a65471b14b6",
+        "biography_word_count": 32,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Slay Belle",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55007",
+        "result_label": "Slay Belle Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55007",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:55008",
+      "riot_skin_id": 55008,
+      "champion_id": "Katarina",
+      "champion_riot_id": 55,
+      "champion_name": "Katarina",
+      "name": "Warring Kingdoms Katarina",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "7996cb14-447c-4383-a511-204b5172e70f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-02-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        53
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Warring Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:warring-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 55011,
+          "parent_skin_id": "skin:55008",
+          "name": "Warring Kingdoms Katarina (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin08/images/katarina_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin08/images/katarina_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin08/images/katarina_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/katarina/skins/skin08/katarinaloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0cafb146522e9f57ba35cd86783828d8487ab1bbc313ea6472aceb9dd6666c69",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Katarina",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Katarina",
+          "skin": "Warring Kingdoms",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Katarina/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:55008",
+        "result_label": "Warring Kingdoms Katarina",
+        "label_eligible": true,
+        "narrative_family_id": "skin:55008",
+        "champion_profile_ref": "data/champions/Katarina.json",
+        "gameplay_profile_ref": "data/champions/Katarina.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Katarina",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

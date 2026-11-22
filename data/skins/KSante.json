@@ -1,0 +1,676 @@
+{
+  "champion_id": "KSante",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:897000",
+      "riot_skin_id": 897000,
+      "champion_id": "KSante",
+      "champion_riot_id": 897,
+      "champion_name": "K'Sante",
+      "name": "K'Sante",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "2522cf5b-940d-4c5c-8c9e-058868dfde37",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2022-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/base/images/ksante_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/base/images/ksante_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/base/images/ksante_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/base/ksanteloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a3cff4d37be3d6b9c457e6ca339f8994253157545b24e1d439290e94ce7ba171",
+        "biography_word_count": 79,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "K'Sante",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:897000",
+        "result_label": "K'Sante",
+        "label_eligible": true,
+        "narrative_family_id": "skin:897000",
+        "champion_profile_ref": "data/champions/KSante.json",
+        "gameplay_profile_ref": "data/champions/KSante.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KSante",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:897001",
+      "riot_skin_id": 897001,
+      "champion_id": "KSante",
+      "champion_riot_id": 897,
+      "champion_name": "K'Sante",
+      "name": "Empyrean K'Sante",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "563a13e2-3e8b-4c7f-953b-078121c29024",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 897003,
+          "parent_skin_id": "skin:897001",
+          "name": "Empyrean K'Sante (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897004,
+          "parent_skin_id": "skin:897001",
+          "name": "Empyrean K'Sante (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897005,
+          "parent_skin_id": "skin:897001",
+          "name": "Empyrean K'Sante (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897006,
+          "parent_skin_id": "skin:897001",
+          "name": "Empyrean K'Sante (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897007,
+          "parent_skin_id": "skin:897001",
+          "name": "Empyrean K'Sante (Neon Flare)",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin01/images/ksante_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin01/images/ksante_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin01/images/ksante_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin01/ksanteloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1a037f5196f1ed89565472955732b3aca6d2b7b39dc313bd19d5b7511c3df29c",
+        "biography_word_count": 54,
+        "source_id": "skins:client:KSante",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "K'Sante",
+          "skin": "Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:897001",
+        "result_label": "Empyrean K'Sante",
+        "label_eligible": true,
+        "narrative_family_id": "skin:897001",
+        "champion_profile_ref": "data/champions/KSante.json",
+        "gameplay_profile_ref": "data/champions/KSante.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KSante",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:897008",
+      "riot_skin_id": 897008,
+      "champion_id": "KSante",
+      "champion_riot_id": 897,
+      "champion_name": "K'Sante",
+      "name": "HEARTSTEEL K'Sante",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "edd5aa93-e3ad-4496-b2a2-331b206d2bce",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-11-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        199
+      ],
+      "wiki_sets": [
+        "HEARTSTEEL"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 897009,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897010,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897011,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897012,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897013,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897014,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897015,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897016,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897017,
+          "parent_skin_id": "skin:897008",
+          "name": "HEARTSTEEL K'Sante (Rockstar)",
+          "colors": [
+            "#CDE9EF",
+            "#E9628F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin08/images/ksante_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin08/images/ksante_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin08/images/ksante_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin08/ksanteloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b45a810f28e465f32919bb449159dd30bdcdc100f08201c3ff0383b4a63a484b",
+        "biography_word_count": 54,
+        "source_id": "skins:client:KSante",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "K'Sante",
+          "skin": "HEARTSTEEL",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:897008",
+        "result_label": "HEARTSTEEL K'Sante",
+        "label_eligible": true,
+        "narrative_family_id": "skin:897008",
+        "champion_profile_ref": "data/champions/KSante.json",
+        "gameplay_profile_ref": "data/champions/KSante.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KSante",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:897018",
+      "riot_skin_id": 897018,
+      "champion_id": "KSante",
+      "champion_riot_id": 897,
+      "champion_name": "K'Sante",
+      "name": "HEARTSTEEL Live My Life K'Sante",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "32691eee-511d-4ff3-8511-6d3b8c803ec7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-10-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        199
+      ],
+      "wiki_sets": [
+        "HEARTSTEEL"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 897019,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin19/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897020,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin20/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897021,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin21/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897022,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin22/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897023,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin23/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897024,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin24/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897025,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin25/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 897026,
+          "parent_skin_id": "skin:897018",
+          "name": "HEARTSTEEL Live My Life K'Sante (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin26/chromapreview.chroma_ksante_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin18/images/ksante_splash_centered_18.skins_ksante_skin18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin18/images/ksante_splash_uncentered_18.skins_ksante_skin18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin18/images/ksante_splash_tile_18.skins_ksante_skin18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin18/ksanteloadscreen_18.skins_ksante_skin18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3a591da935810299fe9556b0edbb3642c376dddb48ad96d52a123eb91eadb4e5",
+        "biography_word_count": 55,
+        "source_id": "skins:client:KSante",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "K'Sante",
+          "skin": "HEARTSTEEL Live My Life",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:897018",
+        "result_label": "HEARTSTEEL Live My Life K'Sante",
+        "label_eligible": true,
+        "narrative_family_id": "skin:897018",
+        "champion_profile_ref": "data/champions/KSante.json",
+        "gameplay_profile_ref": "data/champions/KSante.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KSante",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:897002",
+      "riot_skin_id": 897002,
+      "champion_id": "KSante",
+      "champion_riot_id": 897,
+      "champion_name": "K'Sante",
+      "name": "Prestige Empyrean K'Sante",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "139db0b5-c2c2-4578-9efd-ec0e10bccf1c",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2022-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": "skin:897001",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin02/images/ksante_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin02/images/ksante_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin02/images/ksante_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ksante/skins/skin02/ksanteloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "66288adb1c2c104d7508f70034a6a2a66d875076e2369ccbf7f22da18d05cc2c",
+        "biography_word_count": 36,
+        "source_id": "skins:client:KSante",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "K'Sante",
+          "skin": "Prestige Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/K%27Sante/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:897002",
+        "result_label": "Prestige Empyrean K'Sante",
+        "label_eligible": true,
+        "narrative_family_id": "skin:897001",
+        "champion_profile_ref": "data/champions/KSante.json",
+        "gameplay_profile_ref": "data/champions/KSante.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:KSante",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2220 @@
+{
+  "champion_id": "Riven",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92000",
+      "riot_skin_id": 92000,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Riven",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "ccfc511e-57ee-46bb-b901-619618bb797a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-09-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/base/images/riven_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/base/images/riven_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/base/images/riven_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/base/rivenloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "afd03304052b7427be4fb8172253bb8f0112f5d4d6ca6b5f67acba567a7aafa3",
+        "biography_word_count": 91,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92000",
+        "result_label": "Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92000",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92006",
+      "riot_skin_id": 92006,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Arcade Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "4f391080-827e-4ba5-8ddf-f08679bffd60",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-08-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        10
+      ],
+      "wiki_sets": [
+        "Arcade: Heroes"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92021,
+          "parent_skin_id": "skin:92006",
+          "name": "Arcade Riven (K.O.)",
+          "colors": [
+            "#A5FFF8",
+            "#D87BFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin06/images/riven_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin06/images/riven_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin06/images/riven_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin06/rivenloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "480dbf798881d22e4a40a19024e28311463801ef6ac459459c18e6748ebac631",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Arcade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92006",
+        "result_label": "Arcade Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92006",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92044",
+      "riot_skin_id": 92044,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Battle Bunny Prime Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 44,
+      "content_id": "0488d4b9-8235-4532-9289-3d8ccb98bf8c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-03-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        156
+      ],
+      "wiki_sets": [
+        "Anima Squad"
+      ],
+      "universe_ids": [
+        "universe:animatech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92046,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92047,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92048,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92049,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92050,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92051,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92052,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92053,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92054,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Nightwire)",
+          "colors": [
+            "#F6A630",
+            "#1C61B4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92072,
+          "parent_skin_id": "skin:92044",
+          "name": "Battle Bunny Prime Riven (Paragon)",
+          "colors": [
+            "#BCD6EF",
+            "#474AF7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin44/images/riven_splash_centered_44.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin44/images/riven_splash_uncentered_44.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin44/images/riven_splash_tile_44.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin44/rivenloadscreen_44.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4d494f7c91abff517b4361926827ca64609a6ce1a7c833e5d573d2c7c3428213",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Battle Bunny Prime",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92044",
+        "result_label": "Battle Bunny Prime Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92044",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92003",
+      "riot_skin_id": 92003,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Battle Bunny Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "fc0faa88-cb03-4db3-8231-2a5e88cf676a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-04-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92008,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92009,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92010,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92011,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Astral)",
+          "colors": [
+            "#FF3CFF",
+            "#FF3CFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92012,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92013,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92014,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92015,
+          "parent_skin_id": "skin:92003",
+          "name": "Battle Bunny Riven (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin03/images/riven_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin03/images/riven_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin03/images/riven_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin03/rivenloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ace7f06f0188be0909ecd7e5d9aee8c93314cf4b5a2937f9b301b841c7d3ab04",
+        "biography_word_count": 9,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Battle Bunny",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92003",
+        "result_label": "Battle Bunny Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92003",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92055",
+      "riot_skin_id": 92055,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Broken Covenant Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 55,
+      "content_id": "7982a86d-bd3b-455b-ba06-3c8ad5e6b8d0",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2023-03-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        190
+      ],
+      "wiki_sets": [
+        "Broken Covenant"
+      ],
+      "universe_ids": [
+        "universe:forsaken-hymn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92057,
+          "parent_skin_id": "skin:92055",
+          "name": "Broken Covenant Riven (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92058,
+          "parent_skin_id": "skin:92055",
+          "name": "Broken Covenant Riven (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92059,
+          "parent_skin_id": "skin:92055",
+          "name": "Broken Covenant Riven (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92060,
+          "parent_skin_id": "skin:92055",
+          "name": "Broken Covenant Riven (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92061,
+          "parent_skin_id": "skin:92055",
+          "name": "Broken Covenant Riven (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92062,
+          "parent_skin_id": "skin:92055",
+          "name": "Broken Covenant Riven (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin55/images/riven_splash_centered_55.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin55/images/riven_splash_uncentered_55.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin55/images/riven_splash_tile_55.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin55/rivenloadscreen_55.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b093a6c53bb95c25d02eaa80bc42885a941884c0ac4645a2891044ecfbabe0fa",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Broken Covenant",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92055",
+        "result_label": "Broken Covenant Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92055",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92002",
+      "riot_skin_id": 92002,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Crimson Elite Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "723cf402-722d-42aa-95cf-23a3e77f41a9",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-09-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        122
+      ],
+      "wiki_sets": [
+        "Crimson Elite"
+      ],
+      "universe_ids": [
+        "universe:crimson-elite"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin02/images/riven_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin02/images/riven_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin02/images/riven_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin02/rivenloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "57ef96726bf42a9a8b388048c1f2e80d3ee617b42dd627d058817ae32fe1a428",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Crimson Elite",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92002",
+        "result_label": "Crimson Elite Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92002",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92016",
+      "riot_skin_id": 92016,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Dawnbringer Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "95b14254-477c-49c1-849d-c63a0a9b5b66",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2017-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92024,
+          "parent_skin_id": "skin:92016",
+          "name": "Dawnbringer Riven (Paragon)",
+          "colors": [
+            "#6FFDFF",
+            "#2377FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92056,
+          "parent_skin_id": "skin:92016",
+          "name": "Dawnbringer Riven (Nightbringer)",
+          "colors": [
+            "#8C1517",
+            "#2E2630"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin16/images/riven_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin16/images/riven_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin16/images/riven_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin16/rivenloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "835434461bf57e55b9f0adb596b402bb48e5ebd8316937882fb50e2112bd702b",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Dawnbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92016",
+        "result_label": "Dawnbringer Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92016",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92005",
+      "riot_skin_id": 92005,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Dragonblade Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "088c198a-ece5-4511-a7e4-2d3ae795c963",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2014-01-28",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        53
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Warring Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:warring-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92017,
+          "parent_skin_id": "skin:92005",
+          "name": "Dragonblade Riven (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin05/images/riven_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin05/images/riven_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin05/images/riven_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin05/rivenloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8ab3187518b5247f9226861298e3c5bc5fd6ff7a60a4536bdee4b3c39f53b5ae",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Dragonblade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92005",
+        "result_label": "Dragonblade Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92005",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92022",
+      "riot_skin_id": 92022,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Prestige Valiant Sword Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 22,
+      "content_id": "aecd491c-d11e-4fa5-936c-f1288f0186ea",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-09-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": "skin:92020",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/images/riven_splash_centered_22.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/images/riven_splash_uncentered_22.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/images/riven_splash_tile_22.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/rivenloadscreen_22.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b0bb90bf42ecaa54855ef0f893aa92bd94730738f7434c075c24e461383ec5ec",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Prestige Valiant Sword",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92022",
+        "result_label": "Prestige Valiant Sword Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92020",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92045",
+      "riot_skin_id": 92045,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Prestige Valiant Sword Riven (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 45,
+      "content_id": "62c7c6ee-7bd2-4a32-831f-f647dda459aa",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": "skin:92022",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/images/riven_splash_centered_22.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/images/riven_splash_uncentered_22.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin22/images/riven_splash_tile_22.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin45/rivenloadscreen_45.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b0bb90bf42ecaa54855ef0f893aa92bd94730738f7434c075c24e461383ec5ec",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Prestige Valiant Sword (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92045",
+        "result_label": "Prestige Valiant Sword Riven (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92022",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92063",
+      "riot_skin_id": 92063,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Primal Ambush Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 63,
+      "content_id": "2e44555c-9482-4f15-b75f-f8df0e48bd3e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-01-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        200
+      ],
+      "wiki_sets": [
+        "Primal Ambush"
+      ],
+      "universe_ids": [
+        "universe:fury-and-fang"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92064,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92065,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92066,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92067,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92068,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92069,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92070,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92071,
+          "parent_skin_id": "skin:92063",
+          "name": "Primal Ambush Riven (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin63/images/riven_splash_centered_63.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin63/images/riven_splash_uncentered_63.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin63/images/riven_splash_tile_63.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin63/rivenloadscreen_63.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6edc6a13ca1c4d5fd5059a6e9769395f236c3bf2565ae20a3c308d37b292fc0e",
+        "biography_word_count": 64,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Primal Ambush",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92063",
+        "result_label": "Primal Ambush Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92063",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92018",
+      "riot_skin_id": 92018,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Pulsefire Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 18,
+      "content_id": "688e6b14-0919-43a5-a281-f4020af9c790",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-05-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        36
+      ],
+      "wiki_sets": [
+        "Pulsefire"
+      ],
+      "universe_ids": [
+        "universe:pulsefire"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92025,
+          "parent_skin_id": "skin:92018",
+          "name": "Pulsefire Riven (Chrono)",
+          "colors": [
+            "#162D57",
+            "#A50031"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin18/images/riven_splash_centered_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin18/images/riven_splash_uncentered_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin18/images/riven_splash_tile_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin18/rivenloadscreen_18.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "45b12c43cabaed25175182a35ddc9f6462cc8e811c2707cad62ed67c47233f16",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Pulsefire",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92018",
+        "result_label": "Pulsefire Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92018",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92001",
+      "riot_skin_id": 92001,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Redeemed Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "23c454ae-b0db-4099-a15f-e8f707a2c62c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-09-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        180
+      ],
+      "wiki_sets": [
+        "Otherroads"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin01/images/riven_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin01/images/riven_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin01/images/riven_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin01/rivenloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92001",
+        "result_label": "Redeemed Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92001",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92007",
+      "riot_skin_id": 92007,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Reignited Worlds 2012 Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "06ec3ac9-32a9-4adf-9eab-5a0ba7ea17ce",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2016-09-25",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": "skin:92004",
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92019,
+          "parent_skin_id": "skin:92007",
+          "name": "Reignited Worlds 2012 Riven (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin07/images/riven_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin07/images/riven_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin07/images/riven_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin07/rivenloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "95da86154291b82357e131f9693c6a77e53eed6b9da1b74dc7e099f32aa09126",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Reignited Worlds 2012",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92007",
+        "result_label": "Reignited Worlds 2012 Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92004",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92034",
+      "riot_skin_id": 92034,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Sentinel Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 34,
+      "content_id": "2815db75-4a76-405a-8da0-eb3d4b4a5594",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-07-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        147
+      ],
+      "wiki_sets": [
+        "Sentinels of Light"
+      ],
+      "universe_ids": [
+        "universe:the-ruined-king-saga"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92035,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92036,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92037,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92038,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92039,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92040,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92041,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92042,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92043,
+          "parent_skin_id": "skin:92034",
+          "name": "Sentinel Riven (Resolute)",
+          "colors": [
+            "#080808",
+            "#8E0A38"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/images/riven_splash_centered_34.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/images/riven_splash_uncentered_34.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/images/riven_splash_tile_34.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin34/rivenloadscreen_34.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9388181d8a70d10abcbe037c74cf04892af7c7c40a0c981443f0a3b0a97b2fe6",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Sentinel",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92034",
+        "result_label": "Sentinel Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92034",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92023",
+      "riot_skin_id": 92023,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Spirit Blossom Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 23,
+      "content_id": "241d116b-aeb3-4370-9394-d9806b387dab",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-08-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 92026,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92027,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92028,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92029,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92030,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92031,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92032,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 92033,
+          "parent_skin_id": "skin:92023",
+          "name": "Spirit Blossom Riven (Night Blossom)",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin23/images/riven_splash_centered_23.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin23/images/riven_splash_uncentered_23.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin23/images/riven_splash_tile_23.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin23/rivenloadscreen_23.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bffa5cba9db036ca8de74f88e251615025acaf5b65d1de72bc340d022510fdd3",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92023",
+        "result_label": "Spirit Blossom Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92023",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92020",
+      "riot_skin_id": 92020,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Valiant Sword Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "2d60434e-f590-4d76-9bad-36269e0c5f63",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-09-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin20/images/riven_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin20/images/riven_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin20/images/riven_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin20/rivenloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9447279eb4a84b77614edf71a3a4c3804dcdad29d711d637af42be0ab20a3e7e",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Valiant Sword",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92020",
+        "result_label": "Valiant Sword Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92020",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92073",
+      "riot_skin_id": 92073,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Victorious Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "wiki_only",
+      "skin_num": 73,
+      "content_id": null,
+      "rarity": null,
+      "availability": "Upcoming",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": null,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [],
+      "wiki_sets": [
+        "Victorious"
+      ],
+      "universe_ids": [
+        "universe:victorious"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_73.jpg",
+        "uncentered_splash": null,
+        "tile": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Riven_73.jpg",
+        "loading": null
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "317f55329dfdb0be257c6b3f0a8da98d781f5e76ea680420bed5fd6be86a7265",
+        "biography_word_count": 55,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Victorious",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92073",
+        "result_label": "Victorious Riven",
+        "label_eligible": false,
+        "narrative_family_id": "skin:92073",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:92004",
+      "riot_skin_id": 92004,
+      "champion_id": "Riven",
+      "champion_riot_id": 92,
+      "champion_name": "Riven",
+      "name": "Worlds 2012 Riven",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "e8605807-2258-488a-b27f-9115afa6f7fb",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2012-10-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin04/images/riven_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin04/images/riven_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin04/images/riven_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/riven/skins/skin04/rivenloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a2d04a19c3512205eef72f60e8a721363140205e576845a2902fe4417ea6f90",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Riven",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Riven",
+          "skin": "Worlds 2012",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Riven/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:92004",
+        "result_label": "Worlds 2012 Riven",
+        "label_eligible": true,
+        "narrative_family_id": "skin:92004",
+        "champion_profile_ref": "data/champions/Riven.json",
+        "gameplay_profile_ref": "data/champions/Riven.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Riven",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

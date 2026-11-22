@@ -1,0 +1,809 @@
+{
+  "champion_id": "Belveth",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:200000",
+      "riot_skin_id": 200000,
+      "champion_id": "Belveth",
+      "champion_riot_id": 200,
+      "champion_name": "Bel'Veth",
+      "name": "Bel'Veth",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "94dd4df1-b526-4361-aec9-e8efbca18839",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2022-06-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/base/images/belveth_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/base/images/belveth_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/base/images/belveth_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/base/belvethloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "222c5c1a3aea0fe0f8f93d6b43600dd1c2c71f5a4cc6227bf553e3ed6e112d45",
+        "biography_word_count": 83,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Bel'Veth",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:200000",
+        "result_label": "Bel'Veth",
+        "label_eligible": true,
+        "narrative_family_id": "skin:200000",
+        "champion_profile_ref": "data/champions/Belveth.json",
+        "gameplay_profile_ref": "data/champions/Belveth.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Belveth",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:200001",
+      "riot_skin_id": 200001,
+      "champion_id": "Belveth",
+      "champion_riot_id": 200,
+      "champion_name": "Bel'Veth",
+      "name": "Battle Boss Bel'Veth",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "3df843a7-f6ae-4ffd-b887-03fb19b7d0e9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-06-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        11
+      ],
+      "wiki_sets": [
+        "Arcade: Battle Bosses"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 200002,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200003,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200004,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200005,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200006,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200007,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200008,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200009,
+          "parent_skin_id": "skin:200001",
+          "name": "Battle Boss Bel'Veth (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin01/images/belveth_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin01/images/belveth_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin01/images/belveth_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin01/belvethloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6fc9c5a788f017e47371aeff23ef8887da9da93dd3a4d41482ad020dbe19fe6a",
+        "biography_word_count": 67,
+        "source_id": "skins:client:Belveth",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Bel'Veth",
+          "skin": "Battle Boss",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:200001",
+        "result_label": "Battle Boss Bel'Veth",
+        "label_eligible": true,
+        "narrative_family_id": "skin:200001",
+        "champion_profile_ref": "data/champions/Belveth.json",
+        "gameplay_profile_ref": "data/champions/Belveth.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Belveth",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:200010",
+      "riot_skin_id": 200010,
+      "champion_id": "Belveth",
+      "champion_riot_id": 200,
+      "champion_name": "Bel'Veth",
+      "name": "Cosmic Matriarch Bel'Veth",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "7341140d-7017-495a-9454-c0aeadc2e3c6",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 200011,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200012,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200013,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200014,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200015,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200016,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200017,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200018,
+          "parent_skin_id": "skin:200010",
+          "name": "Cosmic Matriarch Bel'Veth (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin10/images/belveth_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin10/images/belveth_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin10/images/belveth_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin10/belvethloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9a3b89814d7963eaf7b3d7d271f4e0a531deff3068c5d30e9d6dc3cd6d412406",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Belveth",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Bel'Veth",
+          "skin": "Cosmic Matriarch",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:200010",
+        "result_label": "Cosmic Matriarch Bel'Veth",
+        "label_eligible": true,
+        "narrative_family_id": "skin:200010",
+        "champion_profile_ref": "data/champions/Belveth.json",
+        "gameplay_profile_ref": "data/champions/Belveth.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Belveth",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:200029",
+      "riot_skin_id": 200029,
+      "champion_id": "Belveth",
+      "champion_riot_id": 200,
+      "champion_name": "Bel'Veth",
+      "name": "Faerie Court Bel'Veth",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "71168221-459e-4b86-a5d9-595e6a34b250",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-08-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        191
+      ],
+      "wiki_sets": [
+        "Faerie Court"
+      ],
+      "universe_ids": [
+        "universe:winged-reign"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 200030,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200030.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200031,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200031.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200032,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200032.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200033,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200033.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200034,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200034.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200035,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200035.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200036,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200036.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200037,
+          "parent_skin_id": "skin:200029",
+          "name": "Faerie Court Bel'Veth (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/200/200037.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin29/images/belveth_splash_centered_29.skins_belveth_skin29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin29/images/belveth_splash_uncentered_29.skins_belveth_skin29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin29/images/belveth_splash_tile_29.skins_belveth_skin29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin29/belvethloadscreen_29.skins_belveth_skin29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f495a4e1993cf7030edf90b3b0bcb29bc600644c5631091a25490935744be631",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Belveth",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Bel'Veth",
+          "skin": "Faerie Court",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:200029",
+        "result_label": "Faerie Court Bel'Veth",
+        "label_eligible": true,
+        "narrative_family_id": "skin:200029",
+        "champion_profile_ref": "data/champions/Belveth.json",
+        "gameplay_profile_ref": "data/champions/Belveth.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Belveth",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:200019",
+      "riot_skin_id": 200019,
+      "champion_id": "Belveth",
+      "champion_riot_id": 200,
+      "champion_name": "Bel'Veth",
+      "name": "Primordian Bel'Veth",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 19,
+      "content_id": "0d37d816-ed02-41a6-86e5-f1a57d76118f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-07-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        206
+      ],
+      "wiki_sets": [
+        "Primordian"
+      ],
+      "universe_ids": [
+        "universe:animatech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 200020,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200021,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200022,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200023,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200024,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200025,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200026,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200027,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 200028,
+          "parent_skin_id": "skin:200019",
+          "name": "Primordian Bel'Veth (Abyssal)",
+          "colors": [
+            "#3BE98B",
+            "#BABA9B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin19/images/belveth_splash_centered_19.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin19/images/belveth_splash_uncentered_19.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin19/images/belveth_splash_tile_19.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/belveth/skins/skin19/belvethloadscreen_19.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d576f8e200757803b7c737b2d03f9a8bb532079a242f990d7a3739e49238d0cf",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Belveth",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Bel'Veth",
+          "skin": "Primordian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Bel%27Veth/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:200019",
+        "result_label": "Primordian Bel'Veth",
+        "label_eligible": true,
+        "narrative_family_id": "skin:200019",
+        "champion_profile_ref": "data/champions/Belveth.json",
+        "gameplay_profile_ref": "data/champions/Belveth.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Belveth",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

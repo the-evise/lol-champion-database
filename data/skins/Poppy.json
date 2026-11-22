@@ -1,0 +1,1679 @@
+{
+  "champion_id": "Poppy",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78000",
+      "riot_skin_id": 78000,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Poppy",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "bfcab1aa-7bb6-4244-adb0-28c58aed68c5",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-01-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 260,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/base/images/poppy_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/base/images/poppy_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/base/images/poppy_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/base/poppyloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4477833a62071c37446507c535e5ff3174c79e2e7287b293f8bab9c0d9980a0a",
+        "biography_word_count": 63,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78000",
+        "result_label": "Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78000",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78016",
+      "riot_skin_id": 78016,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Astronaut Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "42f58679-08a1-459b-8d55-2ffff4892bf0",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-05-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        94
+      ],
+      "wiki_sets": [
+        "Astronauts"
+      ],
+      "universe_ids": [
+        "universe:star-voyagers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 78017,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78018,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78019,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78020,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78021,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78022,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78023,
+          "parent_skin_id": "skin:78016",
+          "name": "Astronaut Poppy (Chrono)",
+          "colors": [
+            "#162D57",
+            "#A50031"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin16/images/poppy_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin16/images/poppy_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin16/images/poppy_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin16/poppyloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7af37558a8d3aed220b0963b7ae0f96a04324f4e8ffff083d2fd9ff1ff0cb912",
+        "biography_word_count": 12,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Astronaut",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78016",
+        "result_label": "Astronaut Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78016",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78005",
+      "riot_skin_id": 78005,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Battle Regalia Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "1ef8a11d-6489-4022-ba83-452b131da19f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 78008,
+          "parent_skin_id": "skin:78005",
+          "name": "Battle Regalia Poppy (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78009,
+          "parent_skin_id": "skin:78005",
+          "name": "Battle Regalia Poppy (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78010,
+          "parent_skin_id": "skin:78005",
+          "name": "Battle Regalia Poppy (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78011,
+          "parent_skin_id": "skin:78005",
+          "name": "Battle Regalia Poppy (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78012,
+          "parent_skin_id": "skin:78005",
+          "name": "Battle Regalia Poppy (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78013,
+          "parent_skin_id": "skin:78005",
+          "name": "Battle Regalia Poppy (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin05/images/poppy_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin05/images/poppy_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin05/images/poppy_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin05/poppyloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78005",
+        "result_label": "Battle Regalia Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78005",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78024",
+      "riot_skin_id": 78024,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Bewitching Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "f7432ca8-c26f-470f-931e-4ed4e3396ce3",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2021-10-07",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        172
+      ],
+      "wiki_sets": [
+        "Bewitching"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 78025,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78026,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78027,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78028,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78029,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78030,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78031,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78032,
+          "parent_skin_id": "skin:78024",
+          "name": "Bewitching Poppy (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/images/poppy_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/images/poppy_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/images/poppy_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin24/poppyloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "86e16063f3350aaa8b0f37dd173433cd18bd51ef645a7745fe9b2bab5153a8f9",
+        "biography_word_count": 27,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Bewitching",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78024",
+        "result_label": "Bewitching Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78024",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78003",
+      "riot_skin_id": 78003,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Blacksmith Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "2eeaabe8-6db9-4065-a20e-80c0644e6da2",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-08-24",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        114
+      ],
+      "wiki_sets": [
+        "Medieval"
+      ],
+      "universe_ids": [
+        "universe:ye-olde"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin03/images/poppy_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin03/images/poppy_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin03/images/poppy_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin03/poppyloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d5198170c56a115cc07629558c89448fae56cff5b6ac8848fd01888d216419ee",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Blacksmith",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78003",
+        "result_label": "Blacksmith Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78003",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78033",
+      "riot_skin_id": 78033,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Cafe Cuties Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 33,
+      "content_id": "9d5be109-89ca-40d6-b249-d536f57b4622",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-10-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        153
+      ],
+      "wiki_sets": [
+        "Cafe Cuties"
+      ],
+      "universe_ids": [
+        "universe:cafe-cuties"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 78034,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78035,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78036,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78037,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78038,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78039,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78040,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78041,
+          "parent_skin_id": "skin:78033",
+          "name": "Cafe Cuties Poppy (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin33/images/poppy_splash_centered_33.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin33/images/poppy_splash_uncentered_33.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin33/images/poppy_splash_tile_33.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin33/poppyloadscreen_33.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a0469b2a817ad8136894e352d21666f1a4244c00223c0bfaf3d90e54560c43fa",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Cafe Cuties",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78033",
+        "result_label": "Cafe Cuties Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78033",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60078301",
+      "riot_skin_id": 60078301,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Classic Poppy",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "29ec6975-82ec-437e-913d-959d264e4865",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60078302,
+          "parent_skin_id": "skin:60078301",
+          "name": "Classic Lollipoppy",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60078/60078302.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60078303,
+          "parent_skin_id": "skin:60078301",
+          "name": "Classic Poppy (Noxus)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60078/60078303.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_poppy/skins/skin301/images/jade_poppy_splash_centered_301.project_jade_16_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_poppy/skins/skin301/images/jade_poppy_splash_uncentered_301.project_jade_16_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_poppy/skins/skin301/images/jade_poppy_splash_tile_301.project_jade_16_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_poppy/skins/skin301/jade_poppyloadscreen_301.project_jade_16_18.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60078301",
+        "result_label": "Classic Poppy",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60078301",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78042",
+      "riot_skin_id": 78042,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Firecracker Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 42,
+      "content_id": "b791ae97-a4e0-43bd-be5b-cffb320305f2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-02-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        54
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Firecracker"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 78043,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78044,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78045,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78046,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78047,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78048,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78049,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 78050,
+          "parent_skin_id": "skin:78042",
+          "name": "Firecracker Poppy (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin42/images/poppy_splash_centered_42.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin42/images/poppy_splash_uncentered_42.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin42/images/poppy_splash_tile_42.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin42/poppyloadscreen_42.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "41c8cdd7bb9023f5aa1baf3ea261a59bf90c4a6c1ebafcf4ea82a4a91c3e71bd",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Firecracker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78042",
+        "result_label": "Firecracker Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78042",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78015",
+      "riot_skin_id": 78015,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Hextech Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "bc7b50b6-62cb-4a03-a0d8-82afd9ca6590",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2018-07-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin15/images/poppy_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin15/images/poppy_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin15/images/poppy_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin15/poppyloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bb43e05a7f64111ba0068bee8dfe2c00b3bf5d6eacc17cbe39e2f2f6e0af28db",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78015",
+        "result_label": "Hextech Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78015",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78002",
+      "riot_skin_id": 78002,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Lollipoppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "756473d1-30b6-403a-a27f-27cd254d5e7d",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        57
+      ],
+      "wiki_sets": [
+        "Sugar Rush"
+      ],
+      "universe_ids": [
+        "universe:sugar-rush"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin02/images/poppy_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin02/images/poppy_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin02/images/poppy_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin02/poppyloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "22b890ccec50017c910fa5e22d3f7b33c8b4949851dcf23cb99910c2e3dbad11",
+        "biography_word_count": 16,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Lollipoppy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78002",
+        "result_label": "Lollipoppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78002",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78001",
+      "riot_skin_id": 78001,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Noxus Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "b62e7be2-6dec-483a-b997-ea39c9f9a087",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-02",
+      "retired_date": "2012-03-19",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        180
+      ],
+      "wiki_sets": [
+        "Otherroads"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin01/images/poppy_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin01/images/poppy_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin01/images/poppy_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin01/poppyloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78001",
+        "result_label": "Noxus Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78001",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78004",
+      "riot_skin_id": 78004,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Ragdoll Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "022c8a83-86ce-46b1-8865-9168069b87ef",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        61
+      ],
+      "wiki_sets": [
+        "Toy Box"
+      ],
+      "universe_ids": [
+        "universe:toy-box"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin04/images/poppy_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin04/images/poppy_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin04/images/poppy_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin04/poppyloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3587985cb39d9c243fcdebc231862bad1f4ef39700f795a56489e0dbb3566f7e",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Ragdoll",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78004",
+        "result_label": "Ragdoll Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78004",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78006",
+      "riot_skin_id": 78006,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Scarlet Hammer Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "09cc0990-308a-49a0-b7fd-ddd72338cd3f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-02-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin06/images/poppy_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin06/images/poppy_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin06/images/poppy_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin06/poppyloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78006",
+        "result_label": "Scarlet Hammer Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78006",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78014",
+      "riot_skin_id": 78014,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Snow Fawn Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "8aa71c02-a41f-4b3d-aa94-196ecdb2000f",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2017-12-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        47
+      ],
+      "wiki_sets": [
+        "Winter Wonder"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin14/images/poppy_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin14/images/poppy_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin14/images/poppy_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin14/poppyloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a899723dee18397e287b120d26e4a9ebff496d9f35422737d603fe0fa8db6f74",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Snow Fawn",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78014",
+        "result_label": "Snow Fawn Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78014",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:78007",
+      "riot_skin_id": 78007,
+      "champion_id": "Poppy",
+      "champion_riot_id": 78,
+      "champion_name": "Poppy",
+      "name": "Star Guardian Poppy",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "0e96e4e0-d044-4092-a097-24ec30b8a358",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-10-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        19
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 1"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin07/images/poppy_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin07/images/poppy_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin07/images/poppy_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/poppy/skins/skin07/poppyloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "83cf3c998a59482f1139073e2a1e5c98e01d0902f40a0883ed5663da9dea6b72",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Poppy",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Poppy",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Poppy/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:78007",
+        "result_label": "Star Guardian Poppy",
+        "label_eligible": true,
+        "narrative_family_id": "skin:78007",
+        "champion_profile_ref": "data/champions/Poppy.json",
+        "gameplay_profile_ref": "data/champions/Poppy.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Poppy",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

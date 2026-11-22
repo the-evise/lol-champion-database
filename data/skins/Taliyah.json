@@ -1,0 +1,802 @@
+{
+  "champion_id": "Taliyah",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163000",
+      "riot_skin_id": 163000,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "Taliyah",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "324c2f58-a912-4f9b-b0f1-67b32a120488",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-05-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/base/images/taliyah_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/base/images/taliyah_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/base/images/taliyah_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/base/taliyahloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "97ca48dbe4c594ba98a703235e738954b6fb3ab393ea4fd3d39a6a74a3b12638",
+        "biography_word_count": 78,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Taliyah",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163000",
+        "result_label": "Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163000",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163021",
+      "riot_skin_id": 163021,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "Crystalis Motus Taliyah",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "e8d51a35-791c-4901-8e5c-d66908023499",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-09-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        195
+      ],
+      "wiki_sets": [
+        "Crystalis Motus"
+      ],
+      "universe_ids": [
+        "universe:magicae-prismatica"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 163022,
+          "parent_skin_id": "skin:163021",
+          "name": "Crystalis Motus Taliyah (Reclaimed)",
+          "colors": [
+            "#AAD4EB",
+            "#23211D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin21/images/taliyah_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin21/images/taliyah_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin21/images/taliyah_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin21/taliyahloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d01411680a59f47809825b79cd95f02ab3eda192806dda7879b2673d0e4d32f0",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Taliyah",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Taliyah",
+          "skin": "Crystalis Motus",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163021",
+        "result_label": "Crystalis Motus Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163021",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163024",
+      "riot_skin_id": 163024,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "Durand's Legacy Taliyah",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "707239d5-6758-4eec-b318-7dbcca184294",
+      "rarity": "Epic",
+      "availability": "Rare",
+      "release_date": "2026-01-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        224
+      ],
+      "wiki_sets": [
+        "The Laws of Stone"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin24/images/taliyah_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin24/images/taliyah_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin24/images/taliyah_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin24/taliyahloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "86e17ae0a364f8dcabf865f2c8a5c4ff409226423f5173a825dc15d40fdae25f",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Taliyah",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Taliyah",
+          "skin": "Durand's Legacy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163024",
+        "result_label": "Durand's Legacy Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163024",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163001",
+      "riot_skin_id": 163001,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "Freljord Taliyah",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "6ff9b8ff-5c0a-421d-bf3b-045fed652834",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-05-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        128
+      ],
+      "wiki_sets": [
+        "Freljord"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 163033,
+          "parent_skin_id": "skin:163001",
+          "name": "Freljord Taliyah (Paragon)",
+          "colors": [
+            "#FFFDD8",
+            "#164785"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin33/chromapreview.chroma_taliyah_freljord.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin01/images/taliyah_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin01/images/taliyah_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin01/images/taliyah_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin01/taliyahloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163001",
+        "result_label": "Freljord Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163001",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163003",
+      "riot_skin_id": 163003,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "Pool Party Taliyah",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "a711221f-5de8-45c5-ad93-851fe663dbca",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-07-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        15
+      ],
+      "wiki_sets": [
+        "Pool Party"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 163004,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163005,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163006,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163007,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163008,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163009,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163010,
+          "parent_skin_id": "skin:163003",
+          "name": "Pool Party Taliyah (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin03/images/taliyah_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin03/images/taliyah_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin03/images/taliyah_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin03/taliyahloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c72fba5e58107cf107e863b983567969d270adcd9c48be04d34e88f66d7a1b73",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Taliyah",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Taliyah",
+          "skin": "Pool Party",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163003",
+        "result_label": "Pool Party Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163003",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163002",
+      "riot_skin_id": 163002,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "SSG Taliyah",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "41265224-231f-4ef3-aebe-e156d1b5ee89",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-07-20",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        75
+      ],
+      "wiki_sets": [
+        "World Champions: 2017"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 163023,
+          "parent_skin_id": "skin:163002",
+          "name": "SSG Taliyah (Elite)",
+          "colors": [
+            "#C271F5",
+            "#CBE1F7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin02/images/taliyah_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin02/images/taliyah_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin02/images/taliyah_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin02/taliyahloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4cd4c0cb90560d5461b79f901b6a1ec6cbb0ac8bc190d0eaec3286d34193229e",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Taliyah",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Taliyah",
+          "skin": "SSG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163002",
+        "result_label": "SSG Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163002",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:163011",
+      "riot_skin_id": 163011,
+      "champion_id": "Taliyah",
+      "champion_riot_id": 163,
+      "champion_name": "Taliyah",
+      "name": "Star Guardian Taliyah",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "df4b357b-ed96-4ea2-a934-31f3fe4e8168",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-07-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 163012,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163013,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163014,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163015,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163016,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163017,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163018,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163019,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 163020,
+          "parent_skin_id": "skin:163011",
+          "name": "Star Guardian Taliyah (Brilliant)",
+          "colors": [
+            "#FDA4DA",
+            "#9DE5FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin11/images/taliyah_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin11/images/taliyah_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin11/images/taliyah_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/taliyah/skins/skin11/taliyahloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "686b04263757a5c6ae0992217c89096108d521223110fd295dff93568b1ad650",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Taliyah",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Taliyah",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Taliyah/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:163011",
+        "result_label": "Star Guardian Taliyah",
+        "label_eligible": true,
+        "narrative_family_id": "skin:163011",
+        "champion_profile_ref": "data/champions/Taliyah.json",
+        "gameplay_profile_ref": "data/champions/Taliyah.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Taliyah",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

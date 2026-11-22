@@ -1,0 +1,1605 @@
+{
+  "champion_id": "Ryze",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13000",
+      "riot_skin_id": 13000,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Ryze",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "1c486f48-bfb9-40bc-b553-7db4529349a1",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 260,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/base/images/ryze_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/base/images/ryze_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/base/images/ryze_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/base/ryzeloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9f015272d5fabcebab6cb8b9c884ed8f48fb3272ff373803c0498ab9c8aace00",
+        "biography_word_count": 71,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13000",
+        "result_label": "Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13000",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13020",
+      "riot_skin_id": 13020,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Arcana Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "83ad869c-5b2d-45b1-aacf-bed6859cc4db",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-04-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        146
+      ],
+      "wiki_sets": [
+        "Arcana"
+      ],
+      "universe_ids": [
+        "universe:arcana"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 13021,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13022,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13023,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13024,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13025,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13026,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13027,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13028,
+          "parent_skin_id": "skin:13020",
+          "name": "Arcana Ryze (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin20/images/ryze_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin20/images/ryze_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin20/images/ryze_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin20/ryzeloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "03fd2da371e638b222fcc52fd25e6e7859137232aae14cacfd8a28ce068f38ca",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Arcana",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13020",
+        "result_label": "Arcana Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13020",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13029",
+      "riot_skin_id": 13029,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Blood Moon Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "f61db11c-8bef-4427-b59f-27cf6d945112",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-05-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 13031,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13032,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13033,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13034,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13035,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13036,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13037,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13038,
+          "parent_skin_id": "skin:13029",
+          "name": "Blood Moon Ryze (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin29/images/ryze_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin29/images/ryze_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin29/images/ryze_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin29/ryzeloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "aa7986bab111aa83a4289b346fc02a7a44b06632a1cf077318ad2ff937a7d759",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13029",
+        "result_label": "Blood Moon Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13029",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60013301",
+      "riot_skin_id": 60013301,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Classic Ryze",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "6510d844-7ffc-4ede-9f85-d5af0622c65a",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60013302,
+          "parent_skin_id": "skin:60013301",
+          "name": "Classic Ryze (Tribal)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ryze/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60013303,
+          "parent_skin_id": "skin:60013301",
+          "name": "Classic Ryze (Young)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60013/60013303.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ryze/skins/skin301/images/jade_ryze_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ryze/skins/skin301/images/jade_ryze_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ryze/skins/skin301/images/jade_ryze_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ryze/skins/skin301/jade_ryzeloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e65b8f2b4210b00f1f4a983a90e78d6ea20459ad0149f65501a760b7fbebf33d",
+        "biography_word_count": 51,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60013301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60013301",
+        "result_label": "Classic Ryze",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60013301",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13007",
+      "riot_skin_id": 13007,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Dark Crystal Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "dadbc3fb-4202-4fb2-ba6a-edf47371d283",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-02-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        126
+      ],
+      "wiki_sets": [
+        "Bloodstone"
+      ],
+      "universe_ids": [
+        "universe:bloodstone"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin07/images/ryze_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin07/images/ryze_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin07/images/ryze_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin07/ryzeloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13007",
+        "result_label": "Dark Crystal Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13007",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13013",
+      "riot_skin_id": 13013,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Guardian of the Sands Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "651451e8-72ba-490b-b021-5bb86088bd8b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-01-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 13014,
+          "parent_skin_id": "skin:13013",
+          "name": "Guardian of the Sands Ryze (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13015,
+          "parent_skin_id": "skin:13013",
+          "name": "Guardian of the Sands Ryze (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13016,
+          "parent_skin_id": "skin:13013",
+          "name": "Guardian of the Sands Ryze (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13017,
+          "parent_skin_id": "skin:13013",
+          "name": "Guardian of the Sands Ryze (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13018,
+          "parent_skin_id": "skin:13013",
+          "name": "Guardian of the Sands Ryze (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 13019,
+          "parent_skin_id": "skin:13013",
+          "name": "Guardian of the Sands Ryze (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin13/images/ryze_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin13/images/ryze_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin13/images/ryze_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin13/ryzeloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "380e49b3b90357ac6f44aa244262f88e8877bfd56983097d58afc6afe5a6d1b5",
+        "biography_word_count": 38,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Guardian of the Sands",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13013",
+        "result_label": "Guardian of the Sands Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13013",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13008",
+      "riot_skin_id": 13008,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Pirate Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "4949484b-c740-48d7-b640-8f75e5eeba91",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2012-10-26",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        49
+      ],
+      "wiki_sets": [
+        "Bilgewater: Burning Tides"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin08/images/ryze_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin08/images/ryze_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin08/images/ryze_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin08/ryzeloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fd6c77758b3c526299ac671e8430c0d29f3f00d52cad6439c038811311c24363",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Pirate",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13008",
+        "result_label": "Pirate Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13008",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13005",
+      "riot_skin_id": 13005,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Professor Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "8026a6c5-2b4a-43e2-9889-963f34f002d3",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-10-05",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        22
+      ],
+      "wiki_sets": [
+        "Academy"
+      ],
+      "universe_ids": [
+        "universe:academy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin05/images/ryze_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin05/images/ryze_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin05/images/ryze_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin05/ryzeloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d5e320d08ab2568dbd8be2f5974fb2298a2ee3159c12d6532659215f54445df8",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Professor",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13005",
+        "result_label": "Professor Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13005",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13009",
+      "riot_skin_id": 13009,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Ryze Whitebeard",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "e618e399-2422-4f98-9be5-abbc5bc62751",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-12-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        38
+      ],
+      "wiki_sets": [
+        "Rift Quest"
+      ],
+      "universe_ids": [
+        "universe:riftquest"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin09/images/ryze_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin09/images/ryze_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin09/images/ryze_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin09/ryzeloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "500229553a44cad9494ef3b17c5eccab6197a537ce3bb5ccd0f7456fecbdae07",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Ryze Whitebeard",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13009",
+        "result_label": "Ryze Whitebeard",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13009",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13010",
+      "riot_skin_id": 13010,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "SKT T1 Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "6821512e-034a-4a27-850d-0f1d92d64ac9",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2016-08-17",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        5
+      ],
+      "wiki_sets": [
+        "World Champions: 2015"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 13030,
+          "parent_skin_id": "skin:13010",
+          "name": "SKT T1 Ryze (Paragon)",
+          "colors": [
+            "#64DCC8",
+            "#E446F7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin10/images/ryze_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin10/images/ryze_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin10/images/ryze_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin10/ryzeloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8e0f4c868bbf9777d5db5af87359486ea9cb7224891335765c1b2f972b905c3e",
+        "biography_word_count": 28,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13010",
+        "result_label": "SKT T1 Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13010",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13002",
+      "riot_skin_id": 13002,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Tribal Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "1a986bcf-33f7-406c-9148-881e7e556206",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-03-04",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        32
+      ],
+      "wiki_sets": [
+        "Prehistoric Hunters"
+      ],
+      "universe_ids": [
+        "universe:prehistoric-hunters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin02/images/ryze_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin02/images/ryze_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin02/images/ryze_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin02/ryzeloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13002",
+        "result_label": "Tribal Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13002",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13004",
+      "riot_skin_id": 13004,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Triumphant Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "91d09e5c-a5b3-4abb-81dd-3891506869d4",
+      "rarity": "Standard",
+      "availability": "Rare",
+      "release_date": "2010-08-31",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        184
+      ],
+      "wiki_sets": [
+        "Triumphant"
+      ],
+      "universe_ids": [
+        "universe:triumphant"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin04/images/ryze_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin04/images/ryze_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin04/images/ryze_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin04/ryzeloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13004",
+        "result_label": "Triumphant Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13004",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13003",
+      "riot_skin_id": 13003,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Uncle Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "69ff10d8-053d-4a55-b127-7ce7528e134f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-07-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin03/images/ryze_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin03/images/ryze_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin03/images/ryze_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin03/ryzeloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d3553e61248dc4cc4845025191824fad3e05d0a37daad4d7330e7f70ed52e76c",
+        "biography_word_count": 9,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Uncle",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13003",
+        "result_label": "Uncle Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13003",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13011",
+      "riot_skin_id": 13011,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Worlds 2019 Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "bd46e497-8b3c-46c4-bb2c-7be470e4c669",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2019-09-26",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 13012,
+          "parent_skin_id": "skin:13011",
+          "name": "Worlds 2019 Ryze (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin11/images/ryze_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin11/images/ryze_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin11/images/ryze_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin11/ryzeloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3130b4c9fdc5d5ccbc662c549bdfd1c312e6c3f4fff3cfe39545fd5ba745dbae",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Worlds 2019",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13011",
+        "result_label": "Worlds 2019 Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13011",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13001",
+      "riot_skin_id": 13001,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Young Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "79d8ff9d-00cc-484e-bf40-e2cabe240658",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2009-07-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        83
+      ],
+      "wiki_sets": [
+        "Collector's Edition"
+      ],
+      "universe_ids": [
+        "universe:collector-edition"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin01/images/ryze_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin01/images/ryze_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin01/images/ryze_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin01/ryzeloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fbae331049edfa7779a6e279de28f18ef8c5c97e8d3cd3eb41de0135ae4bd1a3",
+        "biography_word_count": 13,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Young",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13001",
+        "result_label": "Young Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13001",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:13006",
+      "riot_skin_id": 13006,
+      "champion_id": "Ryze",
+      "champion_riot_id": 13,
+      "champion_name": "Ryze",
+      "name": "Zombie Ryze",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "1951f304-81d4-468b-a841-ce9e9a902443",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        89
+      ],
+      "wiki_sets": [
+        "Zombies VS Slayers"
+      ],
+      "universe_ids": [
+        "universe:zombie-vs-slayers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin06/images/ryze_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin06/images/ryze_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin06/images/ryze_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ryze/skins/skin06/ryzeloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a9e06999d214bcdd0ee2a5eae6f184e5021437c6ec25239a6a9336b2a825b58c",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Ryze",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Ryze",
+          "skin": "Zombie",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ryze/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:13006",
+        "result_label": "Zombie Ryze",
+        "label_eligible": true,
+        "narrative_family_id": "skin:13006",
+        "champion_profile_ref": "data/champions/Ryze.json",
+        "gameplay_profile_ref": "data/champions/Ryze.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ryze",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

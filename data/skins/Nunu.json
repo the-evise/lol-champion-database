@@ -1,0 +1,1657 @@
+{
+  "champion_id": "Nunu",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20000",
+      "riot_skin_id": 20000,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Nunu & Willump",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "b6c6da87-5c89-4254-b2b5-f419577d497c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 260,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/base/images/nunu_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/base/images/nunu_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/base/images/nunu_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/base/nunuloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2d9395454403ea5d0c13b2fa19ecb11cabb62c3e9fca82150181a050f92a6eb9",
+        "biography_word_count": 83,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20000",
+        "result_label": "Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20000",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60020301",
+      "riot_skin_id": 60020301,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Classic Nunu & Willump",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "981a7e7b-b7cf-4f96-857f-9610915b6575",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60020302,
+          "parent_skin_id": "skin:60020301",
+          "name": "Classic Nunu & Willump (Sasquatch)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nunu/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60020303,
+          "parent_skin_id": "skin:60020301",
+          "name": "Classic Nunu & Willump (Grungy)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60020/60020303.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nunu/skins/skin301/images/jade_nunu_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nunu/skins/skin301/images/jade_nunu_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nunu/skins/skin301/images/jade_nunu_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_nunu/skins/skin301/jade_nunuloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "341b9ab6914081658aef0df8709ba46cff7c07f409b3f24cca43ae78e9951dcb",
+        "biography_word_count": 58,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60020301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60020301",
+        "result_label": "Classic Nunu & Willump",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60020301",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20035",
+      "riot_skin_id": 20035,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Cosmic Paladins Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 35,
+      "content_id": "2b557a42-237b-4425-b775-e38daa616aaa",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 20036,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20037,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20038,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20039,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20040,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20041,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20042,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20043,
+          "parent_skin_id": "skin:20035",
+          "name": "Cosmic Paladins Nunu & Willump (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin35/images/nunu_splash_centered_35.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin35/images/nunu_splash_uncentered_35.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin35/images/nunu_splash_tile_35.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin35/nunuloadscreen_35.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c23409cd5fc0aeea9f2a35f2475acb86299fe59f812db8cbd88055894817c506",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Cosmic Paladins",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20035",
+        "result_label": "Cosmic Paladins Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20035",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20005",
+      "riot_skin_id": 20005,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Demolisher Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "05229725-e086-4748-ba14-4fcc9f0876cf",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        38
+      ],
+      "wiki_sets": [
+        "Rift Quest"
+      ],
+      "universe_ids": [
+        "universe:riftquest"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin05/images/nunu_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin05/images/nunu_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin05/images/nunu_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin05/nunuloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2f9c013ce3403c85fffdd8ca68ec2ca6342035625a758b9f1827e355aa5d12ec",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Demolisher",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20005",
+        "result_label": "Demolisher Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20005",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20044",
+      "riot_skin_id": 20044,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Fright Night Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 44,
+      "content_id": "86aacd2c-bf2d-454f-b344-68686907eb9a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-09-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        170
+      ],
+      "wiki_sets": [
+        "Fright Night"
+      ],
+      "universe_ids": [
+        "universe:neighborhood-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 20045,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20046,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20047,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20048,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20049,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20050,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20051,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20052,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20053,
+          "parent_skin_id": "skin:20044",
+          "name": "Fright Night Nunu & Willump (Ghoulish)",
+          "colors": [
+            "#68B856",
+            "#B69017"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin44/images/nunu_splash_centered_44.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin44/images/nunu_splash_uncentered_44.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin44/images/nunu_splash_tile_44.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin44/nunuloadscreen_44.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "768aaeb1478839ac1e4cda9e9d600bf9032c953f58ac67b6c052d8e924532d7e",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Fright Night",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20044",
+        "result_label": "Fright Night Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20044",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20003",
+      "riot_skin_id": 20003,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Grungy Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "151983d5-8434-42f9-8092-236b63cf5931",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-08-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        61
+      ],
+      "wiki_sets": [
+        "Toy Box"
+      ],
+      "universe_ids": [
+        "universe:toy-box"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin03/images/nunu_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin03/images/nunu_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin03/images/nunu_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin03/nunuloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3a48de7ce37e14ae344b250c5bf13850e003ba0d8a753dd7405987b1c536fc52",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Grungy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20003",
+        "result_label": "Grungy Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20003",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20026",
+      "riot_skin_id": 20026,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Nunu & Beelump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "8531c163-7acf-4707-8063-7677febf7106",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-03-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        143
+      ],
+      "wiki_sets": [
+        "Bees!"
+      ],
+      "universe_ids": [
+        "universe:bees"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 20027,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20028,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20029,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20030,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20031,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20032,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20033,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20034,
+          "parent_skin_id": "skin:20026",
+          "name": "Nunu & Beelump (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin26/images/nunu_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin26/images/nunu_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin26/images/nunu_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin26/nunuloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "59ef59aa0aee0d56163300699082897ab50392cdd3dcf2449fc00a64b51f5db6",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Nunu & Beelump",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20026",
+        "result_label": "Nunu & Beelump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20026",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20004",
+      "riot_skin_id": 20004,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Nunu & Willump Bot",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "29a23f23-849b-4747-bdcc-4aeb3ae98968",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2011-05-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        118
+      ],
+      "wiki_sets": [
+        "Heavy Metal"
+      ],
+      "universe_ids": [
+        "universe:heavy-metal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin04/images/nunu_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin04/images/nunu_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin04/images/nunu_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin04/nunuloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ff18efb762cb217dea572a4b266368f0033a7662f7030cef28bf195a9afb053c",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Nunu Bot",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20004",
+        "result_label": "Nunu & Willump Bot",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20004",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20008",
+      "riot_skin_id": 20008,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Papercraft Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "38ecc906-49e7-4a79-94c7-fd37d8e0b570",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        96
+      ],
+      "wiki_sets": [
+        "Papercraft"
+      ],
+      "universe_ids": [
+        "universe:folded-edges"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 20009,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20010,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20011,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20012,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20013,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20014,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20015,
+          "parent_skin_id": "skin:20008",
+          "name": "Papercraft Nunu & Willump (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin08/images/nunu_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin08/images/nunu_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin08/images/nunu_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin08/nunuloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c2d9ce92d0fc5f9c7cf45b01b554b870bcee481111bab5d4eac35a243bfcadc3",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Papercraft",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20008",
+        "result_label": "Papercraft Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20008",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20001",
+      "riot_skin_id": 20001,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Sasquatch Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "cffde2a0-5178-4104-a446-d82c84f9823c",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2009-11-20",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        72
+      ],
+      "wiki_sets": [
+        "Fables"
+      ],
+      "universe_ids": [
+        "universe:fables"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin01/images/nunu_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin01/images/nunu_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin01/images/nunu_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin01/nunuloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "aa02c5a9fcf0601d22daf0eeb1697905c95edd58eb86a8917369209e00d83b5c",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Sasquatch",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20001",
+        "result_label": "Sasquatch Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20001",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20016",
+      "riot_skin_id": 20016,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Space Groove Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "ab219abd-e110-4b7c-9911-f24d1e0bf6b1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-04-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        144
+      ],
+      "wiki_sets": [
+        "Space Groove"
+      ],
+      "universe_ids": [
+        "universe:space-groove"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 20017,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20018,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20019,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20020,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20021,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20022,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20023,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20024,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 20025,
+          "parent_skin_id": "skin:20016",
+          "name": "Space Groove Nunu & Willump (Disco)",
+          "colors": [
+            "#9DFFEF",
+            "#AA55FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin16/images/nunu_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin16/images/nunu_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin16/images/nunu_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin16/nunuloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8d5d2a66b704e07aef04ea27eb0968bddb655d8c4e5e1317ae18002da2853a53",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Space Groove",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20016",
+        "result_label": "Space Groove Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20016",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20006",
+      "riot_skin_id": 20006,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "TPA Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "16869c98-32ff-464f-9f39-512a8e40e5e2",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2013-05-23",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        2
+      ],
+      "wiki_sets": [
+        "World Champions: 2012"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin06/images/nunu_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin06/images/nunu_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin06/images/nunu_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin06/nunuloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3dc241952e50d87e22573166157d8f673692ec682b193a8654700461edaae4c6",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "TPA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20006",
+        "result_label": "TPA Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20006",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20002",
+      "riot_skin_id": 20002,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Workshop Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "17ac24ea-d9f3-44f5-8f35-21358c928254",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2009-12-17",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin02/images/nunu_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin02/images/nunu_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin02/images/nunu_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin02/nunuloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9500239ac0f0c395a3fd534f6289bf33e4a69cc8aa79cd4bbb68efe073aba957",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Workshop",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20002",
+        "result_label": "Workshop Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20002",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:20007",
+      "riot_skin_id": 20007,
+      "champion_id": "Nunu",
+      "champion_riot_id": 20,
+      "champion_name": "Nunu & Willump",
+      "name": "Zombie Nunu & Willump",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "672b8264-a481-447e-bd92-4c0ca7b0f0f8",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2015-11-05",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        89
+      ],
+      "wiki_sets": [
+        "Zombies VS Slayers"
+      ],
+      "universe_ids": [
+        "universe:zombie-vs-slayers"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin07/images/nunu_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin07/images/nunu_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin07/images/nunu_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nunu/skins/skin07/nunuloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4a40698065b4f5f42c3b4c9591aa789a49d040a3949f2fcdd388d600a8616836",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Nunu",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Nunu & Willump",
+          "skin": "Zombie",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nunu_%26_Willump/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:20007",
+        "result_label": "Zombie Nunu & Willump",
+        "label_eligible": true,
+        "narrative_family_id": "skin:20007",
+        "champion_profile_ref": "data/champions/Nunu.json",
+        "gameplay_profile_ref": "data/champions/Nunu.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nunu",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

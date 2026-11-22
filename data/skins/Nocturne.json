@@ -1,0 +1,1198 @@
+{
+  "champion_id": "Nocturne",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56000",
+      "riot_skin_id": 56000,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Nocturne",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "8b221e2e-4a03-446d-b1f4-e39427fb5fe1",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/base/images/nocturne_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/base/images/nocturne_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/base/images/nocturne_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/base/nocturneloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c0ec8e7b4b0d90382816a49e3f7277ded678d2223669bc157767b3002c5abd0f",
+        "biography_word_count": 69,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56000",
+        "result_label": "Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56000",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56017",
+      "riot_skin_id": 56017,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Broken Covenant Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "60268ce3-d4b2-4eb5-8761-32d187d65524",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-03-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        190
+      ],
+      "wiki_sets": [
+        "Broken Covenant"
+      ],
+      "universe_ids": [
+        "universe:forsaken-hymn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 56018,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56019,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56020,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56021,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56022,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56023,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56024,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56025,
+          "parent_skin_id": "skin:56017",
+          "name": "Broken Covenant Nocturne (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin17/images/nocturne_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin17/images/nocturne_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin17/images/nocturne_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin17/nocturneloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6b32cbe8ee5730c240820984df0449a156824be7b83245d9e30787b527601b24",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Broken Covenant",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56017",
+        "result_label": "Broken Covenant Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56017",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56006",
+      "riot_skin_id": 56006,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Cursed Revenant Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "5872b7b4-20f4-40df-bb1b-a053112a6a47",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-05-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        80
+      ],
+      "wiki_sets": [
+        "Omen of the Dark"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin06/images/nocturne_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin06/images/nocturne_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin06/images/nocturne_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin06/nocturneloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8f8987084065d79b60a9bee275f9922768c09911ce9327d933eb6ed8d9d41836",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Cursed Revenant",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56006",
+        "result_label": "Cursed Revenant Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56006",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56026",
+      "riot_skin_id": 56026,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Empyrean Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "9491abdc-417e-41ea-abd7-2fdc8b192c42",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-05-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 56027,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56028,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56029,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56030,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56031,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56032,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56033,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56034,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56035,
+          "parent_skin_id": "skin:56026",
+          "name": "Empyrean Nocturne (Neon Facade)",
+          "colors": [
+            "#E14940",
+            "#83E584"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin26/images/nocturne_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin26/images/nocturne_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin26/images/nocturne_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin26/nocturneloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2b54c8b2eb68f11cae66965b0f20b4c835f393751f18ed45d1aa6e1789fe8ee1",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56026",
+        "result_label": "Empyrean Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56026",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56005",
+      "riot_skin_id": 56005,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Eternum Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "181b186a-cbc4-4dc0-bd0f-84307da3105f",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2012-12-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        59
+      ],
+      "wiki_sets": [
+        "Eternum"
+      ],
+      "universe_ids": [
+        "universe:iron-firmament"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin05/images/nocturne_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin05/images/nocturne_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin05/images/nocturne_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin05/nocturneloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f4406e269be2a8b35913b06663304107a3e291c9a8f31a8fffbd9d023891eb99",
+        "biography_word_count": 26,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Eternum",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56005",
+        "result_label": "Eternum Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56005",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56001",
+      "riot_skin_id": 56001,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Frozen Terror Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "6e5fac36-06f6-405e-8f34-3bd3fb3458ef",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        112
+      ],
+      "wiki_sets": [
+        "Glacial"
+      ],
+      "universe_ids": [
+        "universe:glacial"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin01/images/nocturne_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin01/images/nocturne_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin01/images/nocturne_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin01/nocturneloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b34a3a11e1604765a01273cf32798e003b4975cada2fcdf6c03857b6b4be0558",
+        "biography_word_count": 22,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Frozen Terror",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56001",
+        "result_label": "Frozen Terror Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56001",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56004",
+      "riot_skin_id": 56004,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Haunting Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "70c9dea5-068c-4052-bd49-0f6ebbb35c63",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        88
+      ],
+      "wiki_sets": [
+        "Trick-or-Treat"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin04/images/nocturne_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin04/images/nocturne_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin04/images/nocturne_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin04/nocturneloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ade5d4d6f3b7161ec7762a2a3ced09f57e03887bc352436200e30fc6c2c8d0cf",
+        "biography_word_count": 13,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Haunting",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56004",
+        "result_label": "Haunting Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56004",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56016",
+      "riot_skin_id": 56016,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Hextech Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "e0e025b0-1317-4bac-b347-32d5c49a5ac0",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2020-06-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin16/images/nocturne_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin16/images/nocturne_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin16/images/nocturne_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin16/nocturneloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d3e9f8112b1bd8cc5cf45659a6faf76002202ab6097b52a6d33c24ac941b06ae",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56016",
+        "result_label": "Hextech Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56016",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56007",
+      "riot_skin_id": 56007,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Old God Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "8b712ac8-132d-45a3-a551-e1dc5561ad15",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-08-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        58,
+        92
+      ],
+      "wiki_sets": [
+        "Coven",
+        "Elderwood"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 56008,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56009,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56010,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56011,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56012,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56013,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56014,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 56015,
+          "parent_skin_id": "skin:56007",
+          "name": "Old God Nocturne (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin07/images/nocturne_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin07/images/nocturne_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin07/images/nocturne_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin07/nocturneloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9ff0e4b5429e042dc4f52a233517832b171e538c49499f379a06e9e3e7d08543",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Nocturne",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Nocturne",
+          "skin": "Old God",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56007",
+        "result_label": "Old God Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56007",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56003",
+      "riot_skin_id": 56003,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Ravager Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "03c0a4d7-f891-4984-82f0-347bc5a41794",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-07-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        111
+      ],
+      "wiki_sets": [
+        "Silver Age"
+      ],
+      "universe_ids": [
+        "universe:silver-age"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin03/images/nocturne_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin03/images/nocturne_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin03/images/nocturne_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin03/nocturneloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56003",
+        "result_label": "Ravager Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56003",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:56002",
+      "riot_skin_id": 56002,
+      "champion_id": "Nocturne",
+      "champion_riot_id": 56,
+      "champion_name": "Nocturne",
+      "name": "Void Nocturne",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "b30f1b3d-290c-433e-b526-31f7fa94cfa0",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-03-15",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        179
+      ],
+      "wiki_sets": [
+        "Curse of the Void"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin02/images/nocturne_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin02/images/nocturne_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin02/images/nocturne_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/nocturne/skins/skin02/nocturneloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Nocturne/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:56002",
+        "result_label": "Void Nocturne",
+        "label_eligible": true,
+        "narrative_family_id": "skin:56002",
+        "champion_profile_ref": "data/champions/Nocturne.json",
+        "gameplay_profile_ref": "data/champions/Nocturne.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Nocturne",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

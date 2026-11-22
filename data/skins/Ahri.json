@@ -1,0 +1,2979 @@
+{
+  "champion_id": "Ahri",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103000",
+      "riot_skin_id": 103000,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Ahri",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "8c3cccab-50b5-4584-baed-a6e55bc275a8",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-12-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/base/images/ahri_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/base/images/ahri_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/base/images/ahri_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/base/ahriloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0453308f8316c865e5826ff046adc482c88862a881214b6b9577587a531ae0b5",
+        "biography_word_count": 58,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103000",
+        "result_label": "Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103000",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103006",
+      "riot_skin_id": 103006,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Academy Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "ed68050e-fd0a-4f47-abc1-6e4085ba21d5",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-08-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        22
+      ],
+      "wiki_sets": [
+        "Academy"
+      ],
+      "universe_ids": [
+        "universe:academy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103057,
+          "parent_skin_id": "skin:103006",
+          "name": "Academy Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin06/images/ahri_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin06/images/ahri_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin06/images/ahri_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin06/ahriloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4a3c93193660e98a6a2e458a18fee00753c5cb9558c3721ab4813dac35bbd55c",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Academy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103006",
+        "result_label": "Academy Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103006",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103089",
+      "riot_skin_id": 103089,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "After Hours Spirit Blossom Springs Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 89,
+      "content_id": "2bdda062-2a7c-4d12-9b81-664d33e338fc",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2025-07-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Sanctum",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        218
+      ],
+      "wiki_sets": [
+        "Spirit Blossom Springs"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin89/images/ahri_splash_centered_89.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin89/images/ahri_splash_uncentered_89.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin89/images/ahri_splash_tile_89.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin89/ahriloadscreen_89.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8aaea94e696247a0d5fc43625bfc0022bfe74e5eb23dbfaf5c186895a7887eea",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/20/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "After Hours Spirit Blossom Springs",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103089",
+        "result_label": "After Hours Spirit Blossom Springs Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103089",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      },
+      "variant_reference_wiki": {
+        "skin_id": "skin:103087",
+        "resolution": "not_in_snapshot"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103007",
+      "riot_skin_id": 103007,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Arcade Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "c110a53f-f4fe-40cf-a69b-e5b8f3e68464",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-08-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        10
+      ],
+      "wiki_sets": [
+        "Arcade: Heroes"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103058,
+          "parent_skin_id": "skin:103007",
+          "name": "Arcade Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin07/images/ahri_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin07/images/ahri_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin07/images/ahri_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin07/ahriloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d8d4a6cd3b9f1d9d347000c3b0bb0fd73521622231c99a8eed42ad8c08b89556",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Arcade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103007",
+        "result_label": "Arcade Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103007",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103066",
+      "riot_skin_id": 103066,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Arcana Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 66,
+      "content_id": "3aec76aa-2375-46ac-b495-4f6157961ae3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-04-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        146
+      ],
+      "wiki_sets": [
+        "Arcana"
+      ],
+      "universe_ids": [
+        "universe:arcana"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103067,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103068,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103069,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103070,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103071,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103072,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103073,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103074,
+          "parent_skin_id": "skin:103066",
+          "name": "Arcana Ahri (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin66/images/ahri_splash_centered_66.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin66/images/ahri_splash_uncentered_66.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin66/images/ahri_splash_tile_66.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin66/ahriloadscreen_66.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a3d2316af98b3dd52de36c60fa250f44fe11386c68616a1e30483e8af6b4ea1f",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Arcana",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103066",
+        "result_label": "Arcana Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103066",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103005",
+      "riot_skin_id": 103005,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Challenger Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "2076567d-d90b-46d3-8799-3ebab3e365ce",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2015-01-15",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        9
+      ],
+      "wiki_sets": [
+        "Challenger"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103018,
+          "parent_skin_id": "skin:103005",
+          "name": "Challenger Ahri (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103056,
+          "parent_skin_id": "skin:103005",
+          "name": "Challenger Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/images/ahri_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/images/ahri_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/images/ahri_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin05/ahriloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "864bb2fdba7fc6bd5fb2b639f87058203e526e0a4cc42669d44ec6fed07e0462",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Challenger",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103005",
+        "result_label": "Challenger Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103005",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60103301",
+      "riot_skin_id": 60103301,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Classic Ahri",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "9836ada2-e741-4eba-8e05-5d46a3af2bc8",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60103302,
+          "parent_skin_id": "skin:60103301",
+          "name": "Classic Ahri (Midnight)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ahri/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ahri/skins/skin301/images/jade_ahri_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ahri/skins/skin301/images/jade_ahri_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ahri/skins/skin301/images/jade_ahri_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_ahri/skins/skin301/jade_ahriloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "16022d111b5c9c9f2c6b07b2755bf1a4d148dd765ba187f1d57364a4437cc89e",
+        "biography_word_count": 53,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60103301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60103301",
+        "result_label": "Classic Ahri",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60103301",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103042",
+      "riot_skin_id": 103042,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Coven Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 42,
+      "content_id": "8bfd1812-9fe2-4d5f-9893-956e3308ecd1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-08-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103043,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103044,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103045,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103046,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103047,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103048,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103049,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103050,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103051,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Dark Ritual)",
+          "colors": [
+            "#162B30",
+            "#8E0A38"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103064,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103096,
+          "parent_skin_id": "skin:103042",
+          "name": "Coven Ahri (Pristine)",
+          "colors": [
+            "#DDE8F3",
+            "#DBB995"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin96/chromapreview.chroma_ahri_coven.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/images/ahri_splash_centered_42.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/images/ahri_splash_uncentered_42.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/images/ahri_splash_tile_42.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin42/ahriloadscreen_42.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Ahri serves a dark patron by drawing victims close and offering their stolen vitality to him.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "7f033c114e2f565174a4d003cf9add471e08ef12324e79fb816d7b62d024128c",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "devotion",
+          "predation",
+          "deception"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103042",
+        "result_label": "Coven Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103042",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103001",
+      "riot_skin_id": 103001,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Dynasty Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "80781e0b-153a-4431-ac6e-dd60d89b6368",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-12-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        99
+      ],
+      "wiki_sets": [
+        "Wonders of the World"
+      ],
+      "universe_ids": [
+        "universe:wonders-of-the-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103052,
+          "parent_skin_id": "skin:103001",
+          "name": "Dynasty Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin01/images/ahri_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin01/images/ahri_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin01/images/ahri_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin01/ahriloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c9db7c787370c8feb672d6551880813defc612cb34587a21c795e64b3ae420da",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Dynasty",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103001",
+        "result_label": "Dynasty Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103001",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103017",
+      "riot_skin_id": 103017,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Elderwood Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "6d811867-f6dc-49dd-b5f5-aac9d5b61617",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-08-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        58
+      ],
+      "wiki_sets": [
+        "Elderwood"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103019,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103020,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103021,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103022,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103023,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103024,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103025,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103026,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103061,
+          "parent_skin_id": "skin:103017",
+          "name": "Elderwood Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/images/ahri_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/images/ahri_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/images/ahri_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin17/ahriloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "97e35c6dd011e01162f157a3f5c484f31555cde0386bf2067ff02707a9cbed85",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Elderwood",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103017",
+        "result_label": "Elderwood Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103017",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103003",
+      "riot_skin_id": 103003,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Foxfire Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "89f38dda-2263-468a-bde4-72cf558623c9",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-07-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103054,
+          "parent_skin_id": "skin:103003",
+          "name": "Foxfire Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103075,
+          "parent_skin_id": "skin:103003",
+          "name": "Foxfire Ahri (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin03/images/ahri_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin03/images/ahri_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin03/images/ahri_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin03/ahriloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9f84c337298fe76866e25ee2d073b2e87d62c14a05d24f27b1cfdb62d495fa83",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Foxfire",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103003",
+        "result_label": "Foxfire Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103003",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103086",
+      "riot_skin_id": 103086,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Immortalized Legend Ahri",
+      "is_base": false,
+      "kind": "quest_tier",
+      "inventory_scope": "quest_tier",
+      "skin_num": 86,
+      "content_id": "60b39907-8755-44a6-9096-e8393a6d3eb5",
+      "rarity": "Transcendent",
+      "availability": "Limited",
+      "release_date": "2024-06-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        204
+      ],
+      "wiki_sets": [
+        "Risen Legends"
+      ],
+      "universe_ids": [
+        "universe:hall-of-legends"
+      ],
+      "variant_of": "skin:103085",
+      "forms_wiki": [
+        "Risen",
+        "Chosen"
+      ],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin86/images/ahri_splash_centered_86.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin86/images/ahri_splash_uncentered_86.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin86/images/ahri_splash_tile_86.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin86/ahriloadscreen_86.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8f56d866b0000d80ff1fdff22cfd54c1f646d1a294e65fee198d6f524c82b847",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/18/questSkinInfo/tiers/1/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Immortalized Legend",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103086",
+        "result_label": "Immortalized Legend Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103085",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103015",
+      "riot_skin_id": 103015,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "K/DA Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "f9461e54-78af-4a95-b08b-d1a7cf7f9cdc",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103060,
+          "parent_skin_id": "skin:103015",
+          "name": "K/DA Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin15/images/ahri_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin15/images/ahri_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin15/images/ahri_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin15/ahriloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0cd3bd4d16ab6da9485704e4735d69b972e1ea41b921aba8c376a9699ca62479",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103015",
+        "result_label": "K/DA Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103015",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103028",
+      "riot_skin_id": 103028,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "K/DA ALL OUT Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 28,
+      "content_id": "5d487c5b-1657-4ab6-ae5c-0824cd6a8d02",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-10-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103034,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103035,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103036,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103037,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103038,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103039,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103040,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103041,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (BADDEST)",
+          "colors": [
+            "#0C0C0F",
+            "#272A3F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103063,
+          "parent_skin_id": "skin:103028",
+          "name": "K/DA ALL OUT Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin28/images/ahri_splash_centered_28.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin28/images/ahri_splash_uncentered_28.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin28/images/ahri_splash_tile_28.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin28/ahriloadscreen_28.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "181dab6b9e63f5f09688b903762fe3bcb3a893cafcde93e59804ca6bac4c52ba",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "KDA ALL OUT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103028",
+        "result_label": "K/DA ALL OUT Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103028",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103097",
+      "riot_skin_id": 103097,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "K/DA FIRESTARTER Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 97,
+      "content_id": "e505755d-5343-4264-bad9-a30f290f8925",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-11-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103098,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin98/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103099,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin99/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103100,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin100/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103101,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin101/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103102,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin102/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103103,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin103/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103104,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin104/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103105,
+          "parent_skin_id": "skin:103097",
+          "name": "K/DA FIRESTARTER Ahri (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin105/chromapreview.chroma_ahri_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/images/ahri_splash_centered_97.skins_ahri_skin97.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/images/ahri_splash_uncentered_97.skins_ahri_skin97.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/images/ahri_splash_tile_97.skins_ahri_skin97.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin97/ahriloadscreen_97.skins_ahri_skin97.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dedf7736dedd12f548cf6b039b3919ead6e8fb0defd7c4e5c0ee648e372e8eb7",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/21/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "KDA FIRESTARTER",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103097",
+        "result_label": "K/DA FIRESTARTER Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103097",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103002",
+      "riot_skin_id": 103002,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Midnight Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "0d4018bf-0288-40f5-a9fc-1422a37d9365",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-12-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103053,
+          "parent_skin_id": "skin:103002",
+          "name": "Midnight Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin02/images/ahri_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin02/images/ahri_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin02/images/ahri_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin02/ahriloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "efb5747c0a83445ceb84c115f1786139c9cb2fe11b65962453cce77ac60cd523",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Midnight",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103002",
+        "result_label": "Midnight Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103002",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103004",
+      "riot_skin_id": 103004,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Popstar Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "71bfed88-e939-4a39-b6a6-cf9772acbca3",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-11-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        174
+      ],
+      "wiki_sets": [
+        "Popstar"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103008,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103009,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103010,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103011,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103012,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103013,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103055,
+          "parent_skin_id": "skin:103004",
+          "name": "Popstar Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin04/images/ahri_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin04/images/ahri_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin04/images/ahri_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin04/ahriloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "249d2664fc4605bf60edcc13bb1b122f793d61d6be5f9c89a4589a60ee04f0d7",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Popstar",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103004",
+        "result_label": "Popstar Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103004",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103016",
+      "riot_skin_id": 103016,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Prestige K/DA Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "c87295e3-2123-4d69-af79-6206d104632b",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-03-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:103015",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/images/ahri_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/images/ahri_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/images/ahri_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin16/ahriloadscreen_16_le.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "51a246499d161b7088c362637043917262f651fc10bb341bd766d513217c2229",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Prestige KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103016",
+        "result_label": "Prestige K/DA Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103015",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103065",
+      "riot_skin_id": 103065,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Prestige K/DA Ahri (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 65,
+      "content_id": "164c19db-19d2-4112-af2b-9689722d19f3",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:103016",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin65/images/ahri_splash_centered_65.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin65/images/ahri_splash_uncentered_65.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin65/images/ahri_splash_tile_65.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin65/ahriloadscreen_65_le.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "51a246499d161b7088c362637043917262f651fc10bb341bd766d513217c2229",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Prestige KDA (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103065",
+        "result_label": "Prestige K/DA Ahri (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103016",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103085",
+      "riot_skin_id": 103085,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Risen Legend Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 85,
+      "content_id": "60b39907-8755-44a6-9096-e8393a6d3eb5",
+      "rarity": "Transcendent",
+      "availability": "Limited",
+      "release_date": "2024-06-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        204
+      ],
+      "wiki_sets": [
+        "Risen Legends"
+      ],
+      "universe_ids": [
+        "universe:hall-of-legends"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin85/images/ahri_splash_centered_85.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin85/images/ahri_splash_uncentered_85.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin85/images/ahri_splash_tile_85.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin85/ahriloadscreen_85.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1db1ce569c0864cd0ca540044f7528701c1d3587b470360ec913fd531e7a43d7",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Risen Legend",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103085",
+        "result_label": "Risen Legend Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103085",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103076",
+      "riot_skin_id": 103076,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Snow Moon Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 76,
+      "content_id": "5dac9629-784e-44bd-b312-6bbce8d50206",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-05-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        160
+      ],
+      "wiki_sets": [
+        "Snow Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103077,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103078,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103079,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103080,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Jasper)",
+          "colors": [
+            "#9F4A25",
+            "#9F4A25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103081,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin81/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103082,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin82/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103083,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin83/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103084,
+          "parent_skin_id": "skin:103076",
+          "name": "Snow Moon Ahri (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin84/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin76/images/ahri_splash_centered_76.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin76/images/ahri_splash_uncentered_76.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin76/images/ahri_splash_tile_76.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin76/ahriloadscreen_76.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c9603ee474522b980cc260fcbf074b89d82fb837ca7ec731f015c555e8d6056c",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Snow Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103076",
+        "result_label": "Snow Moon Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103076",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103027",
+      "riot_skin_id": 103027,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Spirit Blossom Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "42a39306-569a-43ed-8741-1565448e8c32",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2020-08-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103029,
+          "parent_skin_id": "skin:103027",
+          "name": "Spirit Blossom Ahri (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103030,
+          "parent_skin_id": "skin:103027",
+          "name": "Spirit Blossom Ahri (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103031,
+          "parent_skin_id": "skin:103027",
+          "name": "Spirit Blossom Ahri (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103032,
+          "parent_skin_id": "skin:103027",
+          "name": "Spirit Blossom Ahri (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103033,
+          "parent_skin_id": "skin:103027",
+          "name": "Spirit Blossom Ahri (Night Blossom)",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103062,
+          "parent_skin_id": "skin:103027",
+          "name": "Spirit Blossom Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin27/images/ahri_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin27/images/ahri_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin27/images/ahri_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin27/ahriloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0f3c6fffbafb54c5287ad21236d9d2cde58551821f1bbbf757552afcaf555853",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103027",
+        "result_label": "Spirit Blossom Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103027",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103088",
+      "riot_skin_id": 103088,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Spirit Blossom Springs Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 88,
+      "content_id": "8daf60d0-8302-4916-ac69-9619b7f6b2cf",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2025-07-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        218
+      ],
+      "wiki_sets": [
+        "Spirit Blossom Springs"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103090,
+          "parent_skin_id": "skin:103088",
+          "name": "Spirit Blossom Springs Ahri (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin90/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103091,
+          "parent_skin_id": "skin:103088",
+          "name": "Spirit Blossom Springs Ahri (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin91/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103092,
+          "parent_skin_id": "skin:103088",
+          "name": "Spirit Blossom Springs Ahri (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin92/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103093,
+          "parent_skin_id": "skin:103088",
+          "name": "Spirit Blossom Springs Ahri (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin93/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103094,
+          "parent_skin_id": "skin:103088",
+          "name": "Spirit Blossom Springs Ahri (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin94/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 103095,
+          "parent_skin_id": "skin:103088",
+          "name": "Spirit Blossom Springs Ahri (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin95/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin88/images/ahri_splash_centered_88.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin88/images/ahri_splash_uncentered_88.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin88/images/ahri_splash_tile_88.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin88/ahriloadscreen_88.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9039a1085c61e7cb8db2559bcbfae5124a2708b0961743efd09fb7e523812e1f",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/19/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Spirit Blossom Springs",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103088",
+        "result_label": "Spirit Blossom Springs Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103088",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:103014",
+      "riot_skin_id": 103014,
+      "champion_id": "Ahri",
+      "champion_riot_id": 103,
+      "champion_name": "Ahri",
+      "name": "Star Guardian Ahri",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "c4e28e05-5d3b-410b-95e0-fbd52d5f30ba",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2017-09-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        20
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 2"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 103059,
+          "parent_skin_id": "skin:103014",
+          "name": "Star Guardian Ahri (Ahri-versary)",
+          "colors": [
+            "#2E38C4",
+            "#C8003F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin14/images/ahri_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin14/images/ahri_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin14/images/ahri_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/ahri/skins/skin14/ahriloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b4c7b4638a1344dc96ab70ef571734bc652d69dedf0052e5bccbd5a6e3500a9a",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Ahri",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Ahri",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Ahri/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:103014",
+        "result_label": "Star Guardian Ahri",
+        "label_eligible": true,
+        "narrative_family_id": "skin:103014",
+        "champion_profile_ref": "data/champions/Ahri.json",
+        "gameplay_profile_ref": "data/champions/Ahri.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Ahri",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

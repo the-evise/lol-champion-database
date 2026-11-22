@@ -1,0 +1,995 @@
+{
+  "champion_id": "Velkoz",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161000",
+      "riot_skin_id": 161000,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Vel'Koz",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "c185c05b-9071-49f9-b878-6e53c25b9de4",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-02-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/base/images/velkoz_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/base/images/velkoz_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/base/images/velkoz_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/base/velkozloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e9b8ab187eaeb3a26ac1fe04fdfa213c19eacbbdc7dc367e542896369a2d6ccb",
+        "biography_word_count": 85,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161000",
+        "result_label": "Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161000",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161002",
+      "riot_skin_id": 161002,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Arclight Vel'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "58ba45e2-f654-49e7-b176-b1ffeb8b96f7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-01-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        24
+      ],
+      "wiki_sets": [
+        "Arclight"
+      ],
+      "universe_ids": [
+        "universe:arclight"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin02/images/velkoz_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin02/images/velkoz_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin02/images/velkoz_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin02/velkozloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f9bb2f8c4ab0aab5a63945f00a2658e65283f342f842d31b8ead2f76e83867dd",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Arclight",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161002",
+        "result_label": "Arclight Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161002",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161001",
+      "riot_skin_id": 161001,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Battlecast Vel'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "ce838aaa-ec48-419b-964f-93a04fee5605",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2014-02-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        25
+      ],
+      "wiki_sets": [
+        "Battlecast"
+      ],
+      "universe_ids": [
+        "universe:battlecast"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin01/images/velkoz_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin01/images/velkoz_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin01/images/velkoz_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin01/velkozloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "aa6dfe8cc3c2ce9ddfad1626269088798eb7bc6efe756774dab91130b4a1e687",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Battlecast",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161001",
+        "result_label": "Battlecast Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161001",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161020",
+      "riot_skin_id": 161020,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Bee'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "f8e3a1f6-7723-4084-8454-4b49ded260b9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-11-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        143
+      ],
+      "wiki_sets": [
+        "Bees!"
+      ],
+      "universe_ids": [
+        "universe:bees"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 161021,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161022,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161023,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161024,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161025,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161026,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161027,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161028,
+          "parent_skin_id": "skin:161020",
+          "name": "Bee'Koz (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin20/images/velkoz_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin20/images/velkoz_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin20/images/velkoz_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin20/velkozloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b61106525992b1bfc3bfcf06f3510d3fa60fb88ed589c20501d8e1aeb2b981ac",
+        "biography_word_count": 8,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Bee'Koz",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161020",
+        "result_label": "Bee'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161020",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161011",
+      "riot_skin_id": 161011,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Blackfrost Vel'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "00398120-8592-4e0e-abed-80ea07d1883e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-04-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        129
+      ],
+      "wiki_sets": [
+        "Blackfrost"
+      ],
+      "universe_ids": [
+        "universe:blackfrost"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 161012,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161013,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161014,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161015,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161016,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161017,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161018,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161019,
+          "parent_skin_id": "skin:161011",
+          "name": "Blackfrost Vel'Koz (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin11/images/velkoz_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin11/images/velkoz_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin11/images/velkoz_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin11/velkozloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3e781ae3f0555a2ff7b93a487da336117e8ee20299a932159d80aac9a90d18c5",
+        "biography_word_count": 28,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Blackfrost",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161011",
+        "result_label": "Blackfrost Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161011",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161003",
+      "riot_skin_id": 161003,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Definitely Not Vel'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "c33e7720-b681-4734-bd31-5790b2ff0a0b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-03-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        101
+      ],
+      "wiki_sets": [
+        "Definitely Not"
+      ],
+      "universe_ids": [
+        "universe:definitely-not"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin03/images/velkoz_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin03/images/velkoz_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin03/images/velkoz_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin03/velkozloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7891b3fac4e17866f0b802e146d5c0d0c22b146b00d244b7c96cf541ef9c810f",
+        "biography_word_count": 8,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Definitely Not",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161003",
+        "result_label": "Definitely Not Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161003",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161004",
+      "riot_skin_id": 161004,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Infernal Vel'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "d65ea551-eacb-41bb-972b-0b94d8618f81",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-07-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 161005,
+          "parent_skin_id": "skin:161004",
+          "name": "Infernal Vel'Koz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161006,
+          "parent_skin_id": "skin:161004",
+          "name": "Infernal Vel'Koz (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161007,
+          "parent_skin_id": "skin:161004",
+          "name": "Infernal Vel'Koz (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161008,
+          "parent_skin_id": "skin:161004",
+          "name": "Infernal Vel'Koz (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161009,
+          "parent_skin_id": "skin:161004",
+          "name": "Infernal Vel'Koz (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161010,
+          "parent_skin_id": "skin:161004",
+          "name": "Infernal Vel'Koz (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin04/images/velkoz_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin04/images/velkoz_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin04/images/velkoz_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin04/velkozloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6942e3b9bd24cee5c0ae63dc8408c179544f5fe539bb2e9594fad1cea83165ae",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Infernal",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161004",
+        "result_label": "Infernal Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161004",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:161029",
+      "riot_skin_id": 161029,
+      "champion_id": "Velkoz",
+      "champion_riot_id": 161,
+      "champion_name": "Vel'Koz",
+      "name": "Spaghetti alla Vel'Koz",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "547e50a0-c2e7-4c0d-b0d8-c775b0082328",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2026-05-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        203
+      ],
+      "wiki_sets": [
+        "Food Fight"
+      ],
+      "universe_ids": [
+        "universe:mealtime-melee"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 161030,
+          "parent_skin_id": "skin:161029",
+          "name": "Spaghetti alla Vel'Koz (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161031,
+          "parent_skin_id": "skin:161029",
+          "name": "Spaghetti alla Vel'Koz (Pesto)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161032,
+          "parent_skin_id": "skin:161029",
+          "name": "Spaghetti alla Vel'Koz (Dragon Fruit Noodle)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161033,
+          "parent_skin_id": "skin:161029",
+          "name": "Spaghetti alla Vel'Koz (Strawberry Pasta)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161034,
+          "parent_skin_id": "skin:161029",
+          "name": "Spaghetti alla Vel'Koz (Squid Ink Pasta)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 161035,
+          "parent_skin_id": "skin:161029",
+          "name": "Spaghetti alla Vel'Koz (Alfredo)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin29/images/velkoz_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin29/images/velkoz_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin29/images/velkoz_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/velkoz/skins/skin29/velkozloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a5e35521e70a02bda25594da1b9433fd4b3367d11f2a3ad5571118a39ad7f0f6",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Velkoz",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Vel'Koz",
+          "skin": "Spaghetti alla Vel'Koz",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Vel%27Koz/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:161029",
+        "result_label": "Spaghetti alla Vel'Koz",
+        "label_eligible": true,
+        "narrative_family_id": "skin:161029",
+        "champion_profile_ref": "data/champions/Velkoz.json",
+        "gameplay_profile_ref": "data/champions/Velkoz.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Velkoz",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

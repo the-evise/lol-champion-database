@@ -1,0 +1,1924 @@
+{
+  "champion_id": "Zed",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238000",
+      "riot_skin_id": 238000,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Zed",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "f8e35f35-8a6d-4bb3-958a-e2e67be3c6b3",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-11-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/base/images/zed_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/base/images/zed_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/base/images/zed_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/base/zedloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9325541977b5f4968475c6694f58c6aee2a51d9a4932bcfbacd8fd3f3dcb1ecc",
+        "biography_word_count": 79,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238000",
+        "result_label": "Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238000",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238058",
+      "riot_skin_id": 238058,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Blood Moon Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 58,
+      "content_id": "b0bd74e4-9af1-4592-a601-2ce0ae843194",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-04-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238059,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238060,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238061,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238062,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238063,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238064,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238065,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238066,
+          "parent_skin_id": "skin:238058",
+          "name": "Blood Moon Zed (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin58/images/zed_splash_centered_58.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin58/images/zed_splash_uncentered_58.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin58/images/zed_splash_tile_58.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin58/zedloadscreen_58.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f03197041bfb0bb4280f4aaf776fa8f6315e69bf31ca03d804fd4e3cb93bde6f",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238058",
+        "result_label": "Blood Moon Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238058",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238011",
+      "riot_skin_id": 238011,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Death Sworn Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "7cad0716-5a59-41f6-85fa-c10cae6b76c2",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2017-10-25",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        87
+      ],
+      "wiki_sets": [
+        "Death Sworn"
+      ],
+      "universe_ids": [
+        "universe:death-sworn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin11/images/zed_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin11/images/zed_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin11/images/zed_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin11/zedloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "75aed8d6c8b7df9c93f810ffc50b70d74eb898ccc9b47db71a977c3383fc49a2",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Death Sworn",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238011",
+        "result_label": "Death Sworn Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238011",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238031",
+      "riot_skin_id": 238031,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Debonair Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 31,
+      "content_id": "a3331149-fcc9-49e5-9caa-3e36a820b8a0",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2021-12-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        23
+      ],
+      "wiki_sets": [
+        "Debonair"
+      ],
+      "universe_ids": [
+        "universe:crime-city-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238032,
+          "parent_skin_id": "skin:238031",
+          "name": "Debonair Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238033,
+          "parent_skin_id": "skin:238031",
+          "name": "Debonair Zed (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238034,
+          "parent_skin_id": "skin:238031",
+          "name": "Debonair Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238035,
+          "parent_skin_id": "skin:238031",
+          "name": "Debonair Zed (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238036,
+          "parent_skin_id": "skin:238031",
+          "name": "Debonair Zed (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238037,
+          "parent_skin_id": "skin:238031",
+          "name": "Debonair Zed (Cerulean Club)",
+          "colors": [
+            "#42A7CC",
+            "#FFFFFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin31/images/zed_splash_centered_31.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin31/images/zed_splash_uncentered_31.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin31/images/zed_splash_tile_31.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin31/zedloadscreen_31.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2e5ca1e66c5cadb0ccfbc932e3c90de71455a060bcf7dccafed8a1b87cc300a0",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Debonair",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238031",
+        "result_label": "Debonair Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238031",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238038",
+      "riot_skin_id": 238038,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Empyrean Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 38,
+      "content_id": "16579aba-1623-4bb3-9d9b-cccb320f99fb",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238040,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238041,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238042,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238043,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238044,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238045,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238046,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238047,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238048,
+          "parent_skin_id": "skin:238038",
+          "name": "Empyrean Zed (Neon Flare)",
+          "colors": [
+            "#FF655B",
+            "#95E237"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin38/images/zed_splash_centered_38.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin38/images/zed_splash_uncentered_38.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin38/images/zed_splash_tile_38.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin38/zedloadscreen_38.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e19a90ecd838658399d84e41353d54ba7083ba8fd251b04cff7c4088aeeafa36",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238038",
+        "result_label": "Empyrean Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238038",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238013",
+      "riot_skin_id": 238013,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Galaxy Slayer Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 13,
+      "content_id": "0a74c85a-cbc5-4533-911c-763b170ecabc",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2019-04-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        73
+      ],
+      "wiki_sets": [
+        "Odyssey"
+      ],
+      "universe_ids": [
+        "universe:odyssey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238024,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238025,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238026,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238027,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238028,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238029,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Merc)",
+          "colors": [
+            "#0C0C0F",
+            "#9B1520"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238039,
+          "parent_skin_id": "skin:238013",
+          "name": "Galaxy Slayer Zed (Mythic)",
+          "colors": [
+            "#E31970",
+            "#1E50BD"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin13/images/zed_splash_centered_13.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin13/images/zed_splash_uncentered_13.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin13/images/zed_splash_tile_13.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin13/zedloadscreen_13.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a1245e7b52715777034c49058e48a074d0954a2841c9e1578b7c377dca2acbb",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Galaxy Slayer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238013",
+        "result_label": "Galaxy Slayer Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238013",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238049",
+      "riot_skin_id": 238049,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Immortal Journey Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 49,
+      "content_id": "2e8229a8-9b57-4513-a0e9-a172b899872e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238050,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238051,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238052,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238053,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238054,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238055,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238056,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238057,
+          "parent_skin_id": "skin:238049",
+          "name": "Immortal Journey Zed (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin49/images/zed_splash_centered_49.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin49/images/zed_splash_uncentered_49.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin49/images/zed_splash_tile_49.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin49/zedloadscreen_49.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4f5fba243b0683bd2f86ce673be380cbabac1ded04a2828b1abbbf42b7cbdef9",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Immortal Journey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238049",
+        "result_label": "Immortal Journey Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238049",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238030",
+      "riot_skin_id": 238030,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Prestige PROJECT: Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 30,
+      "content_id": "1aef9a07-3cc6-4a8c-ade7-31e7f05d3c3b",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2021-06-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": "skin:238003",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/images/zed_splash_centered_30.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/images/zed_splash_uncentered_30.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/images/zed_splash_tile_30.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin30/zedloadscreen_30.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2df59e9bf8f44475c2fbb4f00234c9248cc737045b73e7e1bb70c9b752015269",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Prestige PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238030",
+        "result_label": "Prestige PROJECT: Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238003",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238069",
+      "riot_skin_id": 238069,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Prestige Spirit Blossom Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 69,
+      "content_id": "eadae842-ce72-4dff-8d72-4a5a856b5812",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2025-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238070,
+          "parent_skin_id": "skin:238069",
+          "name": "Prestige Spirit Blossom Zed (Vivid)",
+          "colors": [
+            "#FE6ED6",
+            "#5F5CC8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin69/images/zed_splash_centered_69.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin69/images/zed_splash_uncentered_69.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin69/images/zed_splash_tile_69.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin69/zedloadscreen_69.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ad96648fc1b995dc996446d200055da0f0afeb4104cd9d5442ea3429951cc092",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Prestige Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238069",
+        "result_label": "Prestige Spirit Blossom Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238069",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238003",
+      "riot_skin_id": 238003,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "PROJECT: Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "6c500efd-5569-4d03-af61-aae1e920b9de",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-09-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        18
+      ],
+      "wiki_sets": [
+        "PROJECT"
+      ],
+      "universe_ids": [
+        "universe:project"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238014,
+          "parent_skin_id": "skin:238003",
+          "name": "PROJECT: Zed (Reckoning)",
+          "colors": [
+            "#FF5500",
+            "#162B30"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin03/images/zed_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin03/images/zed_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin03/images/zed_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin03/zedloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "48bc1db42cefa3f34dc66d02af383c22a68032e2bb1f3a4d5fbb7522ad2e67bc",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "PROJECT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238003",
+        "result_label": "PROJECT: Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238003",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238015",
+      "riot_skin_id": 238015,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "PsyOps Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "0271ec5b-c102-41e9-8600-ae67b04336cc",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-09-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        134
+      ],
+      "wiki_sets": [
+        "Black Rose Group"
+      ],
+      "universe_ids": [
+        "universe:psyops"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238016,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238017,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238018,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238019,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Hunter)",
+          "colors": [
+            "#B2D1E4",
+            "#3CABFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238020,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238021,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238022,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238023,
+          "parent_skin_id": "skin:238015",
+          "name": "PsyOps Zed (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin15/images/zed_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin15/images/zed_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin15/images/zed_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin15/zedloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "38cc3efd3169b3892d2729f3c03f008c558567145a2d8cd5c3f2104b354da619",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "PsyOps",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238015",
+        "result_label": "PsyOps Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238015",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238068",
+      "riot_skin_id": 238068,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Quantum Galaxy Slayer Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 68,
+      "content_id": "64ab9f2d-a4e4-4d56-bab0-3dfe680b567e",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2025-02-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Sanctum",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        73
+      ],
+      "wiki_sets": [
+        "Odyssey"
+      ],
+      "universe_ids": [
+        "universe:odyssey"
+      ],
+      "variant_of": "skin:238013",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin68/images/zed_splash_centered_68.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin68/images/zed_splash_uncentered_68.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin68/images/zed_splash_tile_68.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin68/zedloadscreen_68.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a1245e7b52715777034c49058e48a074d0954a2841c9e1578b7c377dca2acbb",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Quantum Galaxy Slayer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238068",
+        "result_label": "Quantum Galaxy Slayer Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238013",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238001",
+      "riot_skin_id": 238001,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Shockblade Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "0d45ca44-f198-492b-a1ac-7bb23476ace5",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-11-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        155
+      ],
+      "wiki_sets": [
+        "Shockblade"
+      ],
+      "universe_ids": [
+        "universe:cloudedge"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238004,
+          "parent_skin_id": "skin:238001",
+          "name": "Shockblade Zed (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238005,
+          "parent_skin_id": "skin:238001",
+          "name": "Shockblade Zed (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238006,
+          "parent_skin_id": "skin:238001",
+          "name": "Shockblade Zed (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238007,
+          "parent_skin_id": "skin:238001",
+          "name": "Shockblade Zed (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238008,
+          "parent_skin_id": "skin:238001",
+          "name": "Shockblade Zed (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238009,
+          "parent_skin_id": "skin:238001",
+          "name": "Shockblade Zed (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin01/images/zed_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin01/images/zed_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin01/images/zed_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin01/zedloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "78e9c7b6876d3733b28a304293e6fadbbbff156e9ab1b431575e4d689ad9baed",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Shockblade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238001",
+        "result_label": "Shockblade Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238001",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238002",
+      "riot_skin_id": 238002,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "SKT T1 Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "aefc3964-ba99-4eca-843e-c76a364e1f6b",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-05-04",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        3
+      ],
+      "wiki_sets": [
+        "World Champions: 2013"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238067,
+          "parent_skin_id": "skin:238002",
+          "name": "SKT T1 Zed (Paragon)",
+          "colors": [
+            "#64DCC8",
+            "#E446F7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 238071,
+          "parent_skin_id": "skin:238002",
+          "name": "SKT T1 Zed (Elite)",
+          "colors": [
+            "#872127",
+            "#2C232C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin71/chromapreview.chroma_zed_sktt1.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin02/images/zed_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin02/images/zed_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin02/images/zed_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin02/zedloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b00900763d44f73bc32a7d7af6cefe759b18bbc7045c2713f1268be66cd7795d",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "SKT T1",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238002",
+        "result_label": "SKT T1 Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238002",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:238010",
+      "riot_skin_id": 238010,
+      "champion_id": "Zed",
+      "champion_riot_id": 238,
+      "champion_name": "Zed",
+      "name": "Worlds 2016 Zed",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "de361d2f-2595-494d-af5f-07289b9d3fb3",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2016-09-25",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 238012,
+          "parent_skin_id": "skin:238010",
+          "name": "Worlds 2016 Zed (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin10/images/zed_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin10/images/zed_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin10/images/zed_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/zed/skins/skin10/zedloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "95da86154291b82357e131f9693c6a77e53eed6b9da1b74dc7e099f32aa09126",
+        "biography_word_count": 6,
+        "source_id": "skins:client:Zed",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Zed",
+          "skin": "Worlds 2016",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Zed/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:238010",
+        "result_label": "Worlds 2016 Zed",
+        "label_eligible": true,
+        "narrative_family_id": "skin:238010",
+        "champion_profile_ref": "data/champions/Zed.json",
+        "gameplay_profile_ref": "data/champions/Zed.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Zed",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

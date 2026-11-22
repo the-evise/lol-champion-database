@@ -17,6 +17,12 @@ python -m http.server 8000 --directory dist
 
 For locally optimized artwork, install Pillow and run `python scripts/build_web.py --download-art`. Without that optional step, the browser uses official Riot CDN artwork. No JavaScript dependencies are required.
 
+## Skins and alternate identities
+
+The database also includes **2,026 non-base cosmetic entries** for all 173 champions, with **1,971 released skin labels** suitable for a future result library, **226 skin lines**, **131 world/setting groups**, and **7,205 chromas tracked separately**. Browse [Alternate Lives](https://runeterra-atlas.h-zarepour01.chatgpt.site/skins.html), read [the skin data guide](docs/SKINS.md), or open the [coverage report](data/skin_coverage.json).
+
+Every available skin biography is source-linked and fingerprinted. Fifteen Coven/Pentakill examples have original summaries and preliminary themes; the rest explicitly await individual narrative annotation. Full prose can be resolved locally with `scripts/skin_lore.py`. Alternate skins do not automatically inherit original-world personality.
+
 ## Start here
 
 - [Browse every champion](docs/INDEX.md)

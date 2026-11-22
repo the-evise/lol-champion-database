@@ -19,8 +19,9 @@ def build_sqlite(path,records,sources):
     path.parent.mkdir(parents=True,exist_ok=True)
     con=sqlite3.connect(path)
     con.executescript((ROOT/'schema.sql').read_text())
+    con.executescript((ROOT/'skin_schema.sql').read_text())
     with con:
-        for table in ['champion_roles','champion_themes','related_champions','champion_resources','abilities','sources','champions']:con.execute('DELETE FROM '+table)
+        for table in ['skin_chromas','skin_line_memberships','skin_universe_memberships','skins','skin_lines','skin_universes','champion_roles','champion_themes','related_champions','champion_resources','abilities','sources','champions']:con.execute('DELETE FROM '+table)
         for c in records:
             g=c['gameplay'];l=c['lore'];a=c['analysis'];r=g['ratings']
             con.execute('INSERT INTO champions VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)',(c['id'],c['riot_id'],c['name'],c['title'],l['region'],l['summary'],a['central_motivation'],g['range_type'],r.get('difficulty'),r.get('damage'),r.get('toughness'),r.get('control'),r.get('mobility'),r.get('utility'),json.dumps(c,ensure_ascii=False)))
@@ -31,6 +32,15 @@ def build_sqlite(path,records,sources):
             for t in l['resources']:con.execute('INSERT INTO champion_resources VALUES (?,?,?,?,?)',(c['id'],t['type'],t['title'],t['url'],t['review_status']))
             for t in g['abilities']:con.execute('INSERT INTO abilities VALUES (?,?,?,?)',(c['id'],t['slot'],t['name'],json.dumps(t,ensure_ascii=False)))
         for s in sources:con.execute('INSERT INTO sources VALUES (?,?,?,?)',(s['id'],s['kind'],s['url'],json.dumps(s,ensure_ascii=False)))
+        if (DATA/'skins.json').exists():
+            for line in load(DATA/'skinlines.json'):con.execute('INSERT INTO skin_lines VALUES (?,?,?)',(line['id'],line['name'],json.dumps(line,ensure_ascii=False)))
+            for universe in load(DATA/'skin_universes.json'):con.execute('INSERT INTO skin_universes VALUES (?,?,?)',(universe['id'],universe['name'],json.dumps(universe,ensure_ascii=False)))
+            for s in load(DATA/'skins.json'):
+                con.execute('INSERT INTO skins VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)',(s['id'],s['riot_skin_id'],s['champion_id'],s['name'],s['is_base'],s['kind'],s['rarity'],s['availability'],s['release_date'],s['variant_of'],s['lore']['available'],s['matching']['label_eligible'],json.dumps(s,ensure_ascii=False)))
+                for lid in s['skinline_ids']:con.execute('INSERT INTO skin_line_memberships VALUES (?,?)',(s['id'],lid))
+                for uid in s['universe_ids']:con.execute('INSERT INTO skin_universe_memberships VALUES (?,?)',(s['id'],uid))
+                for ch in s['chromas']:con.execute('INSERT INTO skin_chromas VALUES (?,?,?,?)',(ch['id'],s['id'],ch['name'],json.dumps(ch,ensure_ascii=False)))
+            for source in load(DATA/'skin_sources.json')['sources']:con.execute('INSERT INTO sources VALUES (?,?,?,?)',(source['id'],source['kind'],source['url'],json.dumps(source,ensure_ascii=False)))
     con.execute('VACUUM');con.close()
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--sqlite-only',action='store_true');args=parser.parse_args()

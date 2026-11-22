@@ -1,0 +1,1784 @@
+{
+  "champion_id": "JarvanIV",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59000",
+      "riot_skin_id": 59000,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Jarvan IV",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "4a3bf2a0-b5d8-41d0-b21f-ef29c463015d",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/base/images/jarvaniv_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/base/images/jarvaniv_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/base/images/jarvaniv_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/base/jarvanivloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "29c3fd278638798464eb14dd52b429c409ef3a6380e95b39c024f7fb77e7877b",
+        "biography_word_count": 74,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59000",
+        "result_label": "Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59000",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59001",
+      "riot_skin_id": 59001,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Commando Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "33d24123-2277-4449-860f-4e46c873569a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        104
+      ],
+      "wiki_sets": [
+        "Commando"
+      ],
+      "universe_ids": [
+        "universe:war-is-heck"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin01/images/jarvaniv_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin01/images/jarvaniv_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin01/images/jarvaniv_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin01/jarvanivloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "44fefd5470ffd9e580f5072d0a4364aef3b6c84721b59202f4dead61dd5d29a4",
+        "biography_word_count": 15,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Commando",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59001",
+        "result_label": "Commando Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59001",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59007",
+      "riot_skin_id": 59007,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Dark Star Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "443cafb2-3978-4f3a-96c1-d56ab3a7c69a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-03-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59012,
+          "parent_skin_id": "skin:59007",
+          "name": "Dark Star Jarvan IV (Antimatter)",
+          "colors": [
+            "#000000",
+            "#A50031"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin07/images/jarvaniv_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin07/images/jarvaniv_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin07/images/jarvaniv_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin07/jarvanivloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6002a73e357065a2b133b46dd57e1f10c8e62de33ae017e4995b1dde9aa06253",
+        "biography_word_count": 47,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59007",
+        "result_label": "Dark Star Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59007",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59003",
+      "riot_skin_id": 59003,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Darkforge Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "81a24674-b0e8-4a1e-8a3f-f9c3b61c46a0",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-07-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin03/images/jarvaniv_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin03/images/jarvaniv_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin03/images/jarvaniv_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin03/jarvanivloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59003",
+        "result_label": "Darkforge Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59003",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59002",
+      "riot_skin_id": 59002,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Dragonslayer Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "53df6c70-4750-4305-8361-8d6c25525624",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-03-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin02/images/jarvaniv_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin02/images/jarvaniv_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin02/images/jarvaniv_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin02/jarvanivloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7f219b0a807db22a171bcf0fc037b7cda1aee6324026ef31662e3cd5538a4203",
+        "biography_word_count": 43,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Dragonslayer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59002",
+        "result_label": "Dragonslayer Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59002",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59006",
+      "riot_skin_id": 59006,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Fnatic Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "3333b05c-8ca0-4a5d-8877-5a7f47817f56",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-09-24",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        1
+      ],
+      "wiki_sets": [
+        "World Champions: 2011"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin06/images/jarvaniv_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin06/images/jarvaniv_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin06/images/jarvaniv_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin06/jarvanivloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8a2dd1dbcd841fb8c449dddc7663ab0d293f27d510eb182c01436b9e3d11f525",
+        "biography_word_count": 12,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Fnatic",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59006",
+        "result_label": "Fnatic Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59006",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59009",
+      "riot_skin_id": 59009,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Hextech Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "99fb3f47-460b-451d-94c3-332392d3c444",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-04-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        40
+      ],
+      "wiki_sets": [
+        "Hextech"
+      ],
+      "universe_ids": [
+        "universe:hextech"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin09/images/jarvaniv_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin09/images/jarvaniv_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin09/images/jarvaniv_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin09/jarvanivloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c96da9d9783839e7e339c4c56323c81774e081bdcfbda02be6b84cfa39fb99cd",
+        "biography_word_count": 49,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Hextech",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59009",
+        "result_label": "Hextech Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59009",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59021",
+      "riot_skin_id": 59021,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Lunar Beast Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "c5f03fc7-34a2-4a77-aa28-7d8bad7b1d0a",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2021-02-04",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        142
+      ],
+      "wiki_sets": [
+        "Lunar Beast"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59022,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59023,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59024,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59025,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59026,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Vitality)",
+          "colors": [
+            "#88FF00",
+            "#9B1520"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59027,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59028,
+          "parent_skin_id": "skin:59021",
+          "name": "Lunar Beast Jarvan IV (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin21/images/jarvaniv_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin21/images/jarvaniv_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin21/images/jarvaniv_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin21/jarvanivloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c1592ac9f621e0e6bdfc1b8217d94e094e837ca90607894d9ad6f240dad6c336",
+        "biography_word_count": 59,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Lunar Beast",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59021",
+        "result_label": "Lunar Beast Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59021",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59044",
+      "riot_skin_id": 59044,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Mythmaker Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 44,
+      "content_id": "db0e0532-5856-4e39-b9da-6495c50b1e15",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2025-01-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        188
+      ],
+      "wiki_sets": [
+        "Mythmaker"
+      ],
+      "universe_ids": [
+        "universe:storycraft"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59045,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59046,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59047,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59048,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59049,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59050,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59051,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59052,
+          "parent_skin_id": "skin:59044",
+          "name": "Mythmaker Jarvan IV (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin44/images/jarvaniv_splash_centered_44.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin44/images/jarvaniv_splash_uncentered_44.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin44/images/jarvaniv_splash_tile_44.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin44/jarvanivloadscreen_44.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c52c0bf8f8114391ada13c98f46f03992519a46dd10de75b4a9f92cf244eee92",
+        "biography_word_count": 49,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Mythmaker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59044",
+        "result_label": "Mythmaker Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59044",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59035",
+      "riot_skin_id": 59035,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Nightbringer Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 35,
+      "content_id": "2c2256c2-23ef-48cc-a1b2-41a44eab3af1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-04-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59036,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59037,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59038,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59039,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59040,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59041,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59042,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59043,
+          "parent_skin_id": "skin:59035",
+          "name": "Nightbringer Jarvan IV (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin35/images/jarvaniv_splash_centered_35.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin35/images/jarvaniv_splash_uncentered_35.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin35/images/jarvaniv_splash_tile_35.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin35/jarvanivloadscreen_35.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e518dce5cba70789fddbdbff5fa1b159c426f87f3ce2397203cf78878b95aa8c",
+        "biography_word_count": 57,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59035",
+        "result_label": "Nightbringer Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59035",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59011",
+      "riot_skin_id": 59011,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Pool Party Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "412109a2-3a72-46c6-8cee-600408723227",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-07-02",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        15
+      ],
+      "wiki_sets": [
+        "Pool Party"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59013,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59014,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59015,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59016,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59017,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59018,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59019,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59020,
+          "parent_skin_id": "skin:59011",
+          "name": "Pool Party Jarvan IV (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin11/images/jarvaniv_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin11/images/jarvaniv_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin11/images/jarvaniv_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin11/jarvanivloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ac566fbeb84503b83f723b9c031644fec3b6f97680e619ef12e649aea1598477",
+        "biography_word_count": 49,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Pool Party",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59011",
+        "result_label": "Pool Party Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59011",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59054",
+      "riot_skin_id": 59054,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Prestige Visions of the Fallen Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 54,
+      "content_id": "aef365c2-2bfc-49bf-a5ee-d0e1931e5bfe",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2025-08-27",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        219
+      ],
+      "wiki_sets": [
+        "Visions of the Fallen"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59055,
+          "parent_skin_id": "skin:59054",
+          "name": "Prestige Visions of the Fallen Jarvan IV (Vivid)",
+          "colors": [
+            "#297DFF",
+            "#D9D1FE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin54/images/jarvaniv_splash_centered_54.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin54/images/jarvaniv_splash_uncentered_54.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin54/images/jarvaniv_splash_tile_54.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin54/jarvanivloadscreen_54.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ebd100986a93aceaeb8c597d707996acabcac0e768421d5591f41a5ccffc2f98",
+        "biography_word_count": 41,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Prestige Visions of the Fallen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59054",
+        "result_label": "Prestige Visions of the Fallen Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59054",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59008",
+      "riot_skin_id": 59008,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "SSG Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "676d2680-fcc5-4e36-a8b1-8f805a821a07",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-07-20",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        75
+      ],
+      "wiki_sets": [
+        "World Champions: 2017"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59056,
+          "parent_skin_id": "skin:59008",
+          "name": "SSG Jarvan IV (Elite)",
+          "colors": [
+            "#C271F5",
+            "#CBE1F7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin08/images/jarvaniv_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin08/images/jarvaniv_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin08/images/jarvaniv_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin08/jarvanivloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "97564a8db0544af67e5493f6dd62d9c233804f58d616ed312dd296c543f474cc",
+        "biography_word_count": 12,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "SSG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59008",
+        "result_label": "SSG Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59008",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59004",
+      "riot_skin_id": 59004,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Victorious Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "968e602f-c35e-4e39-b8fb-5f6017dc7ce3",
+      "rarity": "Rare",
+      "availability": "Limited",
+      "release_date": "2011-09-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        7
+      ],
+      "wiki_sets": [
+        "Victorious"
+      ],
+      "universe_ids": [
+        "universe:victorious"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin04/images/jarvaniv_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin04/images/jarvaniv_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin04/images/jarvaniv_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin04/jarvanivloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "479247ca8dac0c5c0bfc9cac2ccf35adf0f7d5020fcb5111fc307cf5c457efcf",
+        "biography_word_count": 33,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Victorious",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59004",
+        "result_label": "Victorious Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59004",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59005",
+      "riot_skin_id": 59005,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Warring Kingdoms Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "bdc14fb4-d92f-4abb-9563-373765c26c7f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2013-02-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        53
+      ],
+      "wiki_sets": [
+        "Lunar Revel: Warring Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:warring-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59010,
+          "parent_skin_id": "skin:59005",
+          "name": "Warring Kingdoms Jarvan IV (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin05/images/jarvaniv_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin05/images/jarvaniv_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin05/images/jarvaniv_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin05/jarvanivloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "65bf936c75d1dfd4c48f4d9721d527110a0cf976aa063c1cff1aebe841c30db0",
+        "biography_word_count": 36,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Warring Kingdoms",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59005",
+        "result_label": "Warring Kingdoms Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59005",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:59030",
+      "riot_skin_id": 59030,
+      "champion_id": "JarvanIV",
+      "champion_riot_id": 59,
+      "champion_name": "Jarvan IV",
+      "name": "Worlds 2021 Jarvan IV",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 30,
+      "content_id": "cb524406-858b-418c-b0ab-251346e8c2f7",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2021-09-23",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 59031,
+          "parent_skin_id": "skin:59030",
+          "name": "Worlds 2021 Jarvan IV (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59032,
+          "parent_skin_id": "skin:59030",
+          "name": "Worlds 2021 Jarvan IV (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59033,
+          "parent_skin_id": "skin:59030",
+          "name": "Worlds 2021 Jarvan IV (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 59034,
+          "parent_skin_id": "skin:59030",
+          "name": "Worlds 2021 Jarvan IV (MAKE/BREAK)",
+          "colors": [
+            "#201B17",
+            "#911A1A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin30/images/jarvaniv_splash_centered_30.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin30/images/jarvaniv_splash_uncentered_30.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin30/images/jarvaniv_splash_tile_30.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jarvaniv/skins/skin30/jarvanivloadscreen_30.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fa9550df29148f66eca650c88356f2a72bf40a818e377288697b7d93228149b2",
+        "biography_word_count": 5,
+        "source_id": "skins:client:JarvanIV",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Jarvan IV",
+          "skin": "Worlds 2021",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Jarvan_IV/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:59030",
+        "result_label": "Worlds 2021 Jarvan IV",
+        "label_eligible": true,
+        "narrative_family_id": "skin:59030",
+        "champion_profile_ref": "data/champions/JarvanIV.json",
+        "gameplay_profile_ref": "data/champions/JarvanIV.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:JarvanIV",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

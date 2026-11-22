@@ -37,5 +37,17 @@ def main():
   catalog.append({'id':id,'name':c['name'],'title':c['title'],'region':c['lore']['region'],'region_name':REGIONS.get(c['lore']['region'],'Unknown'),'positions':c['gameplay']['positions']['client'],'classes':c['gameplay']['classes_data_dragon'],'subclasses':c['gameplay']['subclasses_wiki'],'difficulty':c['gameplay']['ratings']['difficulty'],'themes':[t['theme'] for t in c['analysis']['candidate_themes']],'story_count':sum(r['type']=='story' for r in c['lore']['resources']),'portrait':f'assets/champions/{id}-card.webp' if local else remote,'hero':f'assets/champions/{id}-hero.webp' if local else remote})
   (out/'data/champions'/(id+'.json')).write_text(json.dumps(c,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
  (out/'data/catalog.json').write_text(json.dumps({'champions':catalog,'regions':REGIONS,'coverage':json.loads((ROOT/'data/coverage.json').read_text())},ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+ if (ROOT/'data/skins.json').exists():
+  skins=json.loads((ROOT/'data/skins.json').read_text());lines=json.loads((ROOT/'data/skinlines.json').read_text());worlds=json.loads((ROOT/'data/skin_universes.json').read_text())
+  skin_catalog={'coverage':json.loads((ROOT/'data/skin_coverage.json').read_text()),'lines':[{'id':l['id'],'name':l['name'],'count':len(l['skin_ids'])} for l in lines],'worlds':[{'id':w['id'],'name':w['name'],'count':len(w['skin_ids'])} for w in worlds],'skins':[{'id':s['id'],'c':s['champion_id'],'n':s['name'],'r':s['rarity'],'l':s['skinline_ids'],'u':s['universe_ids'],'a':s['artwork']['tile'],'eligible':s['matching']['label_eligible'],'availability':s['availability'],'kind':s['kind'],'chromas':len(s['chromas']),'sets':s['wiki_sets']} for s in skins if not s['is_base']]}
+  (out/'data/skin-catalog.json').write_text(json.dumps(skin_catalog,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+  (out/'data/skins').mkdir(parents=True,exist_ok=True)
+  for p in (ROOT/'data/skins').glob('*.json'):(out/'data/skins'/p.name).write_text(json.dumps(json.loads(p.read_text()),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
+  # One small, local hero keeps the skin landing page stable; cards load on demand.
+  skin_art=cache.parent/'skin-hero.webp'
+  (out/'assets/skins').mkdir(parents=True,exist_ok=True)
+  if skin_art.exists():shutil.copy2(skin_art,out/'assets/skins/coven-morgana.webp')
+  else:
+   css=out/'styles.css';css.write_text(css.read_text().replace('assets/skins/coven-morgana.webp','https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Morgana_26.jpg'))
  print(json.dumps({'champions':len(catalog),'local_art':sum('assets/' in c['portrait'] for c in catalog),'art_failures':failures,'catalog_bytes':(out/'data/catalog.json').stat().st_size,'output':str(out)}))
 if __name__=='__main__':main()

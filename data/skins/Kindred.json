@@ -1,0 +1,1232 @@
+{
+  "champion_id": "Kindred",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203000",
+      "riot_skin_id": 203000,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Kindred",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "6dcb6cf3-2a71-418a-8ffa-ebdd05c502bf",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-10-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/base/images/kindred_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/base/images/kindred_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/base/images/kindred_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/base/kindredloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "33b3c7bac3608d5e6597677b11cd8489247a0d3991a9810f52864f5ebc4f8c9f",
+        "biography_word_count": 61,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203000",
+        "result_label": "Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203000",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203034",
+      "riot_skin_id": 203034,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Chosen of the Wolf Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 34,
+      "content_id": "b1b73576-64d8-4b9c-9edc-eadad16998f1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-11-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        209
+      ],
+      "wiki_sets": [
+        "Chosen of the Wolf"
+      ],
+      "universe_ids": [
+        "universe:chosen-of-the-wolf"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 203035,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203036,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203037,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203038,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203039,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203040,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203041,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203042,
+          "parent_skin_id": "skin:203034",
+          "name": "Chosen of the Wolf Kindred (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin34/images/kindred_splash_centered_34.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin34/images/kindred_splash_uncentered_34.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin34/images/kindred_splash_tile_34.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin34/kindredloadscreen_34.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0e05e0439a63fc46c4490d551b06d6297a1d6b46c70c899375da337e1533e7f4",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Chosen of the Wolf",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203034",
+        "result_label": "Chosen of the Wolf Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203034",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203023",
+      "riot_skin_id": 203023,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "DRX Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 23,
+      "content_id": "cf34ed4e-d63d-46a1-9000-9eee05cb7c4f",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2023-06-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        194
+      ],
+      "wiki_sets": [
+        "World Champions: 2022"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 203032,
+          "parent_skin_id": "skin:203023",
+          "name": "DRX Kindred (Elite)",
+          "colors": [
+            "#E4E489",
+            "#195FC8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin23/images/kindred_splash_centered_23.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin23/images/kindred_splash_uncentered_23.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin23/images/kindred_splash_tile_23.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin23/kindredloadscreen_23.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0199620ab82535d18dc638bcefda9ef8820eb5e20042b32ed2cb6d18ae0b4c21",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "DRX",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203023",
+        "result_label": "DRX Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203023",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203045",
+      "riot_skin_id": 203045,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Pandemonium Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 45,
+      "content_id": "72e22550-4f6d-4404-acda-4d88dd2866a3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-04-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        229
+      ],
+      "wiki_sets": [
+        "Pandemonium"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin45/images/kindred_splash_centered_45.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin45/images/kindred_splash_uncentered_45.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin45/images/kindred_splash_tile_45.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin45/kindredloadscreen_45.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a866e0f44005ff9b0705996810d77a5f6288b78b1c3f30b9e9f27d7b19e16f4b",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Pandemonium",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203045",
+        "result_label": "Pandemonium Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203045",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203012",
+      "riot_skin_id": 203012,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Porcelain Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "7356915f-b3ab-4be5-a69a-f290207f2ac3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-01-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        154
+      ],
+      "wiki_sets": [
+        "Porcelain"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 203013,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203014,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203015,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203016,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203017,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203018,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203019,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203020,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203021,
+          "parent_skin_id": "skin:203012",
+          "name": "Porcelain Kindred (Golden Tiger)",
+          "colors": [
+            "#FF9D13",
+            "#B9FFC1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin12/images/kindred_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin12/images/kindred_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin12/images/kindred_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin12/kindredloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7f6fd77d6a28bc9cf138b2456d6c15f6b588f89b40fb6b3c716970497f3e8d22",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Porcelain",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203012",
+        "result_label": "Porcelain Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203012",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203033",
+      "riot_skin_id": 203033,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Prestige Porcelain Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 33,
+      "content_id": "0d16bee7-aa5e-431a-b340-bb6532649373",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-02-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        154
+      ],
+      "wiki_sets": [
+        "Porcelain"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": "skin:203012",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin33/images/kindred_splash_centered_33.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin33/images/kindred_splash_uncentered_33.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin33/images/kindred_splash_tile_33.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin33/kindredloadscreen_33.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b0c456886395d2702fff40f3059f32432c59124195f7d9bc6cc6eed2ef514a5d",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Prestige Porcelain",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203033",
+        "result_label": "Prestige Porcelain Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203012",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203001",
+      "riot_skin_id": 203001,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Shadowfire Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "7f2ed0c6-4b0a-49e0-b77d-f7c834085a1c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-10-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin01/images/kindred_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin01/images/kindred_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin01/images/kindred_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin01/kindredloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "892aed70588b39b5561aab878f5bbc54019b2184cb71e6351b25ae5f33c15bd4",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Shadowfire",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203001",
+        "result_label": "Shadowfire Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203001",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203003",
+      "riot_skin_id": 203003,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Spirit Blossom Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "0d8cfadb-a20b-4953-bbfa-bf179c0149d1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-08-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 203004,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203005,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203006,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203007,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203008,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203009,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203010,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203011,
+          "parent_skin_id": "skin:203003",
+          "name": "Spirit Blossom Kindred (Night Blossom)",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin03/images/kindred_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin03/images/kindred_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin03/images/kindred_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin03/kindredloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "72dd8f9243516765726e20db5e2af65e1f22991f3ba27770f96e211c5f35257c",
+        "biography_word_count": 64,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203003",
+        "result_label": "Spirit Blossom Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203003",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203002",
+      "riot_skin_id": 203002,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Super Galaxy Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "93516e6c-9748-48cc-b4df-21c5c3c0b8f8",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-05-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        21
+      ],
+      "wiki_sets": [
+        "Super Galaxy"
+      ],
+      "universe_ids": [
+        "universe:super-galaxy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin02/images/kindred_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin02/images/kindred_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin02/images/kindred_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin02/kindredloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "797babb1437daa0dcb76d2638f791ea2250f9eced921a019f17cdc9af952c5ae",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Super Galaxy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203002",
+        "result_label": "Super Galaxy Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203002",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:203022",
+      "riot_skin_id": 203022,
+      "champion_id": "Kindred",
+      "champion_riot_id": 203,
+      "champion_name": "Kindred",
+      "name": "Woof and Lamb Kindred",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 22,
+      "content_id": "0d5eef8a-7334-4cf2-890c-bb86ed47352a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-04-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        98
+      ],
+      "wiki_sets": [
+        "Cats Versus Dogs"
+      ],
+      "universe_ids": [
+        "universe:cats-versus-dogs"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 203024,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203025,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203026,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203027,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203028,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203029,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203030,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 203031,
+          "parent_skin_id": "skin:203022",
+          "name": "Woof and Lamb Kindred (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin22/images/kindred_splash_centered_22.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin22/images/kindred_splash_uncentered_22.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin22/images/kindred_splash_tile_22.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kindred/skins/skin22/kindredloadscreen_22.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8914bdd69c83b8848370e10c40932a1360429bc234a8e28b30cf2e377343adfc",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Kindred",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Kindred",
+          "skin": "Woof and Lamb",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kindred/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:203022",
+        "result_label": "Woof and Lamb Kindred",
+        "label_eligible": true,
+        "narrative_family_id": "skin:203022",
+        "champion_profile_ref": "data/champions/Kindred.json",
+        "gameplay_profile_ref": "data/champions/Kindred.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kindred",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

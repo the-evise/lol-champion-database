@@ -1,0 +1,2257 @@
+{
+  "champion_id": "Kaisa",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145000",
+      "riot_skin_id": 145000,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Kai'Sa",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "7c99b534-b8b6-4d80-a9a3-6b6e0f8eef6b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2018-03-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/base/images/kaisa_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/base/images/kaisa_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/base/images/kaisa_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/base/kaisaloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "dca8265c0d7637d46e5992e38adfc72a60a3d27a8cb7a43495a9f5b9a90b78ca",
+        "biography_word_count": 95,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145000",
+        "result_label": "Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145000",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145017",
+      "riot_skin_id": 145017,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Arcade Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "98141a91-078b-4cb3-8df5-6f05ee5d9cdd",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-06-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        10
+      ],
+      "wiki_sets": [
+        "Arcade: Heroes"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145018,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (K.O.)",
+          "colors": [
+            "#A5FFF8",
+            "#D87BFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145019,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145020,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145021,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145022,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145023,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145024,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145025,
+          "parent_skin_id": "skin:145017",
+          "name": "Arcade Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin17/images/kaisa_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin17/images/kaisa_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin17/images/kaisa_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin17/kaisaloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5dfa2d444207761a28030c87cdfd9b74b798dc78d202be30c63eebbe5fedde38",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Arcade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145017",
+        "result_label": "Arcade Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145017",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145001",
+      "riot_skin_id": 145001,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Bullet Angel Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "cc26c4a2-321a-43b7-a377-0182b26b9e8f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-03-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        65
+      ],
+      "wiki_sets": [
+        "Steel Valkyries"
+      ],
+      "universe_ids": [
+        "universe:iron-firmament"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145002,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin02/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145003,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145004,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145005,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145006,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145007,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145008,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145009,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145047,
+          "parent_skin_id": "skin:145001",
+          "name": "Bullet Angel Kai'Sa (Maverick)",
+          "colors": [
+            "#FF70BA",
+            "#464646"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin01/images/kaisa_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin01/images/kaisa_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin01/images/kaisa_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin01/kaisaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "00dfa8fa2b8e396d0e97fa6231452e5387b54aff556d30996179fab720d0dc95",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Bullet Angel",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145001",
+        "result_label": "Bullet Angel Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145001",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145069",
+      "riot_skin_id": 145069,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Dark Star Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 69,
+      "content_id": "c4bc3498-8fac-466e-b4e3-fa3fd9d801e9",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-10-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145072,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145073,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145074,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145075,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145076,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145077,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145078,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin78/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145079,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145080,
+          "parent_skin_id": "skin:145069",
+          "name": "Dark Star Kai'Sa (Quasar)",
+          "colors": [
+            "#D02E47",
+            "#7931BD"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin69/images/kaisa_splash_centered_69.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin69/images/kaisa_splash_uncentered_69.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin69/images/kaisa_splash_tile_69.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin69/kaisaloadscreen_69.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2d8101281a9df5a90364255afdcdc83b23ae0602b28aebac0d9f61c02164786c",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145069",
+        "result_label": "Dark Star Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145069",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145059",
+      "riot_skin_id": 145059,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Heavenscale Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 59,
+      "content_id": "4992c8c9-38bc-462f-b8e6-72782717c9a1",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2024-02-07",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        201
+      ],
+      "wiki_sets": [
+        "Heavenscale"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145060,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145061,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145062,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145063,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145064,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Granite)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145065,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145066,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin66/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145067,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Lustrous)",
+          "colors": [
+            "#DFA6DF",
+            "#E0D7D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145068,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145082,
+          "parent_skin_id": "skin:145059",
+          "name": "Heavenscale Kai'Sa (Beacon)",
+          "colors": [
+            "#F2A22F",
+            "#15A9CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin82/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin59/images/kaisa_splash_centered_59.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin59/images/kaisa_splash_uncentered_59.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin59/images/kaisa_splash_tile_59.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin59/kaisaloadscreen_59.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "96b651668a204dee8a62acee25eed41bbf3007e1d50235e54a3af843060af9f7",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Heavenscale",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145059",
+        "result_label": "Heavenscale Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145059",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145016",
+      "riot_skin_id": 145016,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "iG Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 16,
+      "content_id": "30c1c3b1-5cff-4582-afdc-3dbcd46107a7",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2019-04-23",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        107
+      ],
+      "wiki_sets": [
+        "World Champions: 2018"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145058,
+          "parent_skin_id": "skin:145016",
+          "name": "iG Kai'Sa (Tenfold Triumph)",
+          "colors": [
+            "#FF1515",
+            "#E8CD6B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145081,
+          "parent_skin_id": "skin:145016",
+          "name": "iG Kai'Sa (Elite)",
+          "colors": [
+            "#568DF3",
+            "#ECC642"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin81/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin16/images/kaisa_splash_centered_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin16/images/kaisa_splash_uncentered_16.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin16/images/kaisa_splash_tile_16.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin16/kaisaloadscreen_16.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3179d2a2b97742ba5ab19b652aa9f0a94776677bf36d1a22e235f543867df585",
+        "biography_word_count": 11,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "iG",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145016",
+        "result_label": "iG Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145016",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145071",
+      "riot_skin_id": 145071,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Immortalized Legend Kai'Sa",
+      "is_base": false,
+      "kind": "quest_tier",
+      "inventory_scope": "quest_tier",
+      "skin_num": 71,
+      "content_id": "e584ba0f-97fd-4d53-abee-0520f72c8c1d",
+      "rarity": "Transcendent",
+      "availability": "Limited",
+      "release_date": "2025-06-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        204
+      ],
+      "wiki_sets": [
+        "Risen Legends"
+      ],
+      "universe_ids": [
+        "universe:hall-of-legends"
+      ],
+      "variant_of": "skin:145070",
+      "forms_wiki": [
+        "Risen",
+        "Chosen"
+      ],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin71/images/kaisa_splash_centered_71.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin71/images/kaisa_splash_uncentered_71.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin71/images/kaisa_splash_tile_71.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin71/kaisaloadscreen_71.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b3caa82d457ecf227bb04b2cdad8f38b0fe6bec2dc6d52fa88728fb5ecdfa3a4",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/14/questSkinInfo/tiers/1/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Immortalized Legend",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145071",
+        "result_label": "Immortalized Legend Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145070",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145048",
+      "riot_skin_id": 145048,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Inkshadow Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 48,
+      "content_id": "3ae6d0a8-51d7-4b2a-9204-5cd4bd9b361e",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-05-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145049,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145050,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145051,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Jasper)",
+          "colors": [
+            "#9F4A25",
+            "#9F4A25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145052,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145053,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145054,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145055,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145056,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145057,
+          "parent_skin_id": "skin:145048",
+          "name": "Inkshadow Kai'Sa (Inked)",
+          "colors": [
+            "#B5CED6",
+            "#33D889"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin48/images/kaisa_splash_centered_48.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin48/images/kaisa_splash_uncentered_48.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin48/images/kaisa_splash_tile_48.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin48/kaisaloadscreen_48.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7423dbbb199212c6cbd7251e0ad64ac002f392060628be995d97acbd9ed7fd89",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145048",
+        "result_label": "Inkshadow Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145048",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145026",
+      "riot_skin_id": 145026,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "K/DA ALL OUT Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "b5442947-3037-408a-a295-9eaf17a2dd82",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-10-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145028,
+          "parent_skin_id": "skin:145026",
+          "name": "K/DA ALL OUT Kai'sa (BADDEST)",
+          "colors": [
+            "#0C0C0F",
+            "#272A3F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin26/images/kaisa_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin26/images/kaisa_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin26/images/kaisa_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin26/kaisaloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "59ff1461ef2e46354ac5071e2ffef33e94ece7d6ec48b0feddcca2e7fcb21281",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "KDA ALL OUT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145026",
+        "result_label": "K/DA ALL OUT Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145026",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145083",
+      "riot_skin_id": 145083,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "K/DA FIRESTARTER Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 83,
+      "content_id": "a9364f6f-1af5-4f60-8f41-6c8a3ee196c7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-11-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145084,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin84/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145085,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin85/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145086,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin86/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145087,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin87/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145088,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin88/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145089,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin89/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145090,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin90/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145091,
+          "parent_skin_id": "skin:145083",
+          "name": "K/DA FIRESTARTER Kai'Sa (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin91/chromapreview.chroma_kaisa_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin83/images/kaisa_splash_centered_83.skins_kaisa_skin83.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin83/images/kaisa_splash_uncentered_83.skins_kaisa_skin83.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin83/images/kaisa_splash_tile_83.skins_kaisa_skin83.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin83/kaisaloadscreen_83.skins_kaisa_skin83.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "33f9c6864dac0ae4252bc291b28a96a7df27150929894f2f57784e73fa119e83",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "KDA FIRESTARTER",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145083",
+        "result_label": "K/DA FIRESTARTER Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145083",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145014",
+      "riot_skin_id": 145014,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "K/DA Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "48935015-e5f9-40f5-8148-9cbdd6364359",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin14/images/kaisa_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin14/images/kaisa_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin14/images/kaisa_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin14/kaisaloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6eee89abc511a36f119c1a66a7cef6520ca925a1fb0473ed4ee0f22addf2258c",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145014",
+        "result_label": "K/DA Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145014",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145029",
+      "riot_skin_id": 145029,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Lagoon Dragon Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 29,
+      "content_id": "651f5999-fbf7-429c-8b74-a68530940225",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145030,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145031,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145032,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145033,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145034,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145035,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145036,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145037,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145038,
+          "parent_skin_id": "skin:145029",
+          "name": "Lagoon Dragon Kai'Sa (Emberclaw)",
+          "colors": [
+            "#110A20",
+            "#5C1111"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/images/kaisa_splash_centered_29.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/images/kaisa_splash_uncentered_29.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/images/kaisa_splash_tile_29.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin29/kaisaloadscreen_29.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ccb01e85ce4546ea5fd330c1ab3f66b8d6c7466c3917f32359fb6f2a0c61c7e8",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Lagoon Dragon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145029",
+        "result_label": "Lagoon Dragon Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145029",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145027",
+      "riot_skin_id": 145027,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Prestige K/DA ALL OUT Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "7142b861-d86f-41fd-b110-4c2da59e9f5b",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2020-10-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:145026",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin27/images/kaisa_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin27/images/kaisa_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin27/images/kaisa_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin27/kaisaloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "efee7e996a53c18a7f90c787f77a399a422cb4518b10ee626ea25495a3c4d44f",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Prestige KDA ALL OUT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145027",
+        "result_label": "Prestige K/DA ALL OUT Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145026",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145015",
+      "riot_skin_id": 145015,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Prestige K/DA Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "45525ee3-d0b8-4a76-b416-abab096e2653",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2018-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:145014",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/images/kaisa_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/images/kaisa_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/images/kaisa_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/kaisaloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1c1bc37d525ebac38815275b53d7cacfd1928676bbf4ca3cbb1d4c869ae1439a",
+        "biography_word_count": 25,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Prestige KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145015",
+        "result_label": "Prestige K/DA Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145014",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145039",
+      "riot_skin_id": 145039,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Prestige K/DA Kai'Sa (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 39,
+      "content_id": "af1c9de8-162c-4f05-bc85-1083b8f8fce9",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:145015",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/images/kaisa_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/images/kaisa_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin15/images/kaisa_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin39/kaisaloadscreen_39.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1c1bc37d525ebac38815275b53d7cacfd1928676bbf4ca3cbb1d4c869ae1439a",
+        "biography_word_count": 25,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Prestige KDA (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145039",
+        "result_label": "Prestige K/DA Kai'Sa (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145015",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145070",
+      "riot_skin_id": 145070,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Risen Legend Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 70,
+      "content_id": "e584ba0f-97fd-4d53-abee-0520f72c8c1d",
+      "rarity": "Transcendent",
+      "availability": "Limited",
+      "release_date": "2025-06-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        204
+      ],
+      "wiki_sets": [
+        "Risen Legends"
+      ],
+      "universe_ids": [
+        "universe:hall-of-legends"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin70/images/kaisa_splash_centered_70.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin70/images/kaisa_splash_uncentered_70.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin70/images/kaisa_splash_tile_70.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin70/kaisaloadscreen_70.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8b9c792406fc5b8bbc012bf4ba2342727973d795ccd359dd199528bef75999bb",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Risen Legend",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145070",
+        "result_label": "Risen Legend Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145070",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:145040",
+      "riot_skin_id": 145040,
+      "champion_id": "Kaisa",
+      "champion_riot_id": 145,
+      "champion_name": "Kai'Sa",
+      "name": "Star Guardian Kai'Sa",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 40,
+      "content_id": "7bae2026-7b6d-4334-8edd-c802b239fcad",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2022-07-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 145041,
+          "parent_skin_id": "skin:145040",
+          "name": "Star Guardian Kai'Sa (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145042,
+          "parent_skin_id": "skin:145040",
+          "name": "Star Guardian Kai'Sa (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145043,
+          "parent_skin_id": "skin:145040",
+          "name": "Star Guardian Kai'Sa (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145044,
+          "parent_skin_id": "skin:145040",
+          "name": "Star Guardian Kai'Sa (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145045,
+          "parent_skin_id": "skin:145040",
+          "name": "Star Guardian Kai'Sa (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 145046,
+          "parent_skin_id": "skin:145040",
+          "name": "Star Guardian Kai'Sa (Brilliant)",
+          "colors": [
+            "#FDA4DA",
+            "#9DE5FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin40/images/kaisa_splash_centered_40.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin40/images/kaisa_splash_uncentered_40.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin40/images/kaisa_splash_tile_40.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kaisa/skins/skin40/kaisaloadscreen_40.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "83d98ca9fe7eb8c5685fbf5187cb47bc59f615a854471229a84876ce246be8c2",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Kaisa",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Kai'Sa",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kai%27Sa/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:145040",
+        "result_label": "Star Guardian Kai'Sa",
+        "label_eligible": true,
+        "narrative_family_id": "skin:145040",
+        "champion_profile_ref": "data/champions/Kaisa.json",
+        "gameplay_profile_ref": "data/champions/Kaisa.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kaisa",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1495 @@
+{
+  "champion_id": "Qiyana",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246000",
+      "riot_skin_id": 246000,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Qiyana",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "9aa21479-9ef5-48ed-86e4-d29df91271bc",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2019-06-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/base/images/qiyana_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/base/images/qiyana_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/base/images/qiyana_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/base/qiyanaloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "476f1bdfd7619b3dfd254d8430042d0293bc9276867cbe1d7464e63fda531094",
+        "biography_word_count": 76,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246000",
+        "result_label": "Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246000",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246001",
+      "riot_skin_id": 246001,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Battle Boss Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "dda7c2a9-bbab-4086-9b18-b4d781fd6a51",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-06-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        11
+      ],
+      "wiki_sets": [
+        "Arcade: Battle Bosses"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 246003,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246004,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246005,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246006,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246007,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246008,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (K.O.)",
+          "colors": [
+            "#A5FFF8",
+            "#D87BFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246009,
+          "parent_skin_id": "skin:246001",
+          "name": "Battle Boss Qiyana (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin01/images/qiyana_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin01/images/qiyana_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin01/images/qiyana_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin01/qiyanaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "10d2aa753a14fb0d384482a7fe00aaccc2b4d74cd7417c0eb5977f3cd841cde3",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Battle Boss",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246001",
+        "result_label": "Battle Boss Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246001",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246011",
+      "riot_skin_id": 246011,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Battle Queen Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "e585e186-454e-4f45-8403-d741c545e2cf",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-12-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        137
+      ],
+      "wiki_sets": [
+        "Battle Queens"
+      ],
+      "universe_ids": [
+        "universe:battle-queens"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 246012,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246013,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246014,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Coronation)",
+          "colors": [
+            "#FF80B1",
+            "#9DFFEF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246015,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246016,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246017,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246018,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246019,
+          "parent_skin_id": "skin:246011",
+          "name": "Battle Queen Qiyana (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin11/images/qiyana_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin11/images/qiyana_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin11/images/qiyana_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin11/qiyanaloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "90912e0c3e105e6b981a0ca3866eb6b1aa58fb0192c5a0c8799ba6fc5ccf2475",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Battle Queen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246011",
+        "result_label": "Battle Queen Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246011",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246040",
+      "riot_skin_id": 246040,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "La Ilusión Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 40,
+      "content_id": "f2d5c75d-5f01-4c3f-8183-123bf34cef26",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-09-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        198
+      ],
+      "wiki_sets": [
+        "La Ilusión"
+      ],
+      "universe_ids": [
+        "universe:sueno-de-vida"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 246041,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246042,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246043,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246044,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246045,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246046,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246047,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246048,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246049,
+          "parent_skin_id": "skin:246040",
+          "name": "La Ilusión Qiyana (Vivida)",
+          "colors": [
+            "#EE3B93",
+            "#055939"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin40/images/qiyana_splash_centered_40.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin40/images/qiyana_splash_uncentered_40.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin40/images/qiyana_splash_tile_40.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin40/qiyanaloadscreen_40.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b924d09d14baaeb2d5a9c698068b042ac70e240a3322f1da47fd69a0df5ee51f",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "La Ilusión",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246040",
+        "result_label": "La Ilusión Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246040",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246030",
+      "riot_skin_id": 246030,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Lunar Empress Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 30,
+      "content_id": "186f8cf2-6cf2-4ea5-970f-bcf3e82ae51f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-01-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        55
+      ],
+      "wiki_sets": [
+        "Lunar Revel"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 246031,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246032,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246033,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246034,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246035,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246036,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246037,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246038,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246039,
+          "parent_skin_id": "skin:246030",
+          "name": "Lunar Empress Qiyana (Resplendent)",
+          "colors": [
+            "#3766D5",
+            "#C6EB6E"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin30/images/qiyana_splash_centered_30.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin30/images/qiyana_splash_uncentered_30.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin30/images/qiyana_splash_tile_30.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin30/qiyanaloadscreen_30.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9cde3aad1d8e6c96a124cf26c041917ac57802299a640d276d8ab789d9f1191a",
+        "biography_word_count": 65,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Lunar Empress",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246030",
+        "result_label": "Lunar Empress Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246030",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246050",
+      "riot_skin_id": 246050,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Prestige Battle Academia Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 50,
+      "content_id": "7a79794c-5a78-4333-884c-4a70c99bf6f3",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2025-03-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        113
+      ],
+      "wiki_sets": [
+        "Battle Academia"
+      ],
+      "universe_ids": [
+        "universe:god-weapon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin50/images/qiyana_splash_centered_50.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin50/images/qiyana_splash_uncentered_50.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin50/images/qiyana_splash_tile_50.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin50/qiyanaloadscreen_50.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "98eebbecab7b8f66f7b14e7e2515abe0fbe7c633e869907aa1b95bbcf3db5020",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Prestige Battle Academia",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246050",
+        "result_label": "Prestige Battle Academia Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246050",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246010",
+      "riot_skin_id": 246010,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Prestige True Damage Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "f98aed5f-33ff-4779-80b1-f8bba2767c86",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:246010",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/images/qiyana_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/images/qiyana_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/images/qiyana_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/qiyanaloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3b7f81c17d60b8a2b43eb4ff8784f05c7a925a020cec536da62f471916340c1d",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Prestige True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246010",
+        "result_label": "Prestige True Damage Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246010",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246021",
+      "riot_skin_id": 246021,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Prestige True Damage Qiyana (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "4e250c1a-eaf3-4a6e-aabb-21013f603c92",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:246010",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/images/qiyana_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/images/qiyana_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin10/images/qiyana_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin21/qiyanaloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3b7f81c17d60b8a2b43eb4ff8784f05c7a925a020cec536da62f471916340c1d",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Prestige True Damage (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246021",
+        "result_label": "Prestige True Damage Qiyana (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246010",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246020",
+      "riot_skin_id": 246020,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "Shockblade Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "c89674b6-f321-45da-b6ab-707a3174afb7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-02-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        155
+      ],
+      "wiki_sets": [
+        "Shockblade"
+      ],
+      "universe_ids": [
+        "universe:cloudedge"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 246022,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246023,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246024,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246025,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246026,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246027,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246028,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246029,
+          "parent_skin_id": "skin:246020",
+          "name": "Shockblade Qiyana (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin20/images/qiyana_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin20/images/qiyana_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin20/images/qiyana_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin20/qiyanaloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3dabe76c9c3ff024b1bcf60edca111d3ac1ae9c14eae39bbb06489cf86baf560",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "Shockblade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246020",
+        "result_label": "Shockblade Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246020",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246051",
+      "riot_skin_id": 246051,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "True Damage Know My Name Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 51,
+      "content_id": "8f5315d0-88c9-45aa-b023-80d49928e619",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-10-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 246052,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin52/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246053,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin53/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246054,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin54/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246055,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin55/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246056,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin56/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246057,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin57/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246058,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin58/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 246059,
+          "parent_skin_id": "skin:246051",
+          "name": "True Damage Know My Name Qiyana (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin59/chromapreview.chroma_qiyana_truedamage.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin51/images/qiyana_splash_centered_51.skins_qiyana_skin51.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin51/images/qiyana_splash_uncentered_51.skins_qiyana_skin51.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin51/images/qiyana_splash_tile_51.skins_qiyana_skin51.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin51/qiyanaloadscreen_51.skins_qiyana_skin51.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9df2da991bf4663e16a4c03a51002cfbad30ca8304d09f743680a7d4f3e83a25",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "True Damage Know My Name",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246051",
+        "result_label": "True Damage Know My Name Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246051",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:246002",
+      "riot_skin_id": 246002,
+      "champion_id": "Qiyana",
+      "champion_riot_id": 246,
+      "champion_name": "Qiyana",
+      "name": "True Damage Qiyana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "c93a5139-73b3-45b9-8bbd-b3abe7d8ac10",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        120
+      ],
+      "wiki_sets": [
+        "True Damage"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin02/images/qiyana_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin02/images/qiyana_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin02/images/qiyana_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/qiyana/skins/skin02/qiyanaloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f35dd5304bcb9b660b878eeb96ffea233e41b7f437b8b5f66be5e17b0db3aac8",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Qiyana",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Qiyana",
+          "skin": "True Damage",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Qiyana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:246002",
+        "result_label": "True Damage Qiyana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:246002",
+        "champion_profile_ref": "data/champions/Qiyana.json",
+        "gameplay_profile_ref": "data/champions/Qiyana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Qiyana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

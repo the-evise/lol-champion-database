@@ -1,0 +1,1443 @@
+{
+  "snapshot_patch": "16.23",
+  "sources": [
+    {
+      "id": "skins:cdragon",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/skins.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:02:27.628074+00:00",
+      "payload_sha256": "587b008349528a5a089e7d0dd4eb3f3f2815784d7d543e1833396b68cbc62458",
+      "patch": "16.23"
+    },
+    {
+      "id": "skinlines:cdragon",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/skinlines.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:02:27.511313+00:00",
+      "payload_sha256": "d0ddc42b5511b976fe7ccdb51b726f479c9836d66fc06ae3e04a4181bb49c670",
+      "patch": "16.23"
+    },
+    {
+      "id": "universes:cdragon",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/universes.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:02:27.558522+00:00",
+      "payload_sha256": "d1bd3a09c6592d6ef0267ce8f6b9057c9111dc4512f3b771ca97243371e34188",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Module:SkinData/data",
+      "kind": "league_wiki",
+      "retrieved_at": "2026-11-22T16:02:16.260113+00:00",
+      "payload_sha256": "bc3a7abc5da3bd88c94168e99d18f071274eaa928dce0514ceb25836ae53f0d3",
+      "revision_id": 4096178,
+      "revision_timestamp": "2026-11-20T00:59:38Z",
+      "permalink": "https://wiki.leagueoflegends.com/en-us/index.php?title=Module%3ASkinData/data&oldid=4096178",
+      "history_url": "https://wiki.leagueoflegends.com/en-us/Module:SkinData/data?action=history",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "universes:wiki",
+      "url": "https://wiki.leagueoflegends.com/en-us/Module:SkinData/universes",
+      "kind": "league_wiki",
+      "retrieved_at": "2026-11-22T16:06:07.441973+00:00",
+      "payload_sha256": "03da6c725a29cb98601bdafc7db6dc31118573a4bfaf189b8f8b8d9c415f4d48",
+      "revision_id": 4095451,
+      "revision_timestamp": "2026-11-18T03:14:58Z",
+      "permalink": "https://wiki.leagueoflegends.com/en-us/index.php?title=Module%3ASkinData/universes&oldid=4095451",
+      "history_url": "https://wiki.leagueoflegends.com/en-us/Module:SkinData/universes?action=history",
+      "license": {
+        "name": "CC BY-SA 3.0",
+        "url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      }
+    },
+    {
+      "id": "skins:client:Aatrox",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/266.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:37.030042+00:00",
+      "payload_sha256": "d86f2f937aba2daefe0e716ab1e04d34567c79fbcd971b5d317358740c8de191",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ahri",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/103.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:37.012718+00:00",
+      "payload_sha256": "c0fdce0fef253eaea789cd08d712f84338eeecb233a08731ad2bec40126f26ac",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Akali",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/84.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:37.037868+00:00",
+      "payload_sha256": "164e7a98029f64078336461d03f579fbdde8fc882b8d2611e60962b9705aecfd",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Akshan",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/166.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:37.033994+00:00",
+      "payload_sha256": "cb762bf2ba839190fe9ced31177509bb1dde4612bacf25f78078f37eab09c9ae",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Alistar",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/12.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:36.994775+00:00",
+      "payload_sha256": "5763e7fa93b9ba840915235df3856979314ba14e5d0c902300e2b7b622f8adb8",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ambessa",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/799.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:36.993979+00:00",
+      "payload_sha256": "7864193f9f02e247178b958ba38e6e16a2e9325ef25d62feca37e2c93ca11bda",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Amumu",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/32.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:40.734208+00:00",
+      "payload_sha256": "5a0af0680cdfed0e4f1286765ed489c76eef610722e09696c48efa07ecfb960f",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Anivia",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/34.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:40.726249+00:00",
+      "payload_sha256": "cfb8bd428416dff5fc02dc77b8fd2c30127f55d4450c4cd01d3af59f6f748632",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Annie",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/1.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:40.673458+00:00",
+      "payload_sha256": "9ecbeed17938c4b3ce31344d86cf57ecd03b77dbec7567ef4063800b42e93216",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Aphelios",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/523.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:40.722977+00:00",
+      "payload_sha256": "e222ffd1b1f83969248c2467f28e9da2ca01db284be34a42709ba2f8d5b1c6bd",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ashe",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/22.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:40.722977+00:00",
+      "payload_sha256": "966efdda7d54ab0da21f180622e5f8779a1296bcb8d5cd0e20f624752c02c613",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:AurelionSol",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/136.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:40.726249+00:00",
+      "payload_sha256": "8abfc3f1273391a3ccb019986ee1d21fc3c729200419a584421fd4646e902a4d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Aurora",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/893.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:44.656007+00:00",
+      "payload_sha256": "e75adeb1dc6f2b0e6ab8ff1bc85daf031f6667c268cad79c4a19c81aa7ebaaf8",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Azir",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/268.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:44.657891+00:00",
+      "payload_sha256": "21e8d889b871ca04acb74ddc06fe3a07e0087efdcf3de4095e5c5c3558b62225",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Bard",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/432.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:44.654556+00:00",
+      "payload_sha256": "068fa27650f41a53a80f6457e2190a9986fcd23369af674b455af9bc4d3d0d9f",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Belveth",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/200.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:44.678447+00:00",
+      "payload_sha256": "7ebf3bfbac8e9f850d0b48f34b44a629a524bc219a294605e3fe3a8be8c887e6",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Blitzcrank",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/53.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:44.570023+00:00",
+      "payload_sha256": "d30e5a44923af13016b0527c9097bfdfd7162a4b0a0466bb617ff700bb25ca70",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Brand",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/63.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:44.642241+00:00",
+      "payload_sha256": "80b2b451bdc178fb0bfd56514dc282b15215e90cf627b6dc222918f6cdca1c53",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Braum",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/201.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:48.402972+00:00",
+      "payload_sha256": "877a705d20d29932f1b8c2bda20fe2a11e94c94545aa1dc22e574f9904e1d5bb",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Briar",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/233.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:48.338218+00:00",
+      "payload_sha256": "6062af897bf0201cb7f10777268f8aa10af2a7da88d456b4ae7ffc3de31278b8",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Caitlyn",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/51.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:48.398474+00:00",
+      "payload_sha256": "340032e29d6f6c5d3b2d99655f2cae1ad89a2c506152a2da0cc009f182aa3074",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Camille",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/164.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:48.398474+00:00",
+      "payload_sha256": "f56ebdb2a66a88796f7e1cfa8ab8eabd9968f8016ad948d6313c0982002cd406",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Cassiopeia",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/69.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:48.402972+00:00",
+      "payload_sha256": "f6096dad5d1d5087f2556bad5becf41b8a3e240adff3913ef164c431b0562626",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Chogath",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/31.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:48.402285+00:00",
+      "payload_sha256": "0a2dbdbe6b92305563944cf05e1bfd0640f4a5dc965b44d1fe225ec58197dbde",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Corki",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/42.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:51.307418+00:00",
+      "payload_sha256": "1ec215ca9c44b95f9b432e6eefc3cd8bedb234749b5d03d00193bda4d6d7c9d2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Darius",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/122.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:51.250212+00:00",
+      "payload_sha256": "a803f513c83f1d430cb804d222f50fa7b2db41fa2424c0bd643762a81c5a204c",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Diana",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/131.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:51.288549+00:00",
+      "payload_sha256": "a22319e17fe7db1657d8d3aef0c10413d1742e45d7df08b885f8eeee4c8490ba",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:DrMundo",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/36.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:51.305838+00:00",
+      "payload_sha256": "f51df0dcd849de40a5b0cfdea26cee5dde2cf9c99b612a3d4a122551800e23a5",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Draven",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/119.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:51.314323+00:00",
+      "payload_sha256": "caab9f49308ecef1fa9a5541e417946629fba120ac234716df5461c4b8c7cd22",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ekko",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/245.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:51.307418+00:00",
+      "payload_sha256": "e7c2a49900d24305412634ed432c3064f1a109578fac131828ed19253119a649",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Elise",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/60.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:54.554765+00:00",
+      "payload_sha256": "45b8b6b68aca01badebf9ada02dd62022120a84a975132606a45ca154efe96cc",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Evelynn",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/28.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:54.581991+00:00",
+      "payload_sha256": "4cf3b517a627d3b9ef8ce4206c568870e32b3693212f8a4d696d137f3e4ad71e",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ezreal",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/81.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:54.826270+00:00",
+      "payload_sha256": "9772050e949f84d5c5b4aa65e9e94b22e4ebfac390bae054458c6d610a5b4d5a",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Fiddlesticks",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/9.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:54.554765+00:00",
+      "payload_sha256": "9757c4a39c1e7f35c1f5d58688ec74e6ae9dc4a37bae192644d03d58fa22ad09",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Fiora",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/114.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:54.570258+00:00",
+      "payload_sha256": "fdf2d13044c703024494ea007b1b4be3c2247ab953cfcc6797d257c8920bb7f0",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Fizz",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/105.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:54.598132+00:00",
+      "payload_sha256": "c6e465c930007a251838fb1fba7a29c1049559c36819d32706831423f99d5be5",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Galio",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/3.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:58.130053+00:00",
+      "payload_sha256": "db7130108302716d9e554319bcaa95ec10ae93ffb21a6fa4269f268ea7243ec7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Gangplank",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/41.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:58.113982+00:00",
+      "payload_sha256": "91625988c43a881ca80b81eb1c9031f2df8e0bf38d23e7e501bfc93094110ac0",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Garen",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/86.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:58.157928+00:00",
+      "payload_sha256": "52537a6f9fb00faf5806b0b5d180ec41ca6e238429feb48c30fdfd7afabb63d9",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Gnar",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/150.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:58.169740+00:00",
+      "payload_sha256": "b954f8d2730336dca279bdd029663aece070327d08b9cd6025c30d2580b81a19",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Gragas",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/79.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:58.149865+00:00",
+      "payload_sha256": "50fe15b1664ec1926ebdeb054a73c428841cbd58faf2641f71cedb209908eda5",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Graves",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/104.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:04:58.161969+00:00",
+      "payload_sha256": "13405bf1220fb48cdb0df0113bd8e965a81bd8b65439d96e9a47a7a63b88db58",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Gwen",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/887.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:01.615365+00:00",
+      "payload_sha256": "e92ff0ff4d5e4c0a23beb126b0b49493cf36bbfa116d9d3bac381eaf312b9a5d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Hecarim",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/120.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:01.641961+00:00",
+      "payload_sha256": "4c2894577f55e078a4b486fc72316ab38a7e66af2aad9ad8298fb784da0965be",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Heimerdinger",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/74.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:01.625978+00:00",
+      "payload_sha256": "3f49be8178557ba6875d147f1df72da122fc37e5ec75edb86e02cd46049794dc",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Hwei",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/910.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:01.657927+00:00",
+      "payload_sha256": "2c30cd12447f68b07d7e99f08a8f22b90592bfb6b40c34b8d133fa6dabbb309b",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Illaoi",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/420.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:01.661919+00:00",
+      "payload_sha256": "4e9746e04db858f1b17dd2752c76d30e4380b3272d32111c554ac9f0e86bfef3",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Irelia",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/39.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:01.638102+00:00",
+      "payload_sha256": "17a58aa42dfee4798f877ae9dc48a9e32a01a757dc69b7f8d71d166128af9b49",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ivern",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/427.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:05.493913+00:00",
+      "payload_sha256": "eef8e2064f8f12ba23c4838169351e0c0cd645bc4e91e288ff862b0110365d4d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Janna",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/40.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:05.506263+00:00",
+      "payload_sha256": "771603fc09dd04d92675d54ebdddc79bb75a13eec78c6824dcd972632f8e57c2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:JarvanIV",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/59.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:05.473940+00:00",
+      "payload_sha256": "0b3f8e7c43eae67dae4ec6f5257c4c6af7121480313784e07762b6a802001cc2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Jax",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/24.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:05.486031+00:00",
+      "payload_sha256": "2a9e79783f0854bf10ff310d8a7a0f8c739c95e5c45e010442089f290d4c14ef",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Jayce",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/126.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:05.489798+00:00",
+      "payload_sha256": "5dba7ebd519608605b99c654e15cf4b2028dcf1bcd84dd738be7819e48f26bbd",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Jhin",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/202.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:05.477625+00:00",
+      "payload_sha256": "4e2a52329ef36d08d9153f16e836918711f25cbf2d6919ccc08872e6b6d3a0b8",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Jinx",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/222.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:08.882041+00:00",
+      "payload_sha256": "c75d43f5f0983438b47a22ce479543deaed05a3b84d7fa075a96330dfd3224c8",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:KSante",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/897.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:08.922325+00:00",
+      "payload_sha256": "310c2897908204c0ca4095e80acc04f37d55bf0ea70de8d45663dae2fb190ab2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kaisa",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/145.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:08.842308+00:00",
+      "payload_sha256": "a23a3f01020de2a083c2bc04ea803ccd326d27507203056d3475e7baaaec01df",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kalista",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/429.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:08.922325+00:00",
+      "payload_sha256": "f59ecea899b5be3506ba2f32342d136c1e834e6136210ebda4f11962c053b015",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Karma",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/43.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:08.884756+00:00",
+      "payload_sha256": "b7d74284b8dbc06318036f6d00c517e279c0862db143a2edce05ca0387c76ccc",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Karthus",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/30.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:08.929763+00:00",
+      "payload_sha256": "2bcde03c0be8b22473fd1ae5c03bb4aa338cade3f9cd79fa526bd237ba565810",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kassadin",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/38.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:12.334173+00:00",
+      "payload_sha256": "54b62152a040aa0d9fa9120c9b9024e13829dcc274280c26672c25618261ce88",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Katarina",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/55.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:12.293097+00:00",
+      "payload_sha256": "ff9a6b299e65110f95149014cd01a13a8e002d2df2dfb17799749abf2b9b19d2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kayle",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/10.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:12.330811+00:00",
+      "payload_sha256": "95eaf61928058a6097f8cc22c8e47853c1c3dbfcb2f62f3e31f1db1a3c39a859",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kayn",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/141.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:12.317974+00:00",
+      "payload_sha256": "0631b2f192467978934a83d47ece153a80ad54fcc5dcb39ac79aabeddd1c3c74",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kennen",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/85.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:12.325716+00:00",
+      "payload_sha256": "cd976060e8e26b219f41741de69fd533a660c01fe5c9bfa4f8e142788d03ffc7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Khazix",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/121.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:12.335035+00:00",
+      "payload_sha256": "6a8c9df30a28f07952158440bae03b14a2cc86c062af0c660234ce105155c3b7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kindred",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/203.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:15.694164+00:00",
+      "payload_sha256": "b67865c49a6324b3b4b2213f656928278fc47240d7b0fa21240a4f1f548fe67f",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Kled",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/240.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:15.690215+00:00",
+      "payload_sha256": "3c75ba21421d0ca331d515199d2dbc29619be7245d5a403f9ee86e45a5e09964",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:KogMaw",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/96.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:15.691872+00:00",
+      "payload_sha256": "733617b9eb5c8dd11880e21ae108ada20d18eda2162eb95f8f7345cbb5e7f551",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Leblanc",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/7.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:15.658825+00:00",
+      "payload_sha256": "fd17b12d72ab231de74dca618c0b4f5f4574ad98bddf890da7324461e264b43f",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:LeeSin",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/64.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:15.714004+00:00",
+      "payload_sha256": "0237307f0f76ecb78de5316b9b64c61d6c63ccf04594d843fe7d9551eae7b05e",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Leona",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/89.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:15.669197+00:00",
+      "payload_sha256": "774d020fe122c403ab0031522ec37505e76256787c7df27ca8c911cb7c846967",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Lillia",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/876.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:19.114849+00:00",
+      "payload_sha256": "be3163c76465b118d536504c15ea2ac0baaaa40a790b03c05021da00538e7649",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Lissandra",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/127.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:19.077871+00:00",
+      "payload_sha256": "85bf535dc50351d32ecf807584baa0621ee9ca0ab2f0a383d4e7dec977677ee7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Locke",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/805.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:19.113996+00:00",
+      "payload_sha256": "a3b7d2b585deab4eb963d102fa5f4e554a9d9cad66bc810fe7e51529dbcc9b08",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Lucian",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/236.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:19.122180+00:00",
+      "payload_sha256": "178a5f2dc602482e37cf3d85d75aca398df5a0dbf0da0a28c76780287c070111",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Lulu",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/117.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:19.122901+00:00",
+      "payload_sha256": "46606d4b4ee31b92315747eb0263e1ac57d5b82a27c4a656fde85ec4ede34536",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Lux",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/99.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:19.098462+00:00",
+      "payload_sha256": "a37857771f0d31bdc07c83990978dd7a196e028c35693f3182e7decf6ed2a4ca",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Malphite",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/54.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:22.819085+00:00",
+      "payload_sha256": "5b59e6247e1f85b5574eb68a03f88a46577832a0d9784c73276d1507c2e798cf",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Malzahar",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/90.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:22.774457+00:00",
+      "payload_sha256": "41d73961d2211036e13d881506b1480791c984ea3a0592c4afe2d5fe9b85e805",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Maokai",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/57.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:22.822955+00:00",
+      "payload_sha256": "bee273cadda3e4fc2e548341b0d7043f9342e74d9355bdc2f6ebd40392def749",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:MasterYi",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/11.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:22.819085+00:00",
+      "payload_sha256": "cb6ca9af9c50fd199515cbec4b7ee03f54480d82b9c6244c072e6f6450b6c6e2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Mel",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/800.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:22.810302+00:00",
+      "payload_sha256": "ee8ff228824d01f4096baeebcd88161a90f5f221f08a51568f9941e201a5ca23",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Milio",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/902.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:22.822202+00:00",
+      "payload_sha256": "70430a0910a5b3da8bfce60526a68e952041d5bb7a435a4a608b0d7c85157f7a",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:MissFortune",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/21.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:26.163448+00:00",
+      "payload_sha256": "a34a334213d57642e521a6854de03d49a6ae8ad17f22ce97e991b9a99b3e783e",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Mordekaiser",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/82.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:26.126241+00:00",
+      "payload_sha256": "87684effc010f24900c1dad354dc13222dfbc99b5851a9bae17938b8bd4899fa",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Morgana",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/25.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:26.158624+00:00",
+      "payload_sha256": "02fc532347817355c7052ee658f0437e6b24d780af93fcfd7272630eaf7e2b11",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Naafiri",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/950.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:26.161805+00:00",
+      "payload_sha256": "c12d1a620045d664443812b17005ab2d309dea78df9bde0caad5e57caa44b272",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nami",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/267.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:26.153927+00:00",
+      "payload_sha256": "00d18b339d532449319817ce1df4d2935b649146487f1c419c878818f70eea4d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nasus",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/75.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:26.246623+00:00",
+      "payload_sha256": "f1014d26980cef1cef89170171e573290be782d7197ab6801bbf02b56fd9bcb4",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nautilus",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/111.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:29.963825+00:00",
+      "payload_sha256": "7904105cdd9cb6f004d4cfe0adf0de262608d56a7fec0cbd11392448a75ef72c",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Neeko",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/518.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:29.902267+00:00",
+      "payload_sha256": "6f6e744c73a68a126bf688887ff6dbd305118df3d338fe0adff8b804d7d75ad2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nidalee",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/76.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:29.942353+00:00",
+      "payload_sha256": "2f2fcf5d92cca858c449ffb4c4bac0cbec187a25b26ad9c70d2e2407eabd3cac",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nilah",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/895.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:29.974202+00:00",
+      "payload_sha256": "a3554efcc9ed18531bdf335dc32ab28b7976ea3525aacf7fd6d755019394be09",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nocturne",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/56.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:29.963825+00:00",
+      "payload_sha256": "f0227449570bff4217843ce456fb9e5eb5afbe19c4fd1d6ddcd41c259960950e",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Nunu",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/20.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:29.978151+00:00",
+      "payload_sha256": "3309d76ef8f98d8499b677a5f619a6e165bcf1025307f33ee1e485b74b8dade6",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Olaf",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/2.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:34.438441+00:00",
+      "payload_sha256": "5bc268a33c84ea510859b48ec060fa292b233538ca258f11d2380605757e420d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Orianna",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/61.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:34.421999+00:00",
+      "payload_sha256": "e332eba7759cb335363053de50d3dabb302b38d1306a0ba6e641904e1cf207e7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ornn",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/516.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:34.445782+00:00",
+      "payload_sha256": "3fec332ac7cea1caa7ecf7340444979ad871d2c9673170e8b5b61e59876ac207",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Pantheon",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/80.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:34.438932+00:00",
+      "payload_sha256": "07b025a8194cf39843e29fb1ac604307321485f4f8f15711e7ec7822d7b64817",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Poppy",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/78.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:34.394152+00:00",
+      "payload_sha256": "25a4afbaa14bc61a961b660dbb51fc84025b96013cb9d38cea462d4d3f4cb994",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Pyke",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/555.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:34.400035+00:00",
+      "payload_sha256": "9f20046f5442330a6fb1427e0c6413a29da3dffdf28842e16a6f11d1dd8927f1",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Qiyana",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/246.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:37.601983+00:00",
+      "payload_sha256": "e0d621b3b3f28a784f0357ce0e6712d676334ac97128685d8f87716d92f7f5ef",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Quinn",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/133.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:37.598088+00:00",
+      "payload_sha256": "933e0e6702dc604bf621cf50fe271a3ae386fe59ce2077fc4fde7a002a3f430d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Rakan",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/497.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:37.641947+00:00",
+      "payload_sha256": "f312127fdb63a9c6f41f7b9c0f007c0409685be459313ed9fa3e07c7d6fe5d2d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Rammus",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/33.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:37.650652+00:00",
+      "payload_sha256": "7c1403ee673b7afc5a917c3ac2a59ae94b520d75398f9369bf5b11e01ec6e572",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:RekSai",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/421.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:37.650652+00:00",
+      "payload_sha256": "dcc87034f8c150b0c63c241ba6bab2282cb0fd6de7ab2e3c9eccd89290c37b09",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Rell",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/526.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:37.630355+00:00",
+      "payload_sha256": "02a5c9f42f1d67cf1f1b7a9ee6883f05edd517f9bf997f46acdd11f6188ef140",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Renata",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/888.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:41.225765+00:00",
+      "payload_sha256": "43bdc0364ec50ab31ef5abe44aac171c66beda57d034d79183b3e417038cf5db",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Renekton",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/58.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:41.198377+00:00",
+      "payload_sha256": "4ae5a897d59c543cb0cafba1861aea74899a186e22fd8713072dea10c37eaee6",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Rengar",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/107.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:41.250668+00:00",
+      "payload_sha256": "ffca5f2e0127325313dc401003ff81d7fd2175f2d64a69264898f32e1225ae42",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Riven",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/92.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:41.216643+00:00",
+      "payload_sha256": "bc0d34155d72d6fbad33aac3519c3ea44a15130f6cfa108f07cf921f77cacc7b",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Rumble",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/68.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:41.245658+00:00",
+      "payload_sha256": "533e6a9fd41d6a5befd99d2c4427cc927b4cedcfa0163902fe11173e7b690e9b",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ryze",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/13.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:41.251048+00:00",
+      "payload_sha256": "c1a8fa4d3bbb7c3f40a2ed304d6d66b0c1a7e5a4e77258c3bd99ce3eb17a3473",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Samira",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/360.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:44.526065+00:00",
+      "payload_sha256": "ab96d2ee20bcd37e5b79ba56ca928e474826daf8ee06fb7daa131c959d38c97c",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Sejuani",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/113.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:44.531862+00:00",
+      "payload_sha256": "748e769f0208ab95a61a90b04c13d38f29c2580d6a5ffd1f914a52403b994394",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Senna",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/235.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:44.505987+00:00",
+      "payload_sha256": "de5d1d5010e87b6f2a0dadde416eacdd483d2548a4a14271e6b8aa95bc83683c",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Seraphine",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/147.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:44.478143+00:00",
+      "payload_sha256": "685c07abffdf9a1bad36813d6b4803365b4b18088db9dcacdd8046ed0a84e17b",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Sett",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/875.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:44.530699+00:00",
+      "payload_sha256": "93b7ec74a957e14f5a8262626dd07a868812995678346be7c8166b5e9e4a715d",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Shaco",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/35.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:44.530699+00:00",
+      "payload_sha256": "65186bc251afe2e9a03d365caad25d5b7764e42f8d3e8192ba9fb09cb6659b18",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Shen",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/98.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:48.134864+00:00",
+      "payload_sha256": "542b091404b64a486f7a54ef5d11ae4856c17f8dff09dceeb072278c26c3e685",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Shyvana",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/102.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:48.081824+00:00",
+      "payload_sha256": "0b2c4e19e55061038006d71489572392adf5c295e5203b80da1f777e976b93f3",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Singed",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/27.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:48.105817+00:00",
+      "payload_sha256": "c31598aa97f6b6920cc60a8046d2d1ac01db54888f0323c1a67b00030bc77faf",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Sion",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/14.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:48.110081+00:00",
+      "payload_sha256": "f5698fb7a4e7fbc6a733e77d88120a8b30dcdce0f173efb7c5202f1666d92ca5",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Sivir",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/15.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:48.134864+00:00",
+      "payload_sha256": "958b584c6b11d2e9611982faf356b04494545258a79ce9537cbece93c2c29de1",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Skarner",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/72.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:48.136716+00:00",
+      "payload_sha256": "1fda540490287a94ad0b8d72326b939b73149f988aef3b8dfc508da82567af34",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Smolder",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/901.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:51.653713+00:00",
+      "payload_sha256": "5ebb49aeb53a9dfb9753b77f7e8c5d8e70511e223ea9bbc1f584f5bd9f78b314",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Sona",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/37.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:51.614404+00:00",
+      "payload_sha256": "aa55022bf8fe5473a5c99c59d3f3b40e48c8d946b39ed75dd3805ecfa6d60c38",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Soraka",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/16.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:51.670133+00:00",
+      "payload_sha256": "01a3994d80a56d5eecd7c8918bebc798fe9561cd18dabafcf5b060fdeae4d2f2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Swain",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/50.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:51.773886+00:00",
+      "payload_sha256": "81f8ef15b16f2ca51d35cb5b07be4f281d1c14160edbcd18a6811431a1c798df",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Sylas",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/517.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:51.645993+00:00",
+      "payload_sha256": "18873655ff7c4228beaa27832e865e922fc8ca87a6a1a2789d686a209017e6d9",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Syndra",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/134.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:51.673795+00:00",
+      "payload_sha256": "3ad5b901db244bea2cd2a951371b1e15363edb7300928e8765dc7af9516838cc",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:TahmKench",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/223.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:55.029703+00:00",
+      "payload_sha256": "430461ccaaca13d3c154e76ca6e950e2860b5c4696f2274ce7e3daeca0582f73",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Taliyah",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/163.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:55.013704+00:00",
+      "payload_sha256": "4348df8920cfe855fe0e418e6aa733270ae178fe134b01780a7fed567b6261fb",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Talon",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/91.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:55.066236+00:00",
+      "payload_sha256": "b483177ba94414bccb744e0d2cf4995bb63b594155604a34eca917680b80fd94",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Taric",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/44.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:55.025660+00:00",
+      "payload_sha256": "2558334ba936a44e9869769c80a3321bf0fc3005f82406335e17080b958adfc8",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Teemo",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/17.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:55.053859+00:00",
+      "payload_sha256": "f5fafc6652877c67910f69a11da8a65576940ac3b7500f07f04d89cce3d8e9b6",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Thresh",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/412.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:55.009830+00:00",
+      "payload_sha256": "ad0f2d756bfdf8b0181f6b672287df4390384556f1c8e90102f2dab861eb433a",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Tristana",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/18.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:58.500169+00:00",
+      "payload_sha256": "3282bcab95e705cf22ab26a404055abbb4ef3cfcdb411930d3c33940bdbe57fb",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Trundle",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/48.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:58.545902+00:00",
+      "payload_sha256": "268be3e771c670a1e755ca697d49f1ce0d42dafdbc7b41ad581321becf7db8c4",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Tryndamere",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/23.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:58.525777+00:00",
+      "payload_sha256": "531be12940c017af856dc742e4e372094a1fbb195a3743128f02d2fd7fdec9e7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:TwistedFate",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/4.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:58.502095+00:00",
+      "payload_sha256": "789b7dab12bf88b0a8e6ca62ce2b672d2808da6df5c3362d1e1e8da4ed0d53bf",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Twitch",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/29.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:58.538191+00:00",
+      "payload_sha256": "debe11d089cb50944d2ea485beaa50984894549e1a3e32fbe7f4ff47ad33e11b",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Udyr",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/77.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:05:58.533692+00:00",
+      "payload_sha256": "9d919c08f164edb7c333e141fa81dfc20e7442b0d3cc258f9239f2e3a75cd980",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Urgot",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/6.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:02.086365+00:00",
+      "payload_sha256": "7add8d11812111225458f0ee67b9c5932c3cba140541d74ee95ca67fe54caa68",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Varus",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/110.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:02.077926+00:00",
+      "payload_sha256": "c9dacdf90d936b8846f2f8dfa9f1e0ec4cbc62925113c6df8e28ff38a861f486",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Vayne",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/67.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:02.086365+00:00",
+      "payload_sha256": "0a207eea1e132745c276cfe517e442e6c0390634414c705bfe31b4e92407bb33",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Veigar",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/45.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:02.082681+00:00",
+      "payload_sha256": "dd459c07a2f8f2f487e2b5c8d5fcc354248d261a2b8aff1b986f4b72abbb43da",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Velkoz",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/161.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:02.082681+00:00",
+      "payload_sha256": "c628abdd47c078313e5302453d15d34bc8aa3b0b2288f3331fc5431f40c934f2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Vex",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/711.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:02.038053+00:00",
+      "payload_sha256": "8279fe8171d93d6666a67c05d0eff85189b2ab8d6c0e7080213197242c57daeb",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Vi",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/254.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:05.854702+00:00",
+      "payload_sha256": "7175a482c100e59b847518430226131cac53f83f9b3120426198fd8f1996e906",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Viego",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/234.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:05.843836+00:00",
+      "payload_sha256": "d6b149b52d0e0cc3c24e3df483a10363c98111a7b734a4262cece9f8d413de16",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Viktor",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/112.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:05.843836+00:00",
+      "payload_sha256": "4c769fa8327fb6f1cb0b7589df4666964e515050a56f7b9dd9db1a9fe1021682",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Vladimir",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/8.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:05.854702+00:00",
+      "payload_sha256": "8c8824e9589de3b123138f7e154b996de31f3edd0712117c553ec3dd7f7e43c7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Volibear",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/106.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:05.844416+00:00",
+      "payload_sha256": "ea36e3af5b68c77a30454bbec60d29a9ac24c5f6ad168a707590108b359efc72",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Warwick",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/19.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:05.826415+00:00",
+      "payload_sha256": "006cea19d6e6fc194ec7e9d05730c61bca510d364a5b00c2730c57d88f605e14",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:MonkeyKing",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/62.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:09.759181+00:00",
+      "payload_sha256": "9df7cd999f9d6c7f1d3f6c66a89a497e3e36f4985dee2e24a502e7981c1365e2",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Xayah",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/498.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:09.714301+00:00",
+      "payload_sha256": "c5779ec972b584bd6ba42c4a0e242e4a6419bb0c7afe51fc5945448e4341fcf6",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Xerath",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/101.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:09.715981+00:00",
+      "payload_sha256": "c14e0b5ba74051c8219c356dbeba5c5513533ad827d6ecf8c6c9ce8fe4787c5e",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:XinZhao",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/5.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:09.767761+00:00",
+      "payload_sha256": "3afff4618c9bf5381ad4774d91f720e09086136a89d2d8b6b4bcd0306151b2f4",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Yasuo",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/157.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:09.767761+00:00",
+      "payload_sha256": "dda8815596e303332a230d3f2779b030c7704ef89cd3e9c4574895e9f68878de",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Yone",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/777.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:09.767761+00:00",
+      "payload_sha256": "3647c68eacab9132273d6b85ea72fcf8e4b7ee17b3fe70af97fd34bcbad58a50",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Yorick",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/83.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:12.982020+00:00",
+      "payload_sha256": "2844aa7bdc8540839a4b95c5d3b015474abaa790e0324bea036d59e26f0b24b7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Yunara",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/804.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:12.957814+00:00",
+      "payload_sha256": "32f18e0552ca3c9d212f5eb2bdd3e5684b6926d74ee8b719738e59c91b21acaf",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Yuumi",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/350.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:12.900049+00:00",
+      "payload_sha256": "c49830352dc2f2a159833711b42a3d896842519c0df10525cda19819ec884cf7",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zaahen",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/904.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:12.977796+00:00",
+      "payload_sha256": "02ca2d08f0092b71bdf86a20c166d696fe477bc7c356937c7ed3e193bb717c93",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zac",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/154.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:12.962276+00:00",
+      "payload_sha256": "eb909ea4c5a73739720238a51d05949aec5a97546ea0f5cedd6e9e598a319bfe",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zed",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/238.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:12.922788+00:00",
+      "payload_sha256": "62c23d30babcab28a96e68a2a4ae43ade5ad511852cf7e75ebbf7c6466e724bf",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zeri",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/221.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:16.374608+00:00",
+      "payload_sha256": "7cd1027a42d1f7724ad1ade9a9b9516be939646cf84ed05f4effef30b11c7437",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Ziggs",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/115.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:16.374608+00:00",
+      "payload_sha256": "1f51044bdd32588293ff5132602d2ba2a42660536f8fc6648f750ecd515df002",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zilean",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/26.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:16.369868+00:00",
+      "payload_sha256": "ab273fc45a40ee2bd95da7c6b32dcb930470d2ca82fd0d0c6cdd78da816f4c6b",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zoe",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/142.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:16.397977+00:00",
+      "payload_sha256": "e3a559d2be2965fe830365c592b4405cb54e2322c59de68caba435a657275fe3",
+      "patch": "16.23"
+    },
+    {
+      "id": "skins:client:Zyra",
+      "url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champions/143.json",
+      "kind": "communitydragon_client_data",
+      "retrieved_at": "2026-11-22T16:06:16.357401+00:00",
+      "payload_sha256": "fffa452ccf76bf07ea5b9eab6c8071e955927f592cdb37ad7266add8cef13bd0",
+      "patch": "16.23"
+    }
+  ]
+}

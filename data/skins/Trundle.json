@@ -1,0 +1,992 @@
+{
+  "champion_id": "Trundle",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48000",
+      "riot_skin_id": 48000,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Trundle",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "7622bd11-c273-43c0-8122-d200bae7bf9a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-12-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/base/images/trundle_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/base/images/trundle_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/base/images/trundle_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/base/trundleloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "89ef14ad62a319e98a48cc71f3da0c5aa94cb6601e66350a1c3ebad3c5de2ddb",
+        "biography_word_count": 69,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48000",
+        "result_label": "Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48000",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48004",
+      "riot_skin_id": 48004,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Constable Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "6266e4a0-c132-45ec-908e-83a43edbf757",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-11-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        121
+      ],
+      "wiki_sets": [
+        "Cops and Robbers"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin04/images/trundle_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin04/images/trundle_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin04/images/trundle_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin04/trundleloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "609b29d6ab7a2c58a640f4a86594ac326356ab79aa06a56b4080fd383c9a1a47",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Constable",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48004",
+        "result_label": "Constable Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48004",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48006",
+      "riot_skin_id": 48006,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Dragonslayer Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "9a3f0140-b61f-4f16-a70b-2705d2ebbc63",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-01-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 48007,
+          "parent_skin_id": "skin:48006",
+          "name": "Dragonslayer Trundle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48008,
+          "parent_skin_id": "skin:48006",
+          "name": "Dragonslayer Trundle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48009,
+          "parent_skin_id": "skin:48006",
+          "name": "Dragonslayer Trundle (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48010,
+          "parent_skin_id": "skin:48006",
+          "name": "Dragonslayer Trundle (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48011,
+          "parent_skin_id": "skin:48006",
+          "name": "Dragonslayer Trundle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin06/images/trundle_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin06/images/trundle_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin06/images/trundle_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin06/trundleloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "572ad8e5f682995f1287839e39c430fb727eaeec5922cbcd5fb15700fce4dd90",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Dragonslayer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48006",
+        "result_label": "Dragonslayer Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48006",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48021",
+      "riot_skin_id": 48021,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Esports Fan Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "291df2b7-efee-4c4d-8ada-90ba9120cbe1",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-10-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        210
+      ],
+      "wiki_sets": [
+        "Superfans"
+      ],
+      "universe_ids": [
+        "universe:superfans"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 48022,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48023,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48024,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48025,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48026,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Jasper)",
+          "colors": [
+            "#9F4A25",
+            "#9F4A25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48027,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48028,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48029,
+          "parent_skin_id": "skin:48021",
+          "name": "Esports Fan Trundle (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin21/images/trundle_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin21/images/trundle_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin21/images/trundle_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin21/trundleloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "017990b954be40b8d27e899e9d66352c3c1232a7b80e9abe3065af98e168ffa2",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Esports Fan",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48021",
+        "result_label": "Esports Fan Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48021",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48012",
+      "riot_skin_id": 48012,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Fright Night Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 12,
+      "content_id": "8eded283-e8eb-4feb-9c6b-d7b9b8e8bec3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-09-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        170
+      ],
+      "wiki_sets": [
+        "Fright Night"
+      ],
+      "universe_ids": [
+        "universe:neighborhood-nightmare"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 48013,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48014,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48015,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48016,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48017,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48018,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48019,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 48020,
+          "parent_skin_id": "skin:48012",
+          "name": "Fright Night Trundle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin12/images/trundle_splash_centered_12.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin12/images/trundle_splash_uncentered_12.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin12/images/trundle_splash_tile_12.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin12/trundleloadscreen_12.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8042c60f205c27341b725de1278ab9080a2eec8d1e9d98b4ef79a11ed30a3821",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Fright Night",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48012",
+        "result_label": "Fright Night Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48012",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48002",
+      "riot_skin_id": 48002,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Junkyard Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "015322b7-7e54-47d4-82e3-499063523979",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-12-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        70
+      ],
+      "wiki_sets": [
+        "Road Warrior"
+      ],
+      "universe_ids": [
+        "universe:highway-heretics"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin02/images/trundle_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin02/images/trundle_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin02/images/trundle_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin02/trundleloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "106f08f16cfe583a3ff063d995c639ced0a9253ab7d33194f80bc0214e2c1077",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Junkyard",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48002",
+        "result_label": "Junkyard Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48002",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48001",
+      "riot_skin_id": 48001,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Lil' Slugger Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "dee7f978-d2b6-4c59-b9d6-add484ea5e9c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-12-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin01/images/trundle_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin01/images/trundle_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin01/images/trundle_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin01/trundleloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "39599c5d3617ecadef371d1979095b047a053e8e0fb5289b0423e05e0cde1ea9",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Lil' Slugger",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48001",
+        "result_label": "Lil' Slugger Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48001",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48003",
+      "riot_skin_id": 48003,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Traditional Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "e8da2c5b-f954-4dec-bcab-da348062d0e1",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2013-04-30",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        82
+      ],
+      "wiki_sets": [
+        "Traditional"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin03/images/trundle_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin03/images/trundle_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin03/images/trundle_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin03/trundleloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4d8dc50257d175bd8d334e271e2ce051b45b82c9ce724db4a5e61ac7bd9c6aa4",
+        "biography_word_count": 15,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Traditional",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48003",
+        "result_label": "Traditional Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48003",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:48005",
+      "riot_skin_id": 48005,
+      "champion_id": "Trundle",
+      "champion_riot_id": 48,
+      "champion_name": "Trundle",
+      "name": "Worldbreaker Trundle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "26e52b57-c36e-4e00-a7eb-a17c80210bcc",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-11-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        29
+      ],
+      "wiki_sets": [
+        "Worldbreaker"
+      ],
+      "universe_ids": [
+        "universe:worldbreaker"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin05/images/trundle_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin05/images/trundle_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin05/images/trundle_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/trundle/skins/skin05/trundleloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b8b3ec01a4020bdc567b291cbe3193cde606cab47be753e19325ff35f7c1f775",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Trundle",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Trundle",
+          "skin": "Worldbreaker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Trundle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:48005",
+        "result_label": "Worldbreaker Trundle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:48005",
+        "champion_profile_ref": "data/champions/Trundle.json",
+        "gameplay_profile_ref": "data/champions/Trundle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Trundle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

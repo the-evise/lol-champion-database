@@ -1,0 +1,2591 @@
+{
+  "champion_id": "Kayle",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10000",
+      "riot_skin_id": 10000,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Kayle",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "94c095b2-0035-42ce-96b7-bceae0bbd76c",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 260,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/base/images/kayle_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/base/images/kayle_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/base/images/kayle_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/base/kayleloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a9520d6856306c161b1f26984d32ba53bb11ee153956dbbf7b29623569a858c6",
+        "biography_word_count": 76,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10000",
+        "result_label": "Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10000",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10006",
+      "riot_skin_id": 10006,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Aether Wing Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "129ae83c-04a0-4d61-96d9-29238cd72e33",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2013-01-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        65
+      ],
+      "wiki_sets": [
+        "Steel Valkyries"
+      ],
+      "universe_ids": [
+        "universe:iron-firmament"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10051,
+          "parent_skin_id": "skin:10006",
+          "name": "Aether Wing Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10052,
+          "parent_skin_id": "skin:10006",
+          "name": "Aether Wing Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10053,
+          "parent_skin_id": "skin:10006",
+          "name": "Aether Wing Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10054,
+          "parent_skin_id": "skin:10006",
+          "name": "Aether Wing Kayle (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10055,
+          "parent_skin_id": "skin:10006",
+          "name": "Aether Wing Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10056,
+          "parent_skin_id": "skin:10006",
+          "name": "Aether Wing Kayle (Ace)",
+          "colors": [
+            "#FF70BA",
+            "#464646"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin06/images/kayle_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin06/images/kayle_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin06/images/kayle_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin06/kayleloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9710643f2a79290f2b01f627b5e76b7d9a547585ea6dfd897884b67e1ca5eea4",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Aether Wing",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10006",
+        "result_label": "Aether Wing Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10006",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10004",
+      "riot_skin_id": 10004,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Battleborn Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "6cc66dac-8384-46f7-9b7a-db82705a6788",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-04-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        68
+      ],
+      "wiki_sets": [
+        "Woad"
+      ],
+      "universe_ids": [
+        "universe:woad-tribe"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin04/images/kayle_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin04/images/kayle_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin04/images/kayle_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin04/kayleloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "cd7f65a9061c3f22a554d50bef4654cf153ea1341f53c1fe13b4c18e5646cb5c",
+        "biography_word_count": 35,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Battleborn",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10004",
+        "result_label": "Battleborn Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10004",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60010302",
+      "riot_skin_id": 60010302,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Classic 2012 Kayle",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "22442207-0a96-448e-a157-14caa962c2c8",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60010303,
+          "parent_skin_id": "skin:60010302",
+          "name": "Classic 2012 Kayle (Silver)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin303/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60010304,
+          "parent_skin_id": "skin:60010302",
+          "name": "Classic 2012 Kayle (Founder's Silver)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin304/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60010305,
+          "parent_skin_id": "skin:60010302",
+          "name": "Classic 2012 Kayle (Viridian)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin305/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin302/images/jade_kayle_splash_centered_302.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin302/images/jade_kayle_splash_uncentered_302.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin302/images/jade_kayle_splash_tile_302.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_kayle/skins/skin302/jade_kayleloadscreen_302.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b207fe98231d22f3c67f029430d7abc1d1aebfafae37fbc1ae7a6cdfcd081582",
+        "biography_word_count": 51,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60010302/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60010302",
+        "result_label": "Classic 2012 Kayle",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60010302",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10024",
+      "riot_skin_id": 10024,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Dragonslayer Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "4fc86a0a-0d4b-422e-8d6e-8e07ecb4cd9b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-04-15",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        13
+      ],
+      "wiki_sets": [
+        "Dragon World"
+      ],
+      "universe_ids": [
+        "universe:dragon-world"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10025,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10026,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10027,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10028,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10029,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10030,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10031,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10032,
+          "parent_skin_id": "skin:10024",
+          "name": "Dragonslayer Kayle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin24/images/kayle_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin24/images/kayle_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin24/images/kayle_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin24/kayleloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "78d86e418fb7da4021f8ca15ddc4c0a7d223ac0006536962196bc190abf473f9",
+        "biography_word_count": 36,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Dragonslayer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10024",
+        "result_label": "Dragonslayer Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10024",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10066",
+      "riot_skin_id": 10066,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Empyrean Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 66,
+      "content_id": "e7113768-6332-462b-8e04-6b439dedb4a6",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-05-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10068,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10069,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10070,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10071,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10072,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10073,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10074,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10075,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin75/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10076,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (Neon Facade)",
+          "colors": [
+            "#E14940",
+            "#83E584"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10077,
+          "parent_skin_id": "skin:10066",
+          "name": "Empyrean Kayle (MSI 2024 Chaos)",
+          "colors": [
+            "#EC633B",
+            "#555591"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin77/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin66/images/kayle_splash_centered_66.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin66/images/kayle_splash_uncentered_66.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin66/images/kayle_splash_tile_66.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin66/kayleloadscreen_66.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1b3d28fd5fbb379030c259db95e135f5b9b9a458e7dbf0f6186d3bbf5a473734",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10066",
+        "result_label": "Empyrean Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10066",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10088",
+      "riot_skin_id": 10088,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Founders Silver Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 88,
+      "content_id": "3630bc55-3651-42a4-8718-22eecd2f557b",
+      "rarity": "Standard",
+      "availability": "Rare",
+      "release_date": "2026-08-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        83
+      ],
+      "wiki_sets": [
+        "Collector's Edition"
+      ],
+      "universe_ids": [
+        "universe:collector-edition"
+      ],
+      "variant_of": "skin:10001",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin88/images/kayle_splash_centered_88.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin88/images/kayle_splash_uncentered_88.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin88/images/kayle_splash_tile_88.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin88/kayleloadscreen_88.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "92f518493583923496876671eb67179b24c9b1ec9851931d45b4d2a9725ffd61",
+        "biography_word_count": 13,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Founders Silver",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10088",
+        "result_label": "Founders Silver Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10001",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10057",
+      "riot_skin_id": 10057,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Immortal Journey Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 57,
+      "content_id": "805d56ac-c55e-4580-940b-35e8ba1d20f4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10058,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10059,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10060,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10061,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10062,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10063,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10064,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10065,
+          "parent_skin_id": "skin:10057",
+          "name": "Immortal Journey Kayle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin57/images/kayle_splash_centered_57.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin57/images/kayle_splash_uncentered_57.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin57/images/kayle_splash_tile_57.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin57/kayleloadscreen_57.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2b4b5c3d1a33f53584034979d3ac10d8fb8d449f6b4ae27f5ec22cd0f329fe58",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Immortal Journey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10057",
+        "result_label": "Immortal Journey Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10057",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10008",
+      "riot_skin_id": 10008,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Iron Inquisitor Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "a4d160ba-4eeb-4d99-98ed-3e7e6c04a2df",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-05-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        80
+      ],
+      "wiki_sets": [
+        "Omen of the Dark"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin08/images/kayle_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin08/images/kayle_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin08/images/kayle_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin08/kayleloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4436f678fefe7d1ec9021f08664f9b3658f428a9dd24e47b00ecdfb969fe580b",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Iron Inquisitor",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10008",
+        "result_label": "Iron Inquisitor Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10008",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10005",
+      "riot_skin_id": 10005,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Judgment Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "d8248974-94b0-40ab-b697-29a8b4876327",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2011-08-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin05/images/kayle_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin05/images/kayle_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin05/images/kayle_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin05/kayleloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b0f9a995409c4acf4ada303d4b24589d788bdb23d0d7a4018e5df6c41af25d34",
+        "biography_word_count": 30,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Judgment",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10005",
+        "result_label": "Judgment Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10005",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10033",
+      "riot_skin_id": 10033,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Pentakill III: Lost Chapter Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 33,
+      "content_id": "03870a61-9787-4d0d-a690-1cfe9379253a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-09-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        151
+      ],
+      "wiki_sets": [
+        "Pentakill III: The Lost Chapter"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10034,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10035,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10036,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10037,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10038,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10039,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10040,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10041,
+          "parent_skin_id": "skin:10033",
+          "name": "Pentakill III: Lost Chapter Kayle (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin33/images/kayle_splash_centered_33.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin33/images/kayle_splash_uncentered_33.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin33/images/kayle_splash_tile_33.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin33/kayleloadscreen_33.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Pentakill's later Kayle presents herself as a righteous judge capable of rallying metal's warriors.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "a51b21f83069fa8c101584d0398561839667f1c75ee5238ead516f642e7ba08f",
+        "biography_word_count": 39,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Pentakill Lost Chapter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "justice",
+          "leadership",
+          "conviction"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10033",
+        "result_label": "Pentakill III: Lost Chapter Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10033",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10009",
+      "riot_skin_id": 10009,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Pentakill Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "37a3b9f9-7b44-47d2-9d03-a913b1006205",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-08-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        16
+      ],
+      "wiki_sets": [
+        "Pentakill"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin09/images/kayle_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin09/images/kayle_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin09/images/kayle_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin09/kayleloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Kayle descends as an angelic singer to join Pentakill's heavy-metal mission.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "c7b3de29ac39e6ef887d43d622220853e164fd56c5190b787fe3e0a5b1b54fce",
+        "biography_word_count": 29,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Pentakill",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "performance",
+          "devotion",
+          "collaboration"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10009",
+        "result_label": "Pentakill Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10009",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10067",
+      "riot_skin_id": 10067,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Prestige Empyrean Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 67,
+      "content_id": "09a79256-5f50-4f0d-bd90-5b4e2a4e97f8",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-05-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        186
+      ],
+      "wiki_sets": [
+        "Empyrean"
+      ],
+      "universe_ids": [
+        "universe:neon-strata"
+      ],
+      "variant_of": "skin:10066",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin67/images/kayle_splash_centered_67.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin67/images/kayle_splash_uncentered_67.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin67/images/kayle_splash_tile_67.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin67/kayleloadscreen_67.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6581edcd200620fcf92bef06b8ae83ca148005393d29f460341a8ea81be86f1e",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Prestige Empyrean",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10067",
+        "result_label": "Prestige Empyrean Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10066",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10015",
+      "riot_skin_id": 10015,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "PsyOps Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "e073a519-7e07-4a2d-8b90-dbe0c0d7c761",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-09-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        134
+      ],
+      "wiki_sets": [
+        "Black Rose Group"
+      ],
+      "universe_ids": [
+        "universe:psyops"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10016,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10017,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10018,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10019,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10020,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10021,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10022,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10023,
+          "parent_skin_id": "skin:10015",
+          "name": "PsyOps Kayle (Hunter)",
+          "colors": [
+            "#B2D1E4",
+            "#3CABFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin15/images/kayle_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin15/images/kayle_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin15/images/kayle_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin15/kayleloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e8b777e808cf17fda8f6f55bb9a66070c14a3cbc8dd279496353171c5a715080",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "PsyOps",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10015",
+        "result_label": "PsyOps Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10015",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10007",
+      "riot_skin_id": 10007,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Riot Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "24e8fda8-b5de-4c66-b16c-44545b5b202d",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-08-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        37
+      ],
+      "wiki_sets": [
+        "Riot"
+      ],
+      "universe_ids": [
+        "universe:the-badge"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin07/images/kayle_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin07/images/kayle_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin07/images/kayle_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin07/kayleloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a277c19bc542b85f60102ab8b400dd4b95b6d4a375198ddac1cc5f534132f000",
+        "biography_word_count": 18,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Riot",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10007",
+        "result_label": "Riot Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10007",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10001",
+      "riot_skin_id": 10001,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Silver Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "039e7426-9c71-4210-b40a-229e1aec313a",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2009-11-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        83
+      ],
+      "wiki_sets": [
+        "Collector's Edition"
+      ],
+      "universe_ids": [
+        "universe:collector-edition"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin01/images/kayle_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin01/images/kayle_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin01/images/kayle_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin01/kayleloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "92f518493583923496876671eb67179b24c9b1ec9851931d45b4d2a9725ffd61",
+        "biography_word_count": 13,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Silver",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10001",
+        "result_label": "Silver Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10001",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10078",
+      "riot_skin_id": 10078,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Spirit Blossom Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 78,
+      "content_id": "2ecb1ab4-303f-40c0-8cd7-13dcf74db1d7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10079,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin79/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10080,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin80/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10081,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin81/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10082,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin82/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10083,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin83/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10084,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin84/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10085,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin85/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10086,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin86/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10087,
+          "parent_skin_id": "skin:10078",
+          "name": "Spirit Blossom Kayle (Paragon)",
+          "colors": [
+            "#BCD6EF",
+            "#547DF1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin87/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin78/images/kayle_splash_centered_78.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin78/images/kayle_splash_uncentered_78.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin78/images/kayle_splash_tile_78.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin78/kayleloadscreen_78.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a31521f0a56ff591cb72e539959d6c28de98cf22b795177de503e5228a21ea5a",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10078",
+        "result_label": "Spirit Blossom Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10078",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10042",
+      "riot_skin_id": 10042,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Sun-Eater Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 42,
+      "content_id": "80fde64d-52d8-47b6-96a6-3a09688282d4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-04-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        93
+      ],
+      "wiki_sets": [
+        "Eclipse"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10043,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10044,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10045,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10046,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10047,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10048,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10049,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Rainbow)",
+          "colors": [
+            "#C1F2FF",
+            "#C1F2FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10050,
+          "parent_skin_id": "skin:10042",
+          "name": "Sun-Eater Kayle (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin42/images/kayle_splash_centered_42.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin42/images/kayle_splash_uncentered_42.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin42/images/kayle_splash_tile_42.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin42/kayleloadscreen_42.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "90fe13add23941206c55945f04e39574e688b01300d52882be89a2b5b38cd0f5",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Sun-Eater",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10042",
+        "result_label": "Sun-Eater Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10042",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10003",
+      "riot_skin_id": 10003,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Transcended Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "dcf2e38e-3b5e-46fa-8676-062af9a37b5e",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-07-13",
+      "retired_date": "2012-03-12",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        180
+      ],
+      "wiki_sets": [
+        "Otherroads"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin03/images/kayle_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin03/images/kayle_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin03/images/kayle_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin03/kayleloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5c9011d48b0a117b8f234d559fe3d1539f65ccf8605136033a5d103a0e31d343",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Transcended",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10003",
+        "result_label": "Transcended Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10003",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "wiki:Kayle:unmasked",
+      "riot_skin_id": null,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Unmasked Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "wiki_only",
+      "skin_num": null,
+      "content_id": null,
+      "rarity": null,
+      "availability": "Removed",
+      "release_date": "2010-07-13",
+      "retired_date": "2012-03-12",
+      "legacy_client": null,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": false,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": null,
+        "uncentered_splash": null,
+        "tile": null,
+        "loading": null
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "wiki:Kayle:unmasked",
+        "result_label": "Unmasked Kayle",
+        "label_eligible": false,
+        "narrative_family_id": "wiki:Kayle:unmasked",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:10002",
+      "riot_skin_id": 10002,
+      "champion_id": "Kayle",
+      "champion_riot_id": 10,
+      "champion_name": "Kayle",
+      "name": "Viridian Kayle",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "7c6a2fb9-90eb-4b94-b6ab-b5cc9efebd5f",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-06-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        97
+      ],
+      "wiki_sets": [
+        "Albion"
+      ],
+      "universe_ids": [
+        "universe:ye-olde"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 10010,
+          "parent_skin_id": "skin:10002",
+          "name": "Viridian Kayle (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10011,
+          "parent_skin_id": "skin:10002",
+          "name": "Viridian Kayle (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10012,
+          "parent_skin_id": "skin:10002",
+          "name": "Viridian Kayle (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10013,
+          "parent_skin_id": "skin:10002",
+          "name": "Viridian Kayle (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 10014,
+          "parent_skin_id": "skin:10002",
+          "name": "Viridian Kayle (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin02/images/kayle_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin02/images/kayle_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin02/images/kayle_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayle/skins/skin02/kayleloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0ce8aaa48a931092956f11b0d60e67cf15832c9cdf4e73411a82d5cd143aee9e",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Kayle",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Kayle",
+          "skin": "Viridian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayle/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:10002",
+        "result_label": "Viridian Kayle",
+        "label_eligible": true,
+        "narrative_family_id": "skin:10002",
+        "champion_profile_ref": "data/champions/Kayle.json",
+        "gameplay_profile_ref": "data/champions/Kayle.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayle",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

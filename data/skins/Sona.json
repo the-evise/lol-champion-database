@@ -1,0 +1,2213 @@
+{
+  "champion_id": "Sona",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37000",
+      "riot_skin_id": 37000,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Sona",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "be230325-6e3f-42ff-9f8b-b6af9c529bfc",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-09-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/base/images/sona_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/base/images/sona_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/base/images/sona_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/base/sonaloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "33bdbbf5b34349c30fb03470465bbbf183e27a16d53b49c7a1ae6ae3c95b0191",
+        "biography_word_count": 65,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37000",
+        "result_label": "Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37000",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37005",
+      "riot_skin_id": 37005,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Arcade Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "32e8c6fb-1475-47da-ac87-7962b8024802",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2012-08-31",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        10
+      ],
+      "wiki_sets": [
+        "Arcade: Heroes"
+      ],
+      "universe_ids": [
+        "universe:arcade"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37016,
+          "parent_skin_id": "skin:37005",
+          "name": "Arcade Sona (K.O.)",
+          "colors": [
+            "#A5FFF8",
+            "#D87BFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin05/images/sona_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin05/images/sona_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin05/images/sona_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin05/sonaloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "de8ac5531661af8d676234acc990f282bd5e0516e435b5899926f0be52f07c99",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Arcade",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37005",
+        "result_label": "Arcade Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37005",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37006",
+      "riot_skin_id": 37006,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "DJ Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "b452bc17-5964-4799-9a1f-df47eb90b5ab",
+      "rarity": "Ultimate",
+      "availability": "Available",
+      "release_date": "2015-02-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 3250,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        173
+      ],
+      "wiki_sets": [
+        "DJ"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [
+        "Kinetic",
+        "Concussive",
+        "Ethereal"
+      ],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin06/images/sona_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin06/images/sona_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin06/images/sona_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin06/sonaloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37006",
+        "result_label": "DJ Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37006",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37077",
+      "riot_skin_id": 37077,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "DJ Sona Ultimate Remix",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 77,
+      "content_id": "704236d6-d529-432e-ba95-f7bdcc8784ab",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-11-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        173
+      ],
+      "wiki_sets": [
+        "DJ"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:37006",
+      "forms_wiki": [
+        "Know My Name",
+        "FIRESTARTER",
+        "Live My Life"
+      ],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin77/images/sona_splash_centered_77.skins_sona_skin77.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin77/images/sona_splash_uncentered_77.skins_sona_skin77.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin77/images/sona_splash_tile_77.skins_sona_skin77.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin77/sonaloadscreen_77.skins_sona_skin77.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b5e35f9210d17c6f5f919a64239f91eb1a8efab184223f4f116942c98166349e",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "DJ Ultimate Remix",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37077",
+        "result_label": "DJ Sona Ultimate Remix",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37006",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37004",
+      "riot_skin_id": 37004,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Guqin Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "ff3d69ff-8e9f-42f7-9592-3a2ea633eb09",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-01-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        55
+      ],
+      "wiki_sets": [
+        "Lunar Revel"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37008,
+          "parent_skin_id": "skin:37004",
+          "name": "Guqin Sona (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37055,
+          "parent_skin_id": "skin:37004",
+          "name": "Guqin Sona (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin04/images/sona_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin04/images/sona_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin04/images/sona_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin04/sonaloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37004",
+        "result_label": "Guqin Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37004",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37045",
+      "riot_skin_id": 37045,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Immortal Journey Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 45,
+      "content_id": "97a3d1c3-ac58-4337-aa81-cbf6cc7a583a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37047,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37048,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37049,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37050,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37051,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37052,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37053,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37054,
+          "parent_skin_id": "skin:37045",
+          "name": "Immortal Journey Sona (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin45/images/sona_splash_centered_45.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin45/images/sona_splash_uncentered_45.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin45/images/sona_splash_tile_45.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin45/sonaloadscreen_45.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2fde9f009c17a8585ca984b2960b476db827efa1c6ecbace4660913a03aeacbe",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Immortal Journey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37045",
+        "result_label": "Immortal Journey Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37045",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37001",
+      "riot_skin_id": 37001,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Muse Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "9094c660-518d-4f7f-b7f2-131d94eff5c8",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-09-21",
+      "retired_date": "2013-07-18",
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        72
+      ],
+      "wiki_sets": [
+        "Fables"
+      ],
+      "universe_ids": [
+        "universe:fables"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin01/images/sona_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin01/images/sona_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin01/images/sona_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin01/sonaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7138e886158e42771d97535ea537bff388eed273dee987816e5c2e802ab7a6e2",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Muse",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37001",
+        "result_label": "Muse Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37001",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37009",
+      "riot_skin_id": 37009,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Odyssey Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "ab8e76eb-cd22-401d-a9f7-8f960aafae50",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        73
+      ],
+      "wiki_sets": [
+        "Odyssey"
+      ],
+      "universe_ids": [
+        "universe:odyssey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37010,
+          "parent_skin_id": "skin:37009",
+          "name": "Odyssey Sona (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37011,
+          "parent_skin_id": "skin:37009",
+          "name": "Odyssey Sona (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37012,
+          "parent_skin_id": "skin:37009",
+          "name": "Odyssey Sona (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37013,
+          "parent_skin_id": "skin:37009",
+          "name": "Odyssey Sona (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37014,
+          "parent_skin_id": "skin:37009",
+          "name": "Odyssey Sona (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37015,
+          "parent_skin_id": "skin:37009",
+          "name": "Odyssey Sona (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin09/images/sona_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin09/images/sona_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin09/images/sona_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin09/sonaloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bf2f54b10b721f82941648aadb6325cbf521fc56f639896c0096f73fcdb9a1c0",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Odyssey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37009",
+        "result_label": "Odyssey Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37009",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37026",
+      "riot_skin_id": 37026,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Pentakill III: Lost Chapter Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "28515591-3a1e-4e5b-b9de-ad935cceb66a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-09-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        151
+      ],
+      "wiki_sets": [
+        "Pentakill III: The Lost Chapter"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37027,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37028,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37029,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37030,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37031,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37032,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37033,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37034,
+          "parent_skin_id": "skin:37026",
+          "name": "Pentakill III: Lost Chapter Sona (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin26/images/sona_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin26/images/sona_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin26/images/sona_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin26/sonaloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Pentakill's later Sona channels an artist's capacity to create and undo through harmony.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "aefa6b7afe700d2ff82259f94c4079ff0b4fc7030b3b0909a85e4b4c9061742d",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Pentakill Lost Chapter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "creativity",
+          "transformation",
+          "expression"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37026",
+        "result_label": "Pentakill III: Lost Chapter Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37026",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37002",
+      "riot_skin_id": 37002,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Pentakill Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "94b13ba2-b74e-43b6-a4e1-badddac8f53e",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-09-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        16
+      ],
+      "wiki_sets": [
+        "Pentakill"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin02/images/sona_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin02/images/sona_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin02/images/sona_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin02/sonaloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Sona's ferocious keyboard playing challenges anyone who dismisses her instrument's place in metal.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "6fd2941c9431171c664eb2c9d16586e600160d764779e103e9b5d34055690442",
+        "biography_word_count": 33,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Pentakill",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "defiance",
+          "craft",
+          "expression"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37002",
+        "result_label": "Pentakill Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37002",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37046",
+      "riot_skin_id": 37046,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Prestige Immortal Journey Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "7b31491c-85ad-4b40-8158-58e94584683e",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2023-08-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": "skin:37045",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin46/images/sona_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin46/images/sona_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin46/images/sona_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin46/sonaloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c01a582a3ce27373fa0e2ae29a6074b2fd1b47ae263e22ae61156e460e10ff6a",
+        "biography_word_count": 63,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Prestige Immortal Journey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37046",
+        "result_label": "Prestige Immortal Journey Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37045",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37075",
+      "riot_skin_id": 37075,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Prestige Requiem Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 75,
+      "content_id": "9f84e07c-d992-4d09-8cf7-f1e16f5dc402",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-03-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        178
+      ],
+      "wiki_sets": [
+        "Chronicle"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37076,
+          "parent_skin_id": "skin:37075",
+          "name": "Prestige Requiem Sona (Vivid)",
+          "colors": [
+            "#F05541",
+            "#B9B9C3"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin76/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin75/images/sona_splash_centered_75.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin75/images/sona_splash_uncentered_75.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin75/images/sona_splash_tile_75.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin75/sonaloadscreen_75.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d2108e46dc02cca71588e45f26952f21ffb363b3784714cf82403a063c6b178b",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Prestige Requiem",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37075",
+        "result_label": "Prestige Requiem Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37075",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37017",
+      "riot_skin_id": 37017,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "PsyOps Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "a76c6649-8266-466c-9c3b-538af811043e",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2020-09-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        133
+      ],
+      "wiki_sets": [
+        "PsyOps"
+      ],
+      "universe_ids": [
+        "universe:psyops"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37018,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37019,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37020,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37021,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37022,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37023,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37024,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37025,
+          "parent_skin_id": "skin:37017",
+          "name": "PsyOps Sona (Hunter)",
+          "colors": [
+            "#B2D1E4",
+            "#3CABFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin17/images/sona_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin17/images/sona_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin17/images/sona_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin17/sonaloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e239842e8f0c9f9a010807e5af43fd41240fb8ae1dac63d0770019ced7f883f0",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "PsyOps",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37017",
+        "result_label": "PsyOps Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37017",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37003",
+      "riot_skin_id": 37003,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Silent Night Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "6eac7b33-5cee-4fd2-8f07-0a636f99dbb8",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        48
+      ],
+      "wiki_sets": [
+        "Snowdown Showdown"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin03/images/sona_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin03/images/sona_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin03/images/sona_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin03/sonaloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "60a5851d995ef95b30abcb0d82cbb6cc7fac7ea8c31571ac930f9a9bac6c210e",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Silent Night",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37003",
+        "result_label": "Silent Night Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37003",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37066",
+      "riot_skin_id": 37066,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Spirit Blossom Springs Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 66,
+      "content_id": "4bb40bfe-f343-483c-b801-d3556d37c2d3",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-07-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        218
+      ],
+      "wiki_sets": [
+        "Spirit Blossom Springs"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37067,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin67/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37068,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin68/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37069,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin69/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37070,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin70/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37071,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin71/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37072,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin72/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37073,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin73/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37074,
+          "parent_skin_id": "skin:37066",
+          "name": "Spirit Blossom Springs Sona (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin74/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin66/images/sona_splash_centered_66.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin66/images/sona_splash_uncentered_66.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin66/images/sona_splash_tile_66.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin66/sonaloadscreen_66.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "32e4b14cc2670d96193d0b09e66ad6980a8d44e9196b5023d92f09e8580f4cda",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Spirit Blossom Springs",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37066",
+        "result_label": "Spirit Blossom Springs Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37066",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37035",
+      "riot_skin_id": 37035,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Star Guardian Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 35,
+      "content_id": "1d994912-6c79-47cf-a573-564e00d27022",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-07-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37036,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37037,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37038,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37039,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37040,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37041,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37042,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37043,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37044,
+          "parent_skin_id": "skin:37035",
+          "name": "Star Guardian Sona (Brilliant)",
+          "colors": [
+            "#FDA4DA",
+            "#9DE5FF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin35/images/sona_splash_centered_35.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin35/images/sona_splash_uncentered_35.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin35/images/sona_splash_tile_35.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin35/sonaloadscreen_35.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0f197bc7f6ac7a2a49cefe1894d98adc891064bee7c4312227d84276ab8c365c",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Star Guardian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37035",
+        "result_label": "Star Guardian Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37035",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37007",
+      "riot_skin_id": 37007,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Sweetheart Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "9c86f9a2-4a17-43d1-a4c4-241c8b675330",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2016-02-11",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        64
+      ],
+      "wiki_sets": [
+        "Heartbreakers"
+      ],
+      "universe_ids": [
+        "universe:be-mine"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin07/images/sona_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin07/images/sona_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin07/images/sona_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin07/sonaloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "07f58d5073d86fadfd5d1cc420a8a01e0e3ab5cd0fac4a5ec40835a8e4e07913",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Sweetheart",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37007",
+        "result_label": "Sweetheart Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37007",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:37056",
+      "riot_skin_id": 37056,
+      "champion_id": "Sona",
+      "champion_riot_id": 37,
+      "champion_name": "Sona",
+      "name": "Victorious Sona",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 56,
+      "content_id": "d3d6f524-933b-48b1-90da-d5f42db9bf18",
+      "rarity": "Standard",
+      "availability": "Limited",
+      "release_date": "2024-10-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        7
+      ],
+      "wiki_sets": [
+        "Victorious"
+      ],
+      "universe_ids": [
+        "universe:victorious"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 37057,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Bronze)",
+          "colors": [
+            "#764D43",
+            "#764D43"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37058,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Silver)",
+          "colors": [
+            "#AAB5BA",
+            "#AAB5BA"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37059,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Gold)",
+          "colors": [
+            "#D9C445",
+            "#D9C445"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37060,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Platinum)",
+          "colors": [
+            "#55CDE5",
+            "#55CDE5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37061,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Emerald)",
+          "colors": [
+            "#26854C",
+            "#26854C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37062,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Diamond)",
+          "colors": [
+            "#65337F",
+            "#65337F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37063,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Master)",
+          "colors": [
+            "#9D228D",
+            "#9D228D"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37064,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Grandmaster)",
+          "colors": [
+            "#B31316",
+            "#B31316"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin64/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 37065,
+          "parent_skin_id": "skin:37056",
+          "name": "Victorious Sona (Challenger)",
+          "colors": [
+            "#1D62C8",
+            "#1D62C8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin65/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin56/images/sona_splash_centered_56.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin56/images/sona_splash_uncentered_56.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin56/images/sona_splash_tile_56.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/sona/skins/skin56/sonaloadscreen_56.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5a04ced7d859a1f95afbb6b44594bcebfa5bd9c0c504a638fcaea2aef26780ca",
+        "biography_word_count": 49,
+        "source_id": "skins:client:Sona",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Sona",
+          "skin": "Victorious",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Sona/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:37056",
+        "result_label": "Victorious Sona",
+        "label_eligible": true,
+        "narrative_family_id": "skin:37056",
+        "champion_profile_ref": "data/champions/Sona.json",
+        "gameplay_profile_ref": "data/champions/Sona.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Sona",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

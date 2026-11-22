@@ -1,0 +1,1339 @@
+{
+  "champion_id": "Chogath",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31000",
+      "riot_skin_id": 31000,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Cho'Gath",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "460c1dd3-bb61-4718-8451-4376ab2b64e4",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/base/images/chogath_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/base/images/chogath_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/base/images/chogath_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/base/chogathloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "70c82666857d3b0202f90337527f927c2556b1ac4c78c1fe158a56e907c1c584",
+        "biography_word_count": 85,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31000",
+        "result_label": "Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31000",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31005",
+      "riot_skin_id": 31005,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Battlecast Prime Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "2e49a934-4dff-4c77-9919-1f3fbe69c3ba",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2012-08-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        25
+      ],
+      "wiki_sets": [
+        "Battlecast"
+      ],
+      "universe_ids": [
+        "universe:battlecast"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 31008,
+          "parent_skin_id": "skin:31005",
+          "name": "Battlecast Prime Cho'Gath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31009,
+          "parent_skin_id": "skin:31005",
+          "name": "Battlecast Prime Cho'Gath (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31010,
+          "parent_skin_id": "skin:31005",
+          "name": "Battlecast Prime Cho'Gath (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31011,
+          "parent_skin_id": "skin:31005",
+          "name": "Battlecast Prime Cho'Gath (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31012,
+          "parent_skin_id": "skin:31005",
+          "name": "Battlecast Prime Cho'Gath (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31013,
+          "parent_skin_id": "skin:31005",
+          "name": "Battlecast Prime Cho'Gath (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin05/images/chogath_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin05/images/chogath_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin05/images/chogath_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin05/chogathloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ea0f7961479bb78e8354bbb686a8d0b9aec54bf9bcbfb4da2b822dd765557f7e",
+        "biography_word_count": 42,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Battlecast Prime",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31005",
+        "result_label": "Battlecast Prime Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31005",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31023",
+      "riot_skin_id": 31023,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Broken Covenant Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 23,
+      "content_id": "92176360-78fd-4a6c-981b-4d4673979208",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-03-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        190
+      ],
+      "wiki_sets": [
+        "Broken Covenant"
+      ],
+      "universe_ids": [
+        "universe:forsaken-hymn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 31024,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31025,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31026,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31027,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31028,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31029,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31030,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31031,
+          "parent_skin_id": "skin:31023",
+          "name": "Broken Covenant Cho'Gath (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin23/images/chogath_splash_centered_23.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin23/images/chogath_splash_uncentered_23.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin23/images/chogath_splash_tile_23.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin23/chogathloadscreen_23.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5a70dfc783983c59e888720889f65c32580a3444ce365e3915a282150546f279",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Broken Covenant",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31023",
+        "result_label": "Broken Covenant Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31023",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31007",
+      "riot_skin_id": 31007,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Dark Star Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "e5884f63-4964-463d-af29-c452274bbd28",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2018-07-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        44
+      ],
+      "wiki_sets": [
+        "Dark Star"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin07/images/chogath_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin07/images/chogath_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin07/images/chogath_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin07/chogathloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5973bdf807145ca84061ca5739d6bd1599550d9af5b5dbce7e16acbd1de71a03",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Dark Star",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31007",
+        "result_label": "Dark Star Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31007",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31002",
+      "riot_skin_id": 31002,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Gentleman Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "0bdb7c7c-9f6b-4d8b-9ca6-ebaa40c38c01",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2010-05-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        102
+      ],
+      "wiki_sets": [
+        "High Society"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin02/images/chogath_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin02/images/chogath_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin02/images/chogath_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin02/chogathloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ee55d6d5e06f373526bfdc73be26a3ace4367a94b3dd11e8ae404d2bc804677c",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Gentleman",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31002",
+        "result_label": "Gentleman Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31002",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31004",
+      "riot_skin_id": 31004,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Jurassic Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "420b8911-7779-4f07-8b68-b5a689203667",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin04/images/chogath_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin04/images/chogath_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin04/images/chogath_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin04/chogathloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31004",
+        "result_label": "Jurassic Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31004",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31003",
+      "riot_skin_id": 31003,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Loch Ness Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "be9c27f7-d801-4cbc-8057-8e6c52e607f2",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-03-01",
+      "retired_date": "2017-11-01",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        72
+      ],
+      "wiki_sets": [
+        "Fables"
+      ],
+      "universe_ids": [
+        "universe:fables"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin03/images/chogath_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin03/images/chogath_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin03/images/chogath_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin03/chogathloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "7a7c10bb45b6af10bd00bcf01c6738a41858807f788242478d1e3544922285d1",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Loch Ness",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31003",
+        "result_label": "Loch Ness Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31003",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31001",
+      "riot_skin_id": 31001,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Nightmare Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "2b3bbc1b-3e3d-4a8a-b5b6-842938a31105",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2009-11-20",
+      "retired_date": "2012-03-12",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin01/images/chogath_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin01/images/chogath_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin01/images/chogath_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin01/chogathloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31001",
+        "result_label": "Nightmare Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31001",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31041",
+      "riot_skin_id": 31041,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Petricite Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 41,
+      "content_id": "cac25450-7cef-4763-a480-f82045eac80c",
+      "rarity": "Epic",
+      "availability": "Rare",
+      "release_date": "2026-01-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        224
+      ],
+      "wiki_sets": [
+        "The Laws of Stone"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin41/images/chogath_splash_centered_41.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin41/images/chogath_splash_uncentered_41.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin41/images/chogath_splash_tile_41.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin41/chogathloadscreen_41.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "12921b4a3b2a5a42711bcb26ea05e7d09a6e3880179767be900b4ac273965887",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Petricite",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31041",
+        "result_label": "Petricite Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31041",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31006",
+      "riot_skin_id": 31006,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Prehistoric Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "8e704f57-7672-4829-9946-ad7e29f5563e",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2015-06-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        32
+      ],
+      "wiki_sets": [
+        "Prehistoric Hunters"
+      ],
+      "universe_ids": [
+        "universe:prehistoric-hunters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin06/images/chogath_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin06/images/chogath_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin06/images/chogath_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin06/chogathloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "26bbe5de03eda96a3465e085ac367c3cd3cc4c5267f1f9743750bd5f8efafb1e",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Prehistoric",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31006",
+        "result_label": "Prehistoric Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31006",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31014",
+      "riot_skin_id": 31014,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Shan Hai Scrolls Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "68a2502c-9357-4d4c-b60c-2302e662a4ad",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-01-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        139
+      ],
+      "wiki_sets": [
+        "Shan Hai Scrolls"
+      ],
+      "universe_ids": [
+        "universe:shan-hai-scrolls"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 31015,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31016,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31017,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31018,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31019,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31020,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31021,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31022,
+          "parent_skin_id": "skin:31014",
+          "name": "Shan Hai Scrolls Cho'Gath (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin14/images/chogath_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin14/images/chogath_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin14/images/chogath_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin14/chogathloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a1a2caacea13f4f84531f62eb849b43652c6e7e05e2a691b2903a1a6cb4a6f73",
+        "biography_word_count": 40,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Shan Hai Scrolls",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31014",
+        "result_label": "Shan Hai Scrolls Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31014",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:31032",
+      "riot_skin_id": 31032,
+      "champion_id": "Chogath",
+      "champion_riot_id": 31,
+      "champion_name": "Cho'Gath",
+      "name": "Toy Terror Cho'Gath",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "4811afa3-c2ca-470a-be41-4a2dcd58e3ae",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-04-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        61
+      ],
+      "wiki_sets": [
+        "Toy Box"
+      ],
+      "universe_ids": [
+        "universe:toy-box"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 31033,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31034,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31035,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31036,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31037,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31038,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31039,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 31040,
+          "parent_skin_id": "skin:31032",
+          "name": "Toy Terror Cho'Gath (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin32/images/chogath_splash_centered_32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin32/images/chogath_splash_uncentered_32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin32/images/chogath_splash_tile_32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/chogath/skins/skin32/chogathloadscreen_32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2db63ced71b5916f6316aca7781d60ac69484eddfadcec8b84e991eb14e7225b",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Chogath",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Cho'Gath",
+          "skin": "Toy Terror",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Cho%27Gath/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:31032",
+        "result_label": "Toy Terror Cho'Gath",
+        "label_eligible": true,
+        "narrative_family_id": "skin:31032",
+        "champion_profile_ref": "data/champions/Chogath.json",
+        "gameplay_profile_ref": "data/champions/Chogath.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Chogath",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

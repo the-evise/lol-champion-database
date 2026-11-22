@@ -1,0 +1,2200 @@
+{
+  "champion_id": "Evelynn",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28000",
+      "riot_skin_id": 28000,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Evelynn",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "9cb38be4-14d3-40a9-bdcd-9b7a9b1f0fdd",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-04-30",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/base/images/evelynn_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/base/images/evelynn_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/base/images/evelynn_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/base/evelynnloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0d0ec209d119ffe624685fd1fad5592a6d93114badc6438f18e86893a13d07a6",
+        "biography_word_count": 82,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28000",
+        "result_label": "Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28000",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28005",
+      "riot_skin_id": 28005,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Blood Moon Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "03ddb97b-29e4-4cca-9de8-d44462532954",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2018-05-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin05/images/evelynn_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin05/images/evelynn_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin05/images/evelynn_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin05/evelynnloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1258e5551cd96d16e30d9f8392fc634720d4e1bb683e1b0df1fa928ea70e5afa",
+        "biography_word_count": 43,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28005",
+        "result_label": "Blood Moon Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28005",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28024",
+      "riot_skin_id": 28024,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Coven Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 24,
+      "content_id": "96f23919-ac1c-4059-a0e2-0538d80d598a",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2021-08-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        92
+      ],
+      "wiki_sets": [
+        "Coven"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28025,
+          "parent_skin_id": "skin:28024",
+          "name": "Coven Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28026,
+          "parent_skin_id": "skin:28024",
+          "name": "Coven Evelynn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28027,
+          "parent_skin_id": "skin:28024",
+          "name": "Coven Evelynn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28028,
+          "parent_skin_id": "skin:28024",
+          "name": "Coven Evelynn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28029,
+          "parent_skin_id": "skin:28024",
+          "name": "Coven Evelynn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28030,
+          "parent_skin_id": "skin:28024",
+          "name": "Coven Evelynn (Dark Ritual)",
+          "colors": [
+            "#162B30",
+            "#8E0A38"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/images/evelynn_splash_centered_24.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/images/evelynn_splash_uncentered_24.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/images/evelynn_splash_tile_24.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin24/evelynnloadscreen_24.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": "Evelynn joins the southern covens in a violent reunion preparing for ancient powers to rise again.",
+        "summary_kind": "original_paraphrase",
+        "summary_reviewed": true,
+        "biography_sha256": "ca926ee1c07e21823b8058b6fcf9cf94e6dd70bac8712092e00b476bb4feb957",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Coven",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [
+          "solidarity",
+          "vengeance",
+          "cruelty"
+        ],
+        "status": "editorial_interpretation_unvalidated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28024",
+        "result_label": "Coven Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28024",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "skin_biography"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28052",
+      "riot_skin_id": 28052,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "High Noon Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 52,
+      "content_id": "579ca1a7-ee20-47d4-b1e1-153e6ba3a123",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-03-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28054,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28055,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin55/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28056,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin56/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28057,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin57/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28058,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin58/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28059,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin59/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28060,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin60/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28061,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin61/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28062,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Noonday)",
+          "colors": [
+            "#A8BFF1",
+            "#CD5867"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin62/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28063,
+          "parent_skin_id": "skin:28052",
+          "name": "High Noon Evelynn (Vendetta)",
+          "colors": [
+            "#D9C542",
+            "#0B731C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin63/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin52/images/evelynn_splash_centered_52.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin52/images/evelynn_splash_uncentered_52.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin52/images/evelynn_splash_tile_52.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin52/evelynnloadscreen_52.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "921c46b11e9e2e9a0304afdc19dcaa2dbdf10a3bea70dadee1b509810e9b5434",
+        "biography_word_count": 66,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/14/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28052",
+        "result_label": "High Noon Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28052",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28015",
+      "riot_skin_id": 28015,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "K/DA ALL OUT Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "f16667c9-802e-44a1-b343-caf5aae324ab",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-10-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28016,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28017,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28018,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28019,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28020,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28021,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28022,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28023,
+          "parent_skin_id": "skin:28015",
+          "name": "K/DA ALL OUT Evelynn (BADDEST)",
+          "colors": [
+            "#0C0C0F",
+            "#272A3F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin15/images/evelynn_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin15/images/evelynn_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin15/images/evelynn_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin15/evelynnloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b3c99cd509057f27dc3de6c6255548bdf6b1d9dc435b92f0f3e1b24145325d76",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "KDA ALL OUT",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28015",
+        "result_label": "K/DA ALL OUT Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28015",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28006",
+      "riot_skin_id": 28006,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "K/DA Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "f033ba48-0fc1-4ff5-aa71-66be8f6d147c",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-11-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin06/images/evelynn_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin06/images/evelynn_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin06/images/evelynn_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin06/evelynnloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a684c830159884001ac27bb35bf72809d044e922cc754d4606ae95003c65b8e9",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28006",
+        "result_label": "K/DA Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28006",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28065",
+      "riot_skin_id": 28065,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "K/DA FIRESTARTER Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 65,
+      "content_id": "c31d5565-06ab-4b9f-a7e4-12d787f22c23",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2026-11-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28067,
+          "parent_skin_id": "skin:28065",
+          "name": "K/DA FIRESTARTER Evelynn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin67/chromapreview.chroma_evelynn_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28068,
+          "parent_skin_id": "skin:28065",
+          "name": "K/DA FIRESTARTER Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin68/chromapreview.chroma_evelynn_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28069,
+          "parent_skin_id": "skin:28065",
+          "name": "K/DA FIRESTARTER Evelynn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin69/chromapreview.chroma_evelynn_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28070,
+          "parent_skin_id": "skin:28065",
+          "name": "K/DA FIRESTARTER Evelynn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin70/chromapreview.chroma_evelynn_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28071,
+          "parent_skin_id": "skin:28065",
+          "name": "K/DA FIRESTARTER Evelynn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin71/chromapreview.chroma_evelynn_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28072,
+          "parent_skin_id": "skin:28065",
+          "name": "K/DA FIRESTARTER Evelynn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin72/chromapreview.chroma_evelynn_kda.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/images/evelynn_splash_centered_65.skins_evelynn_skin65.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/images/evelynn_splash_uncentered_65.skins_evelynn_skin65.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/images/evelynn_splash_tile_65.skins_evelynn_skin65.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin65/evelynnloadscreen_65.skins_evelynn_skin65.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "31716d540139db4c46d427247e90cf5b70e3f32464e99fc975bc8563ec97f55f",
+        "biography_word_count": 56,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/17/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "KDA FIRESTARTER",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28065",
+        "result_label": "K/DA FIRESTARTER Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28065",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28066",
+      "riot_skin_id": 28066,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "K/DA Hitmaker Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 66,
+      "content_id": "93f19821-7ad6-4ac2-b6c7-237cdfd153c3",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-11-04",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": null,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:28065",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin66/images/evelynn_splash_centered_66.skins_evelynn_skin66.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin66/images/evelynn_splash_uncentered_66.skins_evelynn_skin66.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin66/images/evelynn_splash_tile_66.skins_evelynn_skin66.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin66/evelynnloadscreen_66.skins_evelynn_skin66.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0220b5167e661c91995816e7a0f7e611653c1e3542b69742143d5c7901890cba",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/18/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "KDA Hitmaker",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28066",
+        "result_label": "K/DA Hitmaker Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28065",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28002",
+      "riot_skin_id": 28002,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Masquerade Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "cdf60726-5de2-482c-b994-4e76007a2073",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-05-17",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin02/images/evelynn_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin02/images/evelynn_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin02/images/evelynn_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin02/evelynnloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28002",
+        "result_label": "Masquerade Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28002",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28064",
+      "riot_skin_id": 28064,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Nightbringer Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 64,
+      "content_id": "935f1e55-70d6-425e-a347-0b850d4faa6d",
+      "rarity": "Epic",
+      "availability": "Rare",
+      "release_date": "2025-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin64/images/evelynn_splash_centered_64.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin64/images/evelynn_splash_uncentered_64.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin64/images/evelynn_splash_tile_64.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin64/evelynnloadscreen_64.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "962245f8a648647edeb41c6b6501023aeefb4fd270c0c1d3c76342817e436db3",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/16/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28064",
+        "result_label": "Nightbringer Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28064",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28053",
+      "riot_skin_id": 28053,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Prestige High Noon Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 53,
+      "content_id": "5db09f1d-6d53-4959-97e9-defb537bef86",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2024-03-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": "skin:28052",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin53/images/evelynn_splash_centered_53.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin53/images/evelynn_splash_uncentered_53.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin53/images/evelynn_splash_tile_53.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin53/evelynnloadscreen_53.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "094c71e74605819bcda5ce404920d77dccba0d994a7f26a06c5303501edb167d",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/15/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Prestige High Noon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28053",
+        "result_label": "Prestige High Noon Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28052",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28007",
+      "riot_skin_id": 28007,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Prestige K/DA Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "95ce2c94-2694-42a7-9033-0fcadc8b2dc6",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2019-04-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:28006",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/images/evelynn_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/images/evelynn_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/images/evelynn_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/evelynnloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "991100f445edab64e95eaf18726444c12cc7962b9e4fcd984ee9c145776b67a1",
+        "biography_word_count": 27,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Prestige KDA",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28007",
+        "result_label": "Prestige K/DA Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28006",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28031",
+      "riot_skin_id": 28031,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Prestige K/DA Evelynn (2022)",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 31,
+      "content_id": "2ebd4f21-367f-4ab2-a64a-390e2fa66403",
+      "rarity": "Mythic",
+      "availability": "Limited",
+      "release_date": "2022-04-01",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        91
+      ],
+      "wiki_sets": [
+        "K/DA"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": "skin:28007",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/images/evelynn_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/images/evelynn_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin07/images/evelynn_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin31/evelynnloadscreen_31.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "991100f445edab64e95eaf18726444c12cc7962b9e4fcd984ee9c145776b67a1",
+        "biography_word_count": 27,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Prestige KDA (2022)",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28031",
+        "result_label": "Prestige K/DA Evelynn (2022)",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28007",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28004",
+      "riot_skin_id": 28004,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Safecracker Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "83b7f2b8-dff1-42a0-92eb-cef5d4096b87",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2014-11-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        121
+      ],
+      "wiki_sets": [
+        "Cops and Robbers"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin04/images/evelynn_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin04/images/evelynn_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin04/images/evelynn_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin04/evelynnloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28004",
+        "result_label": "Safecracker Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28004",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28001",
+      "riot_skin_id": 28001,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Shadow Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "a7583667-dfd4-4a9c-849a-1c880d30df78",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-11-20",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        87
+      ],
+      "wiki_sets": [
+        "Death Sworn"
+      ],
+      "universe_ids": [
+        "universe:death-sworn"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin01/images/evelynn_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin01/images/evelynn_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin01/images/evelynn_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin01/evelynnloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28001",
+        "result_label": "Shadow Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28001",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28042",
+      "riot_skin_id": 28042,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Soul Fighter Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 42,
+      "content_id": "28df7536-877f-4127-8e34-4759438e0f18",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        196
+      ],
+      "wiki_sets": [
+        "Soul Fighter"
+      ],
+      "universe_ids": [
+        "universe:soul-fighter"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28043,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28044,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28045,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28046,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin46/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28047,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28048,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28049,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28050,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28051,
+          "parent_skin_id": "skin:28042",
+          "name": "Soul Fighter Evelynn (Limitless)",
+          "colors": [
+            "#C8D0CE",
+            "#AF65D1"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin42/images/evelynn_splash_centered_42.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin42/images/evelynn_splash_uncentered_42.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin42/images/evelynn_splash_tile_42.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin42/evelynnloadscreen_42.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "fa0525191d6ddf3547f9b2cd2d4ba6f99ddcc698daaf55ae3a23134010cfb508",
+        "biography_word_count": 60,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/13/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Soul Fighter",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28042",
+        "result_label": "Soul Fighter Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28042",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28032",
+      "riot_skin_id": 28032,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Spirit Blossom Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "807c1a7d-2427-4d25-9179-fbd928574c9d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-10-06",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        171
+      ],
+      "wiki_sets": [
+        "Spirit Blossom"
+      ],
+      "universe_ids": [
+        "universe:spirit-blossom"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28033,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28034,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28035,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28036,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28037,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28038,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28039,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28040,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28041,
+          "parent_skin_id": "skin:28032",
+          "name": "Spirit Blossom Evelynn (Night Blossom)",
+          "colors": [
+            "#0C0C0F",
+            "#B2D1E4"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin32/images/evelynn_splash_centered_32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin32/images/evelynn_splash_uncentered_32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin32/images/evelynn_splash_tile_32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin32/evelynnloadscreen_32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8d6785dd19b7c05e70ef4439839d68c970b2de366a19c4bceab60162cea679dd",
+        "biography_word_count": 64,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Spirit Blossom",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28032",
+        "result_label": "Spirit Blossom Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28032",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28008",
+      "riot_skin_id": 28008,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Sugar Rush Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "ceee0281-6588-4e55-b893-2f4d2d75ccd0",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2019-12-17",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        57
+      ],
+      "wiki_sets": [
+        "Sugar Rush"
+      ],
+      "universe_ids": [
+        "universe:sugar-rush"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 28009,
+          "parent_skin_id": "skin:28008",
+          "name": "Sugar Rush Evelynn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28010,
+          "parent_skin_id": "skin:28008",
+          "name": "Sugar Rush Evelynn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28011,
+          "parent_skin_id": "skin:28008",
+          "name": "Sugar Rush Evelynn (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28012,
+          "parent_skin_id": "skin:28008",
+          "name": "Sugar Rush Evelynn (Sweet Tooth)",
+          "colors": [
+            "#E58BA5",
+            "#6FFDFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28013,
+          "parent_skin_id": "skin:28008",
+          "name": "Sugar Rush Evelynn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 28014,
+          "parent_skin_id": "skin:28008",
+          "name": "Sugar Rush Evelynn (Jasper)",
+          "colors": [
+            "#9F4A25",
+            "#9F4A25"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin08/images/evelynn_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin08/images/evelynn_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin08/images/evelynn_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin08/evelynnloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "68e0a8963a350f5c36ac57efd79eec1b3b91da3762abea6dfa700abb88e70d12",
+        "biography_word_count": 13,
+        "source_id": "skins:client:Evelynn",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Evelynn",
+          "skin": "Sugar Rush",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28008",
+        "result_label": "Sugar Rush Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28008",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:28003",
+      "riot_skin_id": 28003,
+      "champion_id": "Evelynn",
+      "champion_riot_id": 28,
+      "champion_name": "Evelynn",
+      "name": "Tango Evelynn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "67f35aed-1fe9-4c46-8409-6dfc86d6d3fa",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-10-05",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        102
+      ],
+      "wiki_sets": [
+        "High Society"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin03/images/evelynn_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin03/images/evelynn_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin03/images/evelynn_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/evelynn/skins/skin03/evelynnloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Evelynn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:28003",
+        "result_label": "Tango Evelynn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:28003",
+        "champion_profile_ref": "data/champions/Evelynn.json",
+        "gameplay_profile_ref": "data/champions/Evelynn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Evelynn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

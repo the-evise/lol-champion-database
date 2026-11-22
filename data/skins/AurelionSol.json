@@ -1,0 +1,949 @@
+{
+  "champion_id": "AurelionSol",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136000",
+      "riot_skin_id": 136000,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Aurelion Sol",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "dedca7ca-b519-4133-a915-0ac65d4495aa",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2016-03-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/base/images/aurelionsol_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/base/images/aurelionsol_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/base/images/aurelionsol_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/base/aurelionsolloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d2a4b0af0efca07740b5fff1bd862457f6a6c59665f11e5b244e76983c545c07",
+        "biography_word_count": 64,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136000",
+        "result_label": "Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136000",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136001",
+      "riot_skin_id": 136001,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Ashen Lord Aurelion Sol",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "dee31d87-bee8-49f3-b5b8-5b3b8cc29dd0",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-03-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        86
+      ],
+      "wiki_sets": [
+        "Infernal"
+      ],
+      "universe_ids": [
+        "universe:infernal"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin01/images/aurelionsol_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin01/images/aurelionsol_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin01/images/aurelionsol_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin01/aurelionsolloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b53368d344d066561d5ab8ef261d5dbee433b78938a0d76ebdbfa7a596d7aa7d",
+        "biography_word_count": 36,
+        "source_id": "skins:client:AurelionSol",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Ashen Lord",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136001",
+        "result_label": "Ashen Lord Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136001",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136038",
+      "riot_skin_id": 136038,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Divine Architect Porcelain Aurelion Sol",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 38,
+      "content_id": "14a3d247-7637-4d50-a98c-0e8be32d0b6f",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2026-02-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": false,
+      "skinline_ids": [
+        154
+      ],
+      "wiki_sets": [
+        "Porcelain"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": "skin:136031",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin38/images/aurelionsol_splash_centered_38.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin38/images/aurelionsol_splash_uncentered_38.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin38/images/aurelionsol_splash_tile_38.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin38/aurelionsolloadscreen_38.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e41562343c417101720245bade2b38383b3aedf59ff47e741c7e90301c2fa479",
+        "biography_word_count": 55,
+        "source_id": "skins:client:AurelionSol",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Divine Architect Porcelain",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136038",
+        "result_label": "Divine Architect Porcelain Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136031",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136021",
+      "riot_skin_id": 136021,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Inkshadow Aurelion Sol",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "c7c81423-2891-495c-872b-9ab52b50b883",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-05-03",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        192
+      ],
+      "wiki_sets": [
+        "Inkshadow"
+      ],
+      "universe_ids": [
+        "universe:inkshadow-uprising"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 136022,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136023,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136024,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136025,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136026,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136027,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136028,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136029,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136030,
+          "parent_skin_id": "skin:136021",
+          "name": "Inkshadow Aurelion Sol (Inked)",
+          "colors": [
+            "#B5CED6",
+            "#33D889"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin21/images/aurelionsol_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin21/images/aurelionsol_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin21/images/aurelionsol_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin21/aurelionsolloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c8f35c89961ddb87314c7a7f6479ea664ec05798a89015e5e6a67d310861dee4",
+        "biography_word_count": 56,
+        "source_id": "skins:client:AurelionSol",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Inkshadow",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136021",
+        "result_label": "Inkshadow Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136021",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136002",
+      "riot_skin_id": 136002,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Mecha Aurelion Sol",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "42484d2d-5ef3-4546-b320-18d7369646b2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-08-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        35
+      ],
+      "wiki_sets": [
+        "Mecha"
+      ],
+      "universe_ids": [
+        "universe:mecha"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 136004,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136005,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136006,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136007,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136008,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136009,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136010,
+          "parent_skin_id": "skin:136002",
+          "name": "Mecha Aurelion Sol (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin02/images/aurelionsol_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin02/images/aurelionsol_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin02/images/aurelionsol_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin02/aurelionsolloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "784d4721c37c1407a6605c62b0cf226f537272cecd2062ec910cc99aec93783d",
+        "biography_word_count": 45,
+        "source_id": "skins:client:AurelionSol",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Mecha",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136002",
+        "result_label": "Mecha Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136002",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136031",
+      "riot_skin_id": 136031,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Porcelain Protector Aurelion Sol",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 31,
+      "content_id": "24802901-4690-40c1-bfe6-ff60310da50e",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2024-02-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        154
+      ],
+      "wiki_sets": [
+        "Porcelain"
+      ],
+      "universe_ids": [
+        "universe:lunar-new-year"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 136032,
+          "parent_skin_id": "skin:136031",
+          "name": "Porcelain Protector Aurelion Sol (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136033,
+          "parent_skin_id": "skin:136031",
+          "name": "Porcelain Protector Aurelion Sol (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136034,
+          "parent_skin_id": "skin:136031",
+          "name": "Porcelain Protector Aurelion Sol (Opulent)",
+          "colors": [
+            "#3AC8B1",
+            "#B0412A"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136035,
+          "parent_skin_id": "skin:136031",
+          "name": "Porcelain Protector Aurelion Sol (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136036,
+          "parent_skin_id": "skin:136031",
+          "name": "Porcelain Protector Aurelion Sol (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136037,
+          "parent_skin_id": "skin:136031",
+          "name": "Porcelain Protector Aurelion Sol (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin37/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin31/images/aurelionsol_splash_centered_31.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin31/images/aurelionsol_splash_uncentered_31.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin31/images/aurelionsol_splash_tile_31.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin31/aurelionsolloadscreen_31.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "9a04b935dc590775d702295b421c68259ed1f5bc5e3c3617db0076908fdf889e",
+        "biography_word_count": 59,
+        "source_id": "skins:client:AurelionSol",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Porcelain Protector",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136031",
+        "result_label": "Porcelain Protector Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136031",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:136011",
+      "riot_skin_id": 136011,
+      "champion_id": "AurelionSol",
+      "champion_riot_id": 136,
+      "champion_name": "Aurelion Sol",
+      "name": "Storm Dragon Aurelion Sol",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 11,
+      "content_id": "5205b5d9-dc74-43dd-a523-9d7e43613d5f",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-10-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        135
+      ],
+      "wiki_sets": [
+        "Dragonmancers"
+      ],
+      "universe_ids": [
+        "universe:four-beasts"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 136012,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136013,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136014,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Jadeclaw)",
+          "colors": [
+            "#88FF00",
+            "#00B170"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136015,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136016,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136017,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136018,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136019,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 136020,
+          "parent_skin_id": "skin:136011",
+          "name": "Storm Dragon Aurelion Sol (Emberclaw)",
+          "colors": [
+            "#110A20",
+            "#5C1111"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin11/images/aurelionsol_splash_centered_11.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin11/images/aurelionsol_splash_uncentered_11.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin11/images/aurelionsol_splash_tile_11.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/aurelionsol/skins/skin11/aurelionsolloadscreen_11.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c5a0904311daefcbd19c1d11cef7b27201af9b96c95eaeb932171ca8dd4585b3",
+        "biography_word_count": 50,
+        "source_id": "skins:client:AurelionSol",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Aurelion Sol",
+          "skin": "Storm Dragon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Aurelion_Sol/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:136011",
+        "result_label": "Storm Dragon Aurelion Sol",
+        "label_eligible": true,
+        "narrative_family_id": "skin:136011",
+        "champion_profile_ref": "data/champions/AurelionSol.json",
+        "gameplay_profile_ref": "data/champions/AurelionSol.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:AurelionSol",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

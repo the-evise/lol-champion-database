@@ -1,0 +1,147 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skin identity research record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "id",
+    "riot_skin_id",
+    "champion_id",
+    "name",
+    "is_base",
+    "kind",
+    "skinline_ids",
+    "universe_ids",
+    "chromas",
+    "lore",
+    "analysis",
+    "matching",
+    "provenance"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^(skin:[0-9]+|wiki:[A-Za-z0-9]+:.+)$"
+    },
+    "riot_skin_id": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "champion_id": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "is_base": {
+      "type": "boolean"
+    },
+    "kind": {
+      "enum": [
+        "base",
+        "skin",
+        "quest_tier",
+        "historical"
+      ]
+    },
+    "variant_of": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "skinline_ids": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "uniqueItems": true
+    },
+    "universe_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "chromas": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "parent_skin_id",
+          "kind",
+          "separate_personality_result"
+        ],
+        "properties": {
+          "kind": {
+            "const": "chroma"
+          },
+          "separate_personality_result": {
+            "const": false
+          }
+        }
+      }
+    },
+    "lore": {
+      "type": "object",
+      "required": [
+        "available",
+        "summary",
+        "source_id",
+        "raw_prose_redistributed"
+      ],
+      "properties": {
+        "available": {
+          "type": "boolean"
+        },
+        "summary": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw_prose_redistributed": {
+          "const": false
+        }
+      }
+    },
+    "analysis": {
+      "type": "object",
+      "properties": {
+        "personality_scores": {
+          "type": "null"
+        },
+        "inherit_base_personality_automatically": {
+          "const": false
+        }
+      }
+    },
+    "matching": {
+      "type": "object",
+      "required": [
+        "result_key",
+        "result_label",
+        "label_eligible",
+        "personalization_status"
+      ],
+      "properties": {
+        "label_eligible": {
+          "type": "boolean"
+        },
+        "personalization_status": {
+          "const": "unscored"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object"
+    }
+  }
+}

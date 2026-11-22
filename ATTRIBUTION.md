@@ -31,3 +31,11 @@ Changes: parsed the data-only Lua table, selected fields, joined to Riot IDs, re
 Original scripts are provided under the MIT license in `LICENSE`. Original editorial additions are shared under CC BY-SA 3.0 to accompany the attributed database, subject to underlying third-party rights. Source data is not covered by the MIT code license.
 
 This project is not endorsed by Riot Games. See the disclaimer in README.md.
+
+## Skin catalog additions
+
+Cosmetic names, artwork, biography source content, and client metadata remain Riot Games material. CommunityDragon distributes unpacked client data; this catalog uses its pinned **16.23** client payloads. Individual champion payloads establish inventory membership; bulk `skins.json`, `skinlines.json`, and `universes.json` supply IDs, appearance assets, chromas, and thematic relationships. Exact URLs and hashes are in `data/skin_sources.json`. CommunityDragon documentation: https://www.communitydragon.org/docs/assets
+
+Additional Wiki-derived fields come from `Module:SkinData/data` and `Module:SkinData/universes`, by the League of Legends Wiki contributors, under the site's CC BY-SA 3.0 terms. The source manifest includes the exact revisions, permalinks, and contributor-history URLs. Changes include parsing data-only Lua, selecting metadata, combining client and Wiki sources, distinguishing cosmetics from chromas and quest tiers, and resolving memberships. These adaptations remain CC BY-SA 3.0, subject to Riot's underlying rights.
+
+The catalog redistributes source references and hashes rather than the complete original skin biographies. Fifteen initial summaries are original paraphrases with source review pins. The local biography resolver retrieves originals for research on demand; its cache is excluded from git and the hosted UI.

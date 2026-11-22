@@ -1,0 +1,1670 @@
+{
+  "champion_id": "Fiddlesticks",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9000",
+      "riot_skin_id": 9000,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Fiddlesticks",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "6678847d-ce2e-4816-8a68-7b9a9d1c40de",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-02-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 585,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/base/images/fiddlesticks_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/base/images/fiddlesticks_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/base/images/fiddlesticks_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/base/fiddlesticksloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0e0edea46d95e871025ce20959a84013bed00eda9a513f5e799f8c6fc2d9a07d",
+        "biography_word_count": 75,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9000",
+        "result_label": "Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9000",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9003",
+      "riot_skin_id": 9003,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Bandito Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "31103d68-c4fd-41cb-978f-93d61c49485a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-08-10",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 9019,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9020,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9021,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9022,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9023,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9024,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9025,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9026,
+          "parent_skin_id": "skin:9003",
+          "name": "Bandito Fiddlesticks (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin03/images/fiddlesticks_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin03/images/fiddlesticks_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin03/images/fiddlesticks_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin03/fiddlesticksloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a493264bb70ffe5985075fbb494ac774532e054fc53adba5c5bb96343e3c9b38",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Bandito",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9003",
+        "result_label": "Bandito Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9003",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9037",
+      "riot_skin_id": 9037,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Blood Moon Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 37,
+      "content_id": "c4a199d7-bb98-4318-b2d7-58e6fc08b57b",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2024-04-18",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        12
+      ],
+      "wiki_sets": [
+        "Blood Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 9038,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin38/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9039,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin39/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9040,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin40/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9041,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin41/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9042,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin42/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9043,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin43/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9044,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin44/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9045,
+          "parent_skin_id": "skin:9037",
+          "name": "Blood Moon Fiddlesticks (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin45/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin37/images/fiddlesticks_splash_centered_37.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin37/images/fiddlesticks_splash_uncentered_37.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin37/images/fiddlesticks_splash_tile_37.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin37/fiddlesticksloadscreen_37.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2f5a3bfbcf4f7da11f62b807124439e66a1bdbc01cf8648c799d7d22e2ba79c1",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Blood Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9037",
+        "result_label": "Blood Moon Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9037",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60009301",
+      "riot_skin_id": 60009301,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Classic Fiddlesticks",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "6050fdf5-0f9e-4f9c-b513-38f3a9c01cbd",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60009302,
+          "parent_skin_id": "skin:60009301",
+          "name": "Classic Fiddlesticks (Spectral)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60009/60009302.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60009303,
+          "parent_skin_id": "skin:60009301",
+          "name": "Classic Fiddlesticks (Bandito)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_fiddlesticks/skins/skin302/chromapreview.project_jade_16_20.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_fiddlesticks/skins/skin301/images/jade_fiddlesticks_splash_centered_301.project_jade_16_16.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_fiddlesticks/skins/skin301/images/jade_fiddlesticks_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_fiddlesticks/skins/skin301/images/jade_fiddlesticks_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_fiddlesticks/skins/skin301/jade_fiddlesticksloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "1835f6ac11273e2f6afa7b20048f1f7db72647bc3b77542eee1ea1e1a085343c",
+        "biography_word_count": 48,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60009301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60009301",
+        "result_label": "Classic Fiddlesticks",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60009301",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9007",
+      "riot_skin_id": 9007,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Dark Candy Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "62253d83-15b8-443c-93e3-a9ddcc0611cb",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2012-12-14",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        57
+      ],
+      "wiki_sets": [
+        "Sugar Rush"
+      ],
+      "universe_ids": [
+        "universe:sugar-rush"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin07/images/fiddlesticks_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin07/images/fiddlesticks_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin07/images/fiddlesticks_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin07/fiddlesticksloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "abff6e888a1495cba38dced36c60de9834dde443fa033462ce49e487c3801085",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Dark Candy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9007",
+        "result_label": "Dark Candy Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9007",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9005",
+      "riot_skin_id": 9005,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Fiddle Me Timbers",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "e8a6e8f3-cf75-4c01-a54c-0035308f7317",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-04-26",
+      "retired_date": "2015-08-29",
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        49
+      ],
+      "wiki_sets": [
+        "Bilgewater: Burning Tides"
+      ],
+      "universe_ids": [
+        "universe:ages-of-runeterra"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin05/images/fiddlesticks_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin05/images/fiddlesticks_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin05/images/fiddlesticks_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin05/fiddlesticksloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "aedb66c020cff3f4f0eba89d260e3f1679ff8dcc169143aeb85d71ccef121b78",
+        "biography_word_count": 3,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Fiddle Me Timbers",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9005",
+        "result_label": "Fiddle Me Timbers",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9005",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9046",
+      "riot_skin_id": 9046,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Flora Fatalis Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 46,
+      "content_id": "7ed25918-923d-4ae7-8f92-8be03f0d5d91",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-10-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        221
+      ],
+      "wiki_sets": [
+        "Flora Fatalis"
+      ],
+      "universe_ids": [
+        "universe:flora-fatalis"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 9047,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin47/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9048,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin48/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9049,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin49/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9050,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin50/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9051,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin51/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9052,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin52/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9053,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin53/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9054,
+          "parent_skin_id": "skin:9046",
+          "name": "Flora Fatalis Fiddlesticks (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin54/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin46/images/fiddlesticks_splash_centered_46.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin46/images/fiddlesticks_splash_uncentered_46.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin46/images/fiddlesticks_splash_tile_46.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin46/fiddlesticksloadscreen_46.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "07f5456e5ddc104f6015c6822139170364a3ace770405224cf407b0892b94aa7",
+        "biography_word_count": 57,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/12/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Flora Fatalis",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9046",
+        "result_label": "Flora Fatalis Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9046",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9009",
+      "riot_skin_id": 9009,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Praetorian Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "17aff872-5d68-49b0-9c05-ef26d61be8ea",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2018-11-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        90
+      ],
+      "wiki_sets": [
+        "Praetorian"
+      ],
+      "universe_ids": [
+        "universe:pulsefire"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 9010,
+          "parent_skin_id": "skin:9009",
+          "name": "Praetorian Fiddlesticks (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9011,
+          "parent_skin_id": "skin:9009",
+          "name": "Praetorian Fiddlesticks (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9012,
+          "parent_skin_id": "skin:9009",
+          "name": "Praetorian Fiddlesticks (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9013,
+          "parent_skin_id": "skin:9009",
+          "name": "Praetorian Fiddlesticks (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9014,
+          "parent_skin_id": "skin:9009",
+          "name": "Praetorian Fiddlesticks (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9015,
+          "parent_skin_id": "skin:9009",
+          "name": "Praetorian Fiddlesticks (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin09/images/fiddlesticks_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin09/images/fiddlesticks_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin09/images/fiddlesticks_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin09/fiddlesticksloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8dce274c305b4f68e8425ae16922b55954e82d3f91b32434f8da8360e653dafe",
+        "biography_word_count": 50,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Praetorian",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9009",
+        "result_label": "Praetorian Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9009",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9004",
+      "riot_skin_id": 9004,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Pumpkinhead Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "3e69a7c5-10ed-4381-b152-d4be30dbe952",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        88
+      ],
+      "wiki_sets": [
+        "Trick-or-Treat"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin04/images/fiddlesticks_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin04/images/fiddlesticks_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin04/images/fiddlesticks_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin04/fiddlesticksloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "56b66f1f21e55ab5e4ed60dbdcfb7db2c0091cc0ad6ae5745dc398b6365e5e9c",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Pumpkinhead",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9004",
+        "result_label": "Pumpkinhead Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9004",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9008",
+      "riot_skin_id": 9008,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Risen Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "45c975b9-c82e-419a-a450-45fc71c3d693",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-04-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin08/images/fiddlesticks_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin08/images/fiddlesticks_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin08/images/fiddlesticks_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin08/fiddlesticksloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6123431ca55027b79c25a7fe4d44475d86d37098d4e57a0d239eeb7808908d5e",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Risen",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9008",
+        "result_label": "Risen Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9008",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9001",
+      "riot_skin_id": 9001,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Spectral Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "eb216a39-3987-478a-9053-d083a5c90544",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2010-03-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        80
+      ],
+      "wiki_sets": [
+        "Omen of the Dark"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin01/images/fiddlesticks_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin01/images/fiddlesticks_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin01/images/fiddlesticks_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin01/fiddlesticksloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ece395e78ec870240e3dc5fef31e302515f1aeb4c7a428adeb458fc194482961",
+        "biography_word_count": 44,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Spectral",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9001",
+        "result_label": "Spectral Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9001",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9027",
+      "riot_skin_id": 9027,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Star Nemesis Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 27,
+      "content_id": "7633c58f-60ce-4570-a9ef-ffcb3a39fea2",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-07-14",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        161
+      ],
+      "wiki_sets": [
+        "Star Guardian Season 4"
+      ],
+      "universe_ids": [
+        "universe:star-guardian"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 9028,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9029,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9030,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9031,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin31/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9032,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin32/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9033,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin33/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9034,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin34/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9035,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin35/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9036,
+          "parent_skin_id": "skin:9027",
+          "name": "Star Nemesis Fiddlesticks (Wicked)",
+          "colors": [
+            "#5F4AFF",
+            "#B11450"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin36/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin27/images/fiddlesticks_splash_centered_27.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin27/images/fiddlesticks_splash_uncentered_27.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin27/images/fiddlesticks_splash_tile_27.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin27/fiddlesticksloadscreen_27.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b9f3d82fc2ffdbc9e802ea7f8e1c5e774686fd88979b63a380d8cdb3f5a7195b",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Star Nemesis",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9027",
+        "result_label": "Star Nemesis Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9027",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9006",
+      "riot_skin_id": 9006,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Surprise Party Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "f40172cc-decf-473d-a869-49426feb88f9",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2011-10-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        169
+      ],
+      "wiki_sets": [
+        "Surprise Party"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 9016,
+          "parent_skin_id": "skin:9006",
+          "name": "Surprise Party Fiddlesticks (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9017,
+          "parent_skin_id": "skin:9006",
+          "name": "Surprise Party Fiddlesticks (Peridot)",
+          "colors": [
+            "#B6E084",
+            "#B6E084"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 9018,
+          "parent_skin_id": "skin:9006",
+          "name": "Surprise Party Fiddlesticks (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin06/images/fiddlesticks_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin06/images/fiddlesticks_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin06/images/fiddlesticks_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin06/fiddlesticksloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f3dc32541934c401e430204c36d8345db46ca2a15198161e39a2eabe0dcbb6d5",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Surprise Party",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9006",
+        "result_label": "Surprise Party Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9006",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:9002",
+      "riot_skin_id": 9002,
+      "champion_id": "Fiddlesticks",
+      "champion_riot_id": 9,
+      "champion_name": "Fiddlesticks",
+      "name": "Union Jack Fiddlesticks",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "f286c78a-3cfe-413e-a6e9-87aab15d4ba4",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-02-12",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        28
+      ],
+      "wiki_sets": [
+        "Winter Sports"
+      ],
+      "universe_ids": [
+        "universe:winter-sports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin02/images/fiddlesticks_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin02/images/fiddlesticks_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin02/images/fiddlesticks_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/fiddlesticks/skins/skin02/fiddlesticksloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e97b5026a0ec9a5870353a06bb2a6bb2791f2936e0eb3f395f02bcb70116d17f",
+        "biography_word_count": 3,
+        "source_id": "skins:client:Fiddlesticks",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Fiddlesticks",
+          "skin": "Union Jack",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Fiddlesticks/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:9002",
+        "result_label": "Union Jack Fiddlesticks",
+        "label_eligible": true,
+        "narrative_family_id": "skin:9002",
+        "champion_profile_ref": "data/champions/Fiddlesticks.json",
+        "gameplay_profile_ref": "data/champions/Fiddlesticks.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Fiddlesticks",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

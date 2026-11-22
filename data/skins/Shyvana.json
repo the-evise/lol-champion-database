@@ -1,0 +1,1039 @@
+{
+  "champion_id": "Shyvana",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102000",
+      "riot_skin_id": 102000,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Shyvana",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "0b591b96-6840-4c00-a1c6-e087550d903a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 790,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/base/images/shyvana_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/base/images/shyvana_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/base/images/shyvana_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/base/shyvanaloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c812ab29a34b0d7d0691cccdc8f464ece487a845a89ef5a553c68abd44b434c7",
+        "biography_word_count": 64,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102000",
+        "result_label": "Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102000",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102002",
+      "riot_skin_id": 102002,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Boneclaw Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "9e5e120b-c4ff-4bcd-bac4-6e120a42705b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        32
+      ],
+      "wiki_sets": [
+        "Prehistoric Hunters"
+      ],
+      "universe_ids": [
+        "universe:prehistoric-hunters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin02/images/shyvana_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin02/images/shyvana_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin02/images/shyvana_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin02/shyvanaloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "88ba02802c0af997f0bb274cfba6eaa7d742dabdcc8ae27fee7f16c8fe047d4d",
+        "biography_word_count": 45,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Boneclaw",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102002",
+        "result_label": "Boneclaw Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102002",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60102301",
+      "riot_skin_id": 60102301,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Classic Shyvana",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "56d676ce-0281-4d5b-b240-652b37bea3b3",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60102302,
+          "parent_skin_id": "skin:60102301",
+          "name": "Classic Shyvana (Ironscale)",
+          "colors": [
+            "#85827F",
+            "#85827F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60102/60102302.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 60102303,
+          "parent_skin_id": "skin:60102301",
+          "name": "Classic Shyvana (Boneclaw)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/v1/champion-chroma-images/60102/60102303.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_shyvana/skins/skin301/images/jade_shyvana_splash_centered_301.project_jade_16_18.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_shyvana/skins/skin301/images/jade_shyvana_splash_uncentered_301.project_jade_16_18.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_shyvana/skins/skin301/images/jade_shyvana_splash_tile_301.project_jade_16_18.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_shyvana/skins/skin301/jade_shyvanaloadscreen_301.project_jade_16_18.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60102301",
+        "result_label": "Classic Shyvana",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60102301",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102003",
+      "riot_skin_id": 102003,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Darkflame Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "0f9d5404-6c5e-4e65-bf55-eda6a367a69a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2012-05-28",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin03/images/shyvana_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin03/images/shyvana_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin03/images/shyvana_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin03/shyvanaloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3044a9bffd706b538b01a05238abacfbce16f82c825f58ddee78fa7807b117d6",
+        "biography_word_count": 34,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Darkflame",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102003",
+        "result_label": "Darkflame Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102003",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102004",
+      "riot_skin_id": 102004,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Ice Drake Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "ac89f60f-08f3-4ed5-9681-eb746c191d6b",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2013-04-29",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        129
+      ],
+      "wiki_sets": [
+        "Blackfrost"
+      ],
+      "universe_ids": [
+        "universe:blackfrost"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin04/images/shyvana_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin04/images/shyvana_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin04/images/shyvana_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin04/shyvanaloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "c62734b3c74793f9a33f5a0d3a54b97b6f535f95b4e9f32407281df80ba83343",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Ice Drake",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102004",
+        "result_label": "Ice Drake Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102004",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102017",
+      "riot_skin_id": 102017,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Immortal Journey Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 17,
+      "content_id": "db222d8a-ca71-4081-9ac6-f2bfb3197980",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-08-16",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        81
+      ],
+      "wiki_sets": [
+        "Immortal Journey"
+      ],
+      "universe_ids": [
+        "universe:immortal-journey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 102018,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102019,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102020,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102021,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102022,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102023,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102024,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102025,
+          "parent_skin_id": "skin:102017",
+          "name": "Immortal Journey Shyvana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin17/images/shyvana_splash_centered_17.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin17/images/shyvana_splash_uncentered_17.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin17/images/shyvana_splash_tile_17.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin17/shyvanaloadscreen_17.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ad3785ecd60172b29bf5c85a2a14e61c2a79dda9338b48677ee79b5d0ae12a26",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Immortal Journey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102017",
+        "result_label": "Immortal Journey Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102017",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102008",
+      "riot_skin_id": 102008,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Ruined Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "ad86250e-d3a7-4983-840d-42cdf1241322",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-01-21",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        138
+      ],
+      "wiki_sets": [
+        "Ruined"
+      ],
+      "universe_ids": [
+        "universe:the-ruined-king-saga"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 102009,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102010,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102011,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102012,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102013,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102014,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102015,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 102016,
+          "parent_skin_id": "skin:102008",
+          "name": "Ruined Shyvana (Cursed)",
+          "colors": [
+            "#050B19",
+            "#ECC124"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/images/shyvana_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/images/shyvana_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/images/shyvana_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin08/shyvanaloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "6ce2619df94289dee80922e5d741a2825a8d2926b297ee10de7a582d79fac05b",
+        "biography_word_count": 41,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Ruined",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102008",
+        "result_label": "Ruined Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102008",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102001",
+      "riot_skin_id": 102001,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Shyvana Ironscale",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "aa1ad59a-98c1-4a28-a001-b26a64daa2de",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-11-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        38
+      ],
+      "wiki_sets": [
+        "Rift Quest"
+      ],
+      "universe_ids": [
+        "universe:riftquest"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin01/images/shyvana_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin01/images/shyvana_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin01/images/shyvana_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin01/shyvanaloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e2239f2967d339e798548807ecfc0b239f1d8a232706abaa680f255017951bfc",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Shyvana Ironscale",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102001",
+        "result_label": "Shyvana Ironscale",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102001",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102006",
+      "riot_skin_id": 102006,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Super Galaxy Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "3daa6a01-4082-4800-8c32-139ca0f02579",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-05-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        21
+      ],
+      "wiki_sets": [
+        "Super Galaxy"
+      ],
+      "universe_ids": [
+        "universe:super-galaxy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin06/images/shyvana_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin06/images/shyvana_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin06/images/shyvana_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin06/shyvanaloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "d3056ff81e43c2976a1d9398724821757e2b2c7c92ddebce68f2272a26450e01",
+        "biography_word_count": 59,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Super Galaxy",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102006",
+        "result_label": "Super Galaxy Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102006",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:102005",
+      "riot_skin_id": 102005,
+      "champion_id": "Shyvana",
+      "champion_riot_id": 102,
+      "champion_name": "Shyvana",
+      "name": "Worlds 2014 Shyvana",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "ada23378-1748-4a4a-8415-293222beb318",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2014-10-13",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        8
+      ],
+      "wiki_sets": [
+        "World Championship"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 102007,
+          "parent_skin_id": "skin:102005",
+          "name": "Worlds 2014 Shyvana (Golden)",
+          "colors": [
+            "#FFC948",
+            "#FFC948"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin05/images/shyvana_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin05/images/shyvana_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin05/images/shyvana_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/shyvana/skins/skin05/shyvanaloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "f870e599d8f21a116259d8ed204fffe690eda4eea9be31f68f04bb5d3ac59b70",
+        "biography_word_count": 5,
+        "source_id": "skins:client:Shyvana",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Shyvana",
+          "skin": "Worlds 2014",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Shyvana/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:102005",
+        "result_label": "Worlds 2014 Shyvana",
+        "label_eligible": true,
+        "narrative_family_id": "skin:102005",
+        "champion_profile_ref": "data/champions/Shyvana.json",
+        "gameplay_profile_ref": "data/champions/Shyvana.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Shyvana",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

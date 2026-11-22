@@ -1,0 +1,1063 @@
+{
+  "champion_id": "Kayn",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141000",
+      "riot_skin_id": 141000,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Kayn",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "97e87d90-ba7b-4398-8c90-228690082e90",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2017-07-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/base/images/kayn_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/base/images/kayn_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/base/images/kayn_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/base/kaynloadscreen.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "4f6185e7e7f26a7a6373ea04687ea42cce609a1b87debd3b7e2bb0517c6d7079",
+        "biography_word_count": 76,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141000",
+        "result_label": "Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141000",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141026",
+      "riot_skin_id": 141026,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Battle Academia Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 26,
+      "content_id": "c64de446-d63f-481a-ba19-8086d0fc4eb7",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2025-03-19",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        113
+      ],
+      "wiki_sets": [
+        "Battle Academia"
+      ],
+      "universe_ids": [
+        "universe:god-weapon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 141027,
+          "parent_skin_id": "skin:141026",
+          "name": "Battle Academia Kayn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141028,
+          "parent_skin_id": "skin:141026",
+          "name": "Battle Academia Kayn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141029,
+          "parent_skin_id": "skin:141026",
+          "name": "Battle Academia Kayn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141030,
+          "parent_skin_id": "skin:141026",
+          "name": "Battle Academia Kayn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin30/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin26/images/kayn_splash_centered_26.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin26/images/kayn_splash_uncentered_26.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin26/images/kayn_splash_tile_26.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin26/kaynloadscreen_26.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3cbcc890657c41a7b072ce70bb7bf8349dd4635c7a27c42b27821ef352129761",
+        "biography_word_count": 54,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "Battle Academia",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141026",
+        "result_label": "Battle Academia Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141026",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141020",
+      "riot_skin_id": 141020,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "HEARTSTEEL Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 20,
+      "content_id": "a3d0eb79-5dc6-4c9e-9fc6-c03d54cbac09",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2023-11-08",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        199
+      ],
+      "wiki_sets": [
+        "HEARTSTEEL"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 141021,
+          "parent_skin_id": "skin:141020",
+          "name": "HEARTSTEEL Kayn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin21/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141022,
+          "parent_skin_id": "skin:141020",
+          "name": "HEARTSTEEL Kayn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141023,
+          "parent_skin_id": "skin:141020",
+          "name": "HEARTSTEEL Kayn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141024,
+          "parent_skin_id": "skin:141020",
+          "name": "HEARTSTEEL Kayn (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141025,
+          "parent_skin_id": "skin:141020",
+          "name": "HEARTSTEEL Kayn (Rockstar)",
+          "colors": [
+            "#CDE9EF",
+            "#E9628F"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin20/images/kayn_splash_centered_20.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin20/images/kayn_splash_uncentered_20.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin20/images/kayn_splash_tile_20.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin20/kaynloadscreen_20.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5f19ac5546512ee5ae4a67c94e94ead347b4ee5842b4a5492ecd323e0a1d666f",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "HEARTSTEEL",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141020",
+        "result_label": "HEARTSTEEL Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141020",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141032",
+      "riot_skin_id": 141032,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "HEARTSTEEL Live My Life Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 32,
+      "content_id": "5a47098b-7b18-4927-8bbb-6b064b60fa12",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2026-10-07",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        199
+      ],
+      "wiki_sets": [
+        "HEARTSTEEL"
+      ],
+      "universe_ids": [
+        "universe:riot-records"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 141033,
+          "parent_skin_id": "skin:141032",
+          "name": "HEARTSTEEL Live My Life Kayn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin33/chromapreview.chroma_kayn_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141034,
+          "parent_skin_id": "skin:141032",
+          "name": "HEARTSTEEL Live My Life Kayn (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin34/chromapreview.chroma_kayn_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141035,
+          "parent_skin_id": "skin:141032",
+          "name": "HEARTSTEEL Live My Life Kayn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin35/chromapreview.chroma_kayn_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141036,
+          "parent_skin_id": "skin:141032",
+          "name": "HEARTSTEEL Live My Life Kayn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin36/chromapreview.chroma_kayn_heartsteel.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin32/images/kayn_splash_centered_32.skins_kayn_skin32.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin32/images/kayn_splash_uncentered_32.skins_kayn_skin32.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin32/images/kayn_splash_tile_32.skins_kayn_skin32.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin32/kaynloadscreen_32.skins_kayn_skin32.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8e4bfe9af26bc5a48f1bb26c1b5b379f9220b485badb8186da08f13909f59211",
+        "biography_word_count": 62,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "HEARTSTEEL Live My Life",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141032",
+        "result_label": "HEARTSTEEL Live My Life Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141032",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141008",
+      "riot_skin_id": 141008,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Nightbringer Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "c2f913f9-309d-4d26-ad72-ece0a9de33dc",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2021-09-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 141010,
+          "parent_skin_id": "skin:141008",
+          "name": "Nightbringer Kayn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141011,
+          "parent_skin_id": "skin:141008",
+          "name": "Nightbringer Kayn (Catseye)",
+          "colors": [
+            "#FFEE59",
+            "#FFEE59"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141012,
+          "parent_skin_id": "skin:141008",
+          "name": "Nightbringer Kayn (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141013,
+          "parent_skin_id": "skin:141008",
+          "name": "Nightbringer Kayn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141014,
+          "parent_skin_id": "skin:141008",
+          "name": "Nightbringer Kayn (Deathbringer)",
+          "colors": [
+            "#1E1B1A",
+            "#FFFFFF"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin08/images/kayn_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin08/images/kayn_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin08/images/kayn_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin08/kaynloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "aeb7807a2c7a243fed16a4ef7b79e7ba5d7789a25afc9e61b1743c389acb7c37",
+        "biography_word_count": 52,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141008",
+        "result_label": "Nightbringer Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141008",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141002",
+      "riot_skin_id": 141002,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Odyssey Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "d9cebdaa-0acf-4e62-a1ca-34383ffba698",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2018-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        73
+      ],
+      "wiki_sets": [
+        "Odyssey"
+      ],
+      "universe_ids": [
+        "universe:odyssey"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 141003,
+          "parent_skin_id": "skin:141002",
+          "name": "Odyssey Kayn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin03/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141004,
+          "parent_skin_id": "skin:141002",
+          "name": "Odyssey Kayn (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin04/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141005,
+          "parent_skin_id": "skin:141002",
+          "name": "Odyssey Kayn (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin05/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141006,
+          "parent_skin_id": "skin:141002",
+          "name": "Odyssey Kayn (Merc)",
+          "colors": [
+            "#0C0C0F",
+            "#9B1520"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141007,
+          "parent_skin_id": "skin:141002",
+          "name": "Odyssey Kayn (Sapphire)",
+          "colors": [
+            "#2756CE",
+            "#2756CE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin02/images/kayn_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin02/images/kayn_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin02/images/kayn_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin02/kaynloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "47ff09faa492a3ffe0ad6ca976b874cebeea82eb7e84923c2b0ddec7577008d3",
+        "biography_word_count": 51,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "Odyssey",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141002",
+        "result_label": "Odyssey Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141002",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141009",
+      "riot_skin_id": 141009,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Prestige Nightbringer Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "3b8e1cc5-c526-47bf-aa09-b2f255244d13",
+      "rarity": "Mythic",
+      "availability": "Rare",
+      "release_date": "2021-09-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Special",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        193
+      ],
+      "wiki_sets": [
+        "Nightbringer and Dawnbringer"
+      ],
+      "universe_ids": [
+        "universe:versus"
+      ],
+      "variant_of": "skin:141008",
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin09/images/kayn_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin09/images/kayn_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin09/images/kayn_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin09/kaynloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2d5f0bca4ec4f97aa1680eac757d69ed5d2ab5dae8d64fb4a64230cad3a9e120",
+        "biography_word_count": 47,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "Prestige Nightbringer",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141009",
+        "result_label": "Prestige Nightbringer Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141008",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141015",
+      "riot_skin_id": 141015,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Snow Moon Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 15,
+      "content_id": "6fee88be-ee21-46e4-8634-4004173b52f4",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2022-06-23",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        160
+      ],
+      "wiki_sets": [
+        "Snow Moon"
+      ],
+      "universe_ids": [
+        "universe:moons-of-ionia"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 141016,
+          "parent_skin_id": "skin:141015",
+          "name": "Snow Moon Kayn (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141017,
+          "parent_skin_id": "skin:141015",
+          "name": "Snow Moon Kayn (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141018,
+          "parent_skin_id": "skin:141015",
+          "name": "Snow Moon Kayn (Amethyst)",
+          "colors": [
+            "#9C68D7",
+            "#9C68D7"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 141019,
+          "parent_skin_id": "skin:141015",
+          "name": "Snow Moon Kayn (Meteorite)",
+          "colors": [
+            "#5F432B",
+            "#5F432B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin15/images/kayn_splash_centered_15.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin15/images/kayn_splash_uncentered_15.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin15/images/kayn_splash_tile_15.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin15/kaynloadscreen_15.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a4f3499b8b991fb14d5f239dbdf6f1f02910150a2d43a7e9db0a6c95419e01d3",
+        "biography_word_count": 55,
+        "source_id": "skins:client:Kayn",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Kayn",
+          "skin": "Snow Moon",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141015",
+        "result_label": "Snow Moon Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141015",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:141001",
+      "riot_skin_id": 141001,
+      "champion_id": "Kayn",
+      "champion_riot_id": 141,
+      "champion_name": "Kayn",
+      "name": "Soulhunter Kayn",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "f092e6ba-4b0f-4a55-be94-801a0f1a63da",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2017-07-11",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        74
+      ],
+      "wiki_sets": [
+        "Bilgewater: Curse of the Drowned"
+      ],
+      "universe_ids": [
+        "universe:dark-waters"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin01/images/kayn_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin01/images/kayn_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin01/images/kayn_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/kayn/skins/skin01/kaynloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": false,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": null,
+        "biography_word_count": 0,
+        "source_id": null,
+        "json_pointer": null,
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Kayn/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:141001",
+        "result_label": "Soulhunter Kayn",
+        "label_eligible": true,
+        "narrative_family_id": "skin:141001",
+        "champion_profile_ref": "data/champions/Kayn.json",
+        "gameplay_profile_ref": "data/champions/Kayn.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Kayn",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

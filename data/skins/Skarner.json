@@ -1,0 +1,747 @@
+{
+  "champion_id": "Skarner",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72000",
+      "riot_skin_id": 72000,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Skarner",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "bcbb9c94-af66-419d-9a39-3aeb38c2ff72",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 880,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/base/images/skarner_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/base/images/skarner_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/base/images/skarner_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/base/skarnerloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "bca2b3a8a9e2a5bc2a8aabb19886f403ea4f01e263be39342e504f423a75cceb",
+        "biography_word_count": 83,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72000",
+        "result_label": "Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72000",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72003",
+      "riot_skin_id": 72003,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Battlecast Alpha Skarner",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "92ce87fd-63ba-4cc4-a964-8975e56949e2",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2014-11-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        25
+      ],
+      "wiki_sets": [
+        "Battlecast"
+      ],
+      "universe_ids": [
+        "universe:battlecast"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin03/images/skarner_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin03/images/skarner_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin03/images/skarner_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin03/skarnerloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "ea49098eab2bc5f67f420f6b4aefb9a2976a617e259fdea6c94d8b9f3589cf88",
+        "biography_word_count": 46,
+        "source_id": "skins:client:Skarner",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Battlecast Alpha",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72003",
+        "result_label": "Battlecast Alpha Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72003",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60072301",
+      "riot_skin_id": 60072301,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Classic Skarner",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "f81d0d48-654f-4c91-a15f-8524e7cf85b7",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60072302,
+          "parent_skin_id": "skin:60072301",
+          "name": "Classic Skarner (Sandscourge)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_skarner/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_skarner/skins/base/images/jade_skarner_rework_splash_centered_0.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_skarner/skins/base/images/jade_skarner_rework_splash_uncentered_0.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_skarner/skins/base/images/jade_skarner_rework_splash_tile_0.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_skarner/skins/skin301/jade_skarnerloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "a49684c7480d66f8367ef8844ae67f7b34daef7436b9ebd20c47a7da2fc8d428",
+        "biography_word_count": 58,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60072301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60072301",
+        "result_label": "Classic Skarner",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60072301",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72005",
+      "riot_skin_id": 72005,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Cosmic Sting Skarner",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "da2df2ab-cf2a-4aa1-b3d3-e69427cd1198",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2020-11-24",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        43
+      ],
+      "wiki_sets": [
+        "Cosmic"
+      ],
+      "universe_ids": [
+        "universe:event-horizon"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 72006,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin06/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72007,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin07/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72008,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin08/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72009,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin09/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72010,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin10/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72011,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72012,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 72013,
+          "parent_skin_id": "skin:72005",
+          "name": "Cosmic Sting Skarner (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin05/images/skarner_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin05/images/skarner_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin05/images/skarner_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin05/skarnerloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "3c21b2367b8b9eee25974f89e03215e59f460d98bb62c138daa1fe04034e16e8",
+        "biography_word_count": 53,
+        "source_id": "skins:client:Skarner",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Cosmic Sting",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72005",
+        "result_label": "Cosmic Sting Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72005",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72002",
+      "riot_skin_id": 72002,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Earthrune Skarner",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "46779901-f7d9-4421-91f2-8e44999aaafb",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin02/images/skarner_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin02/images/skarner_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin02/images/skarner_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin02/skarnerloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "e45eca65bfd2f483ee0e886139804de35becb48129932f9814fd819acde86a3c",
+        "biography_word_count": 58,
+        "source_id": "skins:client:Skarner",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Earthrune",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72002",
+        "result_label": "Earthrune Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72002",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72004",
+      "riot_skin_id": 72004,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Guardian of the Sands Skarner",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "60482ef3-ba77-463f-8f58-58ef95527698",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2015-04-26",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        66
+      ],
+      "wiki_sets": [
+        "Guardian of the Sands"
+      ],
+      "universe_ids": [
+        "universe:guardian-of-the-sands"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin04/images/skarner_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin04/images/skarner_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin04/images/skarner_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin04/skarnerloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "33efd80dc9d007d746464b078b20580f1af4a7cd52dde690c4d9fab424e1cf64",
+        "biography_word_count": 37,
+        "source_id": "skins:client:Skarner",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Guardian of the Sands",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72004",
+        "result_label": "Guardian of the Sands Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72004",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72014",
+      "riot_skin_id": 72014,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Mecha Kingdoms Skarner",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 14,
+      "content_id": "9966ed08-aad5-4255-90bd-f18a6e5ffc83",
+      "rarity": "Epic",
+      "availability": "Rare",
+      "release_date": "2025-10-22",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": "Battle Pass",
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        127
+      ],
+      "wiki_sets": [
+        "Mecha Kingdoms"
+      ],
+      "universe_ids": [
+        "universe:mecha-kingdoms"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin14/images/skarner_splash_centered_14.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin14/images/skarner_splash_uncentered_14.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin14/images/skarner_splash_tile_14.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin14/skarnerloadscreen_14.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8bfa4f69ecd911f099c2e61bd8a60009836185e14856d9c0f3bdcc039dec1d87",
+        "biography_word_count": 48,
+        "source_id": "skins:client:Skarner",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Mecha Kingdoms",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72014",
+        "result_label": "Mecha Kingdoms Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72014",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:72001",
+      "riot_skin_id": 72001,
+      "champion_id": "Skarner",
+      "champion_riot_id": 72,
+      "champion_name": "Skarner",
+      "name": "Sandscourge Skarner",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "5d597b5f-b680-4cd9-a319-76c674887de7",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2011-08-09",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        39
+      ],
+      "wiki_sets": [
+        "High Noon"
+      ],
+      "universe_ids": [
+        "universe:high-noon-gothic"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin01/images/skarner_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin01/images/skarner_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin01/images/skarner_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/skarner/skins/skin01/skarnerloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "2725683874f0d50d19da0e96ecd32e31badf60fd51d831ec0d7807d9877248c8",
+        "biography_word_count": 61,
+        "source_id": "skins:client:Skarner",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Skarner",
+          "skin": "Sandscourge",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Skarner/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:72001",
+        "result_label": "Sandscourge Skarner",
+        "label_eligible": true,
+        "narrative_family_id": "skin:72001",
+        "champion_profile_ref": "data/champions/Skarner.json",
+        "gameplay_profile_ref": "data/champions/Skarner.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:Skarner",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}

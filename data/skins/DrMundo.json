@@ -1,0 +1,1285 @@
+{
+  "champion_id": "DrMundo",
+  "skins": [
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36000",
+      "riot_skin_id": 36000,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Dr. Mundo",
+      "is_base": true,
+      "kind": "base",
+      "inventory_scope": "client_inventory",
+      "skin_num": 0,
+      "content_id": "baa21599-aea6-4276-9630-7e1861f2151a",
+      "rarity": "Standard",
+      "availability": "Available",
+      "release_date": "2009-09-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 260,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/base/images/drmundo_splash_centered_0.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/base/images/drmundo_splash_uncentered_0.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/base/images/drmundo_splash_tile_0.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/base/drmundoloadscreen_0.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "86eba6b6894dbac65af7e57bd7f5df12d31264b680137ea5cefdcdd27dee1a52",
+        "biography_word_count": 92,
+        "source_id": "skins:wiki",
+        "json_pointer": null,
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Original",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36000",
+        "result_label": "Dr. Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36000",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:60036301",
+      "riot_skin_id": 60036301,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Classic Dr. Mundo",
+      "is_base": false,
+      "kind": "historical",
+      "inventory_scope": "classic_archive",
+      "skin_num": null,
+      "content_id": "e4fe5a5f-9999-4105-b802-1fc9d95d10db",
+      "rarity": "Standard",
+      "availability": "Historical archive",
+      "release_date": null,
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": null,
+      "loot_eligible_wiki": null,
+      "skinline_ids": [],
+      "wiki_sets": [],
+      "universe_ids": [],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 60036302,
+          "parent_skin_id": "skin:60036301",
+          "name": "Classic Dr. Mundo (Toxic)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_drmundo/skins/skin302/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_drmundo/skins/skin301/images/jade_drmundo_splash_centered_301.project_jade.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_drmundo/skins/skin301/images/jade_drmundo_splash_uncentered_301.project_jade.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_drmundo/skins/skin301/images/jade_drmundo_splash_tile_301.project_jade.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/jade_drmundo/skins/skin301/jade_drmundoloadscreen_301.project_jade.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "5d857a264c51f96fea59e9aa4a7900600ebaa29fc4aa7ce03859dc9543ed941b",
+        "biography_word_count": 62,
+        "source_id": "skins:cdragon",
+        "json_pointer": "/60036301/description",
+        "wiki_locator": null,
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:60036301",
+        "result_label": "Classic Dr. Mundo",
+        "label_eligible": false,
+        "narrative_family_id": "skin:60036301",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36003",
+      "riot_skin_id": 36003,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Corporate Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 3,
+      "content_id": "921c4613-1e26-4f68-a155-c90ac9670964",
+      "rarity": "Legendary",
+      "availability": "Available",
+      "release_date": "2010-09-12",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1820,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        100
+      ],
+      "wiki_sets": [
+        "Day Job"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 36016,
+          "parent_skin_id": "skin:36003",
+          "name": "Corporate Mundo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin16/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36017,
+          "parent_skin_id": "skin:36003",
+          "name": "Corporate Mundo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin17/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36018,
+          "parent_skin_id": "skin:36003",
+          "name": "Corporate Mundo (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin18/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36019,
+          "parent_skin_id": "skin:36003",
+          "name": "Corporate Mundo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin19/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36020,
+          "parent_skin_id": "skin:36003",
+          "name": "Corporate Mundo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin20/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin03/images/drmundo_splash_centered_3.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin03/images/drmundo_splash_uncentered_3.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin03/images/drmundo_splash_tile_3.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin03/drmundoloadscreen_3.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "480d5445380a717ebcc19c912ae26d126be691bc981fb63083ee2cad95aa47c8",
+        "biography_word_count": 20,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/3/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Corporate Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36003",
+        "result_label": "Corporate Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36003",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36009",
+      "riot_skin_id": 36009,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "El Macho Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 9,
+      "content_id": "fe6f5a5f-1db3-45d1-a644-08992047fb4a",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2016-06-01",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        34
+      ],
+      "wiki_sets": [
+        "Luchador"
+      ],
+      "universe_ids": [
+        "universe:the-grind"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin09/images/drmundo_splash_centered_9.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin09/images/drmundo_splash_uncentered_9.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin09/images/drmundo_splash_tile_9.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin09/drmundoloadscreen_9.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "98b06225a6c74913f2434d3c4ddd8379ad581d85f3ec51aa34e2ea451204a7f5",
+        "biography_word_count": 51,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/9/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "El Macho Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36009",
+        "result_label": "El Macho Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36009",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36005",
+      "riot_skin_id": 36005,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Executioner Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 5,
+      "content_id": "4ae36d74-7a7d-4ec7-8f89-47ea72962fba",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2011-06-17",
+      "retired_date": "2014-12-02",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        80
+      ],
+      "wiki_sets": [
+        "Omen of the Dark"
+      ],
+      "universe_ids": [
+        "universe:eclipse"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin05/images/drmundo_splash_centered_5.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin05/images/drmundo_splash_uncentered_5.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin05/images/drmundo_splash_tile_5.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin05/drmundoloadscreen_5.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0c4cedd0551c3be45d42149ae26aa26fe63b859c1198258f6b8a4c292185a2d3",
+        "biography_word_count": 29,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/5/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Executioner Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36005",
+        "result_label": "Executioner Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36005",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36010",
+      "riot_skin_id": 36010,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Frozen Prince Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 10,
+      "content_id": "8bde95da-317b-4d5f-9ef5-f2c5d65d3584",
+      "rarity": "Epic",
+      "availability": "Legacy",
+      "release_date": "2018-12-06",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        47
+      ],
+      "wiki_sets": [
+        "Winter Wonder"
+      ],
+      "universe_ids": [
+        "universe:snowdown"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 36011,
+          "parent_skin_id": "skin:36010",
+          "name": "Frozen Prince Mundo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin11/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36012,
+          "parent_skin_id": "skin:36010",
+          "name": "Frozen Prince Mundo (Aquamarine)",
+          "colors": [
+            "#6ABBEE",
+            "#6ABBEE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin12/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36013,
+          "parent_skin_id": "skin:36010",
+          "name": "Frozen Prince Mundo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin13/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36014,
+          "parent_skin_id": "skin:36010",
+          "name": "Frozen Prince Mundo (Pearl)",
+          "colors": [
+            "#ECF9F8",
+            "#ECF9F8"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin14/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36015,
+          "parent_skin_id": "skin:36010",
+          "name": "Frozen Prince Mundo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin15/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin10/images/drmundo_splash_centered_10.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin10/images/drmundo_splash_uncentered_10.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin10/images/drmundo_splash_tile_10.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin10/drmundoloadscreen_10.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b86f540a89e4fc62dddbc3e438b8c6c7b6e3ba73ed9c22a8a21d81afce74a789",
+        "biography_word_count": 43,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/10/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Frozen Prince Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36010",
+        "result_label": "Frozen Prince Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36010",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36002",
+      "riot_skin_id": 36002,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Mr. Mundoverse",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 2,
+      "content_id": "9c1b5b53-d5e0-4ab8-bc23-47ef4faae5f7",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-03-24",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        167
+      ],
+      "wiki_sets": [
+        "Legacy"
+      ],
+      "universe_ids": [
+        "universe:legacy"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin02/images/drmundo_splash_centered_2.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin02/images/drmundo_splash_uncentered_2.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin02/images/drmundo_splash_tile_2.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin02/drmundoloadscreen_2.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "b96d0a112f0cb1d4a5f53eeabe579c2541ad2801c95a3ff6daaca54e20d137a3",
+        "biography_word_count": 35,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/2/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Mr. Mundoverse",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36002",
+        "result_label": "Mr. Mundoverse",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36002",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36004",
+      "riot_skin_id": 36004,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Mundo Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 4,
+      "content_id": "3632d56e-c915-4295-9c39-2348efdf385a",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2010-10-19",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        88
+      ],
+      "wiki_sets": [
+        "Trick-or-Treat"
+      ],
+      "universe_ids": [
+        "universe:tales-from-the-rift"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin04/images/drmundo_splash_centered_4.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin04/images/drmundo_splash_uncentered_4.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin04/images/drmundo_splash_tile_4.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin04/drmundoloadscreen_4.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "99056e9fbd097cd017ecc66aaa6b1beeedbd1bbc1fb0302c22b39690d356f7cf",
+        "biography_word_count": 27,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/4/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Mundo Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36004",
+        "result_label": "Mundo Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36004",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36008",
+      "riot_skin_id": 36008,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Pool Party Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 8,
+      "content_id": "b673d758-8a93-444c-9291-affc41240b75",
+      "rarity": "Rare",
+      "availability": "Available",
+      "release_date": "2015-06-25",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        15
+      ],
+      "wiki_sets": [
+        "Pool Party"
+      ],
+      "universe_ids": [
+        "universe:sunkissed-summer"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin08/images/drmundo_splash_centered_8.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin08/images/drmundo_splash_uncentered_8.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin08/images/drmundo_splash_tile_8.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin08/drmundoloadscreen_8.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "8f6111a546d23cf244f3844a355c1d4759c5c7b5678bffcb1a825e2c8f07011b",
+        "biography_word_count": 22,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/8/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Pool Party Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36008",
+        "result_label": "Pool Party Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36008",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36006",
+      "riot_skin_id": 36006,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Rageborn Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 6,
+      "content_id": "7c62335c-0273-4c31-ad74-7dee1d386a57",
+      "rarity": "Rare",
+      "availability": "Available",
+      "release_date": "2012-07-27",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 975,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        38
+      ],
+      "wiki_sets": [
+        "Rift Quest"
+      ],
+      "universe_ids": [
+        "universe:riftquest"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin06/images/drmundo_splash_centered_6.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin06/images/drmundo_splash_uncentered_6.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin06/images/drmundo_splash_tile_6.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin06/drmundoloadscreen_6.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "10b6e9c11a84891aea687200b6daaae8a941f4a78612bb41507bc5ac10084ffc",
+        "biography_word_count": 63,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/6/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Rageborn Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36006",
+        "result_label": "Rageborn Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36006",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36021",
+      "riot_skin_id": 36021,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Street Demons Dr. Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 21,
+      "content_id": "ef8195fb-943e-419d-b1f6-4dbf25163e3d",
+      "rarity": "Epic",
+      "availability": "Available",
+      "release_date": "2023-09-13",
+      "retired_date": null,
+      "legacy_client": false,
+      "cost_wiki": 1350,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        197
+      ],
+      "wiki_sets": [
+        "Street Demons"
+      ],
+      "universe_ids": [
+        "universe:concrete-canvas"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [
+        {
+          "id": 36022,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Ruby)",
+          "colors": [
+            "#D33528",
+            "#D33528"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin22/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36023,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Sandstone)",
+          "colors": [
+            "#DED6B0",
+            "#DED6B0"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin23/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36024,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Emerald)",
+          "colors": [
+            "#2DA130",
+            "#2DA130"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin24/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36025,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Tanzanite)",
+          "colors": [
+            "#54209B",
+            "#54209B"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin25/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36026,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Obsidian)",
+          "colors": [
+            "#27211C",
+            "#27211C"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin26/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36027,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Rose Quartz)",
+          "colors": [
+            "#E58BA5",
+            "#E58BA5"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin27/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36028,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Turquoise)",
+          "colors": [
+            "#73BFBE",
+            "#73BFBE"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin28/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        },
+        {
+          "id": 36029,
+          "parent_skin_id": "skin:36021",
+          "name": "Street Demons Dr. Mundo (Citrine)",
+          "colors": [
+            "#DF9117",
+            "#DF9117"
+          ],
+          "tile_url": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin29/chromapreview.chromaassetmigration.png",
+          "kind": "chroma",
+          "separate_personality_result": false
+        }
+      ],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin21/images/drmundo_splash_centered_21.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin21/images/drmundo_splash_uncentered_21.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin21/images/drmundo_splash_tile_21.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin21/drmundoloadscreen_21.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "591e6f28516261158240a72b8c2e8f361854d4bb69ab3e0fc2763619160891e4",
+        "biography_word_count": 52,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/11/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Street Demons",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36021",
+        "result_label": "Street Demons Dr. Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36021",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36001",
+      "riot_skin_id": 36001,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "Toxic Dr. Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 1,
+      "content_id": "3dd5adf7-f507-451b-85ee-9c5e88b3bb6a",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2009-12-17",
+      "retired_date": "2011-11-28",
+      "legacy_client": true,
+      "cost_wiki": 520,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        111
+      ],
+      "wiki_sets": [
+        "Silver Age"
+      ],
+      "universe_ids": [
+        "universe:silver-age"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin01/images/drmundo_splash_centered_1.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin01/images/drmundo_splash_uncentered_1.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin01/images/drmundo_splash_tile_1.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin01/drmundoloadscreen_1.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "358af833e1e452d05c77e2c9beedd01835e47e53e0e0af314fdf87d74b73b97c",
+        "biography_word_count": 19,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/1/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "Toxic",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36001",
+        "result_label": "Toxic Dr. Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36001",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    },
+    {
+      "schema_version": "1.0.0",
+      "id": "skin:36007",
+      "riot_skin_id": 36007,
+      "champion_id": "DrMundo",
+      "champion_riot_id": 36,
+      "champion_name": "Dr. Mundo",
+      "name": "TPA Mundo",
+      "is_base": false,
+      "kind": "skin",
+      "inventory_scope": "client_inventory",
+      "skin_num": 7,
+      "content_id": "be5609be-1861-4679-9c18-814644509271",
+      "rarity": "Standard",
+      "availability": "Legacy",
+      "release_date": "2013-05-23",
+      "retired_date": null,
+      "legacy_client": true,
+      "cost_wiki": 750,
+      "loot_eligible_wiki": true,
+      "skinline_ids": [
+        2
+      ],
+      "wiki_sets": [
+        "World Champions: 2012"
+      ],
+      "universe_ids": [
+        "universe:esports"
+      ],
+      "variant_of": null,
+      "forms_wiki": [],
+      "chromas": [],
+      "artwork": {
+        "splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin07/images/drmundo_splash_centered_7.jpg",
+        "uncentered_splash": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin07/images/drmundo_splash_uncentered_7.jpg",
+        "tile": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin07/images/drmundo_splash_tile_7.jpg",
+        "loading": "https://raw.communitydragon.org/16.23/plugins/rcp-be-lol-game-data/global/default/assets/characters/drmundo/skins/skin07/drmundoloadscreen_7.jpg"
+      },
+      "lore": {
+        "available": true,
+        "summary": null,
+        "summary_kind": null,
+        "summary_reviewed": false,
+        "biography_sha256": "0f88ea3b2ba19d84fe1c28ea0fda57eabf0e5af0aa1d818e0a4b06de7e28cb2f",
+        "biography_word_count": 11,
+        "source_id": "skins:client:DrMundo",
+        "json_pointer": "/skins/7/description",
+        "wiki_locator": {
+          "champion": "Dr. Mundo",
+          "skin": "TPA Mundo",
+          "field": "lore"
+        },
+        "wiki_url": "https://wiki.leagueoflegends.com/en-us/Dr._Mundo/LoL/Cosmetics",
+        "raw_prose_redistributed": false
+      },
+      "analysis": {
+        "candidate_themes": [],
+        "status": "not_annotated",
+        "personality_scores": null,
+        "inherit_base_personality_automatically": false
+      },
+      "matching": {
+        "result_key": "skin:36007",
+        "result_label": "TPA Mundo",
+        "label_eligible": true,
+        "narrative_family_id": "skin:36007",
+        "champion_profile_ref": "data/champions/DrMundo.json",
+        "gameplay_profile_ref": "data/champions/DrMundo.json",
+        "personalization_status": "unscored",
+        "evidence_scope": "catalog_metadata_only"
+      },
+      "provenance": {
+        "source_ids": [
+          "skins:cdragon",
+          "skins:client:DrMundo",
+          "skins:wiki"
+        ],
+        "snapshot_patch": "16.23",
+        "wiki_revision_id": 4096178,
+        "as_of": "2026-11-22"
+      }
+    }
+  ]
+}
